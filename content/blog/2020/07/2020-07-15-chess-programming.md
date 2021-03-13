@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/15/chess-programming
 author: Jonny Spicer
 type: blog
 date: "2020-07-15T00:00:00Z"

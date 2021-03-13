@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/04/altibox-norway-chess
 author: Jonny Spicer
 type: blog
 date: "2019-06-04T00:00:00Z"

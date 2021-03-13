@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/14/folding-at-home
 author: Jonny Spicer
 type: blog
 date: "2020-03-14T00:00:00Z"

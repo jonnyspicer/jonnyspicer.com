@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/11/08/some-jumbled-reflections-at-25
 author: Jonny Spicer
 type: blog
 date: "2019-11-08T00:00:00Z"

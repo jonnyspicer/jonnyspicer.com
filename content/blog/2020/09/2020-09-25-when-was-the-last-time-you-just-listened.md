@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/25/when-was-the-last-time-you-just-listened
 author: Jonny Spicer
 type: blog
 date: "2020-09-25T00:00:00Z"

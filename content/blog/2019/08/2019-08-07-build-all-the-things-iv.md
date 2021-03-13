@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/07/build-all-the-things-iv
 author: Jonny Spicer
 type: blog
 date: "2019-08-07T00:00:00Z"

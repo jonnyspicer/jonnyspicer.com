@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/23/the-queens-gambit
 author: Jonny Spicer
 type: blog
 date: "2020-11-23T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/15/tired-all-the-time
 author: Jonny Spicer
 type: blog
 date: "2020-12-15T00:00:00Z"

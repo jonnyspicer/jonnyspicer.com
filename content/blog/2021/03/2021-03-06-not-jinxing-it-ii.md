@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/03/06/not-jinxing-it-ii
 type: blog
 date: "2021-03-06T00:00:00Z"
 author: Jonny Spicer

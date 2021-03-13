@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/08/body-image-advice
 author: Jonny Spicer
 type: blog
 date: "2020-06-08T00:00:00Z"

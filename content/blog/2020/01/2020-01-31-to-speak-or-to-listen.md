@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/31/to-speak-or-to-listen
 author: Jonny Spicer
 type: blog
 date: "2020-01-31T00:00:00Z"

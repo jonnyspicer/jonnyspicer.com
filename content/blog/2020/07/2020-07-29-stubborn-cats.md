@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/29/stubborn-cats
 author: Jonny Spicer
 type: blog
 date: "2020-07-29T00:00:00Z"

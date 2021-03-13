@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/12/strangers-validation
 author: Jonny Spicer
 type: blog
 date: "2020-10-12T00:00:00Z"

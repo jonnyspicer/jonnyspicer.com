@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/27/aeroplane-mode
 author: Jonny Spicer
 type: blog
 date: "2020-12-27T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/11/things-im-looking-forward-to-after-the-pandemic-iv-climbing-gyms
 author: Jonny Spicer
 type: blog
 date: "2020-12-11T00:00:00Z"

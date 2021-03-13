@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/29/positive-juice-ii
 author: Jonny Spicer
 type: blog
 date: "2019-08-29T00:00:00Z"

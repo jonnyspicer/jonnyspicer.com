@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/17/an-island-of-memories
 author: Jonny Spicer
 type: blog
 date: "2020-05-17T00:00:00Z"

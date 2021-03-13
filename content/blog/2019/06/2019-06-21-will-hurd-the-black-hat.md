@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/21/will-hurd-the-black-hat
 author: Jonny Spicer
 type: blog
 date: "2019-06-21T00:00:00Z"

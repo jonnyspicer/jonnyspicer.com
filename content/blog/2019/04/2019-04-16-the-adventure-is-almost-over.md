@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/16/the-adventure-is-almost-over
 author: Jonny Spicer
 type: blog
 date: "2019-04-16T00:00:00Z"

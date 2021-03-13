@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/22/a-peaceful-battle
 author: Jonny Spicer
 type: blog
 date: "2020-02-22T00:00:00Z"

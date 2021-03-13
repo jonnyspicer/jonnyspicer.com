@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/14/drunk-buys
 author: Jonny Spicer
 type: blog
 date: "2020-10-14T00:00:00Z"

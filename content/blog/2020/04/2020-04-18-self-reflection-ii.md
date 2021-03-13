@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/18/self-reflection-ii
 author: Jonny Spicer
 type: blog
 date: "2020-04-18T00:00:00Z"

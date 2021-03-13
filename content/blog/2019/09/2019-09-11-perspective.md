@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/11/perspective
 author: Jonny Spicer
 type: blog
 date: "2019-09-11T00:00:00Z"

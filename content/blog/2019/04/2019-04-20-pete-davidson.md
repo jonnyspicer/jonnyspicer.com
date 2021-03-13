@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/20/pete-davidson
 author: Jonny Spicer
 type: blog
 date: "2019-04-20T00:00:00Z"

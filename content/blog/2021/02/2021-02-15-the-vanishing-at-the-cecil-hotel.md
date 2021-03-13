@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/15/the-vanishing-at-the-cecil-hotel
 author: Jonny Spicer
 type: blog
 date: "2021-02-15T00:00:00Z"

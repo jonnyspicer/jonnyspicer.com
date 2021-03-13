@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/02/sharing-your-goals
 author: Jonny Spicer
 type: blog
 date: "2019-06-02T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/07/30/the-hedonic-treadmill-ii
 author: Jonny Spicer
 type: blog
 date: "2019-07-30T00:00:00Z"

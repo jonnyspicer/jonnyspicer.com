@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/31/yet-more-expectations
 author: Jonny Spicer
 type: blog
 date: "2019-05-31T00:00:00Z"

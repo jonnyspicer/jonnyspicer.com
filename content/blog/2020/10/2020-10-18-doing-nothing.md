@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/18/doing-nothing
 author: Jonny Spicer
 type: blog
 date: "2020-10-18T00:00:00Z"

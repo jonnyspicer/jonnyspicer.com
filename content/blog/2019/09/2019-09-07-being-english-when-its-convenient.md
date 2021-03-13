@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/07/being-english-when-its-convenient
 author: Jonny Spicer
 type: blog
 date: "2019-09-07T00:00:00Z"

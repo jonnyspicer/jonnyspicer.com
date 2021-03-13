@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/08/alexi-laiho
 author: Jonny Spicer
 type: blog
 date: "2021-01-08T00:00:00Z"

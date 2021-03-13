@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/22/weight-loss-communities
 author: Jonny Spicer
 type: blog
 date: "2020-05-22T00:00:00Z"

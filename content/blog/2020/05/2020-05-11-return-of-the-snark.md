@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/11/return-of-the-snark
 author: Jonny Spicer
 type: blog
 date: "2020-05-11T00:00:00Z"

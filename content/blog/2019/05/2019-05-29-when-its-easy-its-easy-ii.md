@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/29/when-its-easy-its-easy-ii
 author: Jonny Spicer
 type: blog
 date: "2019-05-29T00:00:00Z"

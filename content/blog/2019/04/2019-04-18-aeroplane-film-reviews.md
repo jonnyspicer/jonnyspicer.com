@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/18/aeroplane-film-reviews
 author: Jonny Spicer
 type: blog
 date: "2019-04-18T00:00:00Z"

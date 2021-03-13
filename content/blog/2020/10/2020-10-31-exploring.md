@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/31/exploring
 author: Jonny Spicer
 type: blog
 date: "2020-10-31T00:00:00Z"

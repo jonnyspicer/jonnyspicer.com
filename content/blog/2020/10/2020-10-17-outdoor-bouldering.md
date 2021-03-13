@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/17/outdoor-bouldering
 author: Jonny Spicer
 type: blog
 date: "2020-10-17T00:00:00Z"

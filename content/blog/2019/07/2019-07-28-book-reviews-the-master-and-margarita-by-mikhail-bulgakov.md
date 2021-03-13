@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/07/28/book-reviews-the-master-and-margarita-by-mikhail-bulgakov
 author: Jonny Spicer
 type: blog
 date: "2019-07-28T00:00:00Z"

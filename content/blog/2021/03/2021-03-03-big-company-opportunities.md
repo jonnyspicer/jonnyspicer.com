@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/03/03/big-company-opportunities
 author: Jonny Spicer
 type: blog
 date: "2021-03-03T00:00:00Z"

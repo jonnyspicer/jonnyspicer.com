@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/05/sometimes-laziness-pays-off
 author: Jonny Spicer
 type: blog
 date: "2020-03-05T00:00:00Z"

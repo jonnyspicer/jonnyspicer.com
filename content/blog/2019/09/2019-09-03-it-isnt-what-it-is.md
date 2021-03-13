@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/03/it-isnt-what-it-is
 author: Jonny Spicer
 type: blog
 date: "2019-09-03T00:00:00Z"

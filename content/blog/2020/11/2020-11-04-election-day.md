@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/04/election-day
 author: Jonny Spicer
 type: blog
 date: "2020-11-04T00:00:00Z"

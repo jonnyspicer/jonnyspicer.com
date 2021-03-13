@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/13/strangers-validation-ii-niche-memes
 author: Jonny Spicer
 type: blog
 date: "2020-10-13T00:00:00Z"

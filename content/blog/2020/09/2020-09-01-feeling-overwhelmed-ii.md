@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/01/feeling-overwhelmed-ii
 author: Jonny Spicer
 type: blog
 date: "2020-09-01T00:00:00Z"

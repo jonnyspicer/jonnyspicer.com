@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/26/being-a-mid-level-dev
 author: Jonny Spicer
 type: blog
 date: "2021-01-26T00:00:00Z"

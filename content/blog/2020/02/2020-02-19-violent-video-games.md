@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/19/violent-video-games
 author: Jonny Spicer
 type: blog
 date: "2020-02-19T00:00:00Z"

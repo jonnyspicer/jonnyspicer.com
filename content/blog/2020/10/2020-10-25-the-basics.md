@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/25/the-basics
 author: Jonny Spicer
 type: blog
 date: "2020-10-25T00:00:00Z"

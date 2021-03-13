@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/10/30-days-of-leetcode-days-6-to-10
 author: Jonny Spicer
 type: blog
 date: "2020-04-10T00:00:00Z"

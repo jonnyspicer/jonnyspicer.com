@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/07/fight-club
 author: Jonny Spicer
 type: blog
 date: "2020-04-07T00:00:00Z"

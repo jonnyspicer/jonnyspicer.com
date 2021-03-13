@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/27/what-it-means-to-be-a-man-v-unashamedness
 author: Jonny Spicer
 type: blog
 date: "2020-04-27T00:00:00Z"

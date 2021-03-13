@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/31/sea-mine-spotted
 author: Jonny Spicer
 type: blog
 date: "2020-03-31T00:00:00Z"

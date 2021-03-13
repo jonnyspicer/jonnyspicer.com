@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/20/pretending
 author: Jonny Spicer
 type: blog
 date: "2020-03-20T00:00:00Z"

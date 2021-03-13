@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/23/what-it-means-to-be-a-man
 author: Jonny Spicer
 type: blog
 date: "2020-04-23T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/15/the-joy-of-starting-over
 author: Jonny Spicer
 type: blog
 date: "2019-05-15T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/23/dubai-chess--culture-club
 author: Jonny Spicer
 type: blog
 date: "2020-07-23T00:00:00Z"

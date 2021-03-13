@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/26/i-hate-it-when-people-are-nice-to-me
 author: Jonny Spicer
 type: blog
 date: "2020-06-26T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/11/manifestos
 author: Jonny Spicer
 type: blog
 date: "2020-09-11T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/26/failure-ii
 author: Jonny Spicer
 type: blog
 date: "2019-04-26T00:00:00Z"

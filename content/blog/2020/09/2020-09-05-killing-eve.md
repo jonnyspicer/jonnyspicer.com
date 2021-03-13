@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/05/killing-eve
 author: Jonny Spicer
 type: blog
 date: "2020-09-05T00:00:00Z"

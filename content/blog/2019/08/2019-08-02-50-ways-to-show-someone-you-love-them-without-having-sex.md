@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/02/50-ways-to-show-someone-you-love-them-without-having-sex
 author: Jonny Spicer
 type: blog
 date: "2019-08-02T00:00:00Z"

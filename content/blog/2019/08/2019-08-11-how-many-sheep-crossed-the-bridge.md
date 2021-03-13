@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/11/how-many-sheep-crossed-the-bridge
 author: Jonny Spicer
 type: blog
 date: "2019-08-11T00:00:00Z"

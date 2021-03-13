@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/30/reddit-and-hate-speech
 author: Jonny Spicer
 type: blog
 date: "2020-06-30T00:00:00Z"

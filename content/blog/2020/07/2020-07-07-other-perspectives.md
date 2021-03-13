@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/07/other-perspectives
 author: Jonny Spicer
 type: blog
 date: "2020-07-07T00:00:00Z"

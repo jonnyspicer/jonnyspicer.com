@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/18/things-that-are-more-therapeutic-than-therapy-iv-swimming-in-the-sea
 author: Jonny Spicer
 type: blog
 date: "2020-02-18T00:00:00Z"

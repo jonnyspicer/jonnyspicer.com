@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/21/conference-anxiety
 author: Jonny Spicer
 type: blog
 date: "2019-09-21T00:00:00Z"

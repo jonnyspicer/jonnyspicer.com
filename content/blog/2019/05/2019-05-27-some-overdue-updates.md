@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/27/some-overdue-updates
 author: Jonny Spicer
 type: blog
 date: "2019-05-27T00:00:00Z"

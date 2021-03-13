@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/12/terry-a-davis
 author: Jonny Spicer
 type: blog
 date: "2019-05-12T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/01/a-good-start
 author: Jonny Spicer
 type: blog
 date: "2021-01-01T00:00:00Z"

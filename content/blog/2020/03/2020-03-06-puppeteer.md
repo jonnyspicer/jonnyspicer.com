@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/06/puppeteer
 author: Jonny Spicer
 type: blog
 date: "2020-03-06T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/02/what-it-means-to-be-a-man-x-selfrespect
 author: Jonny Spicer
 type: blog
 date: "2020-05-02T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/05/sober-socialising
 author: Jonny Spicer
 type: blog
 date: "2020-12-05T00:00:00Z"

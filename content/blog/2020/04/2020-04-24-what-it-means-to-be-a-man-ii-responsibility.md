@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/24/what-it-means-to-be-a-man-ii-responsibility
 author: Jonny Spicer
 type: blog
 date: "2020-04-24T00:00:00Z"

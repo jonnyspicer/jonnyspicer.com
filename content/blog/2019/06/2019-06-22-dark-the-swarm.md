@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/22/dark-the-swarm
 author: Jonny Spicer
 type: blog
 date: "2019-06-22T00:00:00Z"

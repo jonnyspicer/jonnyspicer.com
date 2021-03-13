@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/01/ongun-theory
 author: Jonny Spicer
 type: blog
 date: "2019-06-01T00:00:00Z"

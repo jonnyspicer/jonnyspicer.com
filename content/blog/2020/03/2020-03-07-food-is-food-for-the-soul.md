@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/07/food-is-food-for-the-soul
 author: Jonny Spicer
 type: blog
 date: "2020-03-07T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/25/therapeutic-work-is-draining
 author: Jonny Spicer
 type: blog
 date: "2020-08-25T00:00:00Z"

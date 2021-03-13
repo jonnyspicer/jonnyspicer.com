@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/16/a-year-without-flying
 author: Jonny Spicer
 type: blog
 date: "2021-02-16T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/12/protect-your-energy
 author: Jonny Spicer
 type: blog
 date: "2020-08-12T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/29/pretending-ii
 author: Jonny Spicer
 type: blog
 date: "2020-03-29T00:00:00Z"

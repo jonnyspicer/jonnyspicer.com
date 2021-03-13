@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/19/groundhog-day
 author: Jonny Spicer
 type: blog
 date: "2020-11-19T00:00:00Z"

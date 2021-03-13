@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/03/08/things-that-are-more-therapeutic-than-therapy-xii-yoga
 type: blog
 date: "2021-03-08T00:00:00Z"
 author: Jonny Spicer

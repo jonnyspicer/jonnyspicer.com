@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/23/voice-notes
 author: Jonny Spicer
 type: blog
 date: "2020-09-23T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/17/book-reviews-we-should-all-be-feminists-by-chimamanda-ngozi-adichie
 author: Jonny Spicer
 type: blog
 date: "2019-08-17T00:00:00Z"

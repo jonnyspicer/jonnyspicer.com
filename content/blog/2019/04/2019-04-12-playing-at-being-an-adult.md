@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/12/playing-at-being-an-adult
 author: Jonny Spicer
 type: blog
 date: "2019-04-12T00:00:00Z"

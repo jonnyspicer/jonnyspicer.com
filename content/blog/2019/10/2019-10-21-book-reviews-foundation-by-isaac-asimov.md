@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/10/21/book-reviews-foundation-by-isaac-asimov
 author: Jonny Spicer
 type: blog
 date: "2019-10-21T00:00:00Z"

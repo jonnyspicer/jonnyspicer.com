@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/24/things-to-write-about
 author: Jonny Spicer
 type: blog
 date: "2020-11-24T00:00:00Z"

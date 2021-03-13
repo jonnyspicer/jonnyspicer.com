@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/30/almost-smart
 author: Jonny Spicer
 type: blog
 date: "2020-01-30T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/16/the-four-burners
 author: Jonny Spicer
 type: blog
 date: "2019-05-16T00:00:00Z"

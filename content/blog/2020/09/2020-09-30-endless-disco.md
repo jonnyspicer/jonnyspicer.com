@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/30/endless-disco
 author: Jonny Spicer
 type: blog
 date: "2020-09-30T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/27/the-point-of-the-blog
 author: Jonny Spicer
 type: blog
 date: "2019-04-27T00:00:00Z"

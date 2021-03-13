@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/15/what-do-you-love-about-life
 author: Jonny Spicer
 type: blog
 date: "2020-01-15T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/03/07/making-the-most-of-it
 type: blog
 date: "2021-03-07T00:00:00Z"
 author: Jonny Spicer

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/20/the-uk-wants-to-block-porn-but-they-cant-get-it-up
 author: Jonny Spicer
 type: blog
 date: "2019-06-20T00:00:00Z"

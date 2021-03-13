@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/26/oatmeal-and-the-blerch
 author: Jonny Spicer
 type: blog
 date: "2019-05-26T00:00:00Z"

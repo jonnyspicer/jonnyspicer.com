@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/25/things-that-are-more-therapeutic-than-therapy-x-journaling
 author: Jonny Spicer
 type: blog
 date: "2020-11-25T00:00:00Z"

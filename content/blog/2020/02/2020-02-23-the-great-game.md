@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/23/the-great-game
 author: Jonny Spicer
 type: blog
 date: "2020-02-23T00:00:00Z"

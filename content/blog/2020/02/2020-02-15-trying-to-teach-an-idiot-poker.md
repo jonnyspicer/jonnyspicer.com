@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/15/trying-to-teach-an-idiot-poker
 author: Jonny Spicer
 type: blog
 date: "2020-02-15T00:00:00Z"

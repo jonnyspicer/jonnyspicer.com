@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/11/too-close-to-home
 author: Jonny Spicer
 type: blog
 date: "2020-11-11T00:00:00Z"

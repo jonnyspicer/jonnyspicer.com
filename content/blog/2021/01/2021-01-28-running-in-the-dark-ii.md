@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/28/running-in-the-dark-ii
 author: Jonny Spicer
 type: blog
 date: "2021-01-28T00:00:00Z"

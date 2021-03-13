@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/11/i-also-won-and-i-will-also-win-again
 author: Jonny Spicer
 type: blog
 date: "2020-02-11T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/03/what-it-means-to-be-a-man-xi-empathy
 author: Jonny Spicer
 type: blog
 date: "2020-05-03T00:00:00Z"

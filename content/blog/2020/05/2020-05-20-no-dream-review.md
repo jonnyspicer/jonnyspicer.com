@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/20/no-dream-review
 author: Jonny Spicer
 type: blog
 date: "2020-05-20T00:00:00Z"

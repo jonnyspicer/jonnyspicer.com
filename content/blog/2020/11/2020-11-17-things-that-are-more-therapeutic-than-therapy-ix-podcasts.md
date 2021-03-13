@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/17/things-that-are-more-therapeutic-than-therapy-ix-podcasts
 author: Jonny Spicer
 type: blog
 date: "2020-11-17T00:00:00Z"

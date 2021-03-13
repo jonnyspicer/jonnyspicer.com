@@ -1,9 +1,3 @@
-# for file in files
-# get file name
-# get front matter
-# parse date
-# add alias
-
 import os
 from glob import glob
 from pathlib import Path
@@ -16,6 +10,12 @@ for post in posts:
     filename = os.fsdecode(post)[21:].split('.')
     with open(post, 'r') as file:
         text = file.read()
-        text = text.split('---', 2)
-        if "Featured" in text[1]:
-            print(text[1])
+    if "Featured" in text[1]:
+        alias = "---\naliases:\n- /tartarus/" + \
+            filename[0][:10].replace('-', '/') + "/" + filename[0][11:]
+    else:
+        alias = "---\naliases:\n- /mendokusai/" + \
+            filename[0][:10].replace('-', '/') + "/" + filename[0][11:]
+    text = text.replace("---", alias, 1)
+    with open(post, 'w') as file:
+        file.write(text)

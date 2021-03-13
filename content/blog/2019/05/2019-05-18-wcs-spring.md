@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/18/wcs-spring
 author: Jonny Spicer
 type: blog
 date: "2019-05-18T00:00:00Z"

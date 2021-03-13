@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/13/beware-of-dog-iv
 author: Jonny Spicer
 type: blog
 date: "2019-08-13T00:00:00Z"

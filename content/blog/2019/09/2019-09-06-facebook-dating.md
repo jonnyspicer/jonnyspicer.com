@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/06/facebook-dating
 author: Jonny Spicer
 type: blog
 date: "2019-09-06T00:00:00Z"

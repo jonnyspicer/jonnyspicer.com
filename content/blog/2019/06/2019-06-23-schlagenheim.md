@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/23/schlagenheim
 author: Jonny Spicer
 type: blog
 date: "2019-06-23T00:00:00Z"

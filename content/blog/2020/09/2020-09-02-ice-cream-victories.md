@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/02/ice-cream-victories
 author: Jonny Spicer
 type: blog
 date: "2020-09-02T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/16/getting-your-hopes-up
 author: Jonny Spicer
 type: blog
 date: "2020-10-16T00:00:00Z"

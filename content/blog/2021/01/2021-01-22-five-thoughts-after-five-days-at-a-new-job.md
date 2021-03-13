@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/22/five-thoughts-after-five-days-at-a-new-job
 author: Jonny Spicer
 type: blog
 date: "2021-01-22T00:00:00Z"

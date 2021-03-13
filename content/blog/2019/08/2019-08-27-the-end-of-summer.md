@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/27/the-end-of-summer
 author: Jonny Spicer
 type: blog
 date: "2019-08-27T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/05/running-iii
 author: Jonny Spicer
 type: blog
 date: "2019-05-05T00:00:00Z"

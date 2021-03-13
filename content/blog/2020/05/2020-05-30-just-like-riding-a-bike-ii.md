@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/30/just-like-riding-a-bike-ii
 author: Jonny Spicer
 type: blog
 date: "2020-05-30T00:00:00Z"

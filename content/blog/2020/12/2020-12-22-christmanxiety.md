@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/22/christmanxiety
 author: Jonny Spicer
 type: blog
 date: "2020-12-22T00:00:00Z"

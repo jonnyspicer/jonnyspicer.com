@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/25/sea-and-cliffs
 author: Jonny Spicer
 type: blog
 date: "2019-09-25T00:00:00Z"

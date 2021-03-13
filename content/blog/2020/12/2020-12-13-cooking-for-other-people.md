@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/13/cooking-for-other-people
 author: Jonny Spicer
 type: blog
 date: "2020-12-13T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/27/the-sri-chinmoy-self-transcendence-race
 author: Jonny Spicer
 type: blog
 date: "2019-06-27T00:00:00Z"

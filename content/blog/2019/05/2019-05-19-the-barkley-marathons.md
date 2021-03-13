@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/19/the-barkley-marathons
 author: Jonny Spicer
 type: blog
 date: "2019-05-19T00:00:00Z"

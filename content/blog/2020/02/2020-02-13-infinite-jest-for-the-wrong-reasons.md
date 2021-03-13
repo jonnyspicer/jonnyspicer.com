@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/13/infinite-jest-for-the-wrong-reasons
 author: Jonny Spicer
 type: blog
 date: "2020-02-13T00:00:00Z"

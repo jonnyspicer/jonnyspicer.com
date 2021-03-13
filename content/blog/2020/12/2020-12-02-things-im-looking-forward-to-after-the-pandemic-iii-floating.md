@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/02/things-im-looking-forward-to-after-the-pandemic-iii-floating
 author: Jonny Spicer
 type: blog
 date: "2020-12-02T00:00:00Z"

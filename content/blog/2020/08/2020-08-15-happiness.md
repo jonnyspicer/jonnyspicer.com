@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/15/happiness
 author: Jonny Spicer
 type: blog
 date: "2020-08-15T00:00:00Z"

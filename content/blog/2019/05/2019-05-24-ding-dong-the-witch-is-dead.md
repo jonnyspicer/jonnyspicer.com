@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/24/ding-dong-the-witch-is-dead
 author: Jonny Spicer
 type: blog
 date: "2019-05-24T00:00:00Z"

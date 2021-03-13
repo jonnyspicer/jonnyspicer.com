@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/29/finishing-what-i-start
 author: Jonny Spicer
 type: blog
 date: "2021-01-29T00:00:00Z"

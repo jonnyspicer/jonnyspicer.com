@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/16/i-disagree-review
 author: Jonny Spicer
 type: blog
 date: "2020-01-16T00:00:00Z"

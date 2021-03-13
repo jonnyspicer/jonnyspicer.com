@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/27/the-laughing-sea
 author: Jonny Spicer
 type: blog
 date: "2021-02-27T00:00:00Z"

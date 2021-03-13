@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/25/summer-league
 author: Jonny Spicer
 type: blog
 date: "2019-06-25T00:00:00Z"

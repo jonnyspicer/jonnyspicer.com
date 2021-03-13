@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/13/first-day-of-a-new-era
 author: Jonny Spicer
 type: blog
 date: "2019-05-13T00:00:00Z"

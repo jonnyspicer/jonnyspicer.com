@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/26/dont-take-work-personally
 author: Jonny Spicer
 type: blog
 date: "2020-03-26T00:00:00Z"

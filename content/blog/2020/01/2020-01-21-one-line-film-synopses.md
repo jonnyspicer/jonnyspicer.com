@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/21/one-line-film-synopses
 author: Jonny Spicer
 type: blog
 date: "2020-01-21T00:00:00Z"

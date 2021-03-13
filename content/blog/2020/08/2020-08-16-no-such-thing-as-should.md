@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/16/no-such-thing-as-should
 author: Jonny Spicer
 type: blog
 date: "2020-08-16T00:00:00Z"

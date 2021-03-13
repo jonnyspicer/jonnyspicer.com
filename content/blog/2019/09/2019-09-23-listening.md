@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/23/listening
 author: Jonny Spicer
 type: blog
 date: "2019-09-23T00:00:00Z"

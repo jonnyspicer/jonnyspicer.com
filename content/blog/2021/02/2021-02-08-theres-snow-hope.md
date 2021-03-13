@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/08/theres-snow-hope
 author: Jonny Spicer
 type: blog
 date: "2021-02-08T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/08/things-i-hate-country-music
 author: Jonny Spicer
 type: blog
 date: "2020-08-08T00:00:00Z"

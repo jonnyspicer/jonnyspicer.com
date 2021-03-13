@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/21/its-only-fun-when-it-hurts
 author: Jonny Spicer
 type: blog
 date: "2020-08-21T00:00:00Z"

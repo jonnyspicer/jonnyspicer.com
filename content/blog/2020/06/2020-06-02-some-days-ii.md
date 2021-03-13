@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/02/some-days-ii
 author: Jonny Spicer
 type: blog
 date: "2020-06-02T00:00:00Z"

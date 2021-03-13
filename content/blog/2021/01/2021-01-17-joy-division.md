@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/17/joy-division
 author: Jonny Spicer
 type: blog
 date: "2021-01-17T00:00:00Z"

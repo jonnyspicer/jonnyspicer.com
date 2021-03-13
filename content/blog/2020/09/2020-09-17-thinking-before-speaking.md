@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/17/thinking-before-speaking
 author: Jonny Spicer
 type: blog
 date: "2020-09-17T00:00:00Z"

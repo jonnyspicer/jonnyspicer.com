@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/27/prisencolinensinainciusol
 author: Jonny Spicer
 type: blog
 date: "2020-11-27T00:00:00Z"

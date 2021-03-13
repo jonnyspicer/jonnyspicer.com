@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/15/big-city-life
 author: Jonny Spicer
 type: blog
 date: "2019-04-15T00:00:00Z"

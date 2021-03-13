@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/26/a-slave-to-ones-emotions
 author: Jonny Spicer
 type: blog
 date: "2019-09-26T00:00:00Z"

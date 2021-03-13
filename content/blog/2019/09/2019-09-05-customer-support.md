@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/05/customer-support
 author: Jonny Spicer
 type: blog
 date: "2019-09-05T00:00:00Z"

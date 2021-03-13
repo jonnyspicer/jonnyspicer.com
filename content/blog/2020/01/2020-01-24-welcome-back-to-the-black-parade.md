@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/24/welcome-back-to-the-black-parade
 author: Jonny Spicer
 type: blog
 date: "2020-01-24T00:00:00Z"

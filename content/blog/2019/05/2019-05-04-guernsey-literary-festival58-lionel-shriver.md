@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/04/guernsey-literary-festival58-lionel-shriver
 author: Jonny Spicer
 type: blog
 date: "2019-05-04T00:00:00Z"

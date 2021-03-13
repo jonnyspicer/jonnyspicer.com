@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/19/online-chess-tournaments
 author: Jonny Spicer
 type: blog
 date: "2021-02-19T00:00:00Z"

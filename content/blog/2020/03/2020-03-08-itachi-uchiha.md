@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/08/itachi-uchiha
 author: Jonny Spicer
 type: blog
 date: "2020-03-08T00:00:00Z"

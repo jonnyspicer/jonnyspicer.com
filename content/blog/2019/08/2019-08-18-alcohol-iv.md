@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/18/alcohol-iv
 author: Jonny Spicer
 type: blog
 date: "2019-08-18T00:00:00Z"

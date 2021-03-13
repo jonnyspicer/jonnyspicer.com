@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/13/commit-yourself-completely
 author: Jonny Spicer
 type: blog
 date: "2019-06-13T00:00:00Z"

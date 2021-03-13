@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/10/poker-hand-stories
 author: Jonny Spicer
 type: blog
 date: "2020-02-10T00:00:00Z"

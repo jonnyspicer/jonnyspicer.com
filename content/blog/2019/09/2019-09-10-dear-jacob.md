@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/10/dear-jacob
 author: Jonny Spicer
 type: blog
 date: "2019-09-10T00:00:00Z"

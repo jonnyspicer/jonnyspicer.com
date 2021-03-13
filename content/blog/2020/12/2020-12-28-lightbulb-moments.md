@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/28/lightbulb-moments
 author: Jonny Spicer
 type: blog
 date: "2020-12-28T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/03/10/a-good-thing-a-day
 type: blog
 author: Jonny Spicer
 title: A Good Thing A Day

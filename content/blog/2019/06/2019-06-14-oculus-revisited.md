@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/14/oculus-revisited
 author: Jonny Spicer
 type: blog
 date: "2019-06-14T00:00:00Z"

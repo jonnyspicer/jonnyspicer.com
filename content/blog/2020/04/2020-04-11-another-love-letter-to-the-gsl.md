@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/11/another-love-letter-to-the-gsl
 author: Jonny Spicer
 type: blog
 date: "2020-04-11T00:00:00Z"

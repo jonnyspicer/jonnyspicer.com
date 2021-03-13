@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/11/vulfpeck-track-10
 author: Jonny Spicer
 type: blog
 date: "2020-08-11T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/27/how-far-to-go
 author: Jonny Spicer
 type: blog
 date: "2020-10-27T00:00:00Z"

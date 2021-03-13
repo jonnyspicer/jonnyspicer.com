@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/14/therapy-deja-vu
 author: Jonny Spicer
 type: blog
 date: "2020-08-14T00:00:00Z"

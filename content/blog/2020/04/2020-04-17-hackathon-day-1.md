@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/17/hackathon-day-1
 author: Jonny Spicer
 type: blog
 date: "2020-04-17T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/17/giving-it-all-up-and-becoming-a-farmer
 author: Jonny Spicer
 type: blog
 date: "2019-09-17T00:00:00Z"

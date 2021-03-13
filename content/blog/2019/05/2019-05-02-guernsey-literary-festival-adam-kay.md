@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/02/guernsey-literary-festival-adam-kay
 author: Jonny Spicer
 type: blog
 date: "2019-05-02T00:00:00Z"

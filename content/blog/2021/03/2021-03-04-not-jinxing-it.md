@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/03/04/not-jinxing-it
 author: Jonny Spicer
 type: blog
 title: Not Jinxing It

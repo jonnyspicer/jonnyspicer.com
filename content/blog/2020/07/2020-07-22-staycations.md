@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/22/staycations
 author: Jonny Spicer
 type: blog
 date: "2020-07-22T00:00:00Z"

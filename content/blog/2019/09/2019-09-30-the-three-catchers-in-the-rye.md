@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/30/the-three-catchers-in-the-rye
 author: Jonny Spicer
 type: blog
 date: "2019-09-30T00:00:00Z"

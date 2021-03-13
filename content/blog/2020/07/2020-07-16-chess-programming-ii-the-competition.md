@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/16/chess-programming-ii-the-competition
 author: Jonny Spicer
 type: blog
 date: "2020-07-16T00:00:00Z"

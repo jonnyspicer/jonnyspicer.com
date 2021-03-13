@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/23/lockdown-take-two
 author: Jonny Spicer
 type: blog
 date: "2021-01-23T00:00:00Z"

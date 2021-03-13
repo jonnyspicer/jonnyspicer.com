@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/08/thoughts-and-words
 author: Jonny Spicer
 type: blog
 date: "2019-04-08T00:00:00Z"

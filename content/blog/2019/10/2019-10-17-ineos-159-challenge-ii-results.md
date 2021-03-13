@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/10/17/ineos-159-challenge-ii-results
 author: Jonny Spicer
 type: blog
 date: "2019-10-17T00:00:00Z"

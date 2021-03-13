@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/25/a-keen-idiot
 author: Jonny Spicer
 type: blog
 date: "2021-02-25T00:00:00Z"

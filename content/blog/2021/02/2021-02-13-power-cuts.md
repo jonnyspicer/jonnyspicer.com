@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/13/power-cuts
 author: Jonny Spicer
 type: blog
 date: "2021-02-13T00:00:00Z"

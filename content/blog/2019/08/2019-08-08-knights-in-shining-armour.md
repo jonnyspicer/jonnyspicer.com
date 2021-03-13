@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/08/knights-in-shining-armour
 author: Jonny Spicer
 type: blog
 date: "2019-08-08T00:00:00Z"

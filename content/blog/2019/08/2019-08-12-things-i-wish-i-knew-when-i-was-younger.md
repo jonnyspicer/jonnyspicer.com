@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/12/things-i-wish-i-knew-when-i-was-younger
 author: Jonny Spicer
 type: blog
 date: "2019-08-12T00:00:00Z"

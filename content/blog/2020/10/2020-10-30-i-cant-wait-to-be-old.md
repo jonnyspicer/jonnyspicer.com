@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/30/i-cant-wait-to-be-old
 author: Jonny Spicer
 type: blog
 date: "2020-10-30T00:00:00Z"

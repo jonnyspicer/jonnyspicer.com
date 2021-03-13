@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/22/gcse-results
 author: Jonny Spicer
 type: blog
 date: "2019-08-22T00:00:00Z"

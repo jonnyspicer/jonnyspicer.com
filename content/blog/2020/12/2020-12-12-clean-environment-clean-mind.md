@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/12/clean-environment-clean-mind
 author: Jonny Spicer
 type: blog
 date: "2020-12-12T00:00:00Z"

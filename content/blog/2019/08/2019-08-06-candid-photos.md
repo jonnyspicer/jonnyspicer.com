@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/06/candid-photos
 author: Jonny Spicer
 type: blog
 date: "2019-08-06T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/18/the-joy-of-spinning-up-new-machines
 author: Jonny Spicer
 type: blog
 date: "2019-06-18T00:00:00Z"

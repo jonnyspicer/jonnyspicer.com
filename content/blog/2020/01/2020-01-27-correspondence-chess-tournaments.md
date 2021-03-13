@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/27/correspondence-chess-tournaments
 author: Jonny Spicer
 type: blog
 date: "2020-01-27T00:00:00Z"

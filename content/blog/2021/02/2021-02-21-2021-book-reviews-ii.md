@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/21/2021-book-reviews-ii
 author: Jonny Spicer
 type: blog
 date: "2021-02-21T00:00:00Z"

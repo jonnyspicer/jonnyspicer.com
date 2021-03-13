@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/10/mean-reviews
 author: Jonny Spicer
 type: blog
 date: "2020-07-10T00:00:00Z"

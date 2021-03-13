@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/22/adventures-in-online-dating-ii
 author: Jonny Spicer
 type: blog
 date: "2019-05-22T00:00:00Z"

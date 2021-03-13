@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/13/desert-island-discs
 author: Jonny Spicer
 type: blog
 date: "2019-04-13T00:00:00Z"

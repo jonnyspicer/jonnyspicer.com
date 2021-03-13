@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/07/27/incontrol
 author: Jonny Spicer
 type: blog
 date: "2019-07-27T00:00:00Z"

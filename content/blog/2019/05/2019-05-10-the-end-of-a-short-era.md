@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/10/the-end-of-a-short-era
 author: Jonny Spicer
 type: blog
 date: "2019-05-10T00:00:00Z"

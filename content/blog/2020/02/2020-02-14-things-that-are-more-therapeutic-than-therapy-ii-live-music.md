@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/14/things-that-are-more-therapeutic-than-therapy-ii-live-music
 author: Jonny Spicer
 type: blog
 date: "2020-02-14T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/20/things-im-looking-forward-to-after-the-pandemic-i-live-music
 author: Jonny Spicer
 type: blog
 date: "2020-11-20T00:00:00Z"

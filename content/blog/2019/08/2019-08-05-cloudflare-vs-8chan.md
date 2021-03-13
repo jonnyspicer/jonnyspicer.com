@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/05/cloudflare-vs-8chan
 author: Jonny Spicer
 type: blog
 date: "2019-08-05T00:00:00Z"

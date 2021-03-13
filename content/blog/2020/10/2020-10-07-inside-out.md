@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/07/inside-out
 author: Jonny Spicer
 type: blog
 date: "2020-10-07T00:00:00Z"

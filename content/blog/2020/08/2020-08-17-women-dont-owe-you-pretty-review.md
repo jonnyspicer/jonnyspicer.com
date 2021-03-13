@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/17/women-dont-owe-you-pretty-review
 author: Jonny Spicer
 type: blog
 date: "2020-08-17T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/12/narcissism
 author: Jonny Spicer
 type: blog
 date: "2020-05-12T00:00:00Z"

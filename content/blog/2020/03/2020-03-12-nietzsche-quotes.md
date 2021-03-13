@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/12/nietzsche-quotes
 author: Jonny Spicer
 type: blog
 date: "2020-03-12T00:00:00Z"

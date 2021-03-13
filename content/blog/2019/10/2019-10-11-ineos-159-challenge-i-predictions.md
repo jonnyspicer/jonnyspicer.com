@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/10/11/ineos-159-challenge-i-predictions
 author: Jonny Spicer
 type: blog
 date: "2019-10-11T00:00:00Z"

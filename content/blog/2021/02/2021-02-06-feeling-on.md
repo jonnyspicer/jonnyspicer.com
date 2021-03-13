@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/06/feeling-on
 author: Jonny Spicer
 type: blog
 date: "2021-02-06T00:00:00Z"

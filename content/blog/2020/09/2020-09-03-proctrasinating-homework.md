@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/03/proctrasinating-homework
 author: Jonny Spicer
 type: blog
 date: "2020-09-03T00:00:00Z"

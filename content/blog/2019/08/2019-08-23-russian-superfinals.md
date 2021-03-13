@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/23/russian-superfinals
 author: Jonny Spicer
 type: blog
 date: "2019-08-23T00:00:00Z"

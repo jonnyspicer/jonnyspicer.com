@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/22/singalongs
 author: Jonny Spicer
 type: blog
 date: "2020-08-22T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/25/lockdown-goals-i
 author: Jonny Spicer
 type: blog
 date: "2021-01-25T00:00:00Z"

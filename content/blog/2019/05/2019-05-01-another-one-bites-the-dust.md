@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/01/another-one-bites-the-dust
 author: Jonny Spicer
 type: blog
 date: "2019-05-01T00:00:00Z"

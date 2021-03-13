@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/29/the-feeling-after-food
 author: Jonny Spicer
 type: blog
 date: "2020-06-29T00:00:00Z"

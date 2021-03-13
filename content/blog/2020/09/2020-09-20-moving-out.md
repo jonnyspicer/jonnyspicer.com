@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/20/moving-out
 author: Jonny Spicer
 type: blog
 date: "2020-09-20T00:00:00Z"

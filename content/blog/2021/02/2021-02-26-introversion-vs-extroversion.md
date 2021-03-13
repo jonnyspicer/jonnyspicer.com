@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/26/introversion-vs-extroversion
 author: Jonny Spicer
 type: blog
 date: "2021-02-26T00:00:00Z"

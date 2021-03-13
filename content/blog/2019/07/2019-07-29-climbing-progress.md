@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/07/29/climbing-progress
 author: Jonny Spicer
 type: blog
 date: "2019-07-29T00:00:00Z"

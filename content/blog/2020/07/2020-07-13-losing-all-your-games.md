@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/13/losing-all-your-games
 author: Jonny Spicer
 type: blog
 date: "2020-07-13T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/09/unnecessary-answers
 author: Jonny Spicer
 type: blog
 date: "2020-07-09T00:00:00Z"

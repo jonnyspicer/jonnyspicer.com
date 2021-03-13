@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/18/krill-waves-radio
 author: Jonny Spicer
 type: blog
 date: "2020-11-18T00:00:00Z"

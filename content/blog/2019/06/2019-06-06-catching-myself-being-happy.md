@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/06/catching-myself-being-happy
 author: Jonny Spicer
 type: blog
 date: "2019-06-06T00:00:00Z"

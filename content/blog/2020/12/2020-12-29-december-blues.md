@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/29/december-blues
 author: Jonny Spicer
 type: blog
 date: "2020-12-29T00:00:00Z"

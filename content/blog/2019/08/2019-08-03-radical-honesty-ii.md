@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/03/radical-honesty-ii
 author: Jonny Spicer
 type: blog
 date: "2019-08-03T00:00:00Z"

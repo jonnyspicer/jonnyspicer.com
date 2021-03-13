@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/10/im-bad-at-guitar
 author: Jonny Spicer
 type: blog
 date: "2020-11-10T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/14/some-more-thoughts-about-weight-loss-iii
 author: Jonny Spicer
 type: blog
 date: "2020-11-14T00:00:00Z"

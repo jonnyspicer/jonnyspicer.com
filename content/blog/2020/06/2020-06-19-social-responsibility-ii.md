@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/19/social-responsibility-ii
 author: Jonny Spicer
 type: blog
 date: "2020-06-19T00:00:00Z"

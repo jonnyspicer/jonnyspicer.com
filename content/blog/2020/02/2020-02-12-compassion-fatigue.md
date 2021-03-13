@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/12/compassion-fatigue
 author: Jonny Spicer
 type: blog
 date: "2020-02-12T00:00:00Z"

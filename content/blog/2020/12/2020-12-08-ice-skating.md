@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/08/ice-skating
 author: Jonny Spicer
 type: blog
 date: "2020-12-08T00:00:00Z"

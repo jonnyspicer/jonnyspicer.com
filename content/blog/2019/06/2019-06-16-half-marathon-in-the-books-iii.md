@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/16/half-marathon-in-the-books-iii
 author: Jonny Spicer
 type: blog
 date: "2019-06-16T00:00:00Z"

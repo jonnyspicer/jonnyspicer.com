@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/28/lockdown-goals-iii-yoga-complete
 author: Jonny Spicer
 type: blog
 date: "2021-02-28T00:00:00Z"

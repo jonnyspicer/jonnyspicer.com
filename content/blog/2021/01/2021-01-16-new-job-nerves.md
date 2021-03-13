@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/16/new-job-nerves
 author: Jonny Spicer
 type: blog
 date: "2021-01-16T00:00:00Z"

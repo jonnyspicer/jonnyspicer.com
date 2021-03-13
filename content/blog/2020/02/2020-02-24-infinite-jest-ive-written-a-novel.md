@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/24/infinite-jest-ive-written-a-novel
 author: Jonny Spicer
 type: blog
 date: "2020-02-24T00:00:00Z"

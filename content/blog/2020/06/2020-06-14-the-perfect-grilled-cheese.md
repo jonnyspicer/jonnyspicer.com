@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/14/the-perfect-grilled-cheese
 author: Jonny Spicer
 type: blog
 date: "2020-06-14T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/28/bands-to-see-before-i-die
 author: Jonny Spicer
 type: blog
 date: "2019-04-28T00:00:00Z"

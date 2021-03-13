@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/13/pandemic-expectations
 author: Jonny Spicer
 type: blog
 date: "2020-08-13T00:00:00Z"

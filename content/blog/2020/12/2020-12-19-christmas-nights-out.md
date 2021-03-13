@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/19/christmas-nights-out
 author: Jonny Spicer
 type: blog
 date: "2020-12-19T00:00:00Z"

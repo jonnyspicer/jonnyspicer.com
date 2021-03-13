@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/03/i-love-you-ii
 author: Jonny Spicer
 type: blog
 date: "2019-05-03T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/10/blog-analysis-part-two-lexicon
 author: Jonny Spicer
 type: blog
 date: "2020-05-10T00:00:00Z"

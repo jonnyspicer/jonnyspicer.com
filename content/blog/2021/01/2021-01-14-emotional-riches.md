@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/14/emotional-riches
 author: Jonny Spicer
 type: blog
 date: "2021-01-14T00:00:00Z"

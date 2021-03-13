@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/09/helping-others-instead-of-helping-myself
 author: Jonny Spicer
 type: blog
 date: "2020-08-09T00:00:00Z"

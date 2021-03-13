@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/14/album-of-the-year-2020
 author: Jonny Spicer
 type: blog
 date: "2020-12-14T00:00:00Z"

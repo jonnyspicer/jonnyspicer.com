@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/21/last-day-of-summer
 author: Jonny Spicer
 type: blog
 date: "2020-09-21T00:00:00Z"

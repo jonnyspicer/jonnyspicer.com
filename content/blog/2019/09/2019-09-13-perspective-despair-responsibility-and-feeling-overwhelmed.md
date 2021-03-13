@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/13/perspective-despair-responsibility-and-feeling-overwhelmed
 author: Jonny Spicer
 type: blog
 date: "2019-09-13T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/24/what-makes-a-good-politician
 author: Jonny Spicer
 type: blog
 date: "2020-09-24T00:00:00Z"

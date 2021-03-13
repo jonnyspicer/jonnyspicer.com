@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/25/this-is-water
 author: Jonny Spicer
 type: blog
 date: "2020-05-25T00:00:00Z"

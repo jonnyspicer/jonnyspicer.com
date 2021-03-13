@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/20/how-should-you-write
 author: Jonny Spicer
 type: blog
 date: "2020-10-20T00:00:00Z"

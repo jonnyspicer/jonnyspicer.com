@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/02/competition-iv
 author: Jonny Spicer
 type: blog
 date: "2019-09-02T00:00:00Z"

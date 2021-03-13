@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/09/things-that-are-more-therapeutic-than-therapy-running
 author: Jonny Spicer
 type: blog
 date: "2020-02-09T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/01/think-less
 author: Jonny Spicer
 type: blog
 date: "2020-11-01T00:00:00Z"

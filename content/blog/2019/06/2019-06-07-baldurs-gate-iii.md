@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/07/baldurs-gate-iii
 author: Jonny Spicer
 type: blog
 date: "2019-06-07T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/d/
 title: "Latest Blog Post"
 type: blog
 layout: "latest"

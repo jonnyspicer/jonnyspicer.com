@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/09/weightlifting
 author: Jonny Spicer
 type: blog
 date: "2021-01-09T00:00:00Z"

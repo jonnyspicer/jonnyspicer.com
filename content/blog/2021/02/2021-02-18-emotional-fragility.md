@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/18/emotional-fragility
 author: Jonny Spicer
 type: blog
 date: "2021-02-18T00:00:00Z"

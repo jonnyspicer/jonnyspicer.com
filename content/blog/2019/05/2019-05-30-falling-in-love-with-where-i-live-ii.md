@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/30/falling-in-love-with-where-i-live-ii
 author: Jonny Spicer
 type: blog
 date: "2019-05-30T00:00:00Z"

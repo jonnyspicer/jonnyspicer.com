@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/29/expectations-revisited
 author: Jonny Spicer
 type: blog
 date: "2019-04-29T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/22/things-im-looking-forward-to-after-the-pandemic-ii-seeing-friends
 author: Jonny Spicer
 type: blog
 date: "2020-11-22T00:00:00Z"

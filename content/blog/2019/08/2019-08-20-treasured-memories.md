@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/20/treasured-memories
 author: Jonny Spicer
 type: blog
 date: "2019-08-20T00:00:00Z"

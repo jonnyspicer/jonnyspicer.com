@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/26/what-it-means-to-be-a-man-iv-humility
 author: Jonny Spicer
 type: blog
 date: "2020-04-26T00:00:00Z"

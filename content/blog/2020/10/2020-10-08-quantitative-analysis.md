@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/08/quantitative-analysis
 author: Jonny Spicer
 type: blog
 date: "2020-10-08T00:00:00Z"

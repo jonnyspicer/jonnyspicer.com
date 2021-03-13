@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/14/the-fall-of-hobo-johnson-review
 author: Jonny Spicer
 type: blog
 date: "2019-09-14T00:00:00Z"

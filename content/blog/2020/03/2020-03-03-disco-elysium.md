@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/03/disco-elysium
 author: Jonny Spicer
 type: blog
 date: "2020-03-03T00:00:00Z"

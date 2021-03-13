@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/11/03/ten-things-im-looking-forward-to-moving-for
 author: Jonny Spicer
 type: blog
 date: "2020-11-03T00:00:00Z"

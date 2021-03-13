@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/08/hack-the-box
 author: Jonny Spicer
 type: blog
 date: "2019-06-08T00:00:00Z"

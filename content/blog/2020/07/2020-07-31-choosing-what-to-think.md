@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/31/choosing-what-to-think
 author: Jonny Spicer
 type: blog
 date: "2020-07-31T00:00:00Z"

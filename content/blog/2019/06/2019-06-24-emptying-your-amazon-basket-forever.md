@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/24/emptying-your-amazon-basket-forever
 author: Jonny Spicer
 type: blog
 date: "2019-06-24T00:00:00Z"

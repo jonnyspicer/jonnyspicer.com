@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/09/being-called-out
 author: Jonny Spicer
 type: blog
 date: "2019-05-09T00:00:00Z"

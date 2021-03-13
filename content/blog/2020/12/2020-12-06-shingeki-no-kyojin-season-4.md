@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/06/shingeki-no-kyojin-season-4
 author: Jonny Spicer
 type: blog
 date: "2020-12-06T00:00:00Z"

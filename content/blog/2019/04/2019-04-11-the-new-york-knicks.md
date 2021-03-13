@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/11/the-new-york-knicks
 author: Jonny Spicer
 type: blog
 date: "2019-04-11T00:00:00Z"

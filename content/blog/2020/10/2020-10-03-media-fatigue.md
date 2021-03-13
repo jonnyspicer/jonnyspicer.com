@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/03/media-fatigue
 author: Jonny Spicer
 type: blog
 date: "2020-10-03T00:00:00Z"

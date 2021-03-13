@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/17/an-ode-to-love-shack
 author: Jonny Spicer
 type: blog
 date: "2019-05-17T00:00:00Z"

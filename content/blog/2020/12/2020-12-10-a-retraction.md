@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/12/10/a-retraction
 author: Jonny Spicer
 type: blog
 date: "2020-12-10T00:00:00Z"

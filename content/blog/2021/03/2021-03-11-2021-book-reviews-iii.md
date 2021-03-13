@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/03/11/2021-book-reviews-iii
 type: blog
 author: Jonny Spicer
 title: 2021 Book Reviews III

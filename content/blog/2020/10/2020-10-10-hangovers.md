@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/10/hangovers
 author: Jonny Spicer
 type: blog
 date: "2020-10-10T00:00:00Z"

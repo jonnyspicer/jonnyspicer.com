@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/14/valentines-day-ii
 author: Jonny Spicer
 type: blog
 date: "2021-02-14T00:00:00Z"

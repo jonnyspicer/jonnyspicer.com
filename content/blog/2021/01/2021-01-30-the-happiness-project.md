@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/30/the-happiness-project
 author: Jonny Spicer
 type: blog
 date: "2021-01-30T00:00:00Z"

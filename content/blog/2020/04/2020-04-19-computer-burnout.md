@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/19/computer-burnout
 author: Jonny Spicer
 type: blog
 date: "2020-04-19T00:00:00Z"

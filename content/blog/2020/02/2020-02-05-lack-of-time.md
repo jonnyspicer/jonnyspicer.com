@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/05/lack-of-time
 author: Jonny Spicer
 type: blog
 date: "2020-02-05T00:00:00Z"

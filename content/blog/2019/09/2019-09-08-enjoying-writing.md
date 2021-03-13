@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/08/enjoying-writing
 author: Jonny Spicer
 type: blog
 date: "2019-09-08T00:00:00Z"

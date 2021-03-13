@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/23/the-first-honk
 author: Jonny Spicer
 type: blog
 date: "2020-10-23T00:00:00Z"

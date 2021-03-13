@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/12/fiction-and-escapism
 author: Jonny Spicer
 type: blog
 date: "2021-02-12T00:00:00Z"

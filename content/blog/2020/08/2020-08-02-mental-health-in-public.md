@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/02/mental-health-in-public
 author: Jonny Spicer
 type: blog
 date: "2020-08-02T00:00:00Z"

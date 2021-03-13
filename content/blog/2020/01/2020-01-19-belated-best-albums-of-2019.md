@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/19/belated-best-albums-of-2019
 author: Jonny Spicer
 type: blog
 date: "2020-01-19T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/10/super-meat-boy
 author: Jonny Spicer
 type: blog
 date: "2019-08-10T00:00:00Z"

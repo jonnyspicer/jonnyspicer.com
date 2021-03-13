@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/02/16/things-that-are-more-therapeutic-than-therapy-iii-bumpy-flights
 author: Jonny Spicer
 type: blog
 date: "2020-02-16T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/04/the-slightly-more-planned-year-so-far
 author: Jonny Spicer
 type: blog
 date: "2019-08-04T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/04/25/what-it-means-to-be-a-man-iii-honesty
 author: Jonny Spicer
 type: blog
 date: "2020-04-25T00:00:00Z"

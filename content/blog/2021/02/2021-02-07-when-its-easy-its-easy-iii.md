@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/07/when-its-easy-its-easy-iii
 author: Jonny Spicer
 type: blog
 date: "2021-02-07T00:00:00Z"

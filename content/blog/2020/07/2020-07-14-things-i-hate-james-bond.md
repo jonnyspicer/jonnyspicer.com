@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/14/things-i-hate-james-bond
 author: Jonny Spicer
 type: blog
 date: "2020-07-14T00:00:00Z"

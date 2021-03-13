@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/05/28/ben-and-jerrys
 author: Jonny Spicer
 type: blog
 date: "2020-05-28T00:00:00Z"

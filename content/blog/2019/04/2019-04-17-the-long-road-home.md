@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/04/17/the-long-road-home
 author: Jonny Spicer
 type: blog
 date: "2019-04-17T00:00:00Z"

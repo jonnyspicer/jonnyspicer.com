@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/28/sober-narcissism
 author: Jonny Spicer
 type: blog
 date: "2020-06-28T00:00:00Z"

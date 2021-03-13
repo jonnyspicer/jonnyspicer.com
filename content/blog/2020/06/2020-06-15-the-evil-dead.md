@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/15/the-evil-dead
 author: Jonny Spicer
 type: blog
 date: "2020-06-15T00:00:00Z"

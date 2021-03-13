@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/10/01/a-monster-is-born
 author: Jonny Spicer
 type: blog
 date: "2020-10-01T00:00:00Z"

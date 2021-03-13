@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/13/hand-anger
 author: Jonny Spicer
 type: blog
 date: "2020-03-13T00:00:00Z"

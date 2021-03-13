@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/17/everything-else-has-gone-wrong
 author: Jonny Spicer
 type: blog
 date: "2020-01-17T00:00:00Z"

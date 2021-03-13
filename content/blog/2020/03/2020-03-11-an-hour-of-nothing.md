@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/11/an-hour-of-nothing
 author: Jonny Spicer
 type: blog
 date: "2020-03-11T00:00:00Z"

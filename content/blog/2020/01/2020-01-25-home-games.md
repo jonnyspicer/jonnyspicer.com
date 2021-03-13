@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/01/25/home-games
 author: Jonny Spicer
 type: blog
 date: "2020-01-25T00:00:00Z"

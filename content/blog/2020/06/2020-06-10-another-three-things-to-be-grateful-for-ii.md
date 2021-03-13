@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/10/another-three-things-to-be-grateful-for-ii
 author: Jonny Spicer
 type: blog
 date: "2020-06-10T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/16/seeing-yourself-ii
 author: Jonny Spicer
 type: blog
 date: "2019-08-16T00:00:00Z"

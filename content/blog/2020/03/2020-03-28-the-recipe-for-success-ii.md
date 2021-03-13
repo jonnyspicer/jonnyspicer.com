@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/28/the-recipe-for-success-ii
 author: Jonny Spicer
 type: blog
 date: "2020-03-28T00:00:00Z"

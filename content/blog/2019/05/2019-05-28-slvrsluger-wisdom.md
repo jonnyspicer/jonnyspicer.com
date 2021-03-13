@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/28/slvrsluger-wisdom
 author: Jonny Spicer
 type: blog
 date: "2019-05-28T00:00:00Z"

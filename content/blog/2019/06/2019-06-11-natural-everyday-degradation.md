@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/11/natural-everyday-degradation
 author: Jonny Spicer
 type: blog
 date: "2019-06-11T00:00:00Z"

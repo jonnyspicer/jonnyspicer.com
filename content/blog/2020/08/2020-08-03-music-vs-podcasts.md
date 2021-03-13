@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/03/music-vs-podcasts
 author: Jonny Spicer
 type: blog
 date: "2020-08-03T00:00:00Z"

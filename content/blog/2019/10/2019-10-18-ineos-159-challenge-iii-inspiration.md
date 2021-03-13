@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/10/18/ineos-159-challenge-iii-inspiration
 author: Jonny Spicer
 type: blog
 date: "2019-10-18T00:00:00Z"

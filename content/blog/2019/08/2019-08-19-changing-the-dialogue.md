@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/19/changing-the-dialogue
 author: Jonny Spicer
 type: blog
 date: "2019-08-19T00:00:00Z"

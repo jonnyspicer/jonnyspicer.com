@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/d/
 type: "page"
 title: "Blog"
 description: "Jonny Spicer"

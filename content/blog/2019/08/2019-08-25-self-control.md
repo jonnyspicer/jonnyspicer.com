@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/25/self-control
 author: Jonny Spicer
 type: blog
 date: "2019-08-25T00:00:00Z"

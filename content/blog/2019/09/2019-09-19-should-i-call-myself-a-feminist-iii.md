@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/19/should-i-call-myself-a-feminist-iii
 author: Jonny Spicer
 type: blog
 date: "2019-09-19T00:00:00Z"

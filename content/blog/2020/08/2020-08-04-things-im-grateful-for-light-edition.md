@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/04/things-im-grateful-for-light-edition
 author: Jonny Spicer
 type: blog
 date: "2020-08-04T00:00:00Z"

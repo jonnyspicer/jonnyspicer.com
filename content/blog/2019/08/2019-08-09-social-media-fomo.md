@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/08/09/social-media-fomo
 author: Jonny Spicer
 type: blog
 date: "2019-08-09T00:00:00Z"

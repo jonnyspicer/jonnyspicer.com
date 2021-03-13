@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/24/an-ode-to-rpoker
 author: Jonny Spicer
 type: blog
 date: "2020-06-24T00:00:00Z"

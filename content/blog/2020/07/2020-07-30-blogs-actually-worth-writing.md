@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/30/blogs-actually-worth-writing
 author: Jonny Spicer
 type: blog
 date: "2020-07-30T00:00:00Z"

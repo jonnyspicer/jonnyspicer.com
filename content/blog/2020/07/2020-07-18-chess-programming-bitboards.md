@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/18/chess-programming-bitboards
 author: Jonny Spicer
 type: blog
 date: "2020-07-18T00:00:00Z"

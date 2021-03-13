@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/03/10/youre-welcome-ted
 author: Jonny Spicer
 type: blog
 date: "2020-03-10T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/20/windows-terminal
 author: Jonny Spicer
 type: blog
 date: "2019-05-20T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/26/so-this-is-what-its-come-to
 author: Jonny Spicer
 type: blog
 date: "2019-06-26T00:00:00Z"

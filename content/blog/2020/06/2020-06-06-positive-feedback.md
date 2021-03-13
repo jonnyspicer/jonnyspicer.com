@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/06/positive-feedback
 author: Jonny Spicer
 type: blog
 date: "2020-06-06T00:00:00Z"

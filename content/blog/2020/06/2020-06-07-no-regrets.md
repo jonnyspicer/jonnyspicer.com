@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/06/07/no-regrets
 author: Jonny Spicer
 type: blog
 date: "2020-06-07T00:00:00Z"

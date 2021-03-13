@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/01/10/high-stakes-blogging
 author: Jonny Spicer
 type: blog
 date: "2021-01-10T00:00:00Z"

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/05/for-the-first-time-review
 author: Jonny Spicer
 type: blog
 date: "2021-02-05T00:00:00Z"

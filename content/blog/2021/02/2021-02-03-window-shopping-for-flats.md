@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2021/02/03/window-shopping-for-flats
 author: Jonny Spicer
 type: blog
 date: "2021-02-03T00:00:00Z"

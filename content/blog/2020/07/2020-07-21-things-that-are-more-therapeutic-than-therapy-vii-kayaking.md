@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/07/21/things-that-are-more-therapeutic-than-therapy-vii-kayaking
 author: Jonny Spicer
 type: blog
 date: "2020-07-21T00:00:00Z"

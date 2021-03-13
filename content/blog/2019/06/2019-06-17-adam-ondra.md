@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/06/17/adam-ondra
 author: Jonny Spicer
 type: blog
 date: "2019-06-17T00:00:00Z"

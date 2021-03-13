@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/08/28/things-that-are-more-therapeutic-than-therapy-viii-going-to-the-pub
 author: Jonny Spicer
 type: blog
 date: "2020-08-28T00:00:00Z"

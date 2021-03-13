@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/24/the-purpose-of-the-blog
 author: Jonny Spicer
 type: blog
 date: "2019-09-24T00:00:00Z"

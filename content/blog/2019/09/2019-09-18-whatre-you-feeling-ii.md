@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/09/18/whatre-you-feeling-ii
 author: Jonny Spicer
 type: blog
 date: "2019-09-18T00:00:00Z"

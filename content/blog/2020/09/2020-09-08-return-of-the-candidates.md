@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2020/09/08/return-of-the-candidates
 author: Jonny Spicer
 type: blog
 date: "2020-09-08T00:00:00Z"

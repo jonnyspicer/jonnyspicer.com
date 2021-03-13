@@ -1,4 +1,6 @@
 ---
+aliases:
+- /mendokusai/2019/05/14/fake-it-until-you-make-it
 author: Jonny Spicer
 type: blog
 date: "2019-05-14T00:00:00Z"
