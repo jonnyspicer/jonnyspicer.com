@@ -1,6 +1,6 @@
 ---
 type: blog
-date: "2021-03-13T00-00-00Z"
+date: "2021-03-13T00:00:00Z"
 author: Jonny Spicer
 title: Old Site, New Home
 categories:

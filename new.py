@@ -45,7 +45,7 @@ if os.path.exists(path):
     f.write('---\n')
     f.write('type: blog\n')
     f.write('date: ' + '\"' + date.strftime('%Y-%m-%d') +
-            'T' + date.strftime('%H-%M-%S') + 'Z' '\"\n')
+            'T' + date.strftime('%H:%M:%S') + 'Z' '\"\n')
     f.write('author: Jonny Spicer\n')
     f.write('title: ' + name + '\n')
     if len(categories) > 0:
