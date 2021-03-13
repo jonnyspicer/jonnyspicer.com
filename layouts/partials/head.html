@@ -56,12 +56,12 @@
             {{ end }}
 
             {{ with $keywords}}
-                <meta name="news_keywords" content="{{ delimit $keywords ", " }}" />
+                <meta name="keywords" content="{{ delimit $keywords ", " }}" />
                 <meta property="article:section" content="{{ delimit $keywords ", " }}" />
             {{ end }}
         {{ else }}
             {{ with .Params.tags }}
-                <meta name="news_keywords" content="{{ delimit . ", " }}" />
+                <meta name="keywords" content="{{ delimit . ", " }}" />
                 <meta property="article:section" content="{{ delimit . ", " }}" />
             {{ end }}
         {{ end }}
