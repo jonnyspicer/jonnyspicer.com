@@ -6,7 +6,7 @@ type: blog
 date: "2020-08-21T00:00:00Z"
 categories:
 - Poker and Gambling
-title: It&#39;s Only Fun When It Hurts
+title: It's Only Fun When It Hurts
 ---
 I think I am a favourite to one day get the words "no gamble, no future" tattooed somewhere on my body. While I don't
 really play much poker any more, some of the sayings were pretty neat, and as we all know by now, the game is wonderfully

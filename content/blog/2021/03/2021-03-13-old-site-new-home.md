@@ -16,7 +16,7 @@ tags:
 The site looks largely the same, but under the hood there have been some very big changes. There have been some more visible changes too, for example you can now [browse by series](/series) or bookmark [this url](/blog/latest) which will always show the latest blog post. Other than some minor cosmetic changes, everything else should be pretty much the same to
 anybody visiting the site.
 
-For me as a developer though, I'm very excited about what's new; the site was previously written using [Jekyll](https://http://jekyllrb.com/) and hosted on [GitHub Pages,](https://pages.github.com/) and now it's written with [Hugo](https://https://gohugo.io/) and hosted on [AWS Amplify.](https://aws.amazon.com/amplify/) I made some quality of life improvements
+For me as a developer though, I'm very excited about what's new; the site was previously written using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages,](https://pages.github.com/) and now it's written with [Hugo](https://gohugo.io/) and hosted on [AWS Amplify.](https://aws.amazon.com/amplify/) I made some quality of life improvements
 in the migration, most notably merging my two blogs into one with a proper time-based directory structure, meaning I no longer have 900-odd files in a single ```/_posts/``` folder.
 I've also got a proper taxonomy system in place with categories, series and tags, something I never got working out of the box with Jekyll, the consensus being that its "collections"
 aren't great anyway. The site now takes around 5 seconds to build from a cold start, as opposed to a brutal 100+ seconds on Jekyll, which made live-reloading pointless and any
