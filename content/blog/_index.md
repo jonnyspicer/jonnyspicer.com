@@ -1,6 +1,7 @@
 ---
 aliases:
-- /mendokusai/d/
+- /mendokusai
+- /tartarus
 type: "page"
 title: "Blog"
 description: "Jonny Spicer"
