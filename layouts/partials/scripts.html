@@ -1,0 +1,7 @@
+{{ $globaljs := resources.Get "js/global.js" }}
+<script type="text/javascript" src="{{ $globaljs.Permalink }}"></script>
+
+{{ if in .Page.Params.extras "prismjs"}}
+{{ $prismjs := resources.Get "js/prism.js" }}
+<script type="text/javascript" src="{{ $prismjs.Permalink }}"></script>
+{{ end }}

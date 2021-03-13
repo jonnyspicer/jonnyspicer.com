@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1 class="big-title">{{ .Site.Title }}</h1>
+{{ .Content }}
+{{ $posts := 0 }}
+{{ $words := 0 }}
+{{ $mins := 0}}
+    {{ range where .Site.Pages "Type" "blog" }}
+        {{ $posts = add $posts 1}}
+        {{ $words = add .FuzzyWordCount $words}}
+        {{ $mins = add .ReadingTime $mins}}
+    {{ end }}
+    <p>I've written a lot over the past few years. There's {{ $posts }} posts in the <a href="/archive">archive</a> for a total
+        of approximately {{ $words }} words. That means the whole thing would take about
+        {{ div $mins 60 }} hours and {{ mod $mins 60 }} minutes to read, but I'm really hoping nobody has that much free time on their hands.
+    </p>
+{{ end }}

@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div>
+    <h1 class="big-title">{{ .Page.Title }}</h1>
+    {{ .Content }}
+
+    <h2 class="big-title">Featured Post</h2>
+    <ul class="post-list">
+        {{ $featured := .Site.Taxonomies.categories.featured }}
+        {{ range first 1 ($featured.Pages) }}
+        <li>
+            <h4><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
+            {{ partial "categories.html" .}}
+
+            <div class="summary-block">
+                {{ .Summary }}..
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+    <a href="/categories/featured" class="bigger">See more featured posts</a>
+    
+    <h2 class="big-title">Most Recent Posts</h2>
+    <ul class="post-list">
+        {{ range (.Paginator 5).Pages }}
+        <li>
+            <h4><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
+            {{ partial "categories.html" .}}
+
+            <div class="summary-block">
+                {{ .Summary }}..
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+    <p class="bigger">
+        If you want to read more, check out the <a href="/archive">archive.</a>
+    </p>
+</div>
+{{ end }}

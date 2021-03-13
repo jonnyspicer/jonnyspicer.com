@@ -1,0 +1,18 @@
+<header>
+    <div class="mobile-header">
+        <div class="toggle">
+            <span>
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </div>
+    <nav>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{end}}"
+            href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+</header>

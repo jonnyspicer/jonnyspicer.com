@@ -1,0 +1,192 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: inline;
+  background-size: 100% 0.4em;
+  background-repeat: no-repeat;
+  background-position: 0 0.9em;
+  background-image: linear-gradient($color_green, $color_green);
+  font-family: $font-stack-header;
+  color: $color_black;
+  font-weight: normal;
+
+  &.big-title{
+    font-size: 6em;
+    background-image: linear-gradient($color_yellow, $color_yellow);
+  }
+}
+
+h2{
+  margin: 30px 0 10px;
+  
+  &.big-title{
+    font-size: 2em;
+  }
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack-subheader;
+  color: $color_black;
+  font-weight: normal;
+}
+
+p,
+a,
+footer,
+span,
+li,
+blockquote {
+  font-family: $font-stack-copy;
+  color: $color_black;
+
+  &.bigger{
+    font-size: 1.2em;
+  }
+}
+
+* {
+  .vertical-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+label {
+  display: none;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+main {
+  width: calc(100% - 40px);
+  max-width: 600px;
+  margin: 0 auto;
+  flex: 1 0 auto;
+  padding: 40px 20px 20px;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+a {
+  color: $color_black;
+  text-decoration: underline;
+  text-decoration-color: $color_pink;
+
+  &:hover,
+  &:focus {
+    color: $color_pink;
+  }
+}
+
+p,
+span {
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 1.4;
+
+  &:first-of-type {
+    padding: 0;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul ul,
+ol ol {
+  li:first-child {
+    padding-top: 20px;
+  }
+
+  li:last-child {
+    padding-bottom: 0;
+  }
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+ul.tag-list{
+  padding: 0;
+
+  li {
+    padding-bottom: 10px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+}
+
+hr {
+  width: 50%;
+}
+
+code {
+  background-color: #dcdcdc;
+  font-family: monospace;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+pre code {
+  display: block;
+}
+
+blockquote {
+  // margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  line-height: 0.1em;
+  margin-inline-start: 0;
+
+  &:before {
+    color: $color_green;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  p {
+    display: inline;
+  }
+}
+
+img {
+  width: 600px;
+  max-width: 100%;
+}
+
+.circular-image {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin: 40px auto;
+
+  img {
+    width: 200px;
+  }
+}

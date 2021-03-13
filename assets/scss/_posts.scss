@@ -1,0 +1,43 @@
+.post{
+  blockquote p:first-of-type{
+    font-size: 1em;
+  }
+
+  ul{
+    padding-inline-end:40px;
+    padding-inline-start: 20px;
+    margin: 30px 0 0;
+    li{
+      padding: 0 0 20px 5px;
+      span{
+        font-size: 18px;
+      }
+      p{
+        margin: 0;
+      }
+    }
+  }
+
+  &.post-blog{
+    ul{
+      list-style-type: katakana;
+    }
+  }
+}
+
+.page-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  p {
+    max-width: 49%;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.series-navigation{
+  margin-top: 40px;
+}

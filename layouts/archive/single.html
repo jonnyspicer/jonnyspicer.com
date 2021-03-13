@@ -1,0 +1,32 @@
+{{ define "main" }}
+<h1 class="big-title">{{ .Title }}</h1>
+    <ul class="archive-list">
+        {{ $blogs := where (where .Site.Pages "Type" "blog") ".Page.Title" "!=" "Latest Blog Post"}}
+        {{ range $blogs.GroupByDate "2006"  }}
+        <li>
+            <h2 class="accordion-title" id="{{ range first 1 .Pages }}{{ .Date.Format "2006" }}{{ end }}">{{ .Key }}</h2>
+            <ul class="accordion-leaf">
+                {{ range .Pages.GroupByDate "January" }}
+                <li>
+                    <h3 class="accordion-title"
+                        id="{{ range first 1 .Pages }}{{ .Date.Format "January 2006" }}{{ end }}">{{ .Key }}
+                    </h2>
+                    <ul class="accordion-leaf post-list">
+                        {{ range .Pages}}
+                        <li>
+                            <h4><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
+                            {{ partial "categories.html" .}}
+
+                            <div class="summary-block">
+                                {{ .Summary }}..
+                            </div>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+            {{ end }}
+            </ul>
+        </li>
+        {{ end }}
+    </ul>
+{{ end }}

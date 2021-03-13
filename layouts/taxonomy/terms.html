@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+<p>
+    Click on a link below to see a list of posts
+    {{ if eq .Page.Title "Series" }}in that series.{{ end }}
+    {{ if eq .Page.Title "Tags" }}with that tag.{{ end }}
+    {{ if eq .Page.Title "Categories" }}in that category.{{ end }}
+</p>
+<ul class="tag-list">
+    {{ range .Data.Terms.Alphabetical }}
+    <li><a href="{{ .Page.Permalink }}" class="bigger">{{ .Page.Title }}</a> - {{ .Count }} post{{ if gt .Count 1 }}s{{ end }}</li>
+    {{ end }}
+</ul>
+{{ end }}

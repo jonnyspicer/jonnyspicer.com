@@ -1,0 +1,35 @@
+{{ define "main" }}
+    <div class="post post-blog">
+        <h1>{{ .Title }}</h1>
+        {{ partial "categories.html" .}}
+        {{ .Content }}
+
+        {{ with .Page.Params.Series }}
+        <div class="series-navigation">
+            {{ range $i, $s := . }}
+            <p class="bigger">
+                See other posts in the
+                <a href="/series/{{ lower (replace $s " " "-") }}">
+                    {{ $s }} series
+                </a>
+            </p>
+
+            {{ end }}
+        </div>
+        {{ end }}
+
+        <div class="page-navigation">
+            {{ with .PrevInSection }}
+            <p>
+                Previous Post: <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </p>
+            {{ end }}
+            {{ with .NextInSection }}
+            <p>
+                Next Post: <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </p>
+            
+            {{ end }}
+        </div>
+    </div>
+{{ end }}

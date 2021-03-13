@@ -1,0 +1,18 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Jonny Spicer" />
+    <meta name="description"
+        content="{{ if .Page.Description }}{{ .Page.Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <title>{{ .Page.Title }}</title>
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ $sass := resources.Get "scss/style.scss" }}
+    {{ $style := $sass | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    <link href="{{ .Site.Params.baseURL }}" rel="alternate" type="application/atom+xml">
+    {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>

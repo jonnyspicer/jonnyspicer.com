@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <div>
+        <h1>{{ .Title }}</h1>
+        <div class="vertical-margin">
+            <a href="/{{ .Page.Section }}" class="bigger">See all {{ .Page.Section }}</a>
+        </div>
+        <ul class="post-list">
+            {{ range .Pages }}
+            <li>
+                <h4><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
+                {{ partial "categories.html" .}}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}

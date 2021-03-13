@@ -1,0 +1,93 @@
+.archives > h1{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.transition{
+  transition: all 0.3s ease-in-out;
+}
+
+.tags{
+  span{
+    font-size: 16px;
+    font-style: italic;
+    margin-inline-start: -0.1em;
+  }
+}
+
+.archive-list, .post-list{
+  padding: 0;
+  margin: 0;
+  li{
+    position: relative;
+    .accordion-title{
+      cursor: pointer;
+      &:before, &:after{
+        content:'';
+        position: absolute;
+        background-color: $color_grey_very_dark;
+        width: 3px;
+        height: 9px;
+        right: 0;
+        top: 10px;
+        transition: all 0.3s ease-in-out;
+      }
+      &:before{
+        transform: translate(-2px, 0) rotate(-45deg);
+      }
+      &:after{
+        transform: translate(2px, 0) rotate(45deg);
+      }
+    }
+    .accordion-title-display{
+      &:before{
+        transform: translate(2px, 0) rotate(-45deg);
+      }
+      &:after{
+        transform: translate(-2px, 0) rotate(45deg);
+      }
+    }
+    .accordion-leaf{
+      display: none;
+    }
+    .accordion-leaf-display{
+      display:block;
+      
+      li{
+        padding: 0;
+      }
+
+      &.post-list{
+        li{
+          padding-bottom: 10px;
+        }
+      }
+    }
+    ul{
+      padding-left: 10px;
+    }
+  }
+  h2, h3{
+    margin: 10px 0;
+  }
+  h4{
+    margin: 5px 0 0;
+  }
+  span{
+    font-size: 16px;
+    font-style: italic;
+    margin-inline-start: -0.1em;
+  }
+  p{
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+}
+
+.archive-list{
+  margin-top: 20px;
+
+  > li {
+    padding-bottom: 0;
+  }
+}

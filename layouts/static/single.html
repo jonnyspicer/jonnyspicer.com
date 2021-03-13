@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <h1 class="big-title">{{ .Page.Title }}</h1>
+    {{ if eq .Page.Title "About"}}
+        <div class="circular-image">
+            <img src="/img/beach.jpg" alt="Jonny Spicer at the beach" title="Enjoying the sunshine while it lasted">
+        </div>
+    {{ end }}
+    {{ .Content }}
+{{ end }}

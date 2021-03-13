@@ -1,0 +1,14 @@
+<!-- TODO: move scss here and out of post list/archives page  -->
+<div class="tags">
+<span>
+    Published
+    <time>{{ .Date.Format "January 2, 2006" }}</time>
+    <!-- tags go here  -->
+    {{ range $i, $t := (.GetTerms "categories") }}
+    {{- if eq $i 0 }}in {{ end -}}
+    {{- if gt $i 0 }}/ {{ end -}}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+    - {{ .ReadingTime}} min{{ if gt .ReadingTime 1 }}s{{ end }} to read
+</span>
+</div>
