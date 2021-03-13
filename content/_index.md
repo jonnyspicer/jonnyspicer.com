@@ -1,7 +1,7 @@
 ---
 type: "page"
 title: "Home"
-description: "Jonny Spicer"
+description: "The home page for Jonny Spicer; software engineer, mental health advocate, blogger, climber, runner"
 menu: "main"
 weight: "1"
 ---

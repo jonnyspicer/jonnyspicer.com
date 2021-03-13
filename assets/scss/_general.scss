@@ -141,6 +141,10 @@ hr {
   width: 50%;
 }
 
+p > code {
+  padding: 2px;
+}
+
 code {
   background-color: #dcdcdc;
   font-family: monospace;

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h1 class="big-title">{{ .Title }}</h1>
+<h1>{{ .Title }}</h1>
     <ul class="archive-list">
         {{ $blogs := where (where .Site.Pages "Type" "blog") ".Page.Title" "!=" "Latest Blog Post"}}
         {{ range $blogs.GroupByDate "2006"  }}

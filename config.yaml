@@ -1,12 +1,13 @@
 baseURL: https://jonnyspicer.com
-languageCode: en-uk
+languageCode: en-gb
 title: Jonny Spicer
-description: Jonny Spicer is a software engineer, runner, climber and music lover, and this is his personal site.
+description: Jonny Spicer is a software engineer, blogger, runner, climber and music lover, and this is his personal site.
 defaultContentLanguage: en
 disableHugoGeneratorInject: true
 enableEmoji: true
-# enableGitInfo: true
+enableGitInfo: true
 enableRobotsTXT: true
+cannonifyURLs: true
 summaryLength: 10
 taxonomies:
   category: categories
@@ -14,3 +15,9 @@ taxonomies:
   tags: tags
 permalinks:
   blog: /:section/:title
+params:
+  author: Jonny Spicer
+  ogimage: "/img/og.png"
+  github: https://github.com/jonnyspicer
+  twitter: https://twitter.com/jjspicer
+  sitename: Jonny Spicer

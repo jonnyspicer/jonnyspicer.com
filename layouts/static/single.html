@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <h1 class="big-title">{{ .Page.Title }}</h1>
+    <h1 {{ if ne .Page.Title "Site Info" }}class="big-title"{{ end }}>{{ .Page.Title }}</h1>
     {{ if eq .Page.Title "About"}}
         <div class="circular-image">
             <img src="/img/beach.jpg" alt="Jonny Spicer at the beach" title="Enjoying the sunshine while it lasted">

@@ -2,7 +2,7 @@
 type: "static"
 page: "static/single.html"
 title: "Contact"
-description: "Contact Me"
+description: "Ways to get in contact with Jonny Spicer"
 menu: "main"
 weight: "4"
 ---

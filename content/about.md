@@ -1,7 +1,7 @@
 ---
 type: "static"
 title: "About"
-description: "About Jonny Spicer, software engineer, climber, runner, mental health advocate"
+description: "About Jonny Spicer, software engineer, mental health advocate, blogger, climber, runner"
 menu: "main"
 weight: "2"
 ---

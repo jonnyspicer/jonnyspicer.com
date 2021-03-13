@@ -1,11 +1,10 @@
 <!doctype html>
-<html lang="{{ .Site.LanguageCode }}">
+<html prefix="og: http://ogp.me/ns#" lang="{{ .Site.LanguageCode }}">
 
 {{ partial "head.html" . }}
 
 <body>
     {{ partial "header.html" . }}
-    <!-- TODO: fix this/make it semantic -->
     <main>
         {{ block "main" . }}{{ end }}
     </main>
