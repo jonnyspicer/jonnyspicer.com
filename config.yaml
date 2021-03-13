@@ -1,7 +1,6 @@
 baseURL: https://jonnyspicer.com
 languageCode: en-gb
 title: Jonny Spicer
-description: Jonny Spicer is a software engineer, blogger, runner, climber and music lover, and this is his personal site.
 defaultContentLanguage: en
 disableHugoGeneratorInject: true
 enableEmoji: true
@@ -21,3 +20,4 @@ params:
   github: https://github.com/jonnyspicer
   twitter: https://twitter.com/jjspicer
   sitename: Jonny Spicer
+  description: Jonny Spicer is a software engineer, blogger, runner, climber and music lover, and this is his personal site.
