@@ -3,4 +3,4 @@
 .sass-cache/
 __pycache__
 *.patch
-
+resources/
