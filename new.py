@@ -31,7 +31,7 @@ if not os.path.exists(yearPath):
 if date.month < 10:
     monthPath = yearPath + '0' + str(date.month) + '/'
 else:
-    monthPath = yearPath + str(date.month)
+    monthPath = yearPath + str(date.month) + '/'
 
 if not os.path.exists(monthPath):
     os.mkdir(monthPath)
