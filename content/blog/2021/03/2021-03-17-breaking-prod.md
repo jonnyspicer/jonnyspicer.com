@@ -33,7 +33,7 @@ my $foo = {
     };
 
 # And then we try to read a property on the object
-#  that doesn't exist:
+# that doesn't exist:
 my $oof = $foo->{'level_1'}->{'level_2'};
 
 # We might anticipate the following to be true:
