@@ -148,13 +148,15 @@ p > code {
 code {
   background-color: #dcdcdc;
   font-family: monospace;
-  border-radius: 4px;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 20px;
 }
 
-pre code {
-  display: block;
+pre {
+  border-radius: 5px;
+  code {
+    display: block;
+  }
 }
 
 blockquote {
