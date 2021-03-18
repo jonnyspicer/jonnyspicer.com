@@ -6,7 +6,7 @@ type: blog
 date: "2019-07-28T00:00:00Z"
 categories:
 - Books
-title: Book Reviews&colon; The Master and Margarita by Mikhail Bulgakov
+title: "Book Reviews The Master and Margarita by Mikhail Bulgakov"
 series: ["Book Reviews"]
 ---
 Well, the whole 52 books in 52 weeks thing is looking admittedly unlikely to pan out, but I have nonetheless made some progress by finally finishing 'The Master and Margarita'
