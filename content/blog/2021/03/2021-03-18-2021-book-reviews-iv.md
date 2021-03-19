@@ -44,4 +44,4 @@ powerful, as if along for the same ride that Mephistopheles had granted the titu
 tragedy (the *Margarita* in question is likely taken from Faust's Margerite, and Bulgakov's Voland is a 20th century reworking of Goethe's Mephistopheles). I love the interweaving of
 religious themes in both works, especially in their most epic sense (although I similarly enjoyed the more restrained theological explorations in *The Dharma Bums, Siddhartha* and
 even *Moscow to the End of the Line*). An incredibly enjoyable high tale of the sort that have seemed unreproducable since Goethe's time, I fully understand why this is considered to
-be the defining work of the Germanic literary canon. 
+be the defining work of the Germanic literary canon.
