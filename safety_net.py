@@ -43,7 +43,7 @@ def publish_post():
     repo.git.add(all=True)
     repo.index.commit(f"dp{date.strftime('%Y%m%d')}")
     origin.pull()
-    origin.push()
+    # origin.push()
 
 
 def choose_draft():
@@ -76,7 +76,7 @@ def format_draft():
         os.mkdir(monthPath)
 
     path = monthPath + date.strftime('%Y-%m-%d') + \
-        '-' + draft_to_publish.name + '.md'
+        '-' + draft_to_publish.name
     if not os.path.exists(path):
         open(path, 'w')
 
