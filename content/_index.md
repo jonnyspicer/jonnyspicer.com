@@ -4,6 +4,7 @@ title: "Home"
 description: "The home page for Jonny Spicer; software engineer, mental health advocate, blogger, climber, runner"
 menu: "main"
 weight: "1"
+# These are set to 0 in the repo and then populated by the wordcount script during the build
 wordcount: 0
 postcount: 0
 ---
