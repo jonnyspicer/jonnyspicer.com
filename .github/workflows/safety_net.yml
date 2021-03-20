@@ -32,4 +32,3 @@ jobs:
       - name: Run a multi-line script
         run: |
           python safety_net.py
-          echo test, and deploy your project.
