@@ -6,12 +6,14 @@ title: Old Site, New Home
 categories:
 - Blogging
 - Software Development
+series: ["Hugo Migration"]
 tags:
 - Hugo
 - AWS
 - Amplify
 - Go
 - Frontend
+- DevOps
 ---
 The site looks largely the same, but under the hood there have been some very big changes. There have been some more visible changes too, for example you can now [browse by series](/series) or bookmark [this url](/blog/latest) which will always show the latest blog post. Other than some minor cosmetic changes, everything else should be pretty much the same to
 anybody visiting the site.

@@ -2,13 +2,15 @@ import datetime
 from git import Repo
 
 # Thanks Ted
-# TODO: make this a bash script...
+# TODO: add steps to:
+# - test build and send generated html files to validator
+# - send last post text to spellcheck api
 
 date = datetime.datetime.now()
 
 repo = Repo('.')
 origin = repo.remote('origin')
-repo.index.add(all=True)
-repo.index.commit(f"dp{date.strftime('%Y%m%d')}")
+repo.git.add(all=True)
+repo.index.commit(f"dp{date.strftime('%y%m%d')}")
 origin.pull()
 origin.push()

@@ -141,21 +141,20 @@ hr {
   width: 50%;
 }
 
-p > code {
-  padding: 2px;
-}
-
 code {
   background-color: #dcdcdc;
   font-family: monospace;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 pre {
   border-radius: 5px;
   code {
     display: block;
+    overflow-x: scroll;
+    padding: 20px;
   }
 }
 

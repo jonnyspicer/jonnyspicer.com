@@ -41,9 +41,9 @@ def publish_post():
     repo = Repo('.')
     origin = repo.remote('origin')
     repo.git.add(all=True)
-    repo.index.commit(f"dp{date.strftime('%Y%m%d')}")
+    repo.index.commit(f"dp{date.strftime('%y%m%d')}")
     origin.pull()
-    # origin.push()
+    origin.push()
 
 
 def choose_draft():
@@ -53,13 +53,11 @@ def choose_draft():
 
 
 def format_draft():
-    # needs published date
-
     date = datetime.datetime.now()
 
     with open(draft_to_publish, 'r') as draft:
         file = draft.read()
-        date_string = '---\ndate: \"' + date.strftime('%Y-%m-%d') + 'T' + date.strftime('%H:%M:%S') + 'Z\"\n'
+        date_string = '---\ndate: \"' + date.strftime('%Y-%m-%d') + 'T' + date.strftime('%H:%M:%S') + 'Z\"'
         post_file = file.replace("---", date_string, 1)
 
     yearPath = os.getcwd() + '/content/blog/' + str(date.year) + '/'
