@@ -19,16 +19,17 @@ def posted_today():
     See if sites rss feed has a post with today's date
     :return: Boolean
     """
+    today_date = datetime.date.today()
     # TODO: make this take an env variable
     resp = urllib.request.urlopen("https://jonnyspicer.com/index.xml").read()
     soup = bs.BeautifulSoup(resp, "lxml")
-    publish_date_string = soup.find(
-        'channel').find('item').find('pubdate').text
-    publish_date = datetime.datetime.strptime(
-        publish_date_string, '%a, %d %b %Y %H:%M:%S %z').date()
-    today_date = datetime.date.today()
+    publish_date_nodes = soup.find_all('pubdate')
+    for date in publish_date_nodes:
+        publish_date = datetime.datetime.strptime(date.text, '%a, %d %b %Y %H:%M:%S %z').date()
+        if publish_date == today_date:
+            return True
 
-    return publish_date == today_date
+    return False
 
 
 def publish_post():
@@ -84,8 +85,6 @@ def format_draft():
 
 
 draft_to_publish = choose_draft()
-
-print(posted_today())
 
 if __name__ == '__main__' and not posted_today():
     format_draft()
