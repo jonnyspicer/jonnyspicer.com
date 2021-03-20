@@ -15,15 +15,14 @@ tags:
 ---
 After a week of checking that none of the basics seemed to be on fire after my migration to Hugo and AWS Amplify, today I had the chance to begin playing around with some of the CI/CD actions
 I mentioned in my previous post. I started off by trying to get a Python script to run during
-the Amplify build pipeline - the wordcount script that you can see [here.](https://github.com/jonnyspicer/jonnyspicer.com/blob/main/wordcount.py) It's a bit of a mess right now, but what it
-does is loop through all my posts, count how many words there are, and then update the homepage
-with the post count and the word count. I am quite confident that the word count it generates
-is more accurate than Hugo's built-in ```Page.FuzzyWordCount```, but it does mean that I have
-lost about 50000 words simply by counting them more accurately.
+the Amplify build pipeline - the wordcount script that you can see [here.](https://github.com/jonnyspicer/jonnyspicer.com/blob/main/wordcount.py) It's a bit of a mess right now, but when executed it will loop through all my posts, count how many words there are, and then update the homepage
+with both the post count and the word count. I am quite confident that the word count it generates
+is more accurate than Hugo's built-in ```Page.FuzzyWordCount```, but it does mean that I've
+lost about 50,000 words simply by counting them more accurately.
 
-There are two options for running a Python script during an Amplify build, either to use a
+There are two options for running a Python script during an Amplify build; either to use a
 different build image with Python pre-installed or to install Python and any necessary
-dependencies every time the build is run. Given I have virtually no experience with Docker
+dependencies in the build environment every time its run. Given I have virtually no experience with Docker
 I ruled out with the first option, and went for the second one, with the obvious drawback of
 slower build times. My ```amplify.yml``` looks as follows:
 
@@ -58,21 +57,21 @@ frontend:
     paths: []
 ```
 
-As you can see, Python is installed in the build stage and then the Python script is executed
+As you can see, Python is installed in the build stage and then the script is executed
 before Hugo is built. In the repo the variables for post count and word count are always 0;
-they are only ever populated before the build on AWS.
+they are only ever populated before the build by AWS.
 
 The next thing I wanted to do was to get a safety net setup in case I forget to write a post one
 day, akin to Ted's [backup_poster.py script](https://github.com/sted9000/sted9000.github.io/blob/master/backup_poster.py) which I edited to work with my own repo.
-The script:
+You can see my version [here.](https://github.com/jonnyspicer/jonnyspicer.com/blob/main/safety_net.py) The script will:
 
-- Parses this site's [RSS feed,](/index.xml)
-- Tries to find an item with a ```pubdate``` of today
-- If it can't, looks for a draft in ```/content/drafts/queued```
-- If it finds one, reads it, then writes the content with an updated date into the correct post directory, using mostly the same code as the ```new.py``` script.
+- Parse this site's [RSS feed,](/index.xml)
+- Try to find an item with a ```pubdate``` of today
+- If it can't, look for a draft in ```/content/drafts/queued```
+- If it finds one, read it, then write the content with an updated date into the correct post directory, using mostly the same code as the ```new.py``` script.
 
-At the moment this is run by a cronjob that runs at 23:30 every day that is
-run using GitHub Actions. This is how the workflow looks:
+At the moment this is on a cron that runs at 23:30 every day
+utilizing GitHub Actions. This is how the workflow looks:
 
 ```yml
 name: safety_net
@@ -104,10 +103,10 @@ jobs:
 
 Obvious this means I have now split my pipeline into two, across two separate
 platforms, which is... bad. I will move the cron from GitHub to AWS at some
-point, it was just easier to get setup on GitHub while that is where I'm
-hosting the code. As far as I know the best way to run it will be to use a
-Lambda function hooked up to a CloudWatch alarm to fire at regular intervals,
-like a cron, which seems like a lot of effort.
+point, it was just easier to it get setup on GitHub while that's where I'm
+hosting the code. As far as I know the best way to run it on AWS will be to use a
+Lambda function hooked up to a CloudWatch alarm which fires at regular intervals,
+like a cron, however this approach seems like a lot of effort.
 
 Once I do move it across though, I plan to get another cron setup to email me
 at a certain time in the evening to remind me if I haven't written a post
@@ -116,5 +115,5 @@ build status updates, but under the hood all it is doing is creating an SNS
 topic that you can subscribe to. I plan to have a Lambda fire at say 20:00 daily,
 and publish a new event to the same SNS topic if there is no new post to be found.
 
-There is plenty more cool DevOps features I want to build in the future, but I
+There are plenty more cool DevOps features I want to build in the future, but I
 am very happy with the start I've made so far.
