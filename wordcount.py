@@ -95,6 +95,14 @@ else:
 
 print('Postcount:' + str(postcount))
 
+with open('content/_index.md', 'r') as homepage:
+    homepageText = homepage.read()
+    homepageText = homepageText.replace('wordcount: 0', f'wordcount: {wordcount}')
+    homepageText = homepageText.replace(
+        'postcount: 0', f'postcount: {postcount}')
+with open('content/_index.md', 'w') as homepage:
+    homepage.write(homepageText)
+
 # sorting dictionaries is unnecessarily difficult in python
 # sortedtuples = sorted(uniquewords.items(), reverse=True, key=lambda x: x[1])
 # sortedwords = dict()

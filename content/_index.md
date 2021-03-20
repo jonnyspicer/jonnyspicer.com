@@ -4,6 +4,8 @@ title: "Home"
 description: "The home page for Jonny Spicer; software engineer, mental health advocate, blogger, climber, runner"
 menu: "main"
 weight: "1"
+wordcount: 0
+postcount: 0
 ---
 I'm a habitual oversharer, yo-yo-dieter and pretentious-indie-bedroom-rock enthusiast.
 
