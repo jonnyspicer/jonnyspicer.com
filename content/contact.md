@@ -1,5 +1,6 @@
 ---
 type: "static"
+date: "2021-03-13T00:00:00Z"
 page: "static/single.html"
 title: "Contact"
 description: "Ways to get in contact with Jonny Spicer"

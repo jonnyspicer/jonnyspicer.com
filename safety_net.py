@@ -85,6 +85,8 @@ def format_draft():
 
 draft_to_publish = choose_draft()
 
+print(posted_today())
+
 if __name__ == '__main__' and not posted_today():
     format_draft()
     publish_post()

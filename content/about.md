@@ -1,5 +1,6 @@
 ---
 type: "static"
+date: "2021-03-13T00:00:00Z"
 title: "About"
 description: "About Jonny Spicer, software engineer, mental health advocate, blogger, climber, runner"
 menu: "main"

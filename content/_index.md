@@ -1,5 +1,6 @@
 ---
 type: "page"
+date: "2021-03-13T00:00:00Z"
 title: "Home"
 description: "The home page for Jonny Spicer; software engineer, mental health advocate, blogger, climber, runner"
 menu: "main"
