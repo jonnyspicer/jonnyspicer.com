@@ -2,12 +2,12 @@ import os
 import re
 import csv
 from glob import glob
-import nltk
+# import nltk
 import string
 import regex
-import pandas as pd
+# import pandas as pd
 from bs4 import BeautifulSoup
-from textblob import TextBlob
+# from textblob import TextBlob
 
 # TODO:
 # - strip anything in head/header/footer for old html posts
@@ -57,26 +57,26 @@ for post in posts:
             # removes anything that isn't an alphabetical character and casts the remaining string to lowercase
             text = regex.sub(nonalphabeticalremover, ' ', text).lower()
 
-            blob = TextBlob(text)
+            # blob = TextBlob(text)
 
-            sentiments.update({ filename: blob.sentiment.polarity})
-            wordsperpost.update({ filename: len(text.split())})
+            # sentiments.update({ filename: blob.sentiment.polarity})
+            # wordsperpost.update({ filename: len(text.split())})
 
             wordcount += len(text.split())
 
             postcount += 1
 
             # nltk stemming/token magic from http://ryancompton.net/2014/06/06/statistical-features-of-infinite-jest/
-            tokens = nltk.word_tokenize(text)
-            stemmer = nltk.stem.PorterStemmer()
-            stemmed_tokens = map(lambda x: stemmer.stem(x), tokens)
+            # tokens = nltk.word_tokenize(text)
+            # stemmer = nltk.stem.PorterStemmer()
+            # stemmed_tokens = map(lambda x: stemmer.stem(x), tokens)
 
-            for token in stemmed_tokens:
-                if token in stems:
-                    newVal = stems.get(token) + 1
-                    stems.update({token: newVal})
-                else:
-                    stems.update({token: 1})
+            # for token in stemmed_tokens:
+            #     if token in stems:
+            #         newVal = stems.get(token) + 1
+            #         stems.update({token: newVal})
+            #     else:
+            #         stems.update({token: 1})
 
             for word in text.split():
                 if word in uniquewords:
