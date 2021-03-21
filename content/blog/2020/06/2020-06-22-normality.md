@@ -7,7 +7,7 @@ date: "2020-06-22T00:00:00Z"
 categories:
 - COVID19
 title: Normality
-series: Lockdown
+series: ["Lockdown"]
 ---
 I am incredibly fortunate to live in a place where the majority of the governmental restrictions put into place to limit the spread of COVID-19 have now been eased. The only significant practical difference between now and February is that our
 borders are still shut, but we can now go to gyms, pubs and protests freely. There's been a lot of talk about the virus being an opportunity to change, for us not to return to the normality we inhabited previously and instead to forge a better status quo. With that in mind, in a way I am a little scared to enter this
