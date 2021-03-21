@@ -59,7 +59,8 @@ def format_draft():
     with open(draft_to_publish, 'r') as draft:
         file = draft.read()
         date_string = '---\ndate: \"' + date.strftime('%Y-%m-%d') + 'T' + date.strftime('%H:%M:%S') + 'Z\"'
-        post_file = file.replace("---", date_string, 1)
+        insert = date_string + '\ntype: blog'
+        post_file = file.replace("---", insert, 1)
 
     yearPath = os.getcwd() + '/content/blog/' + str(date.year) + '/'
 
