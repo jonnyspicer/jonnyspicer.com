@@ -22,7 +22,7 @@ jobs:
 
       - name: install bs4
         run: |
-          python -m pip install --user beautifulsoup4
+          python -m pip install --user beautifulsoup4 GitPython
 
       - name: Run a multi-line script
         run: |
