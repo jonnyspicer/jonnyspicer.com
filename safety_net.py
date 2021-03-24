@@ -27,6 +27,7 @@ def posted_today():
     for date in publish_date_nodes:
         publish_date = datetime.datetime.strptime(date.text, '%a, %d %b %Y %H:%M:%S %z').date()
         if publish_date == today_date:
+            print("There's already been a blog published today")
             return True
 
     return False
