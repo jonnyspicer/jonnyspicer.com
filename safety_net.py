@@ -20,6 +20,7 @@ def posted_today():
     :return: Boolean
     """
     today_date = datetime.date.today()
+    print(today_date.strftime('%H:%M:%S'))
     # TODO: make this take an env variable
     resp = urllib.request.urlopen("https://jonnyspicer.com/index.xml").read()
     soup = bs.BeautifulSoup(resp, "lxml")
