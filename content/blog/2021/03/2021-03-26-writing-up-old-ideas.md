@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "Writing Up Old Ideas"
 categories:
 - Blogging
+series: ["Writing Up Old Ideas"]
 ---
 I have a Trello list of ideas for blog posts that I've had since 2018, and even after much pruning of the list and posting of blogs, there are still some cards in it that're almost
 3 years old. I really want to force myself to at least make a dent in it, because past a certain point maintaining the list will be unmanageable and pointless, and perhaps I'm already
