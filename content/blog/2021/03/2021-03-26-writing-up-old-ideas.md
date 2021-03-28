@@ -18,9 +18,9 @@ what you have to look forward to for the next 10 days on the blog, courtesy of [
 - #12; Jealousy
 - #108; TV ads
 - #41; The same advice from different people
-- #71; Death
+- [#71; Death](/blog/writing-up-old-ideas-iii-death/)
 - #84; Problematic relationships to fictional characters
-- #69; The comfort & complacency of living in Guernsey
+- [#69; The comfort & complacency of living in Guernsey](/blog/writing-up-old-ideas-ii-the-comfort-complacency-of-living-in-guernsey/)
 - #47; How to connect with people without social media
 - #138; Money
 - #80; Adjusting for one's biases
