@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-27T00:00:00Z"
 categories:
-- Health and Fitness
+- Diet and Fitness
 title: Size Medium
 ---
 After years of buying size large shirts, I decided to optimistically get a medium off the
