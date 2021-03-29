@@ -17,7 +17,7 @@ seems to require the tragedy of somebody actually dying for many people to ackno
 feel prepared for the death of anybody around me, even after having experienced it before. I have no idea how I'm going to grieve or heal or any of it, which doesn't seem especially helpful, but then again perhaps
 everybody deals with those situations differently, and there really is nothing to do apart from figure it out on my own, once it happens.
 
-I'm currently reading [*Meditations*](https://en.wikipedia.org/wiki/Meditations) and if there's one thing Marcus Aurelius loves banging on about, it's that everybody, no matter how wise, powerful or physically fit
+I'm currently reading *[Meditations](https://en.wikipedia.org/wiki/Meditations)* and if there's one thing Marcus Aurelius loves banging on about, it's that everybody, no matter how wise, powerful or physically fit
 they might be, dies in the end. Every great person that came before you has already died, and every great person that stands beside you will die too. Perhaps in the future, scientists will figure immortality out, but
 right now, our eventual death is one of the few things that we share in common with every single human being on earth. In terms of how we personally think about our collective mortality, I think there's two distinct
 sides of the coin to consider; our own death and the death of others.
