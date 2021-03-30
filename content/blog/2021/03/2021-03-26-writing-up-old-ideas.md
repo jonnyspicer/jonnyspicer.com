@@ -16,12 +16,12 @@ to restrict myself to doing them in a specific order; I'll pick 10 now, and then
 what you have to look forward to for the next 10 days on the blog, courtesy of [randomnumbergenerator.com:](randomnumbergenerator.com)
 
 - #12; Jealousy
-- #108; TV ads
+- [#108; TV ads](/blog/writing-up-old-ideas-v-tv-ads/)
 - #41; The same advice from different people
 - [#71; Death](/blog/writing-up-old-ideas-iii-death/)
 - #84; Problematic relationships to fictional characters
 - [#69; The comfort & complacency of living in Guernsey](/blog/writing-up-old-ideas-ii-the-comfort-complacency-of-living-in-guernsey/)
-- #47; How to connect with people without social media
+- [#47; How to connect with people without social media](/blog/writing-up-old-ideas-iv-how-to-connect-with-people-without-social-media/)
 - #138; Money
 - #80; Adjusting for one's biases
 - #90; The link between food and mood
