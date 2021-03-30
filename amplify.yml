@@ -19,7 +19,7 @@ frontend:
       commands:
         - python3.8 -m pip install --user beautifulsoup4
         - python3.8 wordcount.py
-        - hugo
+        - hugo --ignoreCache
   artifacts:
     baseDirectory: public
     files:
