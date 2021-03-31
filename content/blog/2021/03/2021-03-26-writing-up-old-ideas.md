@@ -19,7 +19,7 @@ what you have to look forward to for the next 10 days on the blog, courtesy of [
 - [#108; TV ads](/blog/writing-up-old-ideas-v-tv-ads/)
 - #41; The same advice from different people
 - [#71; Death](/blog/writing-up-old-ideas-iii-death/)
-- #84; Problematic relationships to fictional characters
+- [#84; Problematic relationships to fictional characters](/blog/writing-up-old-ideas-vi-problematic-relationships-to-fictional-characters/)
 - [#69; The comfort & complacency of living in Guernsey](/blog/writing-up-old-ideas-ii-the-comfort-complacency-of-living-in-guernsey/)
 - [#47; How to connect with people without social media](/blog/writing-up-old-ideas-iv-how-to-connect-with-people-without-social-media/)
 - #138; Money
