@@ -1,6 +1,6 @@
 ---
 type: blog
-date: "2021-04-01T20:59:16Z"
+date: "2021-04-01T19:59:16Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas VII: The Same Advice From Different People"
 categories:
