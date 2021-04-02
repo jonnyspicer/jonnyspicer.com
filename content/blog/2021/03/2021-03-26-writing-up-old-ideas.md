@@ -15,7 +15,7 @@ blog about that idea, whatever it may be. Some of them are incredibly broad topi
 to restrict myself to doing them in a specific order; I'll pick 10 now, and then do the ones deserving of the most care and attention at the weekends. Without further a day, here is
 what you have to look forward to for the next 10 days on the blog, courtesy of [randomnumbergenerator.com:](randomnumbergenerator.com)
 
-- #12; Jealousy
+- [#12; Jealousy](/blog/writing-up-old-ideas-viii-jealousy/)
 - [#108; TV ads](/blog/writing-up-old-ideas-v-tv-ads/)
 - [#41; The same advice from different people](/blog/writing-up-old-ideas-vii-the-same-advice-from-different-people)
 - [#71; Death](/blog/writing-up-old-ideas-iii-death/)

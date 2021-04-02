@@ -1,10 +1,10 @@
-import datetime
+from datetime import datetime, timedelta
 import re
 import os
 import sys
 import subprocess
 
-date = datetime.datetime.now()
+date = datetime.now() - timedelta(hours = 1)
 
 name = input('What\'s the title of your blog post?')
 categories = input(
