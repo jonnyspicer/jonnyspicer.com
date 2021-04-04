@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-19T00:00:00Z"
 categories:
-- Social Issues
+- Allyship
 title: Changing The Dialogue
 ---
 I've been struggling recently with the feeling that I am getting good at talking on the blog about how I want to make changes/make

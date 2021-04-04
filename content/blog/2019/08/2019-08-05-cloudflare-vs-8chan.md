@@ -6,7 +6,7 @@ type: blog
 date: "2019-08-05T00:00:00Z"
 categories:
 - The Web
-- Social Issues
+- Allyship
 title: Cloudflare vs 8chan
 ---
 This morning, [Cloudflare announced](https://new.blog.cloudflare.com/terminating-service-for-8chan/) that they would no longer be providing their services to the 'free speech'-centric message board 8chan, a move that will fairly inevitably lead to it being DDoSed and booted off the internet for some short amount of time. This was Cloudflare's response to the two recent mass shootings in the state, with at least one of the shooters appearing to have posted his 'manifesto' to 8chan.

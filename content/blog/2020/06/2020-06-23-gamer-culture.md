@@ -7,7 +7,7 @@ date: "2020-06-23T00:00:00Z"
 categories:
 - Esports
 - Feminism
-- Social Issues
+- Allyship
 - Featured
 title: Gamer Culture
 ---

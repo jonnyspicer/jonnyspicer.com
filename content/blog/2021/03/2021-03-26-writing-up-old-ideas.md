@@ -22,8 +22,8 @@ what you have to look forward to for the next 10 days on the blog, courtesy of [
 - [#84; Problematic relationships to fictional characters](/blog/writing-up-old-ideas-vi-problematic-relationships-to-fictional-characters/)
 - [#69; The comfort & complacency of living in Guernsey](/blog/writing-up-old-ideas-ii-the-comfort-complacency-of-living-in-guernsey/)
 - [#47; How to connect with people without social media](/blog/writing-up-old-ideas-iv-how-to-connect-with-people-without-social-media/)
-- #138; Money
-- #80; Adjusting for one's biases
+- [#138; Money](/blog/writing-up-old-ideas-ix-money/)
+- [#80; Adjusting for my biases](/blog/writing-up-old-ideas-x-adjusting-for-my-biases)
 - #90; The link between food and mood
 
 Obviously "death" and "money" could be quite far-ranging, and for those two cards I didn't even leave myself any further notes, it was literally just a one word idea. Jealousy could

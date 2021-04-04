@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-07T00:00:00Z"
 categories:
-- Social Issues
+- Allyship
 title: Other Perspectives
 ---
 One of the things I've become acutely aware of in the past few months is that, as a white man, I can always take up 100% of the space in a conversation if I want to. It's been a

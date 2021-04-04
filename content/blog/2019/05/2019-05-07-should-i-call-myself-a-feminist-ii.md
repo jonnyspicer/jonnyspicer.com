@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-07T00:00:00Z"
 categories:
-- Social Issues
+- Allyship
 title: Should I Call Myself a Feminist II
 series: ["Should I Call Myself a Feminist"]
 ---
