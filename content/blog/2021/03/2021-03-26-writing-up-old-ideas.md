@@ -24,7 +24,7 @@ what you have to look forward to for the next 10 days on the blog, courtesy of [
 - [#47; How to connect with people without social media](/blog/writing-up-old-ideas-iv-how-to-connect-with-people-without-social-media/)
 - [#138; Money](/blog/writing-up-old-ideas-ix-money/)
 - [#80; Adjusting for my biases](/blog/writing-up-old-ideas-x-adjusting-for-my-biases)
-- #90; The link between food and mood
+- [#90; The link between food and mood](/blog/writing-up-old-ideas-xi-the-link-between-food-and-mood)
 
 Obviously "death" and "money" could be quite far-ranging, and for those two cards I didn't even leave myself any further notes, it was literally just a one word idea. Jealousy could
 also be a juicy one, and writing about some of the problems I perceive with living in Guernsey feels timely given my imminent departure. And I hope you're all excited for my

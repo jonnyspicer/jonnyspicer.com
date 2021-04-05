@@ -13,7 +13,7 @@ trying to take. It's something that I don't feel like I'm doing an especially go
 
 Attempting to adjust for my biases requires re-examining every single interaction I have with another person, and consciously evaluating whether I would speak, act or feel differently
 were the person or people involved of a different race, gender or sexuality. It might sound like that's a lot of work, but once I started doing it and realised how often the answer is "yes",
-it became a lot easier to be attentive to its necessity. It's not just treating everybody exactly the same, regardless of their demographic either; for instance its important to be cognizant of a female colleague at 
+it became a lot easier to be attentive to its necessity. It's not just treating everybody exactly the same, regardless of their demographic either; for instance its important to be cognizant of a female colleague at
 work being more likely to be spoken over or undervalued by our males peers, and so when necessary speaking up for her more readily than a man. These however are
 the kinds of differences I have historically been very ignorant of, and I'm acutely aware that there are many similar ones where I still am ignorant; so I have to educate myself.
 Being mindful of how my interactions are in the moment is a start, but only a small one, and it's this self-education that I'm hopefully will allow me to further mitigate my biases
