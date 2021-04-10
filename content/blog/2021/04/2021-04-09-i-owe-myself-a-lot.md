@@ -15,8 +15,8 @@ together enough self esteem that I'm not so afraid of that.
 Which brings me onto my next thought; I owe myself a lot. I've been this way for a very long time, I've been incredibly harsh on myself for as long as I can remember, but the reasons for being that way seem like
 they might finally be shifting. I'm not going to turn into one of these "love myself despite all my many imperfections" type people because I think they're super obnoxious, and it's not like any of you would believe
 me anyway, but I have had a small taste of self compassion, and now I would like more. I'm aiming for neither self-love nor self-hatred, instead some kind of middleground of self-ambivalence which lets me simply
-get on with my life without spending too much energy thinking about whether I'm a good or a bad person. In order to get there though, I have a long history of self hatred, and to balance it back to net neutral is
-going to take my years of being kinder to myself.
+get on with my life without spending too much energy thinking about whether I'm a good or a bad person. In order to get there though, I have to overcome a long history of self hatred, and to balance it back to net
+neutral is going to take years of being kinder to myself.
 
 I'd always been terrified of being labelled as selfish, either in my own mind or on the tongues of others, but now that's my goal; I want to be more selfish. Obviously not *too* selfish; ideally still achieving the
 latter of my aforementioned goals of not being branded as selfish by anyone else, but selfish enough in that I put my own interests first. Selfishness feels good; doing what I want to do feels good, saying no to
