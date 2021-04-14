@@ -7,6 +7,7 @@ date: "2020-09-08T00:00:00Z"
 categories:
 - Chess
 title: Return of the Candidates
+series: ["Candidates 2020"]
 ---
 Another exhausting day, and I really ought to go to bed, but I also need to avoid losing any more crypto by not writing a blog post, so all I really have to say is how excited I am
 that dates for the second half of the [FIDE Candidates Tournament](/blog/candidates-controversy) has been announced. I've been missing chess super

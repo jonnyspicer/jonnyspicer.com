@@ -7,6 +7,7 @@ date: "2020-03-17T00:00:00Z"
 categories:
 - Chess
 title: Candidates Controversy
+series: ["Candidates 2020"]
 ---
 Today the FIDE Candidates Tournament plays its first round, situated in Yekaterinburg, Russia. It has already been a... tumultuous event.
 
