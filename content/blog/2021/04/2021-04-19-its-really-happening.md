@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "It's Really Happening"
 categories:
 - Personal
+series: ["Moving To London"]
 ---
 Today I did something I haven't done in over a year; booked a flight. The flight in question is a one way from Guernsey to London Gatwick, complete with the eye-wateringly expensive
 addition of two large hold bags, into which I am going to fit my entire life. Moving to the capital no longer seems too far away to be tangible, instead it's almost upon me, and it's
