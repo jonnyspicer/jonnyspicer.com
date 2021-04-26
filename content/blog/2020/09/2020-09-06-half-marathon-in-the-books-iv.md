@@ -7,7 +7,7 @@ date: "2020-09-06T00:00:00Z"
 categories:
 - Running
 title: Half marathon in the books IV
-series: ["Half Marathon in the Books"]
+series: ["Marathons"]
 ---
 This year was my second attempt at the Guernsey half marathon, and I have to say, I enjoyed this one a whole lot more. Despite being very worried I was undertrained, I didn't suffer
 anywhere near as much as I did last year, and I'd even go as far as to say I enjoyed the majority of it.

@@ -7,7 +7,7 @@ date: "2019-06-10T00:00:00Z"
 categories:
 - Running
 title: Half marathon in the books II
-series: ["Half Marathon in the Books"]
+series: ["Marathons"]
 ---
 Yesterday I lied, albeit accidentally - is it still lying if you belive it to be true at the time? Either way, today I decided to renege
 on my vow to just train for the 10k and not do any more runs much past that, and signed up for the Fathers' Day Half Marathon on Sunday.

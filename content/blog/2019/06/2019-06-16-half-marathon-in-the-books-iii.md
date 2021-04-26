@@ -7,7 +7,7 @@ date: "2019-06-16T00:00:00Z"
 categories:
 - Running
 title: Half marathon in the books III
-series: ["Half Marathon in the Books"]
+series: ["Marathons"]
 ---
 After [signing up on Monday](/blog/half-marathon-in-the-books-ii), today was the day, and I lined up at L'Eree with over
 800 other people to run the 13.1 miles around the top half of the island before being back to town. I previously wrote that I was hoping

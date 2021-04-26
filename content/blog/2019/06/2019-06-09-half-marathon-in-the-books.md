@@ -7,7 +7,7 @@ date: "2019-06-09T00:00:00Z"
 categories:
 - Running
 title: Half marathon in the books
-series: ["Half Marathon in the Books"]
+series: ["Marathons"]
 ---
 This morning I set out on a long run with a fairly ambitious route planned, and despite not quite making it the whole way (more on that later),
 I did still manage to make it 21km, my longest run to date and the length of a half marathon, give or take 100m or so. When I stopped, about 3km
