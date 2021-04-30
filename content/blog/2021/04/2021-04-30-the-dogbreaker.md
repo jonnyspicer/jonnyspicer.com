@@ -5,8 +5,7 @@ author: Jonny Spicer
 title: "The Dogbreaker"
 categories:
 - Running
-tags:
-- Marathons
+series: ["Marathons"]
 ---
 The Dogbreaker is a trail running race in Guernsey, which starts in town before traversing the entirety of the cliff paths from the south east to the south west of the island, finishing at Portelet. It's just over
 25km in distance, with just under 1km of vertical gain. The race is so named because allegedly, upon completing the distance (I believe at some point in the 70s), some local legend of Guernsey running declared
