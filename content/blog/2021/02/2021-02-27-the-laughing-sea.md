@@ -7,6 +7,7 @@ date: "2021-02-27T00:00:00Z"
 categories:
 - Misc
 title: The Laughing Sea
+series: ["The Laughing Sea"]
 ---
 In [Siddhartha,](/blog/2021-book-reviews-ii) one of the passages that struck me the most was the description of the titular character's relationship
 the river, on which he was a ferryman. Having already lived as a Brahmin, then an ascetic, then a rich man, his simple existence on the river at the end of his life was the final stage
