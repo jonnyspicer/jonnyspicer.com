@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "The Imminent Office"
 categories:
 - Misc
+series: ["Moving To London"]
 ---
 This month, our office has optionally re-opened to employees for the first time in over a year.
 Obviously I'm still very much in the wrong geographic location in order to take advantage of
