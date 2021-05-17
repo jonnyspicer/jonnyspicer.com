@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "Tower Bridge Lunch Reviews"
 categories:
 - Food
+series: ["Tower Bridge Lunch Reviews"]
 ---
 While I said the other day my anxiety hasn't stopped me from doing too much, it has stopped me maximising my lunch options in the last week. When I'm in the office, there are a number of great
 looking places around that I'd love to try, but when compared with the option of M&S self-checkout, the comfort of familiarity and desire to minimise human interaction always get the better of
