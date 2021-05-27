@@ -1,0 +1,8 @@
+---
+type: blog
+date: "2021-05-27T17:26:02Z"
+author: Jonny Spicer
+title: "Shorts Weather"
+categories:
+- Misc
+---
