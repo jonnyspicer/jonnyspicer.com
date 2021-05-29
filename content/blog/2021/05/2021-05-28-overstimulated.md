@@ -6,6 +6,7 @@ title: "Overstimulated"
 categories:
 - Personal
 - Wellbeing
+series: ["Overstimulated"]
 ---
 There's a lot going on in London; sounds, sights, smells and of course an abundance of tastes. In my brief experience so far, it's an intense place to live.
 I've also got back into the habit of picking up my phone every 5 minutes and scrolling on Instagram. I've eaten too much and not slept enough recently; all
