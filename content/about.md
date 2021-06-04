@@ -10,8 +10,8 @@ I was born and raised on the beautiful island of Guernsey (part of which is pict
 and spills, the most exciting of which was playing poker full time in 2017. Since then I've finally managed to channel the endless hours I've spent at a computer during my lifetime
 into something positive, which is going surprisingly well as I'm currently a software engineer at [Zoopla](https://zoopla.co.uk).
 
-I play chess, enjoy climbing and running, and I'm trying really hard to be one of those people that reads a lot of books so I can seem smart when I go on dates. Fortunately, I never
-go on any dates.
+I play chess, enjoy climbing and running, and I'm trying really hard to be one of those people that reads a lot of books so I can seem smart when I go on dates. Fortunately, I very rarely
+go on dates.
 
 At the moment I am primarily working with Golang and the AWS Serverless stack, but I also have experience with C#, JavaScript, Python and HTML/CSS. I'm completely self-taught and have
 always found the best way for me to learn a language or a technology has been to get stuck in and build something, even if it sucks. Which it always does, to start.
