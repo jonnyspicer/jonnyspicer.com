@@ -7,7 +7,7 @@ categories:
 - Misc
 series: ["Moving to London"]
 ---
-One of hte things I was particularly looking forward to about London was the sense of anonymity. In Guernsey, you see someone you know around every corner, and that leads to a sense of
+One of the things I was particularly looking forward to about London was the sense of anonymity. In Guernsey, you see someone you know around every corner, and that leads to a sense of
 feeling watched & judged, and having to perform and conform 100% of the time you're out in public. Obviously, I hated that, but I thought London would be different.
 
 And obviously it is, by and large. But I have already bumped into three people from Guernsey that I know, and I've only been here 15 days. The first was the brother of someone in my
