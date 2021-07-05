@@ -7,7 +7,7 @@ categories:
 - Running
 series: ["Marathons"]
 ---
-Today I ran my first with-other-people marathon, along the North Downs Way. Actually I ran a bit more than a marathon due to taking an unplanned detour, so
+Today I ran my first [with-other-people marathon](https://www.strava.com/activities/5574231054#kudos), along the North Downs Way. Actually I ran a bit more than a marathon due to taking an unplanned detour, so
 it was more like 45km in the end - but at least I learned a valuable lesson to follow the course rather than follow the guy in front of you.
 
 I have been anxious about the race all week, with this training block not having gone how I'd planned it at all, and waking up in my hotel room in Reigate
