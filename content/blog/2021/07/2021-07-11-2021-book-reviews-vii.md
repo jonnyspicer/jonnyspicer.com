@@ -58,4 +58,4 @@ This book will make you smile, then it will make you think, then it will make yo
 close to giving off the impression that he's given up hope that anything better is possible - writing strange and silly novels seems to be the only thing he
 thinks might move the dial, despite him knowing it's unlikely. Everything else seems to have failed, and Vonnegut seems weary of the world, instead trying to
 find some amusement in it, so he might at least enjoy himself while everyone else suffers. Perhaps it's not a surprising position for him to take given his
-veterancy. The book is also a banger, and you should read it.
+veteran status. The book is also a banger, and you should read it.
