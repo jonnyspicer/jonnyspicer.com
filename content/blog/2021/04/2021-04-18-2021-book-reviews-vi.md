@@ -2,7 +2,7 @@
 type: blog
 date: "2021-04-18T15:38:23Z"
 author: Jonny Spicer
-title: "2021 Book Reviews 2021"
+title: "2021 Book Reviews VI"
 categories:
 - Books
 series: ["Book Reviews"]
