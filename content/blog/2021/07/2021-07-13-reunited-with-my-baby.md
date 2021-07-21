@@ -2,7 +2,7 @@
 type: blog
 date: "2021-07-13T20:06:26Z"
 author: Jonny Spicer
-title: "Reuinted With My Baby"
+title: "Reunited With My Baby"
 categories:
 - Personal
 ---
