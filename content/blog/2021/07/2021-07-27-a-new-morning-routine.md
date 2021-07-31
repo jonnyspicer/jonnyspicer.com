@@ -10,7 +10,7 @@ My morning routine currently consists of approximately the following:
 
 - **07:00** My alarm goes off. I am ripped from the peaceful embrace of slumber. My day begins by immediately questioning my life choices.
 - **07:05** Lie awake in bed, desperately trying to summon willpower to stand up and not go back to sleep. Fifty fifty chance of success.
-- **07:10** Pace up and down between bedroom and kitchen, trying to work out what I can do definitely to not feel like I've awoken out of a coma every single morning.
+- **07:10** Pace up and down between bedroom and kitchen, trying to work out what I can do differently to not feel like I've awoken out of a coma every single morning.
 - **07:20** Sit down to pee. Despite further bathroom operations not being required, remain rooted in place for a full ten minutes. Contemplate the crushing weight of the existential dread that befalls me, while sat in the cold and dark. Turning on the light turns on the extractor fan, and I can't bear the sound of it yet. Having deleted Instagram off my phone, I constantly close and re-open Strava, hating myself a little bit more each time I do it.
 - **07:30** More pacing. Become progressively more baffled by how earlier in the year I managed to do yoga or go running first thing every morning. Seriously consider taking the morning off work so I can wallow in self pity in my bed for another 5 hours.
 - **07:40** Self hatred intensifies as I've already frittered away 5% of my waking hours today, and inevitably will not have the time to complete everything I'd hoped to. Realise making coffee is the only thing that can save me now.
