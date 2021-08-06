@@ -7,6 +7,7 @@ date: "2020-06-26T00:00:00Z"
 categories:
 - Personal
 title: I Hate It When People Are Nice To Me
+series: ["I Hate It When People Are Nice To Me"]
 ---
 I think I've talked about this before, but equally I can't find it, so here it is again.
 
