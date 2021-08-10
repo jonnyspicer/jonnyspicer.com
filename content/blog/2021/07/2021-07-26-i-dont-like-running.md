@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "I Don't Like Running"
 categories:
 - Running
+series: ["I Don't Like Running"]
 ---
 I have heard a lot of people justify their choice to be runners with some variation of the line "I don't like running, I just really hate *not* running", and
 that sentiment certainly resonates with me. I picked up what I hope is a small, inconsequential calf injury doing track last week, and so ended up not doing
