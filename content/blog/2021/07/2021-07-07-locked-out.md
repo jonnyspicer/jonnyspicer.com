@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "Locked Out"
 categories:
 - Misc
+series: ["Locked Out"]
 ---
 Today I locked myself out of my flat, which was bound to happen at some point. I didn't sleep well, was distracted in the morning and simply walked out
 the door with my keys still on the kitchen table. I was in fact so distracted that I didn't even notice until lunchtime.
