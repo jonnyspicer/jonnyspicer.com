@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "Fear of Falling"
 categories:
 - Climbing
+series: ["Fear of Falling"]
 ---
 As part of thinking about some of the next set of [goals](/blog/20201-goals-iii) that I'd like to set, I've been thinking about what climbing aspirations I have and what I'm going to need to do in order to fulfill them. The kind of things I want to achieve all involve
 doing classic, adventurous, exposed lines, which means my mental game is going to need some serious work. That isn't desperately easy to do in the gym, but it is still something that I can work on a little, by doing the only type of gym climbs that I *do* still get scared

@@ -4,7 +4,7 @@ date: "2021-07-24T17:02:06Z"
 author: Jonny Spicer
 title: "Behind the Televeil"
 categories:
-- Films and TV
+- Film and TV
 ---
 Yesterday I was lucky enough to be part of a live audience for a comedy TV show for Dave, a UK TV channel whose slogan is "the home of
 witty banter" - I don't think this latter part requires further commentary from myself. With that being said, it was really interesting
