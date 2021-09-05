@@ -6,6 +6,7 @@ title: "Self Pity is Useless"
 categories:
 - Personal
 - Mental Health
+series: ["Self Pity is Useless"]
 ---
 I am far better than I'd like to be at pitying myself. When things don't turn out the way I want, I get stuck with a bad case of woeismeosis, and wallow in
 it endlessly. Having lived such a privileged life where things by and large have been given to me on a silver platter, I've not put the effort into
