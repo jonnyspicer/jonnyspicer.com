@@ -17,4 +17,3 @@ actually felt very good. Suddenly remembering that I can cut out so many parts o
 work on my self esteem, boundaries and overcoming anxiety, and that *doing this work will actually make a difference* is a weirdly self-fulfilling prophecy. It is quite frustrating that I seem to get distracted and lose sight of this so consistently, and I'm not entirely
 sure why that is yet, but for now I think all that matters is to keep trying to build habits that take responsibility for my mental health,
 and to persevere as long as it takes for them to stick.
- 
