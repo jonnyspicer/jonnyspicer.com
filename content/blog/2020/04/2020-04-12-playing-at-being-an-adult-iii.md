@@ -1,12 +1,12 @@
 ---
 aliases:
-- /mendokusai/2020/04/12/playing-at-being-an-adult-ii
+- /mendokusai/2020/04/12/playing-at-being-an-adult-iii
 author: Jonny Spicer
 type: blog
 date: "2020-04-12T00:00:00Z"
 categories:
 - Personal
-title: Playing at Being an Adult II
+title: Playing at Being an Adult III
 series: ["Playing at Being an Adult"]
 ---
 A year since I wrote about [playing at being an adult](/blog/playing-at-being-an-adult)

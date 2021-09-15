@@ -7,6 +7,7 @@ date: "2019-04-30T00:00:00Z"
 categories:
 - Personal
 title: Playing at Being an Adult II
+series: ["Playing at Being an Adult"]
 ---
 After some thinking and a couple of interesting conversations following [my first post on playing at being an adult](/blog/playing-at-being-an-adult),
 I am quite seriously reconsidering my position. I missed out one key advantage of being an adult, although admittedly it is something of a double edged sword.
