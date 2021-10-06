@@ -6,6 +6,7 @@ title: "Mental Health Goals"
 categories:
 - Mental Health
 - Personal
+series: ["Mental Health Goals"]
 ---
 In the time between now and the end of the year, I don't have any particular goals I am looking to accomplish - there are things next year, sure, but they seem too far away to focus on. I've felt that I need to channel the energy I usually spend pursuing whatever my
 *objectif du jour* might be into improving my mental health, and it occured to me that perhaps I need to try to think about mental health in the same way that I do, for example, running. I check [Runner's World](https://www.runnersworld.com/uk/) every day, I watch
