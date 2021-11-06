@@ -4,7 +4,7 @@ date: "2021-05-21T18:30:30Z"
 author: Jonny Spicer
 title: "Tower Bridge Lunch Reviews VI: Chilango"
 categories:
-- Food
+- Food and Drink
 series: ["Tower Bridge Lunch Reviews"]
 ---
 For the last day of my week of trying new places, it was time for Chilango, a burrito

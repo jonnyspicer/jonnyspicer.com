@@ -4,7 +4,7 @@ date: "2021-05-17T16:46:57Z"
 author: Jonny Spicer
 title: "Tower Bridge Lunch Reviews II: Leon"
 categories:
-- Food
+- Food and Drink
 series: ["Tower Bridge Lunch Reviews"]
 ---
 Today I went to [Leon](https://leon.co/) for lunch, which appealed as it's

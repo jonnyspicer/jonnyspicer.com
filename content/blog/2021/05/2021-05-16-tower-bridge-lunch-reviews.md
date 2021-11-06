@@ -4,7 +4,7 @@ date: "2021-05-16T20:42:02Z"
 author: Jonny Spicer
 title: "Tower Bridge Lunch Reviews"
 categories:
-- Food
+- Food and Drink
 series: ["Tower Bridge Lunch Reviews"]
 ---
 While I said the other day my anxiety hasn't stopped me from doing too much, it has stopped me maximising my lunch options in the last week. When I'm in the office, there are a number of great

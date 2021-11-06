@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-17T00:00:00Z"
 categories:
-- Food
+- Food and Drink
 title: An Ode to the Love Shack
 ---
 > If you see a faded sign at the end of the road that says

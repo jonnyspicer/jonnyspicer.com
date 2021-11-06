@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-07T00:00:00Z"
 categories:
-- Food
+- Food and Drink
 title: Food is Food for the Soul
 ---
 A couple of my coworkers have started drinking [Huel](https://huel.com/) as part of their diet, and for a while I seriously considered joining them. It seems like a way to

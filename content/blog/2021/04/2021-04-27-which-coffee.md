@@ -4,7 +4,7 @@ date: "2021-04-27T17:15:40Z"
 author: Jonny Spicer
 title: "Which Coffee?"
 categories:
-- Food
+- Food and Drink
 ---
 As we all know, I take everything in my life infinitely too seriously, and in keeping that theme, this week's focus of an unnecessary amount of my attention is coffee. Coffee is also one of those things that people
 can be nauseatingly pretentious about, so it suits me perfectly.

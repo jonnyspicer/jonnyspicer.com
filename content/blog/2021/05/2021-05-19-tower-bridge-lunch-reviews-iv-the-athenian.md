@@ -4,7 +4,7 @@ date: "2021-05-19T18:15:52Z"
 author: Jonny Spicer
 title: "Tower Bridge Lunch Reviews IV: The Athenian"
 categories:
-- Food
+- Food and Drink
 series: ["Tower Bridge Lunch Reviews"]
 ---
 There are a couple of Greek places within easy walking distance of the office that

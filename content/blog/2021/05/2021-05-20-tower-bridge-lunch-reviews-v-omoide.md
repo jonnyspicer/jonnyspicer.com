@@ -4,7 +4,7 @@ date: "2021-05-20T19:18:34Z"
 author: Jonny Spicer
 title: "Tower Bridge Lunch Reviews V: Omoide"
 categories:
-- Food
+- Food and Drink
 series: ["Tower Bridge Lunch Reviews"]
 ---
 Today I had the pleasure of not eating lunch solo, and instead going out to eat with

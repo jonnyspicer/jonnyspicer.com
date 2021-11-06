@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-28T00:00:00Z"
 categories:
-- Food
+- Food and Drink
 title: Ben and Jerry's
 ---
 After a very preachy post about intermittent fasting the other day, it only feels right to balance things out with an appreciation post for Ben and Jerry's ice cream. I have been

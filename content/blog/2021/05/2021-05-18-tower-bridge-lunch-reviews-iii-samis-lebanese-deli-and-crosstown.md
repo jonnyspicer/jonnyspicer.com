@@ -4,7 +4,7 @@ date: "2021-05-18T15:31:07Z"
 author: Jonny Spicer
 title: "Tower Bridge Lunch Reviews III: Sami's Lebanese Deli and Crosstown"
 categories:
-- Food
+- Food and Drink
 series: ["Tower Bridge Lunch Reviews"]
 ---
 Today I pushed the boat out and ordered from a real person, not once, but twice. Sami's Lebanese Deli is right round the corner from the office and always

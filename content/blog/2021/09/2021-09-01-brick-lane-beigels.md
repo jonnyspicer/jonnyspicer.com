@@ -4,7 +4,7 @@ date: "2021-09-01T19:40:42Z"
 author: Jonny Spicer
 title: "Brick Lane Beigels"
 categories:
-- Food
+- Food and Drink
 ---
 I've been to Brick Lane a few times since having moved to London, and every single time there been a queue out the door and down the street outside [Beigel Bake.](https://www.beigelbake.co.uk/) Brick Lane is a busy place, but nowhere else seemed to be attracting quite the
 same kind of crowd that the seemingly humble beigel shop was, so naturally it piqued my interest, and what better to do on my holiday than make another pilgrammage to Brick Lane to try to catch a quieter time.

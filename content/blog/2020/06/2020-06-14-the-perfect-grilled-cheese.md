@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-14T00:00:00Z"
 categories:
-- Food
+- Food and Drink
 title: The Perfect Grilled Cheese
 ---
 Good news, this is finally not a gratitude post. Except for the fact it is, because it is about how grateful I am that I exist in the same world as grilled cheeses (also I am not
