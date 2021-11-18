@@ -13,5 +13,5 @@ enjoyed it) but when the headline act started, the whole crowd was immediately e
 section was incredible, with tight, slick, brash solos from each member, including the piccoloist, which wasn't something I'd seen in this kind of band before. Louis himself is a remarkable funk keyboard player but transcendent drummer, and every time he moved towards his
 kit the whole crowd would whoop in anticipation. The rhythms he comes up with and seems to play so effortlessly are infectious in a way that I can't figure out, and I've never heard anyone play quite like him.
 
-Overall it was a great night, and I'm glad I'm getting to explore more of London's live music scene. The next band I have tickets to see is [Alestorm](https://www.youtube.com/watch?v=hJ_eVIZkjZE) who are notorious for being wholly unable to play their instruments live,
+Overall it was a great night, and I'm glad I'm getting to explore more of London's live music scene. The next band I have tickets to see is [Alestorm](https://www.youtube.com/watch?v=f55CqLc6IR0) who are notorious for being wholly unable to play their instruments live,
 but at least they'll be a laugh.
