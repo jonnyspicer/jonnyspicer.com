@@ -6,7 +6,7 @@ type: blog
 date: "2020-07-15T00:00:00Z"
 categories:
 - Chess
-- Software Development
+- Programming
 title: Chess Programming
 series: ["Chess Programming"]
 ---

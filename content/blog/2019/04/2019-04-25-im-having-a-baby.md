@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-04-25T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: I'm having a baby!
 ---
 By which I mean, I'm inheriting a website and I'm pretty excited.

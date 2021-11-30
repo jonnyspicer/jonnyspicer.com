@@ -7,7 +7,7 @@ date: "2019-05-15T00:00:00Z"
 categories:
 - Career
 - Technology
-- Software Development
+- Programming
 title: The Joy of Starting Over
 ---
 Starting from an entirely new tech stack this week has been challenging for reasons both numerous and obvious, but thusfar I am

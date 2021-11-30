@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-06T00:00:00Z"
 categories:
-- Software development
+- Programming
 title: Web Accessibility
 ---
 The most striking thing about accessibility on the web is that it is *terrible*. As an example, if you run [Google Flights](https://google.com/flights) through Lighthouse (Google's own tool!!), it only scores 81/100 for accessibility. Lighthouse's accessibility audit is also far from

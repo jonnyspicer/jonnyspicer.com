@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-28T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Lightbulb Moments
 ---
 The best bit about learning anything, at least in my opinion, is the lightbulb moments you get along the way. After some amount of time struggling with a concept, trying desperately to

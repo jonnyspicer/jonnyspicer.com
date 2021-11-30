@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-06T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Publishing blogs is hard
 ---
 Perhaps this post should be entitled "leaving a job half done". I have good very good at *writing* a blog post every day, however it seems I am struggling to successfully

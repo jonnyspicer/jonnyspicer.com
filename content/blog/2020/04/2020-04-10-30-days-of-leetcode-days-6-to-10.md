@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-10T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: "30 Days of Leetcode: Days 6 to 10"
 extras: prismjs
 ---

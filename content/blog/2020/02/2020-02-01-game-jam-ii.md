@@ -6,7 +6,7 @@ type: blog
 date: "2020-02-01T00:00:00Z"
 categories:
 - Video Games
-- Software Development
+- Programming
 - Technology
 title: Game Jam II
 series: ["Game Jam"]

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-04T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Think Deeply About Simple Things
 ---
 I heard the notion to "think deeply about simple things" recently in relation to maths, but it applies

@@ -4,7 +4,7 @@ date: "2021-11-24T19:08:55Z"
 author: Jonny Spicer
 title: "Extreme Pair Programming"
 categories:
-- Software Development
+- Programming
 ---
 Tomorrow I am running an afternoon-long session for our engineering team in order to try and improve our collective skills. The idea is that it's meant to be collaborative and allow us to share our knowledge, as well as hopefully being pretty fun. Usually for these
 sessions whoever is running them does some kind of prep beforehand and produces some test cases that have to be made pass and a kata to go with them, but this week I haven't had the bandwidth for that, and so instead I have come up with what I am going to call "Extreme

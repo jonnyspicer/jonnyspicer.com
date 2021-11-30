@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Old Site, New Home II: New Stuff"
 categories:
 - Blogging
-- Software Development
+- Programming
 series: ["Hugo Migration"]
 tags:
 - AWS

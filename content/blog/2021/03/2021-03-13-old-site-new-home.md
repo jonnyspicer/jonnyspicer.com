@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: Old Site, New Home
 categories:
 - Blogging
-- Software Development
+- Programming
 series: ["Hugo Migration"]
 tags:
 - Hugo

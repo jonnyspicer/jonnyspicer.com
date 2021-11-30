@@ -4,7 +4,7 @@ date: "2021-11-26T19:03:07Z"
 author: Jonny Spicer
 title: "Extreme Pair Programming II"
 categories:
-- Software Development
+- Programming
 ---
 We ran our first ["Extreme Pair Programming"](/blog/extreme-pair-programming) session yesterday and I overall I think it was a success. We started with some fairly easy problems and got through them quickly, growing our confidence and perhaps inflating our egos. Once the
 implementations start being non-trivial, it turns out the exercise is really quite difficult, particularly if the person devising the solution is struggling to do so, and we spent a long time trying to complete [this Leetcode problem](https://leetcode.com/problems/excel-sheet-column-number/) ultimately without success. I'll try and get round to completing the problem at the weekend so I can post the solution.

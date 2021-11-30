@@ -6,7 +6,7 @@ type: blog
 date: "2021-02-10T00:00:00Z"
 categories:
 - Career
-- Software Development
+- Programming
 title: Being a Mid Level Dev II
 series: ["Being a Mid Level Dev"]
 ---

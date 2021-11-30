@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-17T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Hackathon Day 1
 ---
 For the next week (at least) at work, we're taking a break from our usual tasks for a hackathon, where we can each

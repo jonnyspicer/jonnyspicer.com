@@ -4,7 +4,7 @@ date: "2021-08-18T12:39:43Z"
 author: Jonny Spicer
 title: "Polyglotism"
 categories:
-- Software Development
+- Programming
 ---
 For quite a while now, I've wanted to focus only on a single programming language, in the hopes of finally mastering one. I've never really learned all the core features of a language - I don't understand async/await or closures or promises in JavaScript, I don't know
 the syntax for events in C# and I'm only dimly aware of the existence of channels and goroutines in Golang. As it turns out, I've not ever needed to understand any of those things despite having had jobs that focus on all of these languages (which incidentally shows that

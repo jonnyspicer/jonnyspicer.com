@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-03T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Cache Invalidation
 ---
 If you didn't already know, there is a famous quote in the software world attributed to Phil Karlton that goes like this;

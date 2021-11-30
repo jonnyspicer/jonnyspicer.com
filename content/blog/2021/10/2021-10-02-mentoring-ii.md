@@ -6,7 +6,7 @@ title: "Mentoring II"
 series: ["Mentoring"]
 categories:
 - Career
-- Software Development
+- Programming
 ---
 After 6 months of mentoring someone, I've learned a whole lot. The process has been incredibly rewarding, easily my favourite thing I've done with my career so far, but there have been plenty of challenges and frustrations along the way. Here are a few of the key things
 I've learned in the the sessions so far:

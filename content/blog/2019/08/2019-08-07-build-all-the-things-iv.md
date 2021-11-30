@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-07T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Build All The Things IV
 series: ["Build All The Things"]
 ---

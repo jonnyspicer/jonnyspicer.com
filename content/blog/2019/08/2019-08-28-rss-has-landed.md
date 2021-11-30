@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-28T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: RSS Has Landed
 ---
 Today is the first time in a long time that the blog has a new feature, one which is long overdue (but equally is probably

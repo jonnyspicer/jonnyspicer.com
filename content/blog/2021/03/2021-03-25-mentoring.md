@@ -6,7 +6,7 @@ title: "Mentoring"
 series: ["Mentoring"]
 categories:
 - Career
-- Software Development
+- Programming
 ---
 Today was my first day trying to be a mentor, and it has already proved to be an incredibly interesting experience. I feel like I have bene phenomenally lucky to get to the point I
 have done in my career, and in many ways I don't feel like I deserve to be here, so the rationale behind trying to take up mentoring is that at least I can give something back.

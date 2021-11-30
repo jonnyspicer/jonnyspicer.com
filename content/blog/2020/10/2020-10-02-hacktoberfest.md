@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-02T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Hacktoberfest
 ---
 It's only the second of October, and already there's been [drama](https://blog.domenic.me/hacktoberfest/)

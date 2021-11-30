@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-09T00:00:00Z"
 categories:
-- Software Development
+- Programming
 - Career
 title: exercism.io
 ---

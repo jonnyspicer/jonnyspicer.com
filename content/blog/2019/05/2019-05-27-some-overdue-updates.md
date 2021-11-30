@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-27T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Some Overdue Updates
 ---
 This site has finally undergone some minor, but much-needed cosmetic surgery. A quick changelog:

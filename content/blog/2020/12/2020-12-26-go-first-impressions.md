@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-26T00:00:00Z"
 categories:
-- Software Development
+- Programming
 title: Go First Impressions
 ---
 I'm about ten hours into learning Go so far, and my first impressions are very positive. As a language it feels very much like it was designed, rather than evolved (I'm looking at you
