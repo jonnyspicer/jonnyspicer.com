@@ -1,6 +1,6 @@
 ---
 type: blog
-date: "2021-11-28T08:56:36Z"
+date: "2021-12-01T08:56:36Z"
 author: Jonny Spicer
 title: "2021 Book Reviews IX: Memoir Edition"
 categories:
