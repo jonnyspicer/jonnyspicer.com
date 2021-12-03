@@ -34,7 +34,7 @@ func parseTxt(path string) []string {
 The problem for day one involves parsing a sliding window of values in a slice, and returning the number of times the window increases as
 the slice is traversed. In the first part of the solution, the size of the window is only 1, and in the second, it's two.
 
-```none
+```html
 Example input:
 199
 200
@@ -71,7 +71,7 @@ Day two's challenges involve parsing instructions in two different ways. For par
 `down x` increases depth by `x` units and `up x` decreases depth by `x` units. For part two, there is a third variable, `aim`, and the rules
 are as follows: `down x` increases your aim by `x` units, `up x` decreases your aim by `x` units, and `forward x` does two things - increases horizontal position by `x` units and increases depth by `aim * x`.
 
-```none
+```html
 Example input:
 forward 5
 down 5
@@ -82,9 +82,13 @@ forward 2
 ```
 
 ```go
-// It was pointed out to me that passing a function as a parameter here is not desperately readable
-// and it would probably be better to refactor this to take an interface instead
-func Two(input []string, navigate func(x, y, z *int, direction string, distance int)) int {
+// It was pointed out to me that passing a function as a
+// parameter here is not desperately readable and it would 
+// probably be better to refactor this to take an interface instead
+func Two(
+    input []string,
+    navigate func(x, y, z *int, direction string, distance int)
+) int {
 	x, y, z := 0, 0, 0
 
 	for _, move := range input {
@@ -128,7 +132,7 @@ most and least common bits in every position, except that for both most and leas
 relevant position is not the most/least common respectively then that element is removed from the last, and most/least common needs to be
 recalculated accordingly, which tripped me up quite a bit upon reading the question.
 
-```none
+```html
 Example input:
 00100
 11110
@@ -192,8 +196,14 @@ func Three(input []string) (int64, int64) {
 
 	return g * e, o * c
 }
-// returns 0 if there is no mcb, a positive value if the mcb is 1 and a negative value if the mcb is 0
-func mostCommonBit(m map[int]bool, input []string, position int) int {
+// returns 0 if there is no mcb,
+// a positive value if the mcb is 1
+// and a negative value if the mcb is 0
+func mostCommonBit(
+    m map[int]bool, 
+    input []string, 
+    position int
+    ) int {
 	count := 0
 
 	for key, val := range m {
@@ -210,17 +220,27 @@ func mostCommonBit(m map[int]bool, input []string, position int) int {
 }
 
 func oxygen(r rune, mcb int) bool {
-	return (r == '1' && mcb > 0) || (r == '0' && mcb < 0 ) || r == '1' && mcb == 0
+	return (r == '1' && mcb > 0) ||
+    (r == '0' && mcb < 0 ) ||
+    r == '1' && mcb == 0
 }
 
 func carbon(r rune, mcb int) bool {
-	return (r == '1' && mcb < 0) || (r == '0' && mcb > 0 ) || r == '0' && mcb == 0
+	return (r == '1' && mcb < 0)
+    || (r == '0' && mcb > 0 )
+    || r == '0' && mcb == 0
 }
 
-// will return a map with only a single value of true, where the corresponding key is the index
+// will return a map with only a single value of true,
+// where the corresponding key is the index
 // in the input slice that we're interested in
-func lastRemainingString(input []string, length int, eval func(r rune, mcb int) bool) map[int]bool {
-	// first create a map of all the indexes where every value is true
+func lastRemainingString(
+    input []string, 
+    length int, 
+    eval func(r rune, mcb int) bool) 
+    map[int]bool {
+	// first create a map of all the indexes 
+    // where every value is true
 	// seeing as we want to start with all the binary numbers
 	m := map[int]bool{}
 	for k := 0; k < len(input); k++ {
@@ -232,13 +252,15 @@ func lastRemainingString(input []string, length int, eval func(r rune, mcb int) 
 		mcb := mostCommonBit(m, input, l)
 		// for every binary number in the input
 		for n, in := range input {
-			// if our evaluation is false or if the value in the map is already false
+			// if our evaluation is false or
+            // if the value in the map is already false
 			if !eval(rune(in[l]), mcb) || !m[n] {
 				m[n] = false
 			}
 		}
 
-		// loop over our map again to see if we only have one number left
+		// loop over our map again to see
+        // if we only have one number left
 		for _, val := range m {
 			if val {
 				count++
