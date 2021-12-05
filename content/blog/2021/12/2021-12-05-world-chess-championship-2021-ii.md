@@ -24,8 +24,7 @@ he had the white pieces on the next day, I hoped he would produce some fireworks
 he played his fourth consecutive Anti-Marshall, and Magnus had probably the easiest draw with black of either player so far.
 
 Nepo's reliance on this variation with white, particularly in what must have seemed like a crucial game to him and his camp, seems to belay
-that he might not have any other weapons in his arsenal, but for Magnus it was quite a different story. Having scored his first victory with
-1. d4 leading to a Catalan-type position, in his next game with the white pieces, played today, he went for 1. e4 and faced Nepo's Petroff
+that he might not have any other weapons in his arsenal, but for Magnus it was quite a different story. Having scored his first victory with 1. d4 leading to a Catalan-type position, in his next game with the white pieces, played today, he went for 1. e4 and faced Nepo's Petroff
 for the second time. The position was totally symmetrical after 8 moves, and Nepo seemed to have equalised out of the opening, until
 disaster struck with 21... b5 where he simply blundered a pawn. His position quickly untangled and he seemed to crumble, playing the equally
 questionable 23... Qd8 only two moves later. Magnus was his usual clinical self and duly liquidated into a much better endgame to
