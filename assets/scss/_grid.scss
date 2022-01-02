@@ -1,0 +1,33 @@
+.tracker-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+
+    div {
+        border: solid 1px $color_grey_very_light;
+        display: flex;
+        flex-direction: column;
+
+        &.red {
+                background-color: $color_pink;
+            }
+
+        &.green {
+            background-color: $color_green;
+        }
+
+        p {
+            margin: 1em 10px;
+            display: flex;
+            height: 100%;
+            align-items: center;
+
+            
+
+            @media only screen and (max-width:540px) {
+                font-size: 14px;
+                margin: 10px;
+            }
+        }
+    }
+}

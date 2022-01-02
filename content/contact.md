@@ -5,7 +5,7 @@ page: "static/single.html"
 title: "Contact"
 description: "Ways to get in contact with Jonny Spicer"
 menu: "main"
-weight: "4"
+weight: "5"
 ---
 I spend a lot of time on the internet, and so there are plenty of ways you can keep up with me on it.
 
