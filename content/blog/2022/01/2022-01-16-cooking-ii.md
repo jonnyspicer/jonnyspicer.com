@@ -4,18 +4,12 @@ date: "2022-01-16T08:04:56Z"
 author: Jonny Spicer
 title: "Cooking II"
 categories:
-- Running
+- Personal
+- Food and Drink
 ---
-With mentoring being one of my [goals for the year](/100-hours) I have already started to invest some time into thinking about how to be
-a better mentor. There are a lot of articles about mentoring software engineers out there, most of which are pretty uninspired, but
-fortunately I did find [one that I thought was useful,](https://blog.pragmaticengineer.com/developers-mentoring-other-developers/) and I
-plan to implement many of the recommendations into my own work.
+After almost 10 years of trying, I feel like I'm finally getting the hang of cooking. It turns out that actually what I needed was having a romantic partner and a desire to impress them, as well
+as to live in a place where dining out is savagely expensive that if I want delicious Mexican food, I'm going to have to learn how to cook it myself. I've tried all kinds of new recipes, my favourite
+being Andrew Rea's [swedish meatballs](https://basicswithbabish.co/basicsepisodes/swedish-meatballs) which is probably my favourite thing I've ever cooked. I've even laid to rest much of the anxiety
+I previously had about cooking for other people, so much so that inviting a friend round for dinner is now on the brink of being my preferred method of socialising.
 
-The thing that has struck me the most about pursuing this goal in 2022 though is how easy it is to see a clear path for someone else's
-career improvement and then to be really excited about pursuing that path. After having asked my mentee about their goals, in the process
-of brainstorming ways of working toward them I found it remarkably easy to think of sessions we could do that would be not only valuable
-but engaging and (hopefully) fun too, as well as numerous exercises I could prescribe that actually would be incredibly worthwhile doing
-to cement my own knowledge and skills.
-
-Looking closely at someone else's career progrsesion has given me a new perspective on my own, and I hope that this newfound clarity will
-go some way to alleviating some of the lack of professional direction I've felt recently.
+I'm relieved to finally have discovered how to enjoy something that is such a cornerstone of our health. Perhaps this is a big step towards being a legitimate adult?
