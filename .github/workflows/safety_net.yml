@@ -2,7 +2,7 @@ name: safety_net
 
 on:
   schedule:
-        - cron: "00 23 * * *" #theoretically runs at 23:00 UTC everyday
+        #- cron: "00 23 * * *" #theoretically runs at 23:00 UTC everyday
 
   # Allows a workflow to be run manually from the Actions tab
   workflow_dispatch:
