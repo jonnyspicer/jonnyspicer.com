@@ -54,7 +54,7 @@ header {
           }
 
           @media (prefers-color-scheme: dark) {
-            background: $color_darkmode_background;
+            background: $color_darkmode_text;
           }
         }
       }
@@ -147,6 +147,11 @@ header {
         &:last-child {
           border-right: none;
         }
+
+        @media (prefers-color-scheme: dark) {
+          background-color: $color_darkmode_background;
+          color: $color_darkmode_text;
+        }
       }
 
       &.expanded {
@@ -174,6 +179,8 @@ header {
           max-height: 50px;
         }
       }
+
+      
     }
   }
 }
