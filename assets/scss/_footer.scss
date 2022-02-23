@@ -4,11 +4,19 @@ footer{
   color: $color_black;
   font-size: 12px;
 
+  @media (prefers-color-scheme: dark) {
+        color: $color_darkmode_text;
+      }
+
   a{
     color: $color_black;
     text-decoration: none;
     &:hover{
       text-decoration: underline;
     }
+
+    @media (prefers-color-scheme: dark) {
+        color: $color_darkmode_text;
+      }
   }
 }

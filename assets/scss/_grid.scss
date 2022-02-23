@@ -10,10 +10,22 @@
 
         &.red {
                 background-color: $color_pink;
+
+                @media (prefers-color-scheme: dark) {
+                    p {
+                        color: $color_darkmode_background;
+                    }
+                }
             }
 
         &.green {
             background-color: $color_green;
+
+            @media (prefers-color-scheme: dark) {
+                    p {
+                        color: $color_darkmode_background;
+                    }
+                }
         }
 
         p {

@@ -2,6 +2,14 @@ html,
 body {
   height: 100%;
   margin: 0;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $color_darkmode_background;
+
+    h1, h2, h3, h4, h5, h6, p, a, span, li, blockquote {
+      color: $color_darkmode_text;
+    }
+  }
 }
 
 body {
@@ -14,7 +22,7 @@ h1 {
   background-size: 100% 0.4em;
   background-repeat: no-repeat;
   background-position: 0 0.9em;
-  background-image: linear-gradient($color_green, $color_green);
+  background-image: linear-gradient($color_darkmode_blue, $color_darkmode_blue);
   font-family: $font-stack-header;
   color: $color_black;
   font-weight: normal;
@@ -22,6 +30,10 @@ h1 {
   &.big-title{
     font-size: 6em;
     background-image: linear-gradient($color_yellow, $color_yellow);
+
+    @media (prefers-color-scheme: dark) {
+      background-image: linear-gradient($color_darkmode_blue, $color_darkmode_blue);
+    }
   }
 }
 
