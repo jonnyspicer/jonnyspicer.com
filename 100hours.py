@@ -40,6 +40,8 @@ values.append(goal_data["results"][4]["properties"]["Completion"]["formula"]["nu
 values.append(goal_data["results"][5]["properties"]["Duration (Minutes)"]["rollup"]["number"])
 values.append(goal_data["results"][5]["properties"]["Completion"]["formula"]["number"] * 100)
 
+print(values)
+
 with open('content/100-hours.md', 'r') as page:
     pageText = page.read()
     pageText = pageText.replace(
