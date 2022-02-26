@@ -11,43 +11,43 @@ decides whether to make the cell red or green, and in the case of the latter, ad
 
 
     {{ with gt (len $hours) 12 }} 
-        <p>Percentage through year: {{ index $hours 0 }}%</p>
+        <p>Percentage through year: {{ index $hours 0 | lang.FormatPercent 2 }}</p>
 
         <div class="tracker-grid">
         <div></div>
         <div><p>Total Time</p></div>
-        <div><p>% Complete</p></div>
+        <div><p>Completion</p></div>
         <div><p>On Track +/-</p></div>
 
         <div><p>Trail Running</p></div>
         <div><p>{{ div (int (index $hours 1)) 60 }} hours {{ mod (int (index $hours 1)) 60 }} minutes</p></div>
-        <div><p>{{ index $hours 2 }}</p></div>
-        {{ if gt (sub (float (index $hours 2)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 2)) (float (index $hours 0)) | lang.FormatNumber 2 }}</p></div>
+        <div><p>{{ index $hours 2 | lang.FormatPercent 2 }}</p></div>
+        {{ if gt (sub (float (index $hours 2)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 2)) (float (index $hours 0)) | lang.FormatPercent 2 }}</p></div>
 
         <div><p>Yoga</p></div>
         <div><p>{{ div (int (index $hours 3)) 60 }} hours {{ mod (int (index $hours 3)) 60 }} minutes</p></div>
-        <div><p>{{ index $hours 4 }}</p></div>
-        {{ if gt (sub (float (index $hours 4)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 4)) (float (index $hours 0)) | lang.FormatNumber 2 }}</p></div>
+        <div><p>{{ index $hours 4 | lang.FormatPercent 2 }}</p></div>
+        {{ if gt (sub (float (index $hours 4)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 4)) (float (index $hours 0)) | lang.FormatPercent 2 }}</p></div>
 
         <div><p>Conversations</p></div>
         <div><p>{{ div (int (index $hours 5)) 60 }} hours {{ mod (int (index $hours 5)) 60 }} minutes</p></div>
-        <div><p>{{ index $hours 6 }}</p></div>
-        {{ if gt (sub (float (index $hours 6)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 6)) (float (index $hours 0)) | lang.FormatNumber 2 }}</p></div>
+        <div><p>{{ index $hours 6 | lang.FormatPercent 2 }}</p></div>
+        {{ if gt (sub (float (index $hours 6)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 6)) (float (index $hours 0)) | lang.FormatPercent 2 }}</p></div>
 
         <div><p>Video Games</p></div>
         <div><p>{{ div (int (index $hours 7)) 60 }} hours {{ mod (int (index $hours 7)) 60 }} minutes</p></div>
-        <div><p>{{ index $hours 8 }}</p></div>
-        {{ if gt (sub (float (index $hours 8)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 8)) (float (index $hours 0)) | lang.FormatNumber 2 }}</p></div>
+        <div><p>{{ index $hours 8 | lang.FormatPercent 2 }}</p></div>
+        {{ if gt (sub (float (index $hours 8)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 8)) (float (index $hours 0)) | lang.FormatPercent 2 }}</p></div>
 
         <div><p>Mentoring</p></div>
         <div><p>{{ div (int (index $hours 9)) 60 }} hours {{ mod (int (index $hours 9)) 60 }} minutes</p></div>
-        <div><p>{{ index $hours 9 }}</p></div>
-        {{ if gt (sub (float (index $hours 10)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 10)) (float (index $hours 0)) | lang.FormatNumber 2 }}</p></div>
+        <div><p>{{ index $hours 10 | lang.FormatPercent 2 }}</p></div>
+        {{ if gt (sub (float (index $hours 10)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 10)) (float (index $hours 0)) | lang.FormatPercent 2 }}</p></div>
 
         <div><p>Pair Programming</p></div>
         <div><p>{{ div (int (index $hours 11)) 60 }} hours {{ mod (int (index $hours 11)) 60 }} minutes</p></div>
-        <div><p>{{ index $hours 12 }}</p></div>
-        {{ if gt (sub (float (index $hours 12)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 12)) (float (index $hours 0)) | lang.FormatNumber 2 }}</p></div>
+        <div><p>{{ index $hours 12 | lang.FormatPercent 2 }}</p></div>
+        {{ if gt (sub (float (index $hours 12)) (float (index $hours 0))) 0 }}<div class="green"><p>+{{ else }}<div class="red"><p>{{ end }}{{ sub (float (index $hours 12)) (float (index $hours 0)) | lang.FormatPercent 2 }}</p></div>
         </div>
     {{ else }}
     <p>Unfortunately, if you can see this sentence, it means something has gone wrong with the script
