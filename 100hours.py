@@ -14,7 +14,7 @@ api_key = os.environ.get('NOTION_API_KEY')
 
 url = f'https://api.notion.com/v1/databases/{database_id}/query'
 
-payload = {"page_size": 100}
+payload = {"page_size": 500}
 headers = {
     "Accept": "application/json",
     "Notion-Version": "2022-02-22",
@@ -31,14 +31,14 @@ values.append(goal_data["results"][0]["properties"]["Duration (Minutes)"]["rollu
 values.append(goal_data["results"][0]["properties"]["Completion"]["formula"]["number"] * 100)
 values.append(goal_data["results"][1]["properties"]["Duration (Minutes)"]["rollup"]["number"])
 values.append(goal_data["results"][1]["properties"]["Completion"]["formula"]["number"] * 100)
-values.append(goal_data["results"][2]["properties"]["Duration (Minutes)"]["rollup"]["number"])
-values.append(goal_data["results"][2]["properties"]["Completion"]["formula"]["number"] * 100)
-values.append(goal_data["results"][3]["properties"]["Duration (Minutes)"]["rollup"]["number"])
-values.append(goal_data["results"][3]["properties"]["Completion"]["formula"]["number"] * 100)
-values.append(goal_data["results"][4]["properties"]["Duration (Minutes)"]["rollup"]["number"])
-values.append(goal_data["results"][4]["properties"]["Completion"]["formula"]["number"] * 100)
+values.append(goal_data["results"][2]["properties"]["Duration (Minutes)"]["rollup"]["number"] * 2)
+values.append(goal_data["results"][2]["properties"]["Completion"]["formula"]["number"] * 100 * 2)
 values.append(goal_data["results"][5]["properties"]["Duration (Minutes)"]["rollup"]["number"])
 values.append(goal_data["results"][5]["properties"]["Completion"]["formula"]["number"] * 100)
+values.append(goal_data["results"][4]["properties"]["Duration (Minutes)"]["rollup"]["number"])
+values.append(goal_data["results"][4]["properties"]["Completion"]["formula"]["number"] * 100)
+values.append(goal_data["results"][3]["properties"]["Duration (Minutes)"]["rollup"]["number"])
+values.append(goal_data["results"][3]["properties"]["Completion"]["formula"]["number"] * 100)
 
 with open('content/100-hours.md', 'r') as page:
     pageText = page.read()
