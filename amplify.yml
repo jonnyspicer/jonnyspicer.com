@@ -13,12 +13,12 @@ build:
         - ln -fs /usr/local/bin/python3.8 /usr/bin/python3
         - ln -fs /usr/local/bin/pip3.8 /usr/bin/pip3
         - cd $BASE_PATH
-        - git fetch zettelkasten main
-        - git subtree pull --prefix /content/zettelkasten zettelkasten main --squash
 frontend:
   phases:
     build:
       commands:
+        - git fetch zettelkasten main
+        - git subtree pull --prefix /content/zettelkasten zettelkasten main --squash
         - python3.8 -m pip install --user beautifulsoup4 requests
         - python3.8 wordcount.py
         - python3.8 100hours.py
