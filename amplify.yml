@@ -15,7 +15,7 @@ build:
         - python3.8 -m pip install --user beautifulsoup4 requests
         - cd $BASE_PATH
         - git fetch zettelkasten main
-        - git subtree pull --prefix /content/zettelkasten zettelkasten main --squash
+        - git subtree pull --prefix content/zettelkasten zettelkasten main --squash
 frontend:
   phases:
     build:
