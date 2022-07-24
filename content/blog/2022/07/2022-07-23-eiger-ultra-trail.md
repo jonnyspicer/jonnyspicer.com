@@ -7,7 +7,7 @@ categories:
 - Running
 series: ["Marathons"]
 ---
-About four years ago, my then-housemate suggested that I watch [*The Race That Eats Its Young*](https://barkleymovie.com/), a documentary about the legendary Barkley Marathons. I’d just taken up running and had expressed an interest in aiming for longer distances at slower paces rather than trying to go faster over shorter ones. I took his recommendation and was duly inspired by Brett Maune’s hyper-analytic race strategy, Jared Campbell’s persistent good spirits and raw fitness, but mostly by John Fegyveresi’s sheer determination in the face of extreme physical and psychological suffering. One day I wanted to run ultramarathons; the kind that would test me in the same way that Brett, Jared, John, and all the other people who DNFed at Barkley that year had been tested.
+About four years ago, my then-housemate suggested that I watch [The Race That Eats Its Young](https://barkleymovie.com/), a documentary about the legendary Barkley Marathons. I’d just taken up running and had expressed an interest in aiming for longer distances at slower paces rather than trying to go faster over shorter ones. I took his recommendation and was duly inspired by Brett Maune’s hyper-analytic race strategy, Jared Campbell’s persistent good spirits and raw fitness, but mostly by John Fegyveresi’s sheer determination in the face of extreme physical and psychological suffering. One day I wanted to run ultramarathons; the kind that would test me in the same way that Brett, Jared, John, and all the other people who DNFed at Barkley that year had been tested.
 
 Last Friday, in a hotel room in Switzerland, my girlfriend and I once again watched *The Race That Eats Its Young*. The next day I woke up at 2:45am for the 4am start of the Eiger Ultra Trail, a race that covers 101km with 6700m of elevation gain along the way. I finished 24 hours and 3 minutes after I started.
 
@@ -73,4 +73,4 @@ In the meantime, I want to do some fun races, and I already have a couple lined 
 
 ---
 
-The EUT was perhaps the best thing I’ve ever done in my life. Even a week later, I’m still not convinced it’s fully sunk in quite what I achieved. The experience was everything I’d hoped for and much more, and I suspect I will remember it for the rest of my life. I am sure this will be the first of many of this kind of race, and I cannot wait for the next one.
+The EUT was perhaps the best thing I’ve ever done. Even a week later, I’m still not convinced it’s fully sunk in quite what I achieved. The experience was everything I’d hoped for and much more, and I suspect I will remember it for the rest of my life. I completely believe that if *I* can do this, then anyone can. I am sure this will be the first of many of this kind of race, and I cannot wait for the next one. 
