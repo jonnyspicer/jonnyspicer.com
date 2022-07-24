@@ -17,8 +17,8 @@ frontend:
   phases:
     build:
       commands:
-        - git fetch zettelkasten main
-        - git subtree pull --prefix content/zettelkasten zettelkasten main --squash
+        # - git fetch zettelkasten main
+        # - git subtree pull --prefix content/zettelkasten zettelkasten main --squash
         - python3.8 -m pip install --user beautifulsoup4 requests
         - python3.8 wordcount.py
         - python3.8 100hours.py
