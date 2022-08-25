@@ -47,7 +47,7 @@ The only behavioural interview I specifically prepared for was Amazon’s. I wro
 - I had 26 initial screening calls, a 28% hit rate from my applications.
 - I decided I didn’t want to proceed with 7 roles after this initial screening call.
 - 7 places didn’t get back to me after the initial call, 4 of which I felt like had gone well. Of the people that didn’t get back to me, 3 were startups where my initial call had been with one of the founders.
-- I did 13 technical interviews and 3 tech tests, for 12 different roles, a 46% hit rate from my screening calls. Some processes included both a take home test and a technical interview, others had both a coding interview and a system design interview (counted for 2 in these numbers). I counted the one “loop” with multiple technical interviews I did as a single interview - if I counted each one separately, that’d be 15 technical interviews.
+- I did 13 technical interviews and 3 tech tests, for 12 different roles, a 46% hit rate from my screening calls. Some processes included both a take home test and a technical interview, another had both a coding interview and a system design interview (counted for 2 in these numbers). I counted the one “loop” with multiple technical interviews I did as a single interview - if I counted each one separately, that’d be 15 technical interviews.
 - 2 companies never got back to me after my technical interviews.
 - I declined one final interview after passing the tech test stage.
 - I did 5 behavioural/cultural interviews, a 42% hit rate from my technical interviews. Of the ones I passed, three I’d taken in Go, one in Python, and one in a mixture of both.
