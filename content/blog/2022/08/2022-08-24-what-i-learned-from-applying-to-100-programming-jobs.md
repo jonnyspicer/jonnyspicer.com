@@ -8,6 +8,14 @@ categories:
 - Career
 - Programming
 ---
+## TL;DR
+
+- Many people do not treat the job market like a market. You are trying to sell your labour, and in order to get the best possible price, you have to offer your goods to as many potential buyers as possible. Here, the "price" for your labour is not only salary, but also opportunities for career progression, intellectual stimulation, work/life harmony and company culture.
+- There is an efficient way to prepare for interviews. Invest the time upfront to work out a strategy that seems optimal for you, and don't over-prepare.
+- Applying for jobs is an emotional rollercoaster, and you need to be prepared for it. Ideally have someone to support you.
+- You should probably ask for more money than you think you should. If your price is too high, the market can happily adjust it down for you, but if your price is too low, the market will snap your hand off.
+- Have an overarching plan for your career; think about where you are headed and whether you're moving in the right direction. Don't leave it to the point where your current position is untenable to look for a new job.
+- It's a great time to be a software engineer, and the hiring market continues to be resilient against "adverse macroeconomic conditions". If you're good, you'll be able to get multiple offers, ultimately landing you a better deal.
 ## The Strategy
 
 Getting a new job is difficult, time-consuming and emotionally draining. For my recent search, I employed a different strategy than I had previously, and learned a lot along the way.
@@ -95,15 +103,6 @@ Lastly, I would’ve tried to get referrals, although this is primarily relevant
 Doing so many applications inevitably results in a lot of enlightening, weird, funny, frustrating and fulfilling moments. Most recruiters are lovely people who want to help you succeed, but there are certainly those out there that give them a bad name, and they seem to be disproportionately concentrated at external agencies (in my experience at least). Each of the many methods the tech industry uses to assess whether somebody is a good software engineer is a bad proxy in some way, however they exist on a spectrum from “somewhat bad” to “overwhelmingly terrible”. 
 
 I found it *really* hard to make rational decisions during this whole process. As mentioned above, I found all the rejections difficult to handle emotionally, particularly up until the point that I got my first offer. Each one filled me with doubt, something which I was hardly short on in the first place, and I think I’d advise anyone to make sure they have someone to talk to and support them throughout the process. It was a struggle to remain focused on what I was optimizing for (opportunities to learn the skills that I need in order to transition to a high-impact job in the future), and I frequently found myself falling prey to my desire to be liked, to earn more money and to have higher status. I think it’s important to think hard about this before you begin your search - what are you looking for in a new role, and what are willing to trade off? Write it down, and keep referring back to it.
-
-## TL;DR
-
-- Many people do not treat the job market like a market. You are trying to sell your labour, and in order to get the best possible price, you have to offer your goods to as many potential buyers as possible. Here, the "price" for your labour is not only salary, but also opportunities for career progression, intellectual stimulation, work/life harmony and company culture.
-- There is an efficient way to prepare for interviews. Invest the time upfront to work out a strategy that seems optimal for you, and don't over-prepare.
-- Applying for jobs is an emotional rollercoaster, and you need to be prepared for it. Ideally have someone to support you.
-- You should probably ask for more money than you think you should. If your price is too high, the market can happily adjust it down for you, but if your price is too low, the market will snap your hand off.
-- Have an overarching plan for your career; think about where you are headed and whether you're moving in the right direction. Don't leave it to the point where your current position is untenable to look for a new job.
-- It's a great time to be a software engineer, and the hiring market continues to be resilient against "adverse macroeconomic conditions". If you're good, you'll be able to get multiple offers, ultimately landing you a better deal.
 
 ---
 
