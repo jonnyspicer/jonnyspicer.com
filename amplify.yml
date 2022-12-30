@@ -1,7 +1,7 @@
 version: 1
 frontend:
   phases:
-  preBuild:
+    preBuild:
       commands:
         - export BASE_PATH=$(pwd)
         - yum install -y gcc openssl-devel bzip2-devel libffi-devel python3.8-pip
