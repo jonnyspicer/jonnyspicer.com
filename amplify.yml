@@ -24,7 +24,7 @@ frontend:
         # - git subtree pull --prefix content/zettelkasten zettelkasten main --squash
         - python3.8 -m pip install --user beautifulsoup4 requests
         - python3.8 wordcount.py
-        - python3.8 100hours.py
+        # - python3.8 100hours.py
         - hugo -v
   artifacts:
     baseDirectory: public
