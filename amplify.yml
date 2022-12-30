@@ -1,7 +1,7 @@
 version: 1
-build:
+frontend:
   phases:
-    preBuild:
+  preBuild:
       commands:
         - export BASE_PATH=$(pwd)
         - yum install -y gcc openssl-devel bzip2-devel libffi-devel python3.8-pip
@@ -18,8 +18,6 @@ build:
         - ln -fs /usr/local/bin/python3.8 /usr/bin/python3
         - ln -fs /usr/local/bin/pip3.8 /usr/bin/pip3
         - cd $BASE_PATH
-frontend:
-  phases:
     build:
       commands:
         # - git fetch zettelkasten main
