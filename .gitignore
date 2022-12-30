@@ -5,3 +5,4 @@ __pycache__
 *.patch
 public/
 .hugo_build.lock
+resources/_gen/
