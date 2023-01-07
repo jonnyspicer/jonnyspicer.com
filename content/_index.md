@@ -9,9 +9,9 @@ weight: "1"
 wordcount: 0
 postcount: 0
 ---
-I'm a habitual oversharer, yo-yo-dieter and pretentious-indie-bedroom-rock enthusiast.
+I like [running really far,](/blog/eiger-ultra-trail/) [figuring out how to be happier](/blog/the-happiness-project/) and [setting goals.](/blog/2023-goals/) I'm interested in [Effective Altruism,](/blog/on-doing-the-most-good/) [neural networks](https://arxiv.org/abs/1706.03762), [prediction markets](https://manifold.markets/), climbing, coffee, tattoos, and plenty more.
 
-I'm also a software engineer by trade, and I've worked for big and small companies across a range of different tech stacks and disciplines.
+I'm also a [software engineer](https://github.com/jonnyspicer) by trade, and I've worked for big and small companies across a range of different tech stacks and disciplines.
 
 If you want, you can learn a bit more [about me,](/about) and if you'd like to know even more than that, you can ask me, by [getting in contact.](/contact)
 
