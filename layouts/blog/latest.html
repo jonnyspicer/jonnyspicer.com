@@ -14,7 +14,7 @@
             {{ range $i, $s := . }}
             <p class="bigger">
                 See other posts in the
-                <a href="/series/{{ lower (replace $s " " "-") }}">
+                <a href="/series/{{ lower (replace (replace $s " " "-") "'" "") }}">
                     {{ $s }} series
                 </a>
             </p>
