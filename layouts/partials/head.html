@@ -21,6 +21,10 @@
     <meta property="og:locale" content="{{ .Language.Lang }}">
     <meta name="color-scheme" content="normal">
 
+    {{ if .Params.noindex }}
+    <meta name="robots" content="noindex" /> 
+    {{ end }}
+
     {{- with .Params.image }}
     <meta itemprop="image" content="{{ . | absURL }}" />
     <meta property="og:image" content="{{ . | absURL }}" />

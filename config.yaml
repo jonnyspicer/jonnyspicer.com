@@ -8,6 +8,10 @@ enableGitInfo: true
 enableRobotsTXT: true
 cannonifyURLs: true
 summaryLength: 10
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 taxonomies:
   category: categories
   series: series
