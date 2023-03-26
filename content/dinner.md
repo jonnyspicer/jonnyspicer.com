@@ -35,7 +35,7 @@ Partially because I have friends that do it and their dinners are fun, partially
 To RSVP: select the 29th April, then pick 6pm (it's fine if you come later than that), click "Confirm", fill in your details and then click "Schedule Event".
 
 <!-- Calendly inline widget begin -->
-<div id="calendly-inline-widget" style="min-width:320px;height:900px;" data-auto-load="false"></div>
+<div id="calendly-inline-widget" style="min-width:320px;height:950px;" data-auto-load="false"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 <script>
 Calendly.initInlineWidget({
