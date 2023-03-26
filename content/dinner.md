@@ -22,7 +22,7 @@ At our flat in Haggerston, a couple of minutes walk from the overground stop. Th
 
 ## When
 
-Saturday 29th April, between 6pm - 11pm. After 11pm I'll be tired and probably a lot less fun to be around.
+Saturday 29th April, between 6pm - 11pm. After 11pm I'll be tired and probably a lot less fun to be around. We'll aim to server dinner around 7:30pm, but it will likely be nearer 8pm.
 
 ## Why
 
