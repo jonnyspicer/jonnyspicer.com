@@ -9,8 +9,6 @@ noindex: true
 ## What
 Dinner, with myself (Jonny) and my partner, JBC herself. Everything will be vegetarian, and there will be at least one vegan option. We'll provide the food, but please BYOB as we're not big drinkers ourselves. 
 
-We're also going to try and play [People Bingo](https://twitter.com/RichardMCNgo/status/1607975232484298752) (although probably not using the same squares as that link). When you arrive, you'll be handed a bingo sheet and a dabber of some kind. You'll have to interact with other people there in order to mark off squares - there will be a prize for the first person to get a verified bingo!
-
 ## Who
 You! If you're reading this, it's presumably because you found the link as part of the WhatsApp group, in which case, you and yours are invited.
 
@@ -22,7 +20,8 @@ At our flat in Haggerston, a couple of minutes walk from the overground stop. Th
 
 ## When
 
-Saturday 29th April, between 6pm - 11pm. After 11pm I'll be tired and probably a lot less fun to be around. We'll aim to server dinner around 7:30pm, but it will likely be nearer 8pm.
+You can find the date of the next dinner using the Calendly widget below. We're aiming to hold these approximately once a month, but we're both busy people, so please don't hold us to this.
+We'll be going from 6:30pm - 11:30pm. After 11:30pm I'll be tired and probably a lot less fun to be around. We'll aim to server dinner around 7:30pm, but it will likely be nearer 8pm.
 
 ## Why
 
@@ -32,7 +31,7 @@ Partially because I have friends that do it and their dinners are fun, partially
 
 *If the widget below doesn't work correctly for some reason then [RSVP using this link instead.](https://calendly.com/jonnyspicer/dinner-with-the-jbcs")*
 
-To RSVP: select the 29th April, then pick 6pm (it's fine if you come later than that), click "Confirm", fill in your details and then click "Schedule Event".
+To RSVP: select the next date with a blue circle around it, then pick 6:30pm (it's fine if you come later than that), click "Confirm", fill in your details and then click "Schedule Event". You might have to go to the next month for a date to be available, or there might not be one set up - if that's the case message me and gently nudge me to set the next date.
 
 <!-- Calendly inline widget begin -->
 <div id="calendly-inline-widget" style="min-width:320px;height:950px;" data-auto-load="false"></div>
