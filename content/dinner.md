@@ -29,7 +29,7 @@ Partially because I have friends that do it and their dinners are fun, partially
 
 ---
 
-*If the widget below doesn't work correctly for some reason then [RSVP using this link instead.](https://calendly.com/jonnyspicer/dinner-with-the-jbcs")*
+*If the widget below doesn't work correctly for some reason then [RSVP using this link instead.](https://calendly.com/jonnyspicer/dinner-with-the-jbcs)*
 
 To RSVP: select the next date with a blue circle around it, then pick 6:30pm (it's fine if you come later than that), click "Confirm", fill in your details and then click "Schedule Event". You might have to go to the next month for a date to be available, or there might not be one set up - if that's the case message me and gently nudge me to set the next date.
 
