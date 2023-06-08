@@ -21,7 +21,7 @@ At our flat in Haggerston, a couple of minutes walk from the overground stop. Th
 ## When
 
 You can find the date of the next dinner using the Calendly widget below. We're aiming to hold these approximately once a month, but we're both busy people, so please don't hold us to this.
-We'll be going from 6:30pm - 11:30pm. After 11:30pm I'll be tired and probably a lot less fun to be around. We'll aim to server dinner around 7:30pm, but it will likely be nearer 8pm.
+We'll be going from 6:30pm - 11:30pm. After 11:30pm I'll be tired and probably a lot less fun to be around. We'll aim to serve dinner around 7:30pm, but it will likely be nearer 8pm.
 
 ## Why
 
