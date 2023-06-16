@@ -21,7 +21,7 @@ At our flat in Haggerston, a couple of minutes walk from the overground stop. Th
 ## When
 
 You can find the date of the next dinner using the Calendly widget below. We're aiming to hold these approximately once a month, but we're both busy people, so please don't hold us to this.
-We'll be going from 6:30pm - 11:30pm. After 11:30pm I'll be tired and probably a lot less fun to be around. We'll aim to server dinner around 7:30pm, but it will likely be nearer 8pm.
+We'll be going from 6:30pm - 11:30pm. After 11:30pm I'll be tired and probably a lot less fun to be around. We'll aim to serve dinner around 7:30pm, but it will likely be nearer 8pm.
 
 ## Why
 
@@ -29,7 +29,7 @@ Partially because I have friends that do it and their dinners are fun, partially
 
 ---
 
-*If the widget below doesn't work correctly for some reason then [RSVP using this link instead.](https://calendly.com/jonnyspicer/dinner-with-the-jbcs")*
+*If the widget below doesn't work correctly for some reason then [RSVP using this link instead.](https://calendly.com/jonnyspicer/dinner-with-the-jbcs)*
 
 To RSVP: select the next date with a blue circle around it, then pick 6:30pm (it's fine if you come later than that), click "Confirm", fill in your details and then click "Schedule Event". You might have to go to the next month for a date to be available, or there might not be one set up - if that's the case message me and gently nudge me to set the next date.
 
