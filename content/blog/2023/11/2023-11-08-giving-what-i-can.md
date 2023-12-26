@@ -20,7 +20,7 @@ Instead I want to talk about the complicated reasons that I decided this was the
 Last week, Scott Alexander posted about [donating his left kidney to a stranger.](https://www.astralcodexten.com/p/my-left-kidney)[^6] The whole piece is absolutely worth reading, but one paragraph in particular stuck with me:
 > Still, it’s not *just* about that. All of this calculating and funging takes a psychic toll. Your brain uses the same emotional heuristics as everyone else’s. No matter how contrarian you pretend to be, deep down it’s hard to make your emotions track what you know is right and not what the rest of the world is telling you. The last *Guardian* opinion columnist who must be defeated is the *Guardian* opinion columnist inside your own heart. You want to do just one good thing that you’ll feel unreservedly good about, and where you know somebody’s going to be directly happy at the end of it in a way that doesn’t depend on a giant rickety tower of assumptions.
 
-Equating 10% of my income with an unassailably morally virtuous act definitely relies on a tower of assumptions - Scott himself acknowledges that, in [another post from last year](https://www.astralcodexten.com/p/effective-altruism-as-a-tower-of) that nudged me in the direction of pledging. I’m mostly hoping that this particular tower has strong foundations and sound architecture. 
+Equating donating 10% of my income with an unassailably morally virtuous act definitely relies on a tower of assumptions - Scott himself acknowledges that, in [another post from last year](https://www.astralcodexten.com/p/effective-altruism-as-a-tower-of) that nudged me in the direction of pledging. I’m mostly hoping that this particular tower has strong foundations and sound architecture. 
 
 ---
 
