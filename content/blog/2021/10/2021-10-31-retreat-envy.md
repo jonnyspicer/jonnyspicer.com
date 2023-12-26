@@ -4,7 +4,7 @@ date: "2021-10-31T06:17:26Z"
 author: Jonny Spicer
 title: "Retreat Envy"
 categories:
-- Meditation
+- Meditation and Spirituality
 - Personal
 ---
 Today Ted is embarking on a [three week meditation retreat.]https://www.tedslocum.com/posts/drop-it/ I'm not 100% sure but I beleive it's a silent one, so he won't be saying anything for the whole time, and will only have minimal communication with the teachers on the retreat. The idea of sitting, not doing,
