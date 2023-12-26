@@ -25,9 +25,3 @@ params:
   twitter: https://twitter.com/jjspicer
   sitename: Jonny Spicer
   description: Jonny Spicer is a software engineer, blogger, runner, climber and music lover, and this is his personal site.
-menu:
-  main:
-    - identifier: Goals
-      name: Goals
-      url: https://quiver-geology-38a.notion.site/2023-Goals-58bd75fcdfa64172bbab26dde67b4084
-      weight: 3
