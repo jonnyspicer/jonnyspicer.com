@@ -159,6 +159,19 @@ code {
   box-sizing: border-box;
   padding: 2px;
   border-radius: 5px;
+  font-size: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  code {
+    background-color: #dcdcdc24;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  code.language-c, code.language-bash, code.language-python {
+    overflow-x: hidden;
+  }
 }
 
 pre {
@@ -167,6 +180,9 @@ pre {
     display: block;
     overflow-x: scroll;
     padding: 20px;
+    span {
+      padding: 0;
+    }
   }
 }
 
@@ -193,6 +209,19 @@ blockquote {
 img {
   width: 600px;
   max-width: 100%;
+}
+
+p img {
+  // this is stupid and I hate it
+  @media only screen and (min-width: 600px) {
+    width:1200px;
+    max-width: 200%;
+    margin-left: calc(-50vw + 300px);
+  }
+
+  @media only screen and (min-width: 1200px) {
+    margin-left: -50%;
+  }
 }
 
 .circular-image {
