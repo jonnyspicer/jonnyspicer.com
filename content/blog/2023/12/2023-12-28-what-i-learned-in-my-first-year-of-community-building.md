@@ -6,7 +6,7 @@ title: "What I Learned In My First Year of Community Building"
 categories:
 - Effective Altruism
 ---
-*This post was originally written for the [EA Forum]().*
+*This post was originally written for the [EA Forum](https://forum.effectivealtruism.org/posts/9HsmmZQA86kWsEPuk/what-i-learned-in-my-first-year-of-community-building).*
 
 I’ve been one of two main organisers for the EA London Tech group for roughly the past year, and at our most recent meetup someone asked me to write up what I’d learned about community building. So, here is what I learned about running an EA group in 2023.
 
