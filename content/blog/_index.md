@@ -8,7 +8,6 @@ description: "Jonny Spicer's personal blog where he frequently writes about topi
 menu: "main"
 weight: "3"
 ---
-After a bet with a friend, I've written almost every day for the last four years.
-Perhaps unsurprisingly, that means that a lot of the posts here are not very good,
-so I hope you can forgive my lack of spell checking. You can also [browse by category](/categories)
-or [browse by series.](/series)
+As part of a bet with a friend, I wrote almost every day for four years, and unsurprisingly, that means that a lot of the posts here are not very good. 
+Fortunately these days I post far less often, but try to ensure that what I write is of a respectable quality. 
+You can also [browse by category](/categories) or [browse by series.](/series)
