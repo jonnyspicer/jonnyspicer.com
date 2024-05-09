@@ -9,7 +9,7 @@ weight: "1"
 wordcount: 0
 postcount: 0
 ---
-I like [running really far,](/blog/eiger-ultra-trail/) [figuring out how to be happier](/blog/the-happiness-project/) and [setting ambitious goals.](/blog/2023-goals/) I'm interested in [Effective Altruism,](/blog/on-doing-the-most-good/) [meditation](/blog/is-meditation-magic), [prediction markets](https://manifold.markets/), climbing, coffee, tattoos, and plenty more.
+I like [running really far,](/blog/eiger-ultra-trail/) [figuring out how to be happier](/blog/the-happiness-project/) and [setting ambitious goals.](/blog/2023-goals/) I'm interested in [artificial intelligence,](/ai) [Effective Altruism,](/blog/on-doing-the-most-good/) [meditation](/blog/is-meditation-magic), [prediction markets](https://manifold.markets/), climbing, coffee, tattoos, and plenty more.
 
 In 2023 I took the [Giving What We Can Pledge](https://www.givingwhatwecan.org/) to donate 10% of my income to effective charities, for the rest of my career. You can [read more about my reasons for doing so](/blog/giving-what-i-can), and I'm always happy to talk in greater detail about this, including with people I don't yet know.
 
