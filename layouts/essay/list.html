@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div>
+    <h1 class="big-title">{{ .Page.Title }}</h1>
+    {{ .Content }}
+
+    <ul class="post-list">
+        {{ range .Pages }}
+        <li>
+            <h2 class="big-title"><a href="{{.RelPermalink}}">{{ .Title }}</a></h2>
+
+            <div class="summary-block">
+                {{ .Page.Params.summary }}
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

@@ -18,6 +18,7 @@ taxonomies:
   tags: tags
 permalinks:
   blog: /:section/:title
+  essay: /:title
 params:
   author: Jonny Spicer
   ogimage: "/img/og.png"
