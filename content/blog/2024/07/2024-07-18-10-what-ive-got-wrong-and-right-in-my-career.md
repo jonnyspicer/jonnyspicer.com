@@ -166,7 +166,7 @@ A big part of the reason I became more ambitious in recent years (and managed to
 
 ### Applied for 100 jobs, learned 100 things
 
-I’ve already written [a whole post about this](https://www.notion.so/Career-Wins-and-Losses-95858c93efd74206ac53b891bf04b2f8?pvs=21) so won’t go into too much detail, but my strategy of applying for a very large number of jobs during my previous search proved remarkably productive:
+I’ve already written [a whole post about this](/blog/what-i-learned-from-applying-to-100-programming-jobs/) so won’t go into too much detail, but my strategy of applying for a very large number of jobs during my previous search proved remarkably productive:
 
 - It helped me calibrate my salary expectations against what the market was willing to pay me;
 - It helped me emotionally detach from rejection;
