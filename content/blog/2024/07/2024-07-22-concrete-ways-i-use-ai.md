@@ -14,7 +14,7 @@ I wrote this because many people don’t realise that AI tools can already be ex
 
 1. Learn the very basics of how language models work (i.e., where they get their training data from, how the training process works, and how they are next-token predictors). This can be *extremely* simple, pasting the previous sentence into ChatGPT would probably be sufficient. Understanding how models are trained will give you a better intuition for the kinds of tasks they will perform well on, as well as hint at what prompting techniques might be beneficial.
 2. Give examples where feasible. Models perform significantly better on many common tasks with even one example. 
-3. Use the system prompt to add context for frequent tasks. Mine includes a little bit about me, the people in my life, my job and my interests.
+3. Use the system prompt to add context for frequent tasks. Mine includes a little bit about me, the people in my life, my job and my interests. If you're using Claude rather than ChatGPT, use the [projects feature](https://claude.ai/projects) instead.
 4. Make use of long context windows. You can now feed language models a huge amount of input data, which it can utilise effectively. Use this to your advantage by adding API documentation, your favourite author’s top 10 blog posts, or a PDF of a long, technical report as context to your queries. Claude’s projects feature is particularly handy for this.
 
 ## Coding
