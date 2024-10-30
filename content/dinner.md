@@ -37,7 +37,7 @@ To RSVP: select the next date with a blue circle around it, then pick 7:00pm (it
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 <script>
 Calendly.initInlineWidget({
-url: 'https://calendly.com/jonnyspicer/dinner-with-the-jbcs?hide_gdpr_banner=1',
+url: 'https://calendly.com/jonnyspicer/dinner?hide_gdpr_banner=1',
 parentElement: document.getElementById('calendly-inline-widget'),
 });
 </script>
