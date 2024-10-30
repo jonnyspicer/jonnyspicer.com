@@ -7,31 +7,30 @@ noindex: true
 *Scroll down to RSVP via Calendly.*
 
 ## What
-Dinner, with myself (Jonny) and my partner, JBC herself. Everything will be vegetarian, and there will be at least one vegan option. We'll provide the food, but please BYOB as we're not big drinkers ourselves. 
+It's my (30th) birthday! Julian, Emma and Seb have kindly offered to host dinner as I am ~homeless (relatedly, I am living out of a rucksack, so if you bring me a gift I will be polite and gracious about it at the time but might secretly resent you for it, I would much rather you gave to an effective charity etc etc). We'll provide the food, but please BYOB. 
 
 ## Who
-You! If you're reading this, it's presumably because you found the link as part of the WhatsApp group, in which case, you and yours are invited.
-
-If you somehow found this page without being part of the group, feel free to [contact me](/contact) and I'll probably let you come too.
+You! Plus ones are welcome but please let me know ahead of time so I can make sure there's enough food for everyone.
 
 ## Where
 
-At our flat in Haggerston, a couple of minutes walk from the overground stop. The exact address is in the description of the WhatsApp group.
+At their flat in De Beauvoir, a few minutes walk from the Haggerston overground station. The exact address is in the description of the WhatsApp group.
 
 ## When
 
-You can find the date of the next dinner using the Calendly widget below. We're aiming to hold these approximately once a month, but we're both busy people, so please don't hold us to this.
-We'll be going from 6:30pm - 11:30pm. After 11:30pm I'll be tired and probably a lot less fun to be around. We'll aim to serve dinner around 7:30pm, but it will likely be nearer 8pm.
+The 23rd November (regularly programming might resume when I have a home again). Come round from 7ish, we'll likely serve food around 8.
 
 ## Why
 
-Partially because I have friends that do it and their dinners are fun, partially because of [this blog post about how to live near your friends,](https://prigoose.substack.com/p/how-to-live-near-your-friends) and partially because I'm too busy to spend as much time with all my friends as I'd like. 
+To celebrate the shear improbability of me having made it to 30 years old in one piece, and as a flimsy excuse to be the centre of attention for a night.
+
+Also partially because I have friends that do it and their dinners are fun, partially because of [this blog post about how to live near your friends,](https://prigoose.substack.com/p/how-to-live-near-your-friends) and partially because I'm too busy to spend as much time with all my friends as I'd like. 
 
 ---
 
 *If the widget below doesn't work correctly for some reason then [RSVP using this link instead.](https://calendly.com/jonnyspicer/dinner-with-the-jbcs)*
 
-To RSVP: select the next date with a blue circle around it, then pick 6:30pm (it's fine if you come later than that), click "Confirm", fill in your details and then click "Schedule Event". You might have to go to the next month for a date to be available, or there might not be one set up - if that's the case message me and gently nudge me to set the next date.
+To RSVP: select the next date with a blue circle around it, then pick 7:00pm (it's fine if you come later than that), click "Confirm", fill in your details and then click "Schedule Event". You might have to go to the next month for a date to be available, or there might not be one set up - if that's the case message me and gently nudge me to set the next date.
 
 <!-- Calendly inline widget begin -->
 <div id="calendly-inline-widget" style="min-width:320px;height:950px;" data-auto-load="false"></div>
