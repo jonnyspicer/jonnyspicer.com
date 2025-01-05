@@ -8,7 +8,7 @@ title: "Dinner"
 *Scroll down to RSVP via Calendly.*
 
 ## What
-Extremely exclusive and highly classy dinners at our flat in Notting Hill. Unlike previous iterations, spots are now limited (it's a small flat) and allocated on a first-come, first-served basis, so get them while they're hot. As before, there's no need to bring anything specific, though all dinners will be BYOB.
+Extremely exclusive and high class dinners at our flat in Notting Hill (not really - please don't dress up or I'll feel like a dick). Unlike previous iterations, spots are now limited (it's a small flat) and allocated on a first-come, first-served basis, so get them while they're hot. As before, there's no need to bring anything specific, though all dinners will be BYOB.
 
 ## Who
 You! Plus ones are welcome but please let me know ahead of time so I can make sure there's enough food for everyone.
