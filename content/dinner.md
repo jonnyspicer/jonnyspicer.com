@@ -1,6 +1,7 @@
 ---
 type: "static"
 noindex: true
+title: "Dinner"
 ---
 <h1 class="big-title">You're invited to dinner!</h1>
 
