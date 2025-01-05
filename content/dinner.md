@@ -1,10 +1,8 @@
 ---
 type: "static"
 noindex: true
-title: "Dinner"
+title: "You're invited to dinner!"
 ---
-<h1 class="big-title">You're invited to dinner!</h1>
-
 *Scroll down to RSVP via Calendly.*
 
 ## What
