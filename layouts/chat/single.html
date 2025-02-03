@@ -33,7 +33,7 @@
         <div id="chat-container">
             <div id="chat-history"></div>
             <div id="input-container">
-                <input type="text" id="message-input" placeholder="Type a message..." />
+                <textarea id="message-input" placeholder="Type a message..." rows="1"></textarea>
                 <button id="send-button">Send</button>
             </div>
         </div>
@@ -106,7 +106,7 @@
 
     const personaListDiv = document.getElementById('persona-list')
     const chatHistoryDiv = document.getElementById('chat-history')
-    const messageInput = document.getElementById('message-input')
+    const messageTextarea = document.getElementById('message-input')
     const sendButton = document.getElementById('send-button')
 
     // Render the list of personas.
@@ -148,13 +148,25 @@
         renderChatHistory()
     }
 
-    // Send a message: update the UI, build the conversation prompt in Anthropic's format,
-    // call the backend, and then display the AI's reply.
+    function autoResizeTextarea() {
+        messageTextarea.style.height = 'auto'
+        messageTextarea.style.height = Math.min((messageTextarea.scrollHeight - 22), 330) + 'px'
+    }
+
+    messageTextarea.addEventListener('input', autoResizeTextarea)
+    messageTextarea.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault()
+            sendMessage()
+        }
+    })
+
     async function sendMessage() {
-        const text = messageInput.value.trim()
+        const text = messageTextarea.value.trim()
         if (!text) return
         addMessage(text, 'user')
-        messageInput.value = ''
+        messageTextarea.value = ''
+        messageTextarea.style.height = 'auto' // Reset height
         sendButton.disabled = true
         addMessage('...', 'bot')
         const tempIndex = personas.find(p => p.id === activePersonaId).history.length - 1
@@ -202,13 +214,6 @@
             sendButton.disabled = false
         }
     }
-
-    sendButton.addEventListener('click', sendMessage)
-    messageInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-            sendMessage()
-        }
-    })
 
     // Add info button functionality
     const infoButton = document.getElementById('info-button')

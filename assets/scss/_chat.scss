@@ -5,27 +5,19 @@ body {
   height: 100vh;
 }
 
+.main-chat {
+  padding-bottom: 0;
+}
+
 #sidebar {
   width: 250px;
   background-color: #f5f5f5;
   border-right: 1px solid #ddd;
-  padding: 10px;
+  padding: 0;
   overflow-y: auto;
 
   h2 {
     font-size: 1.2em;
-  }
-}
-
-.persona {
-  padding: 8px;
-  margin: 5px 0;
-  cursor: pointer;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-
-  &.active {
-    background-color: #e0e0e0;
   }
 }
 
@@ -79,35 +71,6 @@ body {
   }
 }
 
-#input-container {
-  display: flex;
-  border-top: 1px solid #ddd;
-  padding: 10px;
-
-  input {
-    flex: 1;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-
-  button {
-    margin-left: 10px;
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
-    border-radius: 4px;
-    background-color: #4caf50;
-    color: white;
-    cursor: pointer;
-
-    &:disabled {
-      background-color: #aaa;
-    }
-  }
-}
-
 .post-chat {
   padding: 0;
   margin: -40px 0 0 0;
@@ -136,7 +99,7 @@ body {
     width: 250px;
     background-color: $color_grey_very_light;
     border-right: 1px solid $color_grey_light;
-    padding: 10px;
+    padding: 0;
     overflow-y: auto;
 
     @media (prefers-color-scheme: dark) {
@@ -157,16 +120,24 @@ body {
 
   .persona {
     padding: 8px;
-    margin: 5px 0;
+    margin: 0;
     cursor: pointer;
-    border: 1px solid $color_grey_light;
-    border-radius: 4px;
+    border-top: 1px solid $color_grey_light;
+    border-radius: 0;
     font-family: $font-stack-copy;
     transition: all 0.3s ease-in-out;
 
     @media (prefers-color-scheme: dark) {
       border-color: $color_grey_dark;
       color: $color_darkmode_text;
+    }
+
+    &:last-child {
+      border-bottom: 1px solid $color_grey_light;
+      
+      @media (prefers-color-scheme: dark) {
+        border-color: $color_grey_dark;
+      }
     }
 
     &:hover {
@@ -242,12 +213,13 @@ body {
     display: flex;
     border-top: 1px solid $color_grey_light;
     padding: 10px;
+    align-items: flex-end;
 
     @media (prefers-color-scheme: dark) {
       border-top-color: $color_grey_dark;
     }
 
-    input {
+    textarea {
       flex: 1;
       padding: 10px;
       font-size: 1em;
@@ -256,6 +228,23 @@ body {
       font-family: $font-stack-copy;
       background-color: $color_white;
       color: $color_black;
+      resize: none;
+      min-height: 24px;
+      max-height: 330px;
+      height: 20px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      line-height: 1.4;
+      margin: 0;
+      display: block;
+      overflow-y: scroll;
+
+      &:focus {
+        outline: none;
+        border-color: $color_yellow;
+        box-shadow: 0 0 0 1px $color_yellow;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
 
       @media (prefers-color-scheme: dark) {
         background-color: lighten($color_darkmode_background, 5%);
@@ -265,6 +254,8 @@ body {
 
       &::placeholder {
         color: $color_grey_medium;
+        font-family: $font-stack-copy;
+        line-height: 1.4;
 
         @media (prefers-color-scheme: dark) {
           color: $color_grey_light;
@@ -276,13 +267,14 @@ body {
       margin-left: 10px;
       padding: 10px 20px;
       font-size: 1em;
-      border: none;
+      border: 1px solid $color_darkmode_blue;
       border-radius: 4px;
       background-color: $color_darkmode_blue;
       color: $color_white;
       cursor: pointer;
       font-family: $font-stack-copy;
       transition: all 0.3s ease-in-out;
+      height: 46px;
 
       &:hover {
         background-color: darken($color_darkmode_blue, 10%);
@@ -299,10 +291,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin: 10px;
 
     h2 {
       margin: 0;
+    }
+    
+    @media screen and (max-width: 400px) {
+        margin: 5px;
     }
   }
 
