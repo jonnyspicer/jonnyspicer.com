@@ -18,6 +18,12 @@
                         <li><strong>Friendly Bot:</strong> A helpful and cheerful assistant</li>
                         <li><strong>Sarcastic Bot:</strong> Responds with wit and sarcasm</li>
                         <li><strong>Wise Bot:</strong> Provides thoughtful and insightful responses</li>
+                        <li><strong>Coworker:</strong> A technical mentor and virtual cofounder</li>
+                        <li><strong>Wedding Planner:</strong> Expert in UK wedding and proposal planning</li>
+                        <li><strong>Programming Tutor:</strong> Experienced CS professor and systems programmer</li>
+                        <li><strong>Therapist:</strong> IFS-trained therapeutic assistant</li>
+                        <li><strong>User Researcher:</strong> Expert in product research and user insights</li>
+                        <li><strong>Entrepreneur:</strong> Tech founder and strategic advisor</li>
                     </ul>
                     <p>Click on any persona to start chatting with it!</p>
                 </div>
@@ -57,6 +63,42 @@
             id: 3, 
             name: "Wise Bot", 
             systemPrompt: SYSTEM_PROMPTS.WISE,
+            history: []
+        },
+        {
+            id: 4,
+            name: "Coworker",
+            systemPrompt: SYSTEM_PROMPTS.COWORKER,
+            history: []
+        },
+        {
+            id: 5,
+            name: "Wedding Planner",
+            systemPrompt: SYSTEM_PROMPTS.WEDDING_PLANNER,
+            history: []
+        },
+        {
+            id: 6,
+            name: "Programming Tutor",
+            systemPrompt: SYSTEM_PROMPTS.PROGRAMMING_TUTOR,
+            history: []
+        },
+        {
+            id: 7,
+            name: "Therapist",
+            systemPrompt: SYSTEM_PROMPTS.THERAPIST,
+            history: []
+        },
+        {
+            id: 8,
+            name: "User Researcher",
+            systemPrompt: SYSTEM_PROMPTS.USER_RESEARCHER,
+            history: []
+        },
+        {
+            id: 9,
+            name: "Entrepreneur",
+            systemPrompt: SYSTEM_PROMPTS.ENTREPRENEUR,
             history: []
         }
     ]
@@ -133,7 +175,7 @@
             //     ? 'http://localhost:8080/chat'
             //     : 'http://claude-chat.eba-epgvze3z.eu-west-1.elasticbeanstalk.com/chat'
 
-            const apiUrl = 'http://claude-chat.eba-epgvze3z.eu-west-1.elasticbeanstalk.com/chat'
+            const apiUrl = 'https://chat.jonnyspicer.com/chat'
             
             const response = await fetch(apiUrl, {
                 method: 'POST',
