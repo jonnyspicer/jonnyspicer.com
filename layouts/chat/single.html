@@ -1,0 +1,201 @@
+{{ define "main" }}
+<div class="post post-chat">
+    <div class="chat-interface">
+        <div id="sidebar">
+            <div class="sidebar-header">
+                <h2>Personas</h2>
+                <button id="info-button" class="info-button" aria-label="Information about personas">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                    </svg>
+                </button>
+            </div>
+            <div id="info-popup" class="info-popup hidden">
+                <div class="info-content">
+                    <h3>About the Chat Interface</h3>
+                    <p>This chat interface allows you to interact with different AI personas:</p>
+                    <ul>
+                        <li><strong>Friendly Bot:</strong> A helpful and cheerful assistant</li>
+                        <li><strong>Sarcastic Bot:</strong> Responds with wit and sarcasm</li>
+                        <li><strong>Wise Bot:</strong> Provides thoughtful and insightful responses</li>
+                    </ul>
+                    <p>Click on any persona to start chatting with it!</p>
+                </div>
+            </div>
+            <div id="persona-list"></div>
+        </div>
+        <div id="chat-container">
+            <div id="chat-history"></div>
+            <div id="input-container">
+                <input type="text" id="message-input" placeholder="Type a message..." />
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ $promptsjs := resources.Get "js/prompts.js" }}
+
+<script type="module">
+    import { SYSTEM_PROMPTS } from '{{ $promptsjs.Permalink }}'
+    
+    // Define the available personas with their own conversation history.
+    const personas = [
+        {
+            id: 1, 
+            name: "Friendly Bot", 
+            systemPrompt: SYSTEM_PROMPTS.FRIENDLY,
+            history: []
+        },
+        {
+            id: 2, 
+            name: "Sarcastic Bot", 
+            systemPrompt: SYSTEM_PROMPTS.SARCASTIC,
+            history: []
+        },
+        {
+            id: 3, 
+            name: "Wise Bot", 
+            systemPrompt: SYSTEM_PROMPTS.WISE,
+            history: []
+        }
+    ]
+    let activePersonaId = personas[0].id
+
+    const personaListDiv = document.getElementById('persona-list')
+    const chatHistoryDiv = document.getElementById('chat-history')
+    const messageInput = document.getElementById('message-input')
+    const sendButton = document.getElementById('send-button')
+
+    // Render the list of personas.
+    function renderPersonas() {
+        console.log("Rendering personas:", personas)
+        personaListDiv.innerHTML = ''
+        personas.forEach(persona => {
+            const div = document.createElement('div')
+            div.className = 'persona' + (persona.id === activePersonaId ? ' active' : '')
+            div.textContent = persona.name
+            div.onclick = () => {
+                activePersonaId = persona.id
+                renderPersonas()
+                renderChatHistory()
+            }
+            personaListDiv.appendChild(div)
+        })
+    }
+
+    // Render the chat history for the active persona.
+    function renderChatHistory() {
+        chatHistoryDiv.innerHTML = ''
+        const persona = personas.find(p => p.id === activePersonaId)
+        if (!persona) return
+        persona.history.forEach((msg, index) => {
+            const msgDiv = document.createElement('div')
+            msgDiv.className = `message ${msg.sender}${index % 2 === 0 ? ' end' : ' start'}`
+            msgDiv.textContent = msg.text
+            chatHistoryDiv.appendChild(msgDiv)
+        })
+        chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight
+    }
+
+    // Add a new message to the conversation.
+    function addMessage(text, sender) {
+        const persona = personas.find(p => p.id === activePersonaId)
+        if (!persona) return
+        persona.history.push({text, sender})
+        renderChatHistory()
+    }
+
+    // Send a message: update the UI, build the conversation prompt in Anthropic's format,
+    // call the backend, and then display the AI's reply.
+    async function sendMessage() {
+        const text = messageInput.value.trim()
+        if (!text) return
+        addMessage(text, 'user')
+        messageInput.value = ''
+        sendButton.disabled = true
+        addMessage('...', 'bot')
+        const tempIndex = personas.find(p => p.id === activePersonaId).history.length - 1
+
+        // Get the current persona
+        const persona = personas.find(p => p.id === activePersonaId)
+        
+        // Format messages for Claude's API
+        const messages = persona.history
+            .filter(msg => msg.text !== '...') // Remove temporary messages
+            .map(msg => ({
+                role: msg.sender === 'user' ? 'user' : 'assistant',
+                content: msg.text
+            }))
+
+        try {
+            // const apiUrl = window.location.hostname === 'localhost'
+            //     ? 'http://localhost:8080/chat'
+            //     : 'http://claude-chat.eba-epgvze3z.eu-west-1.elasticbeanstalk.com/chat'
+
+            const apiUrl = 'http://claude-chat.eba-epgvze3z.eu-west-1.elasticbeanstalk.com/chat'
+            
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    system: persona.systemPrompt,
+                    messages: messages
+                })
+            })
+            if (!response.ok) {
+                throw new Error('Something went wrong')
+            }
+            const data = await response.json()
+            // Remove the temporary "..." message.
+            persona.history.splice(tempIndex, 1)
+            addMessage(data.completion.trim(), 'bot')
+        } catch (error) {
+            // Remove the temporary "..." message and show an error.
+            persona.history.splice(tempIndex, 1)
+            addMessage("Error: " + error.message, 'bot')
+        } finally {
+            sendButton.disabled = false
+        }
+    }
+
+    sendButton.addEventListener('click', sendMessage)
+    messageInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            sendMessage()
+        }
+    })
+
+    // Add info button functionality
+    const infoButton = document.getElementById('info-button')
+    const infoPopup = document.getElementById('info-popup')
+    let isPopupOpen = false
+
+    function toggleInfoPopup() {
+        isPopupOpen = !isPopupOpen
+        infoPopup.classList.toggle('hidden')
+        infoButton.classList.toggle('active')
+    }
+
+    function closeInfoPopup(event) {
+        if (isPopupOpen && !infoPopup.contains(event.target) && !infoButton.contains(event.target)) {
+            isPopupOpen = false
+            infoPopup.classList.add('hidden')
+            infoButton.classList.remove('active')
+        }
+    }
+
+    infoButton.addEventListener('click', (e) => {
+        e.stopPropagation()
+        toggleInfoPopup()
+    })
+
+    document.addEventListener('click', closeInfoPopup)
+
+    // Initial render.
+    renderPersonas()
+    renderChatHistory()
+</script>
+{{ end }} 

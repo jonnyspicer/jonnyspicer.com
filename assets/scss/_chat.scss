@@ -1,0 +1,403 @@
+// Basic styles for a WhatsApp/Messenger-like layout
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+#sidebar {
+  width: 250px;
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  overflow-y: auto;
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+.persona {
+  padding: 8px;
+  margin: 5px 0;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  &.active {
+    background-color: #e0e0e0;
+  }
+}
+
+#chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-history {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: $color_white;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $color_darkmode_background;
+  }
+}
+
+.message {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+  max-width: 70%;
+  clear: both;
+  font-family: $font-stack-copy;
+  line-height: 1.4;
+
+  &.start {
+    align-self: flex-start;
+  }
+
+  &.end {
+    align-self: flex-end;
+  }
+
+  &.user {
+    background-color: $color_darkmode_blue;
+    color: $color_white;
+  }
+
+  &.bot {
+    background-color: $color_grey_very_light;
+    color: $color_black;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: lighten($color_darkmode_background, 10%);
+      color: $color_darkmode_text;
+    }
+  }
+}
+
+#input-container {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+
+  input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+
+    &:disabled {
+      background-color: #aaa;
+    }
+  }
+}
+
+.post-chat {
+  padding: 0;
+  margin: -40px 0 0 0;
+  max-width: 100vw;
+  width: calc(100vw + 40px);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: calc(100vh - 52px);
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #555;
+
+  @media (min-width: 680px) {
+    width: 100vw;
+  }
+
+  .chat-interface {
+    display: flex;
+    flex: 1 1 auto;
+    min-height: 0;
+    width: 100%;
+  }
+
+  #sidebar {
+    width: 250px;
+    background-color: $color_grey_very_light;
+    border-right: 1px solid $color_grey_light;
+    padding: 10px;
+    overflow-y: auto;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: lighten($color_darkmode_background, 5%);
+      border-right-color: $color_grey_dark;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      margin: 10px 0;
+      font-family: $font-stack-subheader;
+
+      @media (prefers-color-scheme: dark) {
+        color: $color_darkmode_text;
+      }
+    }
+  }
+
+  .persona {
+    padding: 8px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 1px solid $color_grey_light;
+    border-radius: 4px;
+    font-family: $font-stack-copy;
+    transition: all 0.3s ease-in-out;
+
+    @media (prefers-color-scheme: dark) {
+      border-color: $color_grey_dark;
+      color: $color_darkmode_text;
+    }
+
+    &:hover {
+      background-color: darken($color_grey_very_light, 5%);
+
+      @media (prefers-color-scheme: dark) {
+        background-color: lighten($color_darkmode_background, 10%);
+      }
+    }
+
+    &.active {
+      background-color: $color_darkmode_blue;
+      color: $color_white;
+
+      @media (prefers-color-scheme: dark) {
+        background-color: $color_darkmode_blue;
+      }
+    }
+  }
+
+  #chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: $color_white;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: $color_darkmode_background;
+    }
+  }
+
+  #chat-history {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+
+  .message {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 70%;
+    clear: both;
+    font-family: $font-stack-copy;
+    line-height: 1.4;
+
+    &.start {
+      justify-self: flex-start;
+    }
+
+    &.end {
+      align-self: flex-end;
+      justify-self: right;
+    }
+
+    &.user {
+      background-color: $color_darkmode_blue;
+      color: $color_white;
+    }
+
+    &.bot {
+      background-color: $color_grey_very_light;
+      color: $color_black;
+
+      @media (prefers-color-scheme: dark) {
+        background-color: lighten($color_darkmode_background, 10%);
+        color: $color_darkmode_text;
+      }
+    }
+  }
+
+  #input-container {
+    display: flex;
+    border-top: 1px solid $color_grey_light;
+    padding: 10px;
+
+    @media (prefers-color-scheme: dark) {
+      border-top-color: $color_grey_dark;
+    }
+
+    input {
+      flex: 1;
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid $color_grey_light;
+      border-radius: 4px;
+      font-family: $font-stack-copy;
+      background-color: $color_white;
+      color: $color_black;
+
+      @media (prefers-color-scheme: dark) {
+        background-color: lighten($color_darkmode_background, 5%);
+        border-color: $color_grey_dark;
+        color: $color_darkmode_text;
+      }
+
+      &::placeholder {
+        color: $color_grey_medium;
+
+        @media (prefers-color-scheme: dark) {
+          color: $color_grey_light;
+        }
+      }
+    }
+
+    button {
+      margin-left: 10px;
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 4px;
+      background-color: $color_darkmode_blue;
+      color: $color_white;
+      cursor: pointer;
+      font-family: $font-stack-copy;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: darken($color_darkmode_blue, 10%);
+      }
+
+      &:disabled {
+        background-color: $color_grey_medium;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .info-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color_grey_dark;
+    transition: all 0.3s ease-in-out;
+
+    @media (prefers-color-scheme: dark) {
+      color: $color_darkmode_text;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      background-color: rgba($color_grey_light, 0.2);
+    }
+
+    &.active {
+      background-color: $color_darkmode_blue;
+      color: $color_white;
+    }
+  }
+
+  .info-popup {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    right: 10px;
+    background-color: $color_white;
+    border: 1px solid $color_grey_light;
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: $font-stack-copy;
+    max-width: 300px;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: lighten($color_darkmode_background, 5%);
+      border-color: $color_grey_dark;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    &.hidden {
+      display: none;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-family: $font-stack-subheader;
+      font-size: 1.1em;
+
+      @media (prefers-color-scheme: dark) {
+        color: $color_darkmode_text;
+      }
+    }
+
+    p {
+      margin: 10px 0;
+      font-size: 0.9em;
+      line-height: 1.4;
+
+      @media (prefers-color-scheme: dark) {
+        color: $color_darkmode_text;
+      }
+    }
+
+    ul {
+      margin: 10px 0;
+      padding-left: 20px;
+      list-style-type: disc;
+
+      li {
+        font-size: 0.9em;
+        padding: 2px 0;
+
+        @media (prefers-color-scheme: dark) {
+          color: $color_darkmode_text;
+        }
+
+        strong {
+          color: $color_darkmode_blue;
+        }
+      }
+    }
+  }
+}

@@ -25,4 +25,9 @@ params:
   github: https://github.com/jonnyspicer
   twitter: https://twitter.com/jjspicer
   sitename: Jonny Spicer
-  description: Jonny Spicer is a software engineer, blogger, runner, climber and music lover, and this is his personal site.
+  description: Jonny Spicer is a software engineer, blogger, runner, climber and music lover, and this is his personal site
+server:
+  headers:
+    - for: /**
+      values:
+        Access-Control-Allow-Origin: "*"
