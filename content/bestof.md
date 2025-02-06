@@ -36,7 +36,6 @@ These are the posts that I'm most proud of having written, or those that people 
 
 ### Life
 
-- [2022 Goals (2021)](/blog/2022-goals)
 - [The Slightly More Planned Year So Far (2019)](/blog/the-slightly-more-planned-year-so-far)
 - [The Unplanned Year (2018)](/blog/the-unplanned-year)
 
