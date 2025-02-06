@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "On Productivity"
 categories:
 - Personal Development
+- Bestof
 ---
 I'm not the most productive person I know, but I have improved my productivity a lot, particularly in the last year. This post is going to outline some of the ways that I've done that.[^1] 
 

@@ -6,7 +6,7 @@ type: blog
 date: "2020-03-29T00:00:00Z"
 categories:
 - Mental Health
-- Featured
+- Bestof
 title: Pretending II
 series: ["Pretending"]
 ---

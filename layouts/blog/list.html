@@ -3,10 +3,10 @@
     <h1 class="big-title">{{ .Page.Title }}</h1>
     {{ .Content }}
 
-    <h2 class="big-title">Featured Post</h2>
+    <h2 class="big-title">Recently Featured</h2>
     <ul class="post-list">
-        {{ $featured := .Site.Taxonomies.categories.featured }}
-        {{ range first 1 ($featured.Pages) }}
+        {{ $bestof := .Site.Taxonomies.categories.bestof }}
+        {{ range first 1 ($bestof.Pages) }}
         <li>
             <h4><a href="{{.RelPermalink}}">{{ .Title }}</a></h4>
             {{ partial "categories.html" .}}
@@ -17,7 +17,7 @@
         </li>
         {{ end }}
     </ul>
-    <a href="/categories/featured" class="bigger">See more featured posts</a>
+    <a href="/categories/bestof" class="bigger">See more of the best posts</a>
     
     <h2 class="big-title">Most Recent Posts</h2>
     <ul class="post-list">

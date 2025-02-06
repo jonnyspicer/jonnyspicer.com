@@ -8,7 +8,6 @@ categories:
 - Esports
 - Feminism
 - Allyship
-- Featured
 title: Gamer Culture
 ---
 Over the past year and a bit, someone I am close to has made a handful of references to me being part of gamer/gaming culture, and it’s always evoked a slightly defensive response. She doesn’t necessarily mean it as an out-and-out insult, but she doesn’t mean it as a compliment either - she is referring to some of the problematic archetypes of “gamers”, a word which seems to have evolved in its meaning over the past few years to mean something less literal than it once did. To be honest, it has caused me to have something of an identity crisis - I love video games, am I problematic or complicit as a result of my involvement with their communities?

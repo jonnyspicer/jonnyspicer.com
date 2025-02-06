@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Giving What I Can"
 categories:
 - Effective Altruism
-- Featured
+- Bestof
 ---
 I’ve read several LinkedIn posts on why people chose to take the [Giving What We Can Pledge](https://www.givingwhatwecan.org/). Many of them include something along the lines of “I’m not posting this to seem smug and morally superior - I’m posting this to help normalise talking about giving significant sums of money to charity”. They then proceed to seem smug and morally superior.
 

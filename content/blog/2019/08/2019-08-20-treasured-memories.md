@@ -6,7 +6,6 @@ type: blog
 date: "2019-08-20T00:00:00Z"
 categories:
 - Wellbeing
-- Featured
 title: Treasured Memories
 ---
 I originally only wrote this as a daily post, but upon reflection I like it too much, and it is the spiritual successor to [Success](/blog/success) which is probably my favourite post on the blog. As such, I felt it deserved a place here instead.

@@ -5,7 +5,6 @@ author: Jonny Spicer
 title: "February 2022 Retrospective"
 categories:
 - Personal
-- Featured
 series: ["Retrospectives"]
 ---
 [As promised](/blog/an-end-to-daily-posts/), here is the first of my monthly update posts. The inspiration for writing these has primarily been the [sprint retrospectives](https://www.scrum.org/resources/what-is-a-sprint-retrospective) that my team has every two weeks at work, which I have found incredibly useful. I think they are probably the most valuable aspect of the scrum framework for us, and have been the most powerful drivers of improvement both on an individual and team level. Given my ambitious goals in various areas other than my 9-to-5, I want to at least try and see whether a “life retrospective” can produce similar results, and eventually to develop a system similar to the one Neel Nanda describes [here.](https://www.neelnanda.io/blog/39-reflection)

@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Eiger Ultra Trail"
 categories:
 - Running
-- Featured
+- Bestof
 series: ["Marathons"]
 ---
 About four years ago, my then-housemate suggested that I watch [The Race That Eats Its Young](https://barkleymovie.com/), a documentary about the legendary Barkley Marathons. I’d just taken up running and had expressed an interest in aiming for longer distances at slower paces rather than trying to go faster over shorter ones. I took his recommendation and was duly inspired by Brett Maune’s hyper-analytic race strategy, Jared Campbell’s persistent good spirits and raw fitness, but mostly by John Fegyveresi’s sheer determination in the face of extreme physical and psychological suffering. One day I wanted to run ultramarathons; the kind that would test me in the same way that Brett, Jared, John, and all the other people who DNFed at Barkley that year had been tested.

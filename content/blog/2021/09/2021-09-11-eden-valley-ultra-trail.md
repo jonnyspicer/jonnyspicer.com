@@ -5,7 +5,6 @@ author: Jonny Spicer
 title: "Eden Valley Ultra Trail"
 categories:
 - Running
-- Featured
 series: ["Marathons"]
 ---
 Today was the [Eden Valley Ultra Trail](https://edenvalleyrace.com/) and I actually almost didn't do it. After having tried to think of everything variable I could control, making sure everything was in its place last night, there were of course variables that I couldn't

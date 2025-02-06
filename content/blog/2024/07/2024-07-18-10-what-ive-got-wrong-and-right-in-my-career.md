@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "What I've Got Wrong and Right In My Career"
 categories:
 - Career
+- Bestof
 ---
 I’ve made some huge mistakes in my career so far - things that have cost me learning opportunities, promotions, and sometimes my mental health. Fortunately I’ve also got many important things right - some deliberately and some accidentally. Given I’m looking for a new job (see my [LinkedIn](https://www.linkedin.com/in/jonnyspicer/) and [get in touch](/contact)!), this seemed like the perfect opportunity to reflect on both.
 ## Mistakes I’ve made

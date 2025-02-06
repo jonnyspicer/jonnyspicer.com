@@ -6,7 +6,6 @@ type: blog
 date: "2020-06-01T00:00:00Z"
 categories:
 - Allyship
-- Featured
 title: Social Responsibility
 series: ["Social Responsibility"]
 ---

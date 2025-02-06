@@ -4,8 +4,6 @@ aliases:
 author: Jonny Spicer
 type: blog
 date: "2019-09-10T00:00:00Z"
-categories:
-- Featured
 title: Dear Jacob
 series: ["Dear Jacob"]
 ---

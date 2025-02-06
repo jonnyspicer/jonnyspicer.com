@@ -7,7 +7,7 @@ date: "2021-01-30T00:00:00Z"
 categories:
 - Mental Health
 - Wellbeing
-- Featured
+- Bestof
 title: The Happiness Project
 ---
 A lot of people have written about [their version of a happiness project,](https://addhana.com/tags/happiness-project/) and in a way, shouldn't our whole lives be

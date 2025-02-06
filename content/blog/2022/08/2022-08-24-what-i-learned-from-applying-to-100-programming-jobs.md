@@ -4,7 +4,7 @@ date: "2022-08-24T13:43:27Z"
 author: Jonny Spicer
 title: "What I Learned From Applying To 100 Programming Jobs"
 categories:
-- Featured
+- Bestof
 - Career
 - Programming
 ---
