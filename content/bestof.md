@@ -2,10 +2,12 @@
 title: "Best Posts"
 description: "A curated collection of my favorite blog posts across various topics"
 type: "page"
-url: "/bestof"
+url: "bestof"
+permalink: "bestof"
+layout: "bestof"
 ---
 
-These are some of the posts I'm most proud of writing over the years, organized by topic.
+These are the posts that I'm most proud of having written, or those that people have engaged with the most. I think the newer ones are better; my pride in the older ones is mostly due to my not wholly disowning them, rather than because I think you ought to read them.
 
 ### Career
 
@@ -44,6 +46,4 @@ These are some of the posts I'm most proud of writing over the years, organized 
 - [Clicking Buttons (2017)](/blog/clicking-buttons)
 - [Joe Ingram's GTO Club Review (2017)](/blog/joe-ingrams-gto-club-review)
 
-
 ---
-
