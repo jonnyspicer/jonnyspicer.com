@@ -6,7 +6,9 @@ body {
 }
 
 .main-chat {
-  padding-bottom: 0;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
 }
 
 #sidebar {
@@ -74,20 +76,13 @@ body {
 
 .post-chat {
   padding: 0;
-  margin: -40px 0 0 0;
-  max-width: 100vw;
-  width: calc(100vw + 40px);
+  margin: 0;
+  width: 100%;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   height: calc(100dvh - 52px);
   display: flex;
   flex-direction: column;
   border-top: 1px solid #555;
-
-  @media (min-width: 680px) {
-    width: 100vw;
-  }
 
   .chat-interface {
     display: flex;
