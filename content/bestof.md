@@ -1,5 +1,5 @@
 ---
-title: "Best Posts"
+title: "Greatest Hits"
 description: "A curated collection of my favorite blog posts across various topics"
 type: "page"
 url: "bestof"
