@@ -164,18 +164,22 @@
     async function sendMessage() {
         const text = messageTextarea.value.trim()
         if (!text) return
+        
+        // Store the target persona ID when sending
+        const targetPersonaId = activePersonaId
+        
         addMessage(text, 'user')
         messageTextarea.value = ''
         messageTextarea.style.height = 'auto' // Reset height
         sendButton.disabled = true
         addMessage('...', 'bot')
-        const tempIndex = personas.find(p => p.id === activePersonaId).history.length - 1
-
-        // Get the current persona
-        const persona = personas.find(p => p.id === activePersonaId)
         
+        // Get the target persona and index of temporary message
+        const targetPersona = personas.find(p => p.id === targetPersonaId)
+        const tempIndex = targetPersona.history.length - 1
+
         // Format messages for Claude's API
-        const messages = persona.history
+        const messages = targetPersona.history
             .filter(msg => msg.text !== '...') // Remove temporary messages
             .map(msg => ({
                 role: msg.sender === 'user' ? 'user' : 'assistant',
@@ -183,10 +187,6 @@
             }))
 
         try {
-            // const apiUrl = window.location.hostname === 'localhost'
-            //     ? 'http://localhost:8080/chat'
-            //     : 'http://claude-chat.eba-epgvze3z.eu-west-1.elasticbeanstalk.com/chat'
-
             const apiUrl = 'https://chat.jonnyspicer.com/chat'
             
             const response = await fetch(apiUrl, {
@@ -195,7 +195,7 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    system: persona.systemPrompt,
+                    system: targetPersona.systemPrompt,
                     messages: messages
                 })
             })
@@ -203,13 +203,27 @@
                 throw new Error('Something went wrong')
             }
             const data = await response.json()
-            // Remove the temporary "..." message.
-            persona.history.splice(tempIndex, 1)
-            addMessage(data.completion.trim(), 'bot')
+            // Remove the temporary "..." message from the target persona
+            targetPersona.history.splice(tempIndex, 1)
+            // Add the response to the target persona's history
+            targetPersona.history.push({
+                text: data.completion.trim(),
+                sender: 'bot'
+            })
+            // Only re-render if we're still viewing the target persona
+            if (activePersonaId === targetPersonaId) {
+                renderChatHistory()
+            }
         } catch (error) {
-            // Remove the temporary "..." message and show an error.
-            persona.history.splice(tempIndex, 1)
-            addMessage("Error: " + error.message, 'bot')
+            // Remove the temporary "..." message and show an error
+            targetPersona.history.splice(tempIndex, 1)
+            targetPersona.history.push({
+                text: "Error: " + error.message,
+                sender: 'bot'
+            })
+            if (activePersonaId === targetPersonaId) {
+                renderChatHistory()
+            }
         } finally {
             sendButton.disabled = false
         }
