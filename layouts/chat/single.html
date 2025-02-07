@@ -24,6 +24,7 @@
                         <li><strong>Therapist:</strong> IFS-trained therapeutic assistant</li>
                         <li><strong>User Researcher:</strong> Expert in product research and user insights</li>
                         <li><strong>Entrepreneur:</strong> Tech founder and strategic advisor</li>
+                        <li><strong>Property Guide:</strong> Expert in London property buying</li>
                     </ul>
                     <p>Click on any persona to start chatting with it!</p>
                 </div>
@@ -100,6 +101,12 @@
             name: "Entrepreneur",
             systemPrompt: SYSTEM_PROMPTS.ENTREPRENEUR,
             history: []
+        },
+        {
+            id: 10,
+            name: "Property Guide",
+            systemPrompt: SYSTEM_PROMPTS.PROPERTY_GUIDE,
+            history: []
         }
     ]
     let activePersonaId = personas[0].id
@@ -134,7 +141,7 @@
         persona.history.forEach((msg, index) => {
             const msgDiv = document.createElement('div')
             msgDiv.className = `message ${msg.sender}${index % 2 === 0 ? ' end' : ' start'}`
-            msgDiv.textContent = msg.text
+            msgDiv.innerHTML = msg.text.replace(/\n/g, '<br>')
             chatHistoryDiv.appendChild(msgDiv)
         })
         chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight
@@ -206,6 +213,7 @@
             // Remove the temporary "..." message from the target persona
             targetPersona.history.splice(tempIndex, 1)
             // Add the response to the target persona's history
+            console.log("Response:", data.completion)
             targetPersona.history.push({
                 text: data.completion.trim(),
                 sender: 'bot'
