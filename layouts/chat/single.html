@@ -53,78 +53,91 @@
             id: 1, 
             name: "Friendly Bot", 
             systemPrompt: SYSTEM_PROMPTS.FRIENDLY,
+            promptKey: 'FRIENDLY',
             history: []
         },
         {
             id: 2, 
             name: "Sarcastic Bot", 
             systemPrompt: SYSTEM_PROMPTS.SARCASTIC,
+            promptKey: 'SARCASTIC',
             history: []
         },
         {
             id: 3, 
             name: "Wise Bot", 
             systemPrompt: SYSTEM_PROMPTS.WISE,
+            promptKey: 'WISE',
             history: []
         },
         {
             id: 4,
             name: "Coworker",
             systemPrompt: SYSTEM_PROMPTS.COWORKER,
+            promptKey: 'COWORKER',
             history: []
         },
         {
             id: 5,
             name: "Wedding Planner",
             systemPrompt: SYSTEM_PROMPTS.WEDDING_PLANNER,
+            promptKey: 'WEDDING_PLANNER',
             history: []
         },
         {
             id: 6,
             name: "Programming Tutor",
             systemPrompt: SYSTEM_PROMPTS.PROGRAMMING_TUTOR,
+            promptKey: 'PROGRAMMING_TUTOR',
             history: []
         },
         {
             id: 7,
             name: "Therapist",
             systemPrompt: SYSTEM_PROMPTS.THERAPIST,
+            promptKey: 'THERAPIST',
             history: []
         },
         {
             id: 8,
             name: "User Researcher",
             systemPrompt: SYSTEM_PROMPTS.USER_RESEARCHER,
+            promptKey: 'USER_RESEARCHER',
             history: []
         },
         {
             id: 9,
             name: "Entrepreneur",
             systemPrompt: SYSTEM_PROMPTS.ENTREPRENEUR,
+            promptKey: 'ENTREPRENEUR',
             history: []
         },
         {
             id: 10,
             name: "Property Guide",
             systemPrompt: SYSTEM_PROMPTS.PROPERTY_GUIDE,
+            promptKey: 'PROPERTY_GUIDE',
             history: []
         },
         {
             id: 11,
             name: "Spiritual Teacher",
             systemPrompt: SYSTEM_PROMPTS.SPIRITUAL_TEACHER,
+            promptKey: 'SPIRITUAL_TEACHER',
             history: []
         },
         {
             id: 12,
             name: "Courtney",
             systemPrompt: SYSTEM_PROMPTS.COURTNEY,
+            promptKey: 'COURTNEY',
             history: []
         },
         {
             id: 13,
             name: "Jonny",
             systemPrompt: SYSTEM_PROMPTS.JONNY,
+            promptKey: 'JONNY',
             history: []
         }
     ]
@@ -213,8 +226,8 @@
             }))
 
         try {
-            const apiUrl = 'https://chat.jonnyspicer.com/chat'
-            // const apiUrl = 'http://localhost:8080/chat'
+            // const apiUrl = 'https://chat.jonnyspicer.com/chat'
+            const apiUrl = 'http://localhost:8080/chat'
             // Find the prompt key by matching the system prompt
             const promptKey = Object.entries(SYSTEM_PROMPTS).find(
                 ([_, value]) => value === targetPersona.systemPrompt
