@@ -148,6 +148,12 @@
     const messageTextarea = document.getElementById('message-input')
     const sendButton = document.getElementById('send-button')
 
+    // Ensure button click works
+    sendButton.addEventListener('click', (e) => {
+        e.preventDefault()
+        sendMessage()
+    })
+
     // Render the list of personas.
     function renderPersonas() {
         console.log("Rendering personas:", personas)
@@ -169,7 +175,9 @@
     function renderChatHistory() {
         chatHistoryDiv.innerHTML = ''
         const persona = personas.find(p => p.id === activePersonaId)
-        if (!persona) return
+        if (!persona) {
+            return
+        }
         persona.history.forEach((msg, index) => {
             const msgDiv = document.createElement('div')
             msgDiv.className = `message ${msg.sender}${index % 2 === 0 ? ' end' : ' start'}`
@@ -181,10 +189,19 @@
 
     // Add a new message to the conversation.
     function addMessage(text, sender) {
-        const persona = personas.find(p => p.id === activePersonaId)
-        if (!persona) return
-        persona.history.push({text, sender})
-        renderChatHistory()
+        try {
+            const persona = personas.find(p => p.id === activePersonaId)
+            if (!persona) {
+                return
+            }
+            persona.history.push({text, sender})
+            // Force a repaint
+            window.requestAnimationFrame(() => {
+                renderChatHistory()
+            })
+        } catch (error) {
+            console.error("Error in addMessage:", error)
+        }
     }
 
     function autoResizeTextarea() {
@@ -201,39 +218,43 @@
     })
 
     async function sendMessage() {
-        const text = messageTextarea.value.trim()
-        if (!text) return
-        
-        // Store the target persona ID when sending
-        const targetPersonaId = activePersonaId
-        
-        addMessage(text, 'user')
-        messageTextarea.value = ''
-        messageTextarea.style.height = 'auto' // Reset height
-        sendButton.disabled = true
-        addMessage('...', 'bot')
-        
-        // Get the target persona and index of temporary message
-        const targetPersona = personas.find(p => p.id === targetPersonaId)
-        const tempIndex = targetPersona.history.length - 1
-
-        // Format messages for Claude's API
-        const messages = targetPersona.history
-            .filter(msg => msg.text !== '...') // Remove temporary messages
-            .map(msg => ({
-                role: msg.sender === 'user' ? 'user' : 'assistant',
-                content: msg.text
-            }))
-
         try {
-            const apiUrl = 'https://chat.jonnyspicer.com/chat'
-            // const apiUrl = 'http://localhost:8080/chat'
-            // Find the prompt key by matching the system prompt
-            const promptKey = Object.entries(SYSTEM_PROMPTS).find(
-                ([_, value]) => value === targetPersona.systemPrompt
-            )?.[0] || 'DEFAULT'
+            const text = messageTextarea.value.trim()
+            if (!text) {
+                return
+            }
+            
+            // Store the target persona ID when sending
+            const targetPersonaId = activePersonaId
+            
+            // Force a synchronous pause to ensure UI updates
+            await new Promise(resolve => setTimeout(resolve, 0))
+            
+            addMessage(text, 'user')
+            messageTextarea.value = ''
+            messageTextarea.style.height = 'auto' // Reset height
+            sendButton.disabled = true
+            
+            // Force another synchronous pause
+            await new Promise(resolve => setTimeout(resolve, 0))
+            
+            addMessage('...', 'bot')
+            
+            // Get the target persona and index of temporary message
+            const targetPersona = personas.find(p => p.id === targetPersonaId)
+            const tempIndex = targetPersona.history.length - 1
 
-            console.log("Prompt key:", promptKey)
+            // Format messages for Claude's API
+            const messages = targetPersona.history
+                .filter(msg => msg.text !== '...') // Remove temporary messages
+                .map(msg => ({
+                    role: msg.sender === 'user' ? 'user' : 'assistant',
+                    content: msg.text
+                }))
+            console.log("Formatted messages:", messages)
+
+            // const apiUrl = 'http://localhost:8080/chat'
+            const apiUrl = 'https://chat.jonnyspicer.com/chat'
             
             const response = await fetch(apiUrl, {
                 method: 'POST',
@@ -252,7 +273,6 @@
             // Remove the temporary "..." message from the target persona
             targetPersona.history.splice(tempIndex, 1)
             // Add the response to the target persona's history
-            console.log("Response:", data.completion)
             targetPersona.history.push({
                 text: data.completion.trim(),
                 sender: 'bot'
@@ -262,15 +282,7 @@
                 renderChatHistory()
             }
         } catch (error) {
-            // Remove the temporary "..." message and show an error
-            targetPersona.history.splice(tempIndex, 1)
-            targetPersona.history.push({
-                text: "Error: " + error.message,
-                sender: 'bot'
-            })
-            if (activePersonaId === targetPersonaId) {
-                renderChatHistory()
-            }
+            console.error("Uncaught error in sendMessage:", error)
         } finally {
             sendButton.disabled = false
         }
