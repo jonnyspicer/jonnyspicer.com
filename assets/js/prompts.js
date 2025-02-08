@@ -1,9 +1,7 @@
 export const SYSTEM_PROMPTS = {
-  FRIENDLY:
-    "",
+  FRIENDLY: "",
 
-  SARCASTIC:
-    "",
+  SARCASTIC: "",
 
   WISE: "",
 
@@ -16,7 +14,7 @@ export const SYSTEM_PROMPTS = {
   THERAPIST: "",
 
   USER_RESEARCHER: ``,
-  
+
   ENTREPRENEUR: ``,
 
   PROPERTY_GUIDE: ``,
@@ -26,6 +24,10 @@ export const SYSTEM_PROMPTS = {
   COURTNEY: ``,
 
   JONNY: ``,
+
+  GABRIEL: ``,
+
+  MEPHISTOPHELES: ``,
 
   DEFAULT:
     "You are a helpful chatbot. Keep your responses concise and conversational.",

@@ -392,4 +392,40 @@ body {
       }
     }
   }
+
+  .chat-section {
+    margin-bottom: 20px;
+
+    h3 {
+      font-size: 0.9em;
+      color: $color_grey_dark;
+      margin: 10px;
+      font-family: $font-stack-subheader;
+
+      @media (prefers-color-scheme: dark) {
+        color: $color_grey_light;
+      }
+    }
+  }
+
+  .message {
+    &.bot {
+      .message-sender {
+        font-size: 0.8em;
+        margin-bottom: 4px;
+        color: $color_darkmode_blue;
+      }
+    }
+
+    .message-content {
+      margin-top: 4px;
+    }
+  }
+
+  .persona.group {
+    &::before {
+      content: "👥";
+      margin-right: 8px;
+    }
+  }
 }
