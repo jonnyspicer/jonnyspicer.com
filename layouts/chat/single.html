@@ -359,7 +359,7 @@
                     }))
                 
                 try {
-                    const response = await fetch('http://localhost:8080/chat', {
+                    const response = await fetch(apiUrl, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
@@ -434,8 +434,8 @@
                     }))
                 console.log("Formatted messages:", messages)
 
-                const apiUrl = 'http://localhost:8080/chat'
-                // const apiUrl = 'https://chat.jonnyspicer.com/chat'
+                const apiUrl = 'https://chat.jonnyspicer.com/chat'
+                // const apiUrl = 'http://localhost:8080/chat'
                 
                 const response = await fetch(apiUrl, {
                     method: 'POST',
