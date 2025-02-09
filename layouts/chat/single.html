@@ -331,6 +331,10 @@
     })
 
     async function sendMessage() {
+        const apiUrl = window.location.hostname === 'localhost' 
+            ? 'http://localhost:8080/chat'
+            : 'https://chat.jonnyspicer.com/chat'
+
         try {
             const text = messageTextarea.value.trim()
             if (!text) return
@@ -434,8 +438,7 @@
                     }))
                 console.log("Formatted messages:", messages)
 
-                const apiUrl = 'https://chat.jonnyspicer.com/chat'
-                // const apiUrl = 'http://localhost:8080/chat'
+                
                 
                 const response = await fetch(apiUrl, {
                     method: 'POST',
