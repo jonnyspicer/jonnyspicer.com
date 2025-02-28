@@ -279,6 +279,11 @@
             const msgDiv = document.createElement('div')
             msgDiv.className = `message ${msg.sender}${msg.sender === 'user' ? ' end' : ' start'}`
             
+            // Add typing class for typing indicators
+            if (msg.isTyping) {
+                msgDiv.className += ' typing'
+            }
+            
             // Add persona name for group chats
             if (isGroupChat && msg.sender !== 'user') {
                 const nameSpan = document.createElement('div')
@@ -289,7 +294,13 @@
             
             const textDiv = document.createElement('div')
             textDiv.className = 'message-content'
-            textDiv.innerHTML = msg.text.replace(/\n/g, '<br>')
+            
+            if (msg.isTyping) {
+                textDiv.innerHTML = '<div class="typing-indicator"><span>.</span><span>.</span><span>.</span></div>'
+            } else {
+                textDiv.innerHTML = msg.text.replace(/\n/g, '<br>')
+            }
+            
             msgDiv.appendChild(textDiv)
             chatHistoryDiv.appendChild(msgDiv)
         })
@@ -352,7 +363,6 @@
                 group.members.forEach(member => {
                     addMessage('...', 'bot', member.name)
                 })
-                const tempIndex = group.history.length - group.members.length
 
                 // Format messages for the API
                 const messages = group.history
@@ -363,35 +373,128 @@
                     }))
                 
                 try {
+                    // Use fetch with POST for group chats
                     const response = await fetch(apiUrl, {
                         method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Accept': 'text/event-stream'
+                        },
                         body: JSON.stringify({
                             promptKey: group.promptKey,
                             messages: messages
                         })
                     })
-
-                    if (!response.ok) throw new Error('API request failed')
                     
-                    const data = await response.json()
-                    console.log("Group chat response:", data)
+                    if (!response.ok) {
+                        throw new Error(`Server returned ${response.status}: ${response.statusText}`)
+                    }
                     
                     // Remove all temporary "..." messages
                     group.history = group.history.filter(msg => msg.text !== '...')
                     
-                    // Add individual responses for each member
-                    for (const [promptKey, response] of Object.entries(data.completion)) {
-                        const member = group.members.find(m => m.promptKey === promptKey)
-                        if (member) {
-                            group.history.push({
-                                text: response.trim(),
-                                sender: 'bot',
-                                personaName: member.name
+                    // Track which members are still typing
+                    const typingMembers = new Set(group.members.map(m => m.promptKey))
+                    
+                    // Add a single typing indicator for the group
+                    group.history.push({
+                        text: '',
+                        sender: 'bot',
+                        isTyping: true
+                    })
+                    renderChatHistory()
+                    
+                    // Process the streaming response
+                    const reader = response.body.getReader()
+                    const decoder = new TextDecoder()
+                    
+                    let buffer = ''
+                    
+                    try {
+                        while (true) {
+                            const { done, value } = await reader.read()
+                            if (done) break
+                            
+                            // Decode and buffer the chunk
+                            buffer += decoder.decode(value, { stream: true })
+                            
+                            // Process complete SSE messages
+                            const lines = buffer.split('\n\n')
+                            buffer = lines.pop() || '' // Keep the last potentially incomplete event
+                            
+                            for (const line of lines) {
+                                if (line.trim() && line.startsWith('data: ')) {
+                                    try {
+                                        const data = JSON.parse(line.substring(6))
+                                        console.log("SSE message:", data)
+                                        
+                                        if (data.member && data.response) {
+                                            // Find the member
+                                            const member = group.members.find(m => m.promptKey === data.member)
+                                            if (member) {
+                                                // Remove from typing set
+                                                typingMembers.delete(data.member)
+                                                
+                                                // Remove any existing typing indicator so we can add it back at the end
+                                                const typingIndicators = group.history.filter(msg => msg.isTyping)
+                                                group.history = group.history.filter(msg => !msg.isTyping)
+                                                
+                                                // Remove any existing message from this member
+                                                group.history = group.history.filter(msg => 
+                                                    !(msg.sender === 'bot' && msg.personaName === member.name)
+                                                )
+                                                
+                                                // Add the new response
+                                                group.history.push({
+                                                    text: data.response.trim(),
+                                                    sender: 'bot',
+                                                    personaName: member.name
+                                                })
+                                                
+                                                // Add typing indicator back if we're not complete
+                                                if (typingMembers.size > 0) {
+                                                    group.history.push({
+                                                        text: '',
+                                                        sender: 'bot',
+                                                        isTyping: true
+                                                    })
+                                                }
+                                                
+                                                renderChatHistory()
+                                            }
+                                        }
+                                        
+                                        if (data.status === 'complete') {
+                                            console.log("SSE connection complete")
+                                            // Clear any remaining typing indicators
+                                            group.history = group.history.filter(msg => !msg.isTyping)
+                                            renderChatHistory()
+                                            break
+                                        }
+                                    } catch (error) {
+                                        console.error("Error parsing SSE message:", error)
+                                    }
+                                }
+                            }
+                        }
+                    } catch (error) {
+                        console.error("Error processing stream:", error)
+                        
+                        // If we have no responses yet, show errors
+                        if (!group.history.some(msg => msg.sender === 'bot' && !msg.isTyping)) {
+                            // Clear typing indicators
+                            group.history = group.history.filter(msg => !msg.isTyping)
+                            
+                            group.members.forEach(member => {
+                                group.history.push({
+                                    text: "Error: Failed to process stream",
+                                    sender: 'bot',
+                                    personaName: member.name
+                                })
                             })
+                            renderChatHistory()
                         }
                     }
-                    renderChatHistory()
                 } catch (error) {
                     console.error("Error in group chat:", error)
                     // Remove all temporary "..." messages
