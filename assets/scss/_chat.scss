@@ -76,26 +76,26 @@ body {
   &.typing {
     .typing-indicator {
       display: inline-block;
-      
+
       span {
         display: inline-block;
         font-size: 1.2em;
         line-height: 0.5;
         margin: 0 2px;
         animation: typing-animation 1.4s infinite ease-in-out;
-        
+
         @media (prefers-color-scheme: dark) {
           color: $color_grey_light;
         }
-        
+
         &:nth-child(1) {
           animation-delay: 0s;
         }
-        
+
         &:nth-child(2) {
           animation-delay: 0.2s;
         }
-        
+
         &:nth-child(3) {
           animation-delay: 0.4s;
         }
@@ -496,7 +496,9 @@ body {
 
 /* Typing animation */
 @keyframes typing-animation {
-  0%, 60%, 100% {
+  0%,
+  60%,
+  100% {
     transform: translateY(0);
   }
   30% {
