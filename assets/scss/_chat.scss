@@ -372,6 +372,8 @@ body {
     z-index: 1000;
     font-family: $font-stack-copy;
     max-width: 300px;
+    overflow-y: auto;
+    max-height: 80vh;
 
     @media (prefers-color-scheme: dark) {
       background-color: lighten($color_darkmode_background, 5%);
