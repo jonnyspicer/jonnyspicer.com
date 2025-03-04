@@ -45,12 +45,29 @@
             <div id="persona-list"></div>
         </div>
         <div id="chat-container">
-            <button id="settings-button" class="settings-button" aria-label="Chat settings">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-            </button>
+            <div id="chat-header">
+                <h2 id="chat-title">Friendly Bot</h2>
+                <div class="header-controls">
+                    <button id="members-button" class="members-button hidden" aria-label="View group members">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                        </svg>
+                        <span class="member-count">0</span>
+                    </button>
+                    <button id="settings-button" class="settings-button" aria-label="Chat settings">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="members-popup" class="members-popup hidden">
+                <div class="members-content">
+                    <h3>Group Members</h3>
+                    <ul id="member-list"></ul>
+                </div>
+            </div>
             <div id="settings-popup" class="settings-popup hidden">
                 <div class="settings-content">
                     <h3>Chat Settings</h3>
@@ -368,11 +385,7 @@
             div.className = 'persona' + (!isGroupChat && persona.id === activePersonaId ? ' active' : '')
             div.textContent = persona.name
             div.onclick = () => {
-                activePersonaId = persona.id
-                isGroupChat = false
-                activeGroupId = null
-                renderPersonas()
-                renderChatHistory()
+                changeActivePersona(persona.id)
             }
             individualSection.appendChild(div)
         })
@@ -390,11 +403,7 @@
             div.className = 'persona group' + (isGroupChat && group.id === activeGroupId ? ' active' : '')
             div.textContent = group.name
             div.onclick = () => {
-                activeGroupId = group.id
-                isGroupChat = true
-                activePersonaId = null
-                renderPersonas()
-                renderChatHistory()
+                changeActiveGroup(group.id)
             }
             groupSection.appendChild(div)
         })
@@ -743,6 +752,55 @@
     const clearAllBtn = document.getElementById('clear-all-button')
     let isSettingsOpen = false
 
+    // Add members button functionality
+    const membersButton = document.getElementById('members-button')
+    const membersPopup = document.getElementById('members-popup')
+    const memberList = document.getElementById('member-list')
+    let isMembersOpen = false
+
+    function toggleMembersPopup() {
+        isMembersOpen = !isMembersOpen
+        membersPopup.classList.toggle('hidden')
+        membersButton.classList.toggle('active')
+    }
+
+    function closeMembersPopup(event) {
+        if (isMembersOpen && !membersPopup.contains(event.target) && !membersButton.contains(event.target)) {
+            isMembersOpen = false
+            membersPopup.classList.add('hidden')
+            membersButton.classList.remove('active')
+        }
+    }
+
+    membersButton.addEventListener('click', (e) => {
+        e.stopPropagation()
+        toggleMembersPopup()
+    })
+
+    document.addEventListener('click', closeMembersPopup)
+
+    function updateMembersButton() {
+        if (isGroupChat) {
+            const group = groupChats.find(g => g.id === activeGroupId)
+            if (group) {
+                // Show the members button and update count
+                membersButton.classList.remove('hidden')
+                membersButton.querySelector('.member-count').textContent = group.members.length
+                
+                // Update the members list in the popup
+                memberList.innerHTML = ''
+                group.members.forEach(member => {
+                    const li = document.createElement('li')
+                    li.textContent = member.name
+                    memberList.appendChild(li)
+                })
+            }
+        } else {
+            // Hide the members button for individual chats
+            membersButton.classList.add('hidden')
+        }
+    }
+
     function toggleSettingsPopup() {
         isSettingsOpen = !isSettingsOpen
         settingsPopup.classList.toggle('hidden')
@@ -795,6 +853,40 @@
 
     document.addEventListener('click', closeInfoPopup)
 
+    function changeActivePersona(personaId) {
+        activePersonaId = personaId
+        activeGroupId = null
+        isGroupChat = false
+        updateChatTitle()
+        updateMembersButton()
+        renderChatHistory()
+    }
+
+    function changeActiveGroup(groupId) {
+        activeGroupId = groupId
+        activePersonaId = null
+        isGroupChat = true
+        updateChatTitle()
+        updateMembersButton()
+        renderChatHistory()
+    }
+
+    function updateChatTitle() {
+        const chatTitleElement = document.getElementById('chat-title')
+        
+        if (isGroupChat) {
+            const group = groupChats.find(g => g.id === activeGroupId)
+            if (group) {
+                chatTitleElement.textContent = group.name
+            }
+        } else {
+            const persona = personas.find(p => p.id === activePersonaId)
+            if (persona) {
+                chatTitleElement.textContent = persona.name
+            }
+        }
+    }
+
     // Initial setup
     document.addEventListener('DOMContentLoaded', () => {
         // Load saved chats from localStorage
@@ -803,6 +895,8 @@
         // Initial render
         renderPersonas()
         renderChatHistory()
+        updateChatTitle()
+        updateMembersButton()
     })
 </script>
 {{ end }} 
