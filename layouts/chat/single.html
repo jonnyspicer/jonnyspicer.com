@@ -83,6 +83,44 @@
     </div>
 </div>
 
+<style>
+.typing-indicator {
+    display: inline-flex;
+    min-height: 20px;
+    opacity: 0.8;
+    padding: 0;
+    margin: 0;
+}
+
+.typing-indicator .dot {
+    animation: dotBounce 1.4s infinite ease-in-out;
+    margin: 0 -3px; /* Negative margin to bring dots closer together */
+    letter-spacing: -3px; /* Reduce letter spacing */
+}
+
+/* Reduce padding in message bubbles that contain typing indicators */
+.message.typing {
+    padding: 4px;
+}
+
+.typing-indicator .dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.typing-indicator .dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator .dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes dotBounce {
+    0%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-1px); }
+}
+</style>
+
 {{ $promptsjs := resources.Get "js/prompts.js" }}
 
 <script type="module">
@@ -381,10 +419,11 @@
         
         personas.forEach(persona => {
             const div = document.createElement('div')
-            div.className = 'persona' + (!isGroupChat && persona.id === activePersonaId ? ' active' : '')
+            div.className = !isGroupChat && persona.id === activePersonaId ? 'persona active' : 'persona'
             div.textContent = persona.name
             div.onclick = () => {
                 changeActivePersona(persona.id)
+                renderPersonas() // Re-render to update highlighting
             }
             individualSection.appendChild(div)
         })
@@ -399,10 +438,11 @@
         
         groupChats.forEach(group => {
             const div = document.createElement('div')
-            div.className = 'persona group' + (isGroupChat && group.id === activeGroupId ? ' active' : '')
+            div.className = isGroupChat && group.id === activeGroupId ? 'persona group active' : 'persona group'
             div.textContent = group.name
             div.onclick = () => {
                 changeActiveGroup(group.id)
+                renderPersonas() // Re-render to update highlighting
             }
             groupSection.appendChild(div)
         })
@@ -445,7 +485,8 @@
             textDiv.className = 'message-content'
             
             if (msg.isTyping) {
-                textDiv.innerHTML = '<div class="typing-indicator"><span>.</span><span>.</span><span>.</span></div>'
+                textDiv.innerHTML = '<div class="typing-indicator"><span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>'
+                textDiv.style.opacity = '0.8'
             } else {
                 textDiv.innerHTML = msg.text.replace(/\n/g, '<br>')
             }
@@ -457,20 +498,20 @@
     }
 
     // Add a new message to the conversation.
-    function addMessage(text, sender, personaName = null) {
+    function addMessage(text, sender, personaName = null, isTyping = false) {
         try {
             if (isGroupChat) {
                 const group = groupChats.find(g => g.id === activeGroupId)
                 if (!group) return
-                group.history.push({text, sender, personaName})
+                group.history.push({text, sender, personaName, isTyping})
             } else {
                 const persona = personas.find(p => p.id === activePersonaId)
                 if (!persona) return
-                persona.history.push({text, sender, personaName})
+                persona.history.push({text, sender, personaName, isTyping})
             }
             
             // Save to localStorage after adding a message (except for typing indicators)
-            if (text !== '...' && !text.isTyping) {
+            if (!isTyping) {
                 saveChatsToLocalStorage()
             }
             
@@ -514,14 +555,12 @@
                 messageTextarea.style.height = 'auto'
                 sendButton.disabled = true
                 
-                // Add loading message for each member
-                group.members.forEach(member => {
-                    addMessage('...', 'bot', member.name)
-                })
+                // Add a single typing indicator
+                addMessage('', 'bot', null, true)
 
                 // Format messages for the API
                 const messages = group.history
-                    .filter(msg => msg.text !== '...') // Remove temporary messages
+                    .filter(msg => !msg.isTyping) // Remove temporary typing indicators
                     .map(msg => ({
                         role: msg.sender === 'user' ? 'user' : 'assistant',
                         content: msg.text
@@ -545,18 +584,14 @@
                         throw new Error(`Server returned ${response.status}: ${response.statusText}`)
                     }
                     
-                    // Remove all temporary "..." messages
-                    group.history = group.history.filter(msg => msg.text !== '...')
+                    // Remove typing indicator
+                    group.history = group.history.filter(msg => !msg.isTyping)
                     
                     // Track which members are still typing
                     const typingMembers = new Set(group.members.map(m => m.promptKey))
                     
                     // Add a single typing indicator for the group
-                    group.history.push({
-                        text: '',
-                        sender: 'bot',
-                        isTyping: true
-                    })
+                    addMessage('', 'bot', null, true)
                     renderChatHistory()
                     
                     // Process the streaming response
@@ -684,15 +719,15 @@
                 // Force another synchronous pause
                 await new Promise(resolve => setTimeout(resolve, 0))
                 
-                addMessage('...', 'bot')
-                
-                // Get the target persona and index of temporary message
+                // Get the target persona
                 const targetPersona = personas.find(p => p.id === targetPersonaId)
-                const tempIndex = targetPersona.history.length - 1
+                
+                // Add a typing indicator
+                addMessage('', 'bot', null, true)
 
                 // Format messages for Claude's API
                 const messages = targetPersona.history
-                    .filter(msg => msg.text !== '...') // Remove temporary messages
+                    .filter(msg => !msg.isTyping) // Remove typing indicators
                     .map(msg => ({
                         role: msg.sender === 'user' ? 'user' : 'assistant',
                         content: msg.text
@@ -716,8 +751,10 @@
                 }
                 const data = await response.json()
                 console.log("Response:", data)
-                // Remove the temporary "..." message from the target persona
-                targetPersona.history.splice(tempIndex, 1)
+                
+                // Remove the typing indicator
+                targetPersona.history = targetPersona.history.filter(msg => !msg.isTyping)
+                
                 // Add the response to the target persona's history
                 targetPersona.history.push({
                     text: data.completion.trim(),
