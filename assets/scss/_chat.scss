@@ -573,22 +573,6 @@ body {
     height: 25px;
   }
 
-  .member-count {
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    background-color: $color_darkmode_blue;
-    color: white;
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: $font-stack-copy;
-  }
-
   &:hover {
     background-color: rgba($color_grey_light, 0.2);
   }
