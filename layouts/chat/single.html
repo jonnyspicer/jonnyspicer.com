@@ -204,6 +204,122 @@
     const messageTextarea = document.getElementById('message-input')
     const sendButton = document.getElementById('send-button')
 
+    // Storage management functions
+    function saveChatsToLocalStorage() {
+        try {
+            const personasData = {}
+            personas.forEach(persona => {
+                personasData[persona.id] = persona.history
+            })
+            
+            const groupsData = {}
+            groupChats.forEach(group => {
+                groupsData[group.id] = group.history
+            })
+            
+            const storageData = {
+                version: '1.0',
+                personas: personasData,
+                groups: groupsData
+            }
+            
+            localStorage.setItem('chatData', JSON.stringify(storageData))
+            console.log('Chat history saved to localStorage')
+        } catch (error) {
+            if (error instanceof DOMException && (error.name === 'QuotaExceededError' || error.code === 22)) {
+                console.warn('Storage quota exceeded, trimming chat histories')
+                trimChatHistories()
+                saveChatsToLocalStorage() // Try again after trimming
+            } else {
+                console.error('Error saving to localStorage:', error)
+            }
+        }
+    }
+    
+    function loadChatsFromLocalStorage() {
+        try {
+            const data = JSON.parse(localStorage.getItem('chatData'))
+            
+            if (!data || data.version !== '1.0') {
+                console.info('No saved chats or version mismatch')
+                return
+            }
+            
+            // Restore individual persona chats
+            if (data.personas) {
+                personas.forEach(persona => {
+                    if (data.personas[persona.id]) {
+                        persona.history = data.personas[persona.id]
+                    }
+                })
+            }
+            
+            // Restore group chats
+            if (data.groups) {
+                groupChats.forEach(group => {
+                    if (data.groups[group.id]) {
+                        group.history = data.groups[group.id]
+                    }
+                })
+            }
+            
+            console.log('Chat history loaded from localStorage')
+        } catch (error) {
+            console.error('Error loading from localStorage:', error)
+            // If data is corrupted, reset it
+            localStorage.removeItem('chatData')
+        }
+    }
+    
+    function trimChatHistories() {
+        // Keep only the last 50 messages for each chat
+        const MAX_MESSAGES = 50
+        
+        personas.forEach(persona => {
+            if (persona.history.length > MAX_MESSAGES) {
+                persona.history = persona.history.slice(-MAX_MESSAGES)
+            }
+        })
+        
+        groupChats.forEach(group => {
+            if (group.history.length > MAX_MESSAGES) {
+                group.history = group.history.slice(-MAX_MESSAGES)
+            }
+        })
+    }
+    
+    function clearCurrentChatHistory() {
+        if (isGroupChat) {
+            const group = groupChats.find(g => g.id === activeGroupId)
+            if (group) {
+                group.history = []
+            }
+        } else {
+            const persona = personas.find(p => p.id === activePersonaId)
+            if (persona) {
+                persona.history = []
+            }
+        }
+        
+        saveChatsToLocalStorage()
+        renderChatHistory()
+    }
+    
+    function clearAllChatHistories() {
+        if (confirm('Are you sure you want to clear all chat histories? This cannot be undone.')) {
+            personas.forEach(persona => {
+                persona.history = []
+            })
+            
+            groupChats.forEach(group => {
+                group.history = []
+            })
+            
+            localStorage.removeItem('chatData')
+            renderChatHistory()
+        }
+    }
+
     // Ensure button click works
     sendButton.addEventListener('click', (e) => {
         e.preventDefault()
@@ -319,6 +435,12 @@
                 if (!persona) return
                 persona.history.push({text, sender, personaName})
             }
+            
+            // Save to localStorage after adding a message (except for typing indicators)
+            if (text !== '...' && !text.isTyping) {
+                saveChatsToLocalStorage()
+            }
+            
             // Force a repaint
             window.requestAnimationFrame(() => {
                 renderChatHistory()
@@ -451,6 +573,9 @@
                                                     personaName: member.name
                                                 })
                                                 
+                                                // Save each member's response as it comes in
+                                                saveChatsToLocalStorage()
+                                                
                                                 // Add typing indicator back if we're not complete
                                                 if (typingMembers.size > 0) {
                                                     group.history.push({
@@ -566,6 +691,9 @@
                     sender: 'bot',
                     personaName: targetPersona.name
                 })
+                // Save to localStorage after receiving individual response
+                saveChatsToLocalStorage()
+                
                 // Only re-render if we're still viewing the target persona
                 if (activePersonaId === targetPersonaId) {
                     renderChatHistory()
@@ -604,8 +732,42 @@
 
     document.addEventListener('click', closeInfoPopup)
 
-    // Initial render.
-    renderPersonas()
-    renderChatHistory()
+    // Add UI controls for chat history management
+    function addChatControls() {
+        const controlsDiv = document.createElement('div')
+        controlsDiv.className = 'chat-controls'
+        
+        const clearChatBtn = document.createElement('button')
+        clearChatBtn.id = 'clear-chat-button'
+        clearChatBtn.className = 'secondary-button'
+        clearChatBtn.textContent = 'Clear Current Chat'
+        clearChatBtn.addEventListener('click', clearCurrentChatHistory)
+        
+        const clearAllBtn = document.createElement('button')
+        clearAllBtn.id = 'clear-all-button'
+        clearAllBtn.className = 'secondary-button'
+        clearAllBtn.textContent = 'Clear All Chats'
+        clearAllBtn.addEventListener('click', clearAllChatHistories)
+        
+        controlsDiv.appendChild(clearChatBtn)
+        controlsDiv.appendChild(clearAllBtn)
+        
+        // Add the controls below the sidebar persona list
+        const sidebar = document.getElementById('sidebar')
+        sidebar.appendChild(controlsDiv)
+    }
+
+    // Initial setup
+    document.addEventListener('DOMContentLoaded', () => {
+        // Load saved chats from localStorage
+        loadChatsFromLocalStorage()
+        
+        // Add UI controls for chat management
+        addChatControls()
+        
+        // Initial render
+        renderPersonas()
+        renderChatHistory()
+    })
 </script>
 {{ end }} 
