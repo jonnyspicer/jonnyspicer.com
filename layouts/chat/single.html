@@ -126,6 +126,12 @@
 <script type="module">
     import { SYSTEM_PROMPTS } from '{{ $promptsjs.Permalink }}'
     
+    // Generate a unique user ID if one doesn't exist
+    if (!localStorage.getItem('userId')) {
+        localStorage.setItem('userId', `user-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`);
+    }
+    const userId = localStorage.getItem('userId');
+    
     // Define the available personas with their own conversation history.
     const personas = [
         {
@@ -576,7 +582,8 @@
                         },
                         body: JSON.stringify({
                             promptKey: group.promptKey,
-                            messages: messages
+                            messages: messages,
+                            userId: userId  // Add userId to the request
                         })
                     })
                     
@@ -743,7 +750,8 @@
                     },
                     body: JSON.stringify({
                         promptKey: targetPersona.promptKey,
-                        messages: messages
+                        messages: messages,
+                        userId: userId  // Add userId to the request
                     })
                 })
                 if (!response.ok) {
