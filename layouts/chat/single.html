@@ -1,12 +1,32 @@
 {{ define "main" }}
 <div class="post post-chat">
     <div class="chat-interface">
-        <div id="sidebar">
+        <!-- Fixed toggle button for mobile -->
+        <button id="sidebar-open" class="sidebar-open" aria-label="Open personas menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 19.5L15.75 12l-7.5-7.5" />
+            </svg>
+        </button>
+        <!-- Hamburger menu button for mobile -->
+        <button id="toggle-sidebar" class="toggle-sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+        <!-- Overlay for mobile drawer -->
+        <div id="sidebar-overlay" class="sidebar-overlay"></div>
+        <div id="sidebar" class="sidebar">
             <div class="sidebar-header">
                 <h2>Personas</h2>
                 <button id="info-button" class="info-button" aria-label="Information about personas">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                    </svg>
+                </button>
+                <!-- Add close button to sidebar -->
+                <button id="sidebar-close" class="sidebar-close" aria-label="Close personas menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                     </svg>
                 </button>
             </div>
@@ -49,12 +69,12 @@
                 <h2 id="chat-title">Friendly Bot</h2>
                 <div class="header-controls">
                     <button id="members-button" class="members-button hidden" aria-label="View group members">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
                         </svg>
                     </button>
                     <button id="settings-button" class="settings-button" aria-label="Chat settings">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
@@ -82,44 +102,6 @@
         </div>
     </div>
 </div>
-
-<style>
-.typing-indicator {
-    display: inline-flex;
-    min-height: 20px;
-    opacity: 0.8;
-    padding: 0;
-    margin: 0;
-}
-
-.typing-indicator .dot {
-    animation: dotBounce 1.4s infinite ease-in-out;
-    margin: 0 -3px; /* Negative margin to bring dots closer together */
-    letter-spacing: -3px; /* Reduce letter spacing */
-}
-
-/* Reduce padding in message bubbles that contain typing indicators */
-.message.typing {
-    padding: 4px;
-}
-
-.typing-indicator .dot:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.typing-indicator .dot:nth-child(2) {
-    animation-delay: 0.2s;
-}
-
-.typing-indicator .dot:nth-child(3) {
-    animation-delay: 0.4s;
-}
-
-@keyframes dotBounce {
-    0%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-1px); }
-}
-</style>
 
 {{ $promptsjs := resources.Get "js/prompts.js" }}
 
@@ -903,6 +885,8 @@
         updateChatTitle()
         updateMembersButton()
         renderChatHistory()
+        // Close sidebar on mobile when a persona is selected
+        closeSidebarOnMobile()
     }
 
     function changeActiveGroup(groupId) {
@@ -912,6 +896,8 @@
         updateChatTitle()
         updateMembersButton()
         renderChatHistory()
+        // Close sidebar on mobile when a group is selected
+        closeSidebarOnMobile()
     }
 
     function updateChatTitle() {
@@ -930,10 +916,76 @@
         }
     }
 
+    // Mobile sidebar functionality
+    const toggleSidebarBtn = document.getElementById('toggle-sidebar')
+    const sidebarOpenBtn = document.getElementById('sidebar-open')
+    const sidebarCloseBtn = document.getElementById('sidebar-close')
+    const sidebar = document.getElementById('sidebar')
+    const sidebarOverlay = document.getElementById('sidebar-overlay')
+    
+    // Function to open sidebar
+    function openSidebar() {
+        sidebar.classList.add('open')
+        sidebarOverlay.classList.add('show')
+        document.body.style.overflow = 'hidden' // Prevent scrolling when drawer is open
+        sidebarOpenBtn.style.display = 'none' // Hide the open button when sidebar is open
+    }
+    
+    // Function to close sidebar
+    function closeSidebar() {
+        sidebar.classList.remove('open')
+        sidebarOverlay.classList.remove('show')
+        document.body.style.overflow = '' // Restore scrolling
+        sidebarOpenBtn.style.display = '' // Show the open button when sidebar is closed
+    }
+    
+    // Function to toggle sidebar
+    function toggleSidebar() {
+        if (sidebar.classList.contains('open')) {
+            closeSidebar()
+        } else {
+            openSidebar()
+        }
+    }
+    
+    // Function to close sidebar on mobile specifically
+    function closeSidebarOnMobile() {
+        if (window.innerWidth <= 768) {
+            closeSidebar()
+        }
+    }
+    
+    // Event listeners for sidebar
+    toggleSidebarBtn.addEventListener('click', toggleSidebar)
+    sidebarOpenBtn.addEventListener('click', toggleSidebar)
+    sidebarCloseBtn.addEventListener('click', closeSidebar)
+    sidebarOverlay.addEventListener('click', closeSidebar)
+    
+    // Handle window resize
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) {
+            // Reset any mobile-specific styles if we're back to desktop
+            sidebar.classList.remove('open')
+            sidebarOverlay.classList.remove('show')
+            document.body.style.overflow = ''
+            sidebarOpenBtn.style.display = 'none' // Always hide on desktop
+        } else {
+            // On mobile, show the button only if sidebar is closed
+            sidebarOpenBtn.style.display = sidebar.classList.contains('open') ? 'none' : ''
+        }
+    })
+
     // Initial setup
     document.addEventListener('DOMContentLoaded', () => {
         // Load saved chats from localStorage
         loadChatsFromLocalStorage()
+        
+        // Set initial visibility of sidebar-open button
+        if (window.innerWidth > 768) {
+            sidebarOpenBtn.style.display = 'none' // Hide on desktop
+        } else {
+            sidebarOpenBtn.style.display = sidebar.classList.contains('open') ? 'none' : '' // Show on mobile only if sidebar is closed
+        }
         
         // Initial render
         renderPersonas()
