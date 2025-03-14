@@ -6,7 +6,17 @@ body {
   @media (prefers-color-scheme: dark) {
     background-color: $color_darkmode_background;
 
-    h1, h2, h3, h4, h5, h6, p, a, span, li, blockquote {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    span,
+    li,
+    blockquote {
       color: $color_darkmode_text;
     }
   }
@@ -27,20 +37,23 @@ h1 {
   color: $color_black;
   font-weight: normal;
 
-  &.big-title{
+  &.big-title {
     font-size: 6em;
     background-image: linear-gradient($color_yellow, $color_yellow);
 
     @media (prefers-color-scheme: dark) {
-      background-image: linear-gradient($color_darkmode_blue, $color_darkmode_blue);
+      background-image: linear-gradient(
+        $color_darkmode_blue,
+        $color_darkmode_blue
+      );
     }
   }
 }
 
-h2{
+h2 {
   margin: 30px 0 10px;
-  
-  &.big-title{
+
+  &.big-title {
     font-size: 2em;
   }
 }
@@ -64,13 +77,13 @@ blockquote {
   font-family: $font-stack-copy;
   color: $color_black;
 
-  &.bigger{
+  &.bigger {
     font-size: 1.2em;
   }
 }
 
 * {
-  .vertical-margin{
+  .vertical-margin {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -108,7 +121,7 @@ a {
 }
 
 p,
-span, 
+span,
 li {
   padding: 10px 0;
   font-size: 16px;
@@ -134,7 +147,7 @@ li {
   padding-bottom: 10px;
 }
 
-ul.tag-list{
+ul.tag-list {
   padding: 0;
 
   li {
@@ -166,7 +179,9 @@ code {
 }
 
 @media only screen and (min-width: 600px) {
-  code.language-c, code.language-bash, code.language-python {
+  code.language-c,
+  code.language-bash,
+  code.language-python {
     overflow-x: hidden;
   }
 }
@@ -211,13 +226,44 @@ img {
 p img {
   // this is stupid and I hate it
   @media only screen and (min-width: 600px) {
-    width:1200px;
+    width: 1200px;
     max-width: 200%;
     margin-left: calc(-50vw + 300px);
   }
 
   @media only screen and (min-width: 1200px) {
     margin-left: -50%;
+  }
+}
+
+.post-blog p img {
+  @media only screen and (min-width: 600px) {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+/* Styling for figure and figcaption elements */
+figure {
+  margin: 1.5em 0;
+
+  img {
+    margin-bottom: 0.5em;
+  }
+}
+
+figcaption {
+  font-family: $font-stack-copy;
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: center;
+  color: rgba($color_black, 0.8);
+  padding: 0.5em 0 1em;
+  line-height: 1.4;
+
+  @media (prefers-color-scheme: dark) {
+    color: rgba($color_darkmode_text, 0.9);
   }
 }
 
