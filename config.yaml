@@ -30,7 +30,7 @@ menu:
   main:
     - name: "All In"
       url: "https://allinlabs.io"
-      weight: 3
+      weight: 2
       target: "_blank"
 server:
   headers:
