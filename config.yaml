@@ -25,7 +25,13 @@ params:
   github: https://github.com/jonnyspicer
   twitter: https://twitter.com/jjspicer
   sitename: Jonny Spicer
-  description: Jonny Spicer is a software engineer, blogger, runner, climber and music lover, and this is his personal site
+  description: Jonny Spicer is a founder, software engineer, blogger, runner, climber and music lover, and this is his personal site
+menu:
+  main:
+    - name: "All In"
+      url: "https://allinlabs.io"
+      weight: 3
+      target: "_blank"
 server:
   headers:
     - for: /**

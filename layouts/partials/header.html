@@ -12,7 +12,9 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{end}}"
-            href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            href="{{ .URL }}" 
+            title="{{ .Title }}"
+            {{ if strings.HasPrefix .URL "http" }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a>
         {{ end }}
     </nav>
 </header>
