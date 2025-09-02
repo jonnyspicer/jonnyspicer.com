@@ -27,11 +27,7 @@ params:
   sitename: Jonny Spicer
   description: Jonny Spicer is a founder, software engineer, blogger, runner, climber and music lover, and this is his personal site
 menu:
-  main:
-    - name: "All In"
-      url: "https://allinlabs.io"
-      weight: 2
-      target: "_blank"
+  main: []
 server:
   headers:
     - for: /**

@@ -1,25 +1,25 @@
-.post{
-  blockquote p:first-of-type{
+.post {
+  blockquote p:first-of-type {
     font-size: 1em;
   }
 
-  ul{
-    padding-inline-end:40px;
+  ul {
+    padding-inline-end: 40px;
     padding-inline-start: 20px;
     margin: 30px 0 0;
-    li{
+    li {
       padding: 0 0 20px 5px;
-      span{
+      span {
         font-size: 16px;
       }
-      p{
+      p {
         margin: 0;
       }
     }
   }
 
-  &.post-blog{
-    ul{
+  &.post-blog {
+    ul {
       list-style-type: katakana;
     }
   }
@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
   p {
     max-width: 49%;
     font-size: 16px;
@@ -38,6 +38,34 @@
   }
 }
 
-.series-navigation{
+.series-navigation {
   margin-top: 40px;
+}
+
+/* Footnote styling */
+.footnotes {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+
+  ol {
+    padding-inline-start: 20px;
+
+    li {
+      padding: 12px 0; /* Balanced spacing between footnotes */
+      margin: 0;
+
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+/* Dark mode support for footnotes */
+@media (prefers-color-scheme: dark) {
+  .footnotes {
+    border-top-color: #444;
+  }
 }
