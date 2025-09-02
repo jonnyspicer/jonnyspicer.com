@@ -14,6 +14,8 @@ If there’s a sliver of a chance that it stops someone from killing themselves,
 
 My thesis here is that many people kill themselves because they feel trapped, and cannot emotionally connect with a future in which they are not ensnared. Often the trap is more psychic than real. The actions below are intended to be radical or intense - designed to unstick a person, *but only if they’re novel*. If you have done any of these things recently (or ever, in some cases), then repeating them is not going to have the desired effect.
 
+(NB: these are loosely grouped by theme, rather than in a proscribed order. You should prioritise the list yourself.)
+
 1. Quit your job. Ask your doctor to sign you off sick due to your suicidal ideation. At the very least, take a sabbatical.
 2. Tell someone you're going to kill yourself. Tell many people. ([Tell me](https://jonnyspicer.com/contact/), if you'd like).
 3. Take drugs. Some will make you feel good, helping you remember how that feeling tastes, so you can find your way back without the chemical aids. Others will change your entire world, for a few hours - clearly your perception is malleable, and so you can alter it yourself. A bad trip is still better than a trip down the River Styx.
