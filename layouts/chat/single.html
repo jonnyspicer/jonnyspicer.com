@@ -32,36 +32,9 @@
             </div>
             <div id="info-popup" class="info-popup hidden">
                 <div class="info-content">
-                    <h3>About the Chat Interface</h3>
-                    <p>This chat interface allows you to interact with different AI personas:</p>
-                    <ul>
-                        <li><strong>Friendly Bot:</strong> A helpful and cheerful assistant</li>
-                        <li><strong>Sarcastic Bot:</strong> Responds with wit and sarcasm</li>
-                        <li><strong>Wise Bot:</strong> Provides thoughtful and insightful responses</li>
-                        <li><strong>Coworker:</strong> A technical mentor and virtual cofounder</li>
-                        <li><strong>Programming Tutor:</strong> Experienced CS professor and systems programmer</li>
-                        <li><strong>IFS Therapist:</strong> Internal Family Systems specialist for parts work</li>
-                        <li><strong>DBT Therapist:</strong> Dialectical Behavior Therapy for emotional regulation</li>
-                        <li><strong>IPT Therapist:</strong> Interpersonal Therapy for relationship issues</li>
-                        <li><strong>CFT Therapist:</strong> Compassion Focused Therapy for self-compassion</li>
-                        <li><strong>ACT Therapist:</strong> Acceptance and Commitment Therapy for psychological flexibility</li>
-                        <li><strong>User Researcher:</strong> Expert in product research and user insights</li>
-                        <li><strong>Entrepreneur:</strong> Tech founder and strategic advisor</li>
-                        <li><strong>Spiritual Teacher:</strong> Buddhist and Daoist wisdom guide</li>
-                        <li><strong>Courtney:</strong> Jonny's partner</li>
-                        <li><strong>Jonny:</strong> Creator of this chat interface</li>
-                        <li><strong>Gabriel:</strong> Angelic advisor representing light, truth and harmony</li>
-                        <li><strong>Mephistopheles:</strong> Devilish interlocutor representing temptation and critique</li>
-                    </ul>
-                    <h3>Group Chats</h3>
-                    <p>You can also chat with groups of personas who will respond together:</p>
-                    <ul>
-                        <li><strong>Tech Team:</strong> A collaborative group with Coworker, Programming Tutor, and Entrepreneur</li>
-                        <li><strong>Therapy Group:</strong> A supportive therapeutic team with five therapist modalities (IFS, DBT, IPT, CFT, ACT) plus Spiritual Teacher</li>
-                        <li><strong>The Council:</strong> A diverse advisory panel with Coworker, IFS Therapist, Entrepreneur, Spiritual Teacher, Gabriel, and Mephistopheles</li>
-                    </ul>
-                    <p>Your conversation history is saved in your browser's local storage.</p>
-                    <p>Click on any persona to start chatting with it!</p>
+                    <div id="about-content">
+                        <p>Loading personas...</p>
+                    </div>
                 </div>
             </div>
             <div id="persona-list"></div>
@@ -251,6 +224,80 @@
         sendMessage()
     })
 
+    // Helper function to escape HTML
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    // Render the About section dynamically based on loaded personas
+    function renderAboutSection() {
+        const aboutDiv = document.getElementById('about-content');
+        if (!aboutDiv) return;
+
+        // Clear existing content
+        aboutDiv.innerHTML = '';
+
+        // Create heading
+        const heading = document.createElement('h3');
+        heading.textContent = 'About the Chat Interface';
+        aboutDiv.appendChild(heading);
+
+        // Create intro paragraph
+        const intro = document.createElement('p');
+        intro.textContent = 'This chat interface allows you to interact with different AI personas:';
+        aboutDiv.appendChild(intro);
+
+        // Individual personas list
+        if (personas.length > 0) {
+            const personaList = document.createElement('ul');
+            personas.forEach(persona => {
+                const li = document.createElement('li');
+                const strong = document.createElement('strong');
+                strong.textContent = persona.name + ':';
+                li.appendChild(strong);
+                li.appendChild(document.createTextNode(' ' + (persona.description || 'AI assistant')));
+                personaList.appendChild(li);
+            });
+            aboutDiv.appendChild(personaList);
+        }
+
+        // Group chats section
+        if (groupChats.length > 0) {
+            const groupHeading = document.createElement('h3');
+            groupHeading.textContent = 'Group Chats';
+            aboutDiv.appendChild(groupHeading);
+
+            const groupIntro = document.createElement('p');
+            groupIntro.textContent = 'You can also chat with groups of personas who will respond together:';
+            aboutDiv.appendChild(groupIntro);
+
+            const groupList = document.createElement('ul');
+            groupChats.forEach(group => {
+                const li = document.createElement('li');
+                const strong = document.createElement('strong');
+                strong.textContent = group.name + ':';
+                li.appendChild(strong);
+
+                const memberNames = group.members.map(m => m.name).join(', ');
+                const description = group.description || 'Group chat';
+                li.appendChild(document.createTextNode(` ${description} (${memberNames})`));
+                groupList.appendChild(li);
+            });
+            aboutDiv.appendChild(groupList);
+        }
+
+        // Footer paragraphs
+        const storagePara = document.createElement('p');
+        storagePara.textContent = 'Your conversation history is saved in your browser\'s local storage.';
+        aboutDiv.appendChild(storagePara);
+
+        const clickPara = document.createElement('p');
+        clickPara.textContent = 'Click on any persona to start chatting with it!';
+        aboutDiv.appendChild(clickPara);
+    }
+
     // Render the list of personas.
     function renderPersonas() {
         console.log("Rendering personas:", personas)
@@ -404,6 +451,7 @@
                 id: p.id,
                 name: p.name,
                 promptKey: p.promptKey,
+                description: p.description,
                 systemPrompt: null, // Not needed in frontend
                 history: []
             }));
@@ -413,6 +461,7 @@
                 id: g.id,
                 name: g.name,
                 promptKey: g.promptKey,
+                description: g.description,
                 members: g.members,
                 history: []
             }));
@@ -903,6 +952,7 @@
         }
 
         // Initial render
+        renderAboutSection()
         renderPersonas()
         renderChatHistory()
         updateChatTitle()
