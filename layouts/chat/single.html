@@ -32,34 +32,9 @@
             </div>
             <div id="info-popup" class="info-popup hidden">
                 <div class="info-content">
-                    <h3>About the Chat Interface</h3>
-                    <p>This chat interface allows you to interact with different AI personas:</p>
-                    <ul>
-                        <li><strong>Friendly Bot:</strong> A helpful and cheerful assistant</li>
-                        <li><strong>Sarcastic Bot:</strong> Responds with wit and sarcasm</li>
-                        <li><strong>Wise Bot:</strong> Provides thoughtful and insightful responses</li>
-                        <li><strong>Coworker:</strong> A technical mentor and virtual cofounder</li>
-                        <li><strong>Wedding Planner:</strong> Expert in UK wedding and proposal planning</li>
-                        <li><strong>Programming Tutor:</strong> Experienced CS professor and systems programmer</li>
-                        <li><strong>Therapist:</strong> IFS-trained therapeutic assistant</li>
-                        <li><strong>User Researcher:</strong> Expert in product research and user insights</li>
-                        <li><strong>Entrepreneur:</strong> Tech founder and strategic advisor</li>
-                        <li><strong>Property Guide:</strong> Expert in London property buying</li>
-                        <li><strong>Spiritual Teacher:</strong> Buddhist and Daoist wisdom guide</li>
-                        <li><strong>Courtney:</strong> Jonny's partner</li>
-                        <li><strong>Jonny:</strong> Creator of this chat interface</li>
-                        <li><strong>Gabriel:</strong> Angelic advisor representing light, truth and harmony</li>
-                        <li><strong>Mephistopheles:</strong> Devilish interlocutor representing temptation and critique</li>
-                    </ul>
-                    <h3>Group Chats</h3>
-                    <p>You can also chat with groups of personas who will respond together:</p>
-                    <ul>
-                        <li><strong>Tech Team:</strong> A collaborative group with Coworker, Programming Tutor, and Entrepreneur</li>
-                        <li><strong>Therapy Group:</strong> A supportive group with Therapist and Spiritual Teacher</li>
-                        <li><strong>The Council:</strong> A diverse advisory panel with Coworker, Therapist, Entrepreneur, Spiritual Teacher, Gabriel, and Mephistopheles</li>
-                    </ul>
-                    <p>Your conversation history is saved in your browser's local storage.</p>
-                    <p>Click on any persona to start chatting with it!</p>
+                    <div id="about-content">
+                        <p>Loading personas...</p>
+                    </div>
                 </div>
             </div>
             <div id="persona-list"></div>
@@ -113,156 +88,12 @@
         localStorage.setItem('userId', `user-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`);
     }
     const userId = localStorage.getItem('userId');
-    
-    // Define the available personas with their own conversation history.
-    const personas = [
-        {
-            id: 1, 
-            name: "Friendly Bot", 
-            systemPrompt: SYSTEM_PROMPTS.FRIENDLY,
-            promptKey: 'FRIENDLY',
-            history: []
-        },
-        {
-            id: 2, 
-            name: "Sarcastic Bot", 
-            systemPrompt: SYSTEM_PROMPTS.SARCASTIC,
-            promptKey: 'SARCASTIC',
-            history: []
-        },
-        {
-            id: 3, 
-            name: "Wise Bot", 
-            systemPrompt: SYSTEM_PROMPTS.WISE,
-            promptKey: 'WISE',
-            history: []
-        },
-        {
-            id: 4,
-            name: "Coworker",
-            systemPrompt: SYSTEM_PROMPTS.COWORKER,
-            promptKey: 'COWORKER',
-            history: []
-        },
-        {
-            id: 5,
-            name: "Wedding Planner",
-            systemPrompt: SYSTEM_PROMPTS.WEDDING_PLANNER,
-            promptKey: 'WEDDING_PLANNER',
-            history: []
-        },
-        {
-            id: 6,
-            name: "Programming Tutor",
-            systemPrompt: SYSTEM_PROMPTS.PROGRAMMING_TUTOR,
-            promptKey: 'PROGRAMMING_TUTOR',
-            history: []
-        },
-        {
-            id: 7,
-            name: "Therapist",
-            systemPrompt: SYSTEM_PROMPTS.THERAPIST,
-            promptKey: 'THERAPIST',
-            history: []
-        },
-        {
-            id: 8,
-            name: "User Researcher",
-            systemPrompt: SYSTEM_PROMPTS.USER_RESEARCHER,
-            promptKey: 'USER_RESEARCHER',
-            history: []
-        },
-        {
-            id: 9,
-            name: "Entrepreneur",
-            systemPrompt: SYSTEM_PROMPTS.ENTREPRENEUR,
-            promptKey: 'ENTREPRENEUR',
-            history: []
-        },
-        {
-            id: 10,
-            name: "Property Guide",
-            systemPrompt: SYSTEM_PROMPTS.PROPERTY_GUIDE,
-            promptKey: 'PROPERTY_GUIDE',
-            history: []
-        },
-        {
-            id: 11,
-            name: "Spiritual Teacher",
-            systemPrompt: SYSTEM_PROMPTS.SPIRITUAL_TEACHER,
-            promptKey: 'SPIRITUAL_TEACHER',
-            history: []
-        },
-        {
-            id: 12,
-            name: "Courtney",
-            systemPrompt: SYSTEM_PROMPTS.COURTNEY,
-            promptKey: 'COURTNEY',
-            history: []
-        },
-        {
-            id: 13,
-            name: "Jonny",
-            systemPrompt: SYSTEM_PROMPTS.JONNY,
-            promptKey: 'JONNY',
-            history: []
-        },
-        {
-            id: 14,
-            name: "Gabriel",
-            systemPrompt: SYSTEM_PROMPTS.GABRIEL,
-            promptKey: 'GABRIEL',
-            history: []
-        },
-        {
-            id: 15,
-            name: "Mephistopheles",
-            systemPrompt: SYSTEM_PROMPTS.MEPHISTOPHELES,
-            promptKey: 'MEPHISTOPHELES',
-            history: []
-        }
-    ]
 
-    // Define available group chats
-    const groupChats = [
-        {
-            id: 'tech-team',
-            name: 'Tech Team',
-            promptKey: 'TECH_TEAM',
-            members: [
-                { promptKey: 'COWORKER', name: 'Coworker' },
-                { promptKey: 'PROGRAMMING_TUTOR', name: 'Programming Tutor' },
-                { promptKey: 'ENTREPRENEUR', name: 'Entrepreneur' }
-            ],
-            history: []
-        },
-        {
-            id: 'therapy-group',
-            name: 'Therapy Group',
-            promptKey: 'THERAPY_GROUP',
-            members: [
-                { promptKey: 'THERAPIST', name: 'Therapist' },
-                { promptKey: 'SPIRITUAL_TEACHER', name: 'Spiritual Teacher' }
-            ],
-            history: []
-        },
-        {
-            id: 'council',
-            name: 'The Council',
-            promptKey: 'COUNCIL',
-            members: [
-                { promptKey: 'COWORKER', name: 'Coworker' },
-                { promptKey: 'THERAPIST', name: 'Therapist' },
-                { promptKey: 'ENTREPRENEUR', name: 'Entrepreneur' },
-                { promptKey: 'SPIRITUAL_TEACHER', name: 'Spiritual Teacher' },
-                { promptKey: 'GABRIEL', name: 'Gabriel' },
-                { promptKey: 'MEPHISTOPHELES', name: 'Mephistopheles' }
-            ],
-            history: []
-        }
-    ]
-    
-    let activePersonaId = personas[0].id
+    // Personas and groups will be loaded from API
+    let personas = [];
+    let groupChats = [];
+
+    let activePersonaId = null
     let activeGroupId = null
     let isGroupChat = false
 
@@ -392,6 +223,80 @@
         e.preventDefault()
         sendMessage()
     })
+
+    // Helper function to escape HTML
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    // Render the About section dynamically based on loaded personas
+    function renderAboutSection() {
+        const aboutDiv = document.getElementById('about-content');
+        if (!aboutDiv) return;
+
+        // Clear existing content
+        aboutDiv.innerHTML = '';
+
+        // Create heading
+        const heading = document.createElement('h3');
+        heading.textContent = 'About the Chat Interface';
+        aboutDiv.appendChild(heading);
+
+        // Create intro paragraph
+        const intro = document.createElement('p');
+        intro.textContent = 'This chat interface allows you to interact with different AI personas:';
+        aboutDiv.appendChild(intro);
+
+        // Individual personas list
+        if (personas.length > 0) {
+            const personaList = document.createElement('ul');
+            personas.forEach(persona => {
+                const li = document.createElement('li');
+                const strong = document.createElement('strong');
+                strong.textContent = persona.name + ':';
+                li.appendChild(strong);
+                li.appendChild(document.createTextNode(' ' + (persona.description || 'AI assistant')));
+                personaList.appendChild(li);
+            });
+            aboutDiv.appendChild(personaList);
+        }
+
+        // Group chats section
+        if (groupChats.length > 0) {
+            const groupHeading = document.createElement('h3');
+            groupHeading.textContent = 'Group Chats';
+            aboutDiv.appendChild(groupHeading);
+
+            const groupIntro = document.createElement('p');
+            groupIntro.textContent = 'You can also chat with groups of personas who will respond together:';
+            aboutDiv.appendChild(groupIntro);
+
+            const groupList = document.createElement('ul');
+            groupChats.forEach(group => {
+                const li = document.createElement('li');
+                const strong = document.createElement('strong');
+                strong.textContent = group.name + ':';
+                li.appendChild(strong);
+
+                const memberNames = group.members.map(m => m.name).join(', ');
+                const description = group.description || 'Group chat';
+                li.appendChild(document.createTextNode(` ${description} (${memberNames})`));
+                groupList.appendChild(li);
+            });
+            aboutDiv.appendChild(groupList);
+        }
+
+        // Footer paragraphs
+        const storagePara = document.createElement('p');
+        storagePara.textContent = 'Your conversation history is saved in your browser\'s local storage.';
+        aboutDiv.appendChild(storagePara);
+
+        const clickPara = document.createElement('p');
+        clickPara.textContent = 'Click on any persona to start chatting with it!';
+        aboutDiv.appendChild(clickPara);
+    }
 
     // Render the list of personas.
     function renderPersonas() {
@@ -525,8 +430,59 @@
         }
     })
 
+    // Function to fetch personas from backend API
+    async function fetchPersonas() {
+        const baseUrl = window.location.hostname === 'localhost'
+            ? 'http://localhost:8080'
+            : 'https://chat.jonnyspicer.com';
+
+        try {
+            console.log('Fetching personas from API...');
+            const response = await fetch(`${baseUrl}/api/personas`);
+
+            if (!response.ok) {
+                throw new Error(`Failed to fetch personas: ${response.statusText}`);
+            }
+
+            const data = await response.json();
+
+            // Transform individuals from API format to frontend format
+            personas = data.individuals.map(p => ({
+                id: p.id,
+                name: p.name,
+                promptKey: p.promptKey,
+                description: p.description,
+                systemPrompt: null, // Not needed in frontend
+                history: []
+            }));
+
+            // Transform groups from API format to frontend format
+            groupChats = data.groups.map(g => ({
+                id: g.id,
+                name: g.name,
+                promptKey: g.promptKey,
+                description: g.description,
+                members: g.members,
+                history: []
+            }));
+
+            // Set initial active persona
+            if (personas.length > 0 && activePersonaId === null) {
+                activePersonaId = personas[0].id;
+            }
+
+            console.log(`✓ Loaded ${personas.length} personas and ${groupChats.length} groups`);
+            return true;
+        } catch (error) {
+            console.error('Failed to load personas from API:', error);
+            // Show error message to user
+            alert('Failed to load chat personas from the server. Please try refreshing the page.');
+            return false;
+        }
+    }
+
     async function sendMessage() {
-        const apiUrl = window.location.hostname === 'localhost' 
+        const apiUrl = window.location.hostname === 'localhost'
             ? 'http://localhost:8080/chat'
             : 'https://chat.jonnyspicer.com/chat'
 
@@ -976,18 +932,27 @@
     })
 
     // Initial setup
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', async () => {
+        // Fetch personas from API first
+        const success = await fetchPersonas();
+
+        if (!success) {
+            // If API fetch failed, cannot proceed
+            return;
+        }
+
         // Load saved chats from localStorage
         loadChatsFromLocalStorage()
-        
+
         // Set initial visibility of sidebar-open button
         if (window.innerWidth > 768) {
             sidebarOpenBtn.style.display = 'none' // Hide on desktop
         } else {
             sidebarOpenBtn.style.display = sidebar.classList.contains('open') ? 'none' : '' // Show on mobile only if sidebar is closed
         }
-        
+
         // Initial render
+        renderAboutSection()
         renderPersonas()
         renderChatHistory()
         updateChatTitle()
