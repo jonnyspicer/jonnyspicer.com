@@ -1,0 +1,6 @@
+{{- $navbarJS := resources.Get "js/navbar.tmpl.txt" -}}
+{{- $navbarJS = $navbarJS | resources.ExecuteAsTemplate "navbar.js" . -}}
+{{- $content := $navbarJS.Content -}}
+{{- $content = replace $content "&#34;" `"` -}}
+{{- $content = replace $content "&#39;" `'` -}}
+{{- printf "%s" $content -}}
