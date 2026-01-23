@@ -37,7 +37,19 @@ params:
   sitename: Jonny Spicer
   description: Jonny Spicer is a founder, software engineer, blogger, runner, climber and music lover, and this is his personal site
 menu:
-  main: []
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/about"
+      weight: 2
+    - name: "Blog"
+      url: "/blog"
+      weight: 4
+    - name: "Contact"
+      url: "/contact"
+      weight: 5
 server:
   headers:
     - for: /**
