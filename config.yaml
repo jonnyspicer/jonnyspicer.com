@@ -16,6 +16,16 @@ taxonomies:
   category: categories
   series: series
   tags: tags
+mediaTypes:
+  application/javascript:
+    suffixes:
+      - js
+outputFormats:
+  js:
+    mediaType: application/javascript
+    baseName: navbar
+    isPlainText: true
+    notAlternative: true
 permalinks:
   blog: /:section/:title
   essay: /:title

@@ -1,0 +1,195 @@
+/* Jonny Spicer Navbar - Standalone styles */
+
+#jonny-navbar {
+  font-family: "Jost", Helvetica, sans-serif;
+}
+
+#jonny-navbar .mobile-header {
+  height: 52px;
+  padding: 0 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#jonny-navbar .mobile-header a {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+  #jonny-navbar .mobile-header a {
+    color: #dddddd;
+  }
+}
+
+#jonny-navbar .mobile-header .toggle {
+  display: flex;
+  position: absolute;
+  top: 14px;
+  right: 20px;
+}
+
+#jonny-navbar .mobile-header .toggle span {
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: 0;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+}
+
+#jonny-navbar .mobile-header .toggle span i {
+  background: #000;
+  position: absolute;
+  border-radius: 5px;
+  height: 20%;
+  right: 0;
+  transition: all 0.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  #jonny-navbar .mobile-header .toggle span i {
+    background: #dddddd;
+  }
+}
+
+#jonny-navbar .mobile-header .toggle span i:nth-child(1) {
+  width: 100%;
+  top: 0;
+}
+
+#jonny-navbar .mobile-header .toggle span i:nth-child(2) {
+  width: 75%;
+  top: 40%;
+}
+
+#jonny-navbar .mobile-header .toggle span i:nth-child(3) {
+  width: 50%;
+  top: 80%;
+}
+
+#jonny-navbar .mobile-header .toggle.is-active span i:nth-child(1) {
+  width: 100%;
+  top: 40%;
+  transform: rotate(45deg);
+}
+
+#jonny-navbar .mobile-header .toggle.is-active span i:nth-child(2) {
+  width: 100%;
+  top: 40%;
+  transform: rotate(-45deg);
+}
+
+#jonny-navbar .mobile-header .toggle.is-active span i:nth-child(3) {
+  width: 0%;
+  top: 80%;
+  transition: all 0s;
+}
+
+@media only screen and (max-width: 540px) {
+  #jonny-navbar .mobile-header {
+    display: flex;
+  }
+}
+
+#jonny-navbar nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#jonny-navbar nav a {
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+#jonny-navbar nav a.active {
+  text-decoration: underline;
+  text-decoration-color: #ffd166;
+}
+
+#jonny-navbar nav a:hover,
+#jonny-navbar nav a:focus {
+  color: #ffd166;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  #jonny-navbar nav a {
+    color: #dddddd;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #jonny-navbar nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #jonny-navbar nav {
+    display: block;
+    position: absolute;
+    max-height: 0;
+    transition: max-height 0.5s;
+  }
+
+  #jonny-navbar nav a {
+    text-decoration: none;
+    text-align: unset;
+    padding: 0 0 0 20px;
+    border-left: none;
+    display: block;
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s, max-height 0.5s;
+    width: 100%;
+    max-height: 0;
+    color: #000;
+  }
+
+  #jonny-navbar nav a:last-child {
+    border-right: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    #jonny-navbar nav a {
+      background-color: #1b1b1b;
+      color: #dddddd;
+    }
+  }
+
+  #jonny-navbar nav.expanded {
+    max-height: 100%;
+    margin: 0 0 -20px;
+    z-index: 100;
+    width: calc(100% - 20px);
+  }
+
+  #jonny-navbar nav.expanded a:last-child {
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  #jonny-navbar nav.expanded a:last-child::after {
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: calc(50% - 64px);
+    right: calc(50% - 64px);
+    border: solid 1px #eaeaea;
+  }
+
+  #jonny-navbar nav.expanded a {
+    opacity: 1;
+    max-height: 50px;
+  }
+}

@@ -25,6 +25,7 @@ frontend:
         - python3.8 wordcount.py
         # - python3.8 100hours.py
         - hugo -v
+        - python3.8 fix_navbar_js.py
   artifacts:
     baseDirectory: public
     files:
