@@ -20,16 +20,45 @@
   margin: 0;
   li{
     position: relative;
+    padding: 0 !important;
+    margin-bottom: 1.5em;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    border-left: 3px solid transparent;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: rgba(255, 255, 255, 0.03);
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.06);
+      }
+    }
     .accordion-title{
       cursor: pointer;
+      display: block;
+      padding: 1.5em;
+      margin: 0;
+      position: relative;
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: $color_yellow;
+
+        &:before, &:after {
+          background-color: $color_yellow;
+        }
+      }
+
       &:before, &:after{
         content:'';
         position: absolute;
-        background-color: $color_grey_very_dark;
+        background-color: $color_darkmode_text;
         width: 3px;
         height: 9px;
-        right: 0;
-        top: 10px;
+        right: 1.5em;
+        top: 1.5em;
+        margin-top: 0.4em;
         transition: all 0.3s ease-in-out;
       }
       &:before{
@@ -40,6 +69,12 @@
       }
     }
     .accordion-title-display{
+      color: $color_yellow;
+
+      &:before, &:after {
+        background-color: $color_yellow;
+      }
+
       &:before{
         transform: translate(2px, 0) rotate(-45deg);
       }
@@ -71,16 +106,63 @@
     margin: 10px 0;
   }
   h4{
-    margin: 5px 0 0;
+    margin: 0 0 0.5em 0;
+    font-size: 1.3em;
+    line-height: 1.4;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: $color_pink;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+    }
   }
   span{
-    font-size: 16px;
+    font-size: 14px;
     font-style: italic;
     margin-inline-start: -0.1em;
+    opacity: 0.75;
+    position: relative;
+    z-index: 2;
+
+    a {
+      position: relative;
+      z-index: 2;
+    }
   }
   p{
     font-size: 16px;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
+}
+
+.post-list li {
+  padding: 1.5em !important;
+  cursor: pointer;
+
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      border-left-color: $color_pink;
+      transform: translateX(4px);
+
+      h4 a {
+        color: $color_pink;
+      }
+    }
   }
 }
 
@@ -90,4 +172,12 @@
   > li {
     padding-bottom: 0;
   }
+}
+
+.summary-block {
+  margin-top: 0.75em;
+  opacity: 0.85;
+  line-height: 1.6;
+  position: relative;
+  z-index: 0;
 }

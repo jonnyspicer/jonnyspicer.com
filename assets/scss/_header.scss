@@ -1,4 +1,12 @@
 header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-color: $color_white;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $color_darkmode_background;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
   .mobile-header {
     height: 52px;
     padding: 0 20px;
@@ -103,20 +111,27 @@ header {
       width:100%;
       font-size: 16px;
       line-height: 50px;
+      transition: all 0.2s ease-in-out;
+      border-bottom: 2px solid transparent;
 
       &.active{
-        text-decoration: underline;
-        text-decoration-color: $color_yellow;
+        border-bottom-color: $color_yellow;
       }
 
       &:hover,
       &:focus {
         color: $color_yellow;
-        text-decoration: none;
+        border-bottom-color: $color_yellow;
       }
 
       @media (prefers-color-scheme: dark) {
         color: $color_darkmode_text;
+
+        &:hover,
+        &:focus {
+          color: $color_yellow;
+          border-bottom-color: $color_yellow;
+        }
       }
     }
 
