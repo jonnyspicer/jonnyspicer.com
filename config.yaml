@@ -44,6 +44,9 @@ menu:
     - name: "About"
       url: "/about"
       weight: 2
+    - name: "Projects"
+      url: "/projects"
+      weight: 3
     - name: "Blog"
       url: "/blog"
       weight: 4

@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div>
+    <h1 class="big-title">{{ .Page.Title }}</h1>
+    {{ .Content }}
+
+    <ul class="post-list project-list">
+        {{ range .Pages }}
+        <li class="project-card">
+            {{ if .Params.screenshot }}
+            <div class="project-screenshot">
+                <a href="{{.RelPermalink}}">
+                    <img src="{{ .Params.screenshot }}" alt="{{ .Title }} screenshot" />
+                </a>
+            </div>
+            {{ end }}
+
+            <div class="project-info">
+                <h2 class="big-title">
+                    <a href="{{.RelPermalink}}">{{ .Title }}</a>
+                    {{ if .Params.status }}
+                    <span class="project-status status-{{ .Params.status }}">{{ .Params.status }}</span>
+                    {{ end }}
+                </h2>
+
+                <div class="summary-block">
+                    {{ .Page.Params.summary }}
+                </div>
+
+                {{ if .Params.project_url }}
+                <a href="{{ .Params.project_url }}" class="project-link" target="_blank" rel="noopener">Visit Project →</a>
+                {{ end }}
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
