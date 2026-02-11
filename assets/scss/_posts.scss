@@ -69,3 +69,43 @@
     border-top-color: #444;
   }
 }
+
+/* Footnote tooltip styling */
+.footnote-tooltip {
+  position: absolute;
+  max-width: 400px;
+  padding: 12px 16px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  line-height: 1.5;
+  z-index: 1000;
+  pointer-events: auto;
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style links within tooltips */
+  a {
+    color: #0066cc;
+    text-decoration: underline;
+  }
+}
+
+/* Dark mode support for tooltip */
+@media (prefers-color-scheme: dark) {
+  .footnote-tooltip {
+    background: #2a2a2a;
+    border-color: #444;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    color: #e0e0e0;
+    
+    a {
+      color: #66b3ff;
+    }
+  }
+}
