@@ -2,6 +2,15 @@
 
 #jonny-navbar {
   font-family: "Jost", Helvetica, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  #jonny-navbar {
+    background-color: #1b1b1b;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
 }
 
 #jonny-navbar .mobile-header {
@@ -109,22 +118,29 @@
   width: 100%;
   font-size: 16px;
   line-height: 50px;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid transparent;
 }
 
 #jonny-navbar nav a.active {
-  text-decoration: underline;
-  text-decoration-color: #ffd166;
+  border-bottom-color: #ffd166;
 }
 
 #jonny-navbar nav a:hover,
 #jonny-navbar nav a:focus {
   color: #ffd166;
-  text-decoration: none;
+  border-bottom-color: #ffd166;
 }
 
 @media (prefers-color-scheme: dark) {
   #jonny-navbar nav a {
     color: #dddddd;
+  }
+
+  #jonny-navbar nav a:hover,
+  #jonny-navbar nav a:focus {
+    color: #ffd166;
+    border-bottom-color: #ffd166;
   }
 }
 
