@@ -1,4 +1,9 @@
 {{ define "main" }}
-    <h1 class="big-title">{{ .Title }}</h1>
-        {{ .Content }}
-{{ end }} 
+    <div class="bestof-container">
+        <h1 class="big-title">{{ .Title }}</h1>
+
+        <div class="bestof-intro">
+            {{ .Content }}
+        </div>
+    </div>
+{{ end }}

@@ -11,38 +11,38 @@ These are the posts that I'm most proud of having written, or those that people 
 
 ### Career
 
-- [What I've Got Wrong and Right In My Career (2024)](/blog/what-ive-got-wrong-and-right-in-my-career)
-- [On Productivity (2024)](/blog/on-productivity)
-- [What I Learned From Applying To 100 Programming Jobs (2022)](/blog/what-i-learned-from-applying-to-100-programming-jobs)
+- <a href="/blog/what-ive-got-wrong-and-right-in-my-career">What I've Got Wrong and Right In My Career<span class="post-year">2024</span></a>
+- <a href="/blog/on-productivity">On Productivity<span class="post-year">2024</span></a>
+- <a href="/blog/what-i-learned-from-applying-to-100-programming-jobs">What I Learned From Applying To 100 Programming Jobs<span class="post-year">2022</span></a>
 
 ### Effective Altruism
 
-- [Giving What I Can (2023)](/blog/giving-what-i-can)
+- <a href="/blog/giving-what-i-can">Giving What I Can<span class="post-year">2023</span></a>
 
 ### Mental Health
 
-- [On 30 (2024)](/blog/on-30)
-- [Eating (2022)](/blog/eating)
-- [The Happiness Project (2021)](/blog/the-happiness-project)
-- [Pretending II (2020)](/blog/pretending-ii)
-- [My Black Dog (2017)](/blog/my-black-dog)
-- [Looking in the mirror (2017)](/blog/looking-in-the-mirror)
-- [Crying, cutting myself, and writing depressing poetry (2017)](/blog/crying-cutting-myself-and-writing-depressing-poetry)
+- <a href="/blog/on-30">On 30<span class="post-year">2024</span></a>
+- <a href="/blog/eating">Eating<span class="post-year">2022</span></a>
+- <a href="/blog/the-happiness-project">The Happiness Project<span class="post-year">2021</span></a>
+- <a href="/blog/pretending-ii">Pretending II<span class="post-year">2020</span></a>
+- <a href="/blog/my-black-dog">My Black Dog<span class="post-year">2017</span></a>
+- <a href="/blog/looking-in-the-mirror">Looking in the mirror<span class="post-year">2017</span></a>
+- <a href="/blog/crying-cutting-myself-and-writing-depressing-poetry">Crying, cutting myself, and writing depressing poetry<span class="post-year">2017</span></a>
 
 ### Running
 
-- [The Arc (2024)](/blog/the-arc)
-- [Eiger Ultra Trail (2022)](/blog/eiger-ultra-trail)
+- <a href="/blog/the-arc">The Arc<span class="post-year">2024</span></a>
+- <a href="/blog/eiger-ultra-trail">Eiger Ultra Trail<span class="post-year">2022</span></a>
 
 ### Life
 
-- [The Slightly More Planned Year So Far (2019)](/blog/the-slightly-more-planned-year-so-far)
-- [The Unplanned Year (2018)](/blog/the-unplanned-year)
+- <a href="/blog/the-slightly-more-planned-year-so-far">The Slightly More Planned Year So Far<span class="post-year">2019</span></a>
+- <a href="/blog/the-unplanned-year">The Unplanned Year<span class="post-year">2018</span></a>
 
 ### Poker
 
-- [Poker, Balance, and Mental Health (2017)](/blog/poker-balance-and-mental-health)
-- [Clicking Buttons (2017)](/blog/clicking-buttons)
-- [Joe Ingram's GTO Club Review (2017)](/blog/joe-ingrams-gto-club-review)
+- <a href="/blog/poker-balance-and-mental-health">Poker, Balance, and Mental Health<span class="post-year">2017</span></a>
+- <a href="/blog/clicking-buttons">Clicking Buttons<span class="post-year">2017</span></a>
+- <a href="/blog/joe-ingrams-gto-club-review">Joe Ingram's GTO Club Review<span class="post-year">2017</span></a>
 
 ---
