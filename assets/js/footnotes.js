@@ -62,6 +62,10 @@ document.addEventListener("DOMContentLoaded", function() {
       });
       
       ref.addEventListener('mouseleave', function() {
+        // Remove from active tooltips when leaving the reference
+        if (tooltip) {
+          activeTooltips.delete(tooltip);
+        }
         scheduleHideTooltips();
       });
     });
