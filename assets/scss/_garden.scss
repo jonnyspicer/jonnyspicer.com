@@ -1,11 +1,11 @@
-// Projects Page - Digital Garden Style
-.projects-page {
+// Garden Page - Digital Garden Style
+.garden-page {
   width: 100%;
   margin: 0 auto;
 }
 
 // Page Intro
-.projects-intro {
+.garden-intro {
   margin-bottom: 2em;
 
   p {
@@ -62,12 +62,12 @@
   }
 }
 
-// Project Stream - Single column, organic flow
-.project-stream {
+// Garden Stream - Single column, organic flow
+.garden-stream {
   margin: 2em 0;
 }
 
-.project-entry {
+.garden-entry {
   margin-bottom: 2em;
   padding-bottom: 2em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -81,7 +81,7 @@
     padding-bottom: 0;
   }
 
-  .project-header {
+  .garden-header {
     display: flex;
     align-items: baseline;
     gap: 0.75em;
@@ -110,7 +110,7 @@
     h4 { font-size: 1.2em; }
   }
 
-  .project-meta {
+  .garden-meta {
     display: flex;
     gap: 0.8em;
     flex-wrap: wrap;
@@ -131,8 +131,8 @@
     }
   }
 
-  .project-content,
-  .project-summary {
+  .garden-content,
+  .garden-summary {
     margin-bottom: 1em;
     line-height: 1.7;
     font-family: $font-stack-copy;
@@ -153,14 +153,14 @@
     }
   }
 
-  .project-actions {
+  .garden-actions {
     display: flex;
     gap: 0.8em;
     flex-wrap: wrap;
     margin-top: 1.2em;
   }
 
-  .project-link {
+  .garden-link {
     display: inline-block;
     padding: 8px 16px;
     background: transparent;
@@ -222,38 +222,38 @@
   }
 }
 
-// Bloomed projects - Full narrative treatment
-.project-bloomed {
+// Bloomed garden items - Full narrative treatment
+.garden-bloomed {
   margin-bottom: 3em;
   padding-bottom: 3em;
 
-  .project-content {
+  .garden-content {
     max-width: 65ch;
   }
 }
 
-// Growing projects - Medium treatment
-.project-growing {
+// Growing garden items - Medium treatment
+.garden-growing {
   margin-bottom: 2.5em;
   padding-bottom: 2.5em;
 
-  .project-summary {
+  .garden-summary {
     // Keep readable in both light and dark modes
   }
 }
 
-// Seed projects - Minimal treatment
-.project-seed {
+// Seed garden items - Minimal treatment
+.garden-seed {
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
 
-  .project-summary {
+  .garden-summary {
     font-size: 0.95em;
   }
 }
 
-// Projects Footer
-.projects-footer {
+// Garden Footer
+.garden-footer {
   margin-top: 3em;
   padding-top: 2em;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -269,13 +269,13 @@
   }
 }
 
-// Single Project Page
-.post-project {
-  .project-header {
+// Single Garden Item Page
+.post-garden {
+  .garden-header {
     margin-bottom: 2em;
   }
 
-  .project-meta {
+  .garden-meta {
     display: flex;
     align-items: center;
     gap: 1em;
@@ -283,7 +283,7 @@
     flex-wrap: wrap;
   }
 
-  .project-cta-button {
+  .garden-cta-button {
     display: inline-block;
     padding: 12px 24px;
     background: $color_pink;
@@ -300,7 +300,7 @@
     }
   }
 
-  .project-github-link {
+  .garden-github-link {
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -326,7 +326,7 @@
     }
   }
 
-  .project-footer {
+  .garden-footer {
     margin-top: 3em;
     padding-top: 2em;
     border-top: 1px solid rgba(0, 0, 0, 0.1);

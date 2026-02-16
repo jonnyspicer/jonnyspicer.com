@@ -45,7 +45,7 @@ menu:
       url: "/about"
       weight: 2
     # - name: "Garden"
-    #   url: "/projects"
+    #   url: "/garden"
     #   weight: 3
     - name: "Blog"
       url: "/blog"

@@ -1,8 +1,8 @@
 {{ define "main" }}
-<div class="projects-page">
+<div class="garden-page">
     <h1 class="big-title">Garden</h1>
 
-    <div class="projects-intro">
+    <div class="garden-intro">
         <p>This is my <a href="https://maggieappleton.com/garden-history" target="_blank" rel="noopener">digital garden</a> of projects — continuously evolving ideas in various states of growth. Some are stable and bloomed, some are still taking shape, and some are just seeds I'm nurturing.</p>
 
         <div class="growth-legend">
@@ -12,24 +12,24 @@
         </div>
     </div>
 
-    {{/* Sort all projects by last_tended date, most recent first */}}
+    {{/* Sort all garden items by last_tended date, most recent first */}}
     {{ $allProjects := .Pages }}
     {{ $sortedProjects := sort $allProjects ".Params.last_tended" "desc" }}
 
-    <div class="project-stream">
+    <div class="garden-stream">
         {{ range $index, $project := $sortedProjects }}
             {{ $tier := $project.Params.tier }}
 
-            {{/* Bloomed projects get full treatment */}}
+            {{/* Bloomed garden items get full treatment */}}
             {{ if eq $tier "shipped" }}
-            <article class="project-entry project-bloomed">
-                <div class="project-header">
+            <article class="garden-entry project-bloomed">
+                <div class="garden-header">
                     <h2><a href="{{$project.RelPermalink}}">{{ $project.Title }}</a></h2>
                     <span class="tier-badge tier-bloomed">🌳 Bloomed</span>
                 </div>
 
                 {{ if or $project.Params.tech_stack $project.Params.last_tended }}
-                <div class="project-meta">
+                <div class="garden-meta">
                     {{ if $project.Params.tech_stack }}
                     <span class="meta-item">{{ $project.Params.tech_stack }}</span>
                     {{ end }}
@@ -39,32 +39,32 @@
                 </div>
                 {{ end }}
 
-                <div class="project-content">
+                <div class="garden-content">
                     {{ $project.Content }}
                 </div>
 
                 {{ if or $project.Params.project_url $project.Params.github }}
-                <div class="project-actions">
+                <div class="garden-actions">
                     {{ if $project.Params.project_url }}
-                    <a href="{{ $project.Params.project_url }}" class="project-link primary" target="_blank" rel="noopener">Try it →</a>
+                    <a href="{{ $project.Params.project_url }}" class="garden-link primary" target="_blank" rel="noopener">Try it →</a>
                     {{ end }}
                     {{ if $project.Params.github }}
-                    <a href="{{ $project.Params.github }}" class="project-link secondary" target="_blank" rel="noopener">GitHub</a>
+                    <a href="{{ $project.Params.github }}" class="garden-link secondary" target="_blank" rel="noopener">GitHub</a>
                     {{ end }}
                 </div>
                 {{ end }}
             </article>
 
-            {{/* Growing projects get medium treatment */}}
+            {{/* Growing garden items get medium treatment */}}
             {{ else if eq $tier "growing" }}
-            <article class="project-entry project-growing">
-                <div class="project-header">
+            <article class="garden-entry project-growing">
+                <div class="garden-header">
                     <h3><a href="{{$project.RelPermalink}}">{{ $project.Title }}</a></h3>
                     <span class="tier-badge tier-growing">🌱 Growing</span>
                 </div>
 
                 {{ if or $project.Params.tech_stack $project.Params.last_tended }}
-                <div class="project-meta">
+                <div class="garden-meta">
                     {{ if $project.Params.tech_stack }}
                     <span class="meta-item">{{ $project.Params.tech_stack }}</span>
                     {{ end }}
@@ -74,37 +74,37 @@
                 </div>
                 {{ end }}
 
-                <div class="project-summary">
+                <div class="garden-summary">
                     {{ $project.Params.summary }}
                 </div>
 
                 {{ if or $project.Params.project_url $project.Params.github }}
-                <div class="project-actions">
+                <div class="garden-actions">
                     {{ if $project.Params.project_url }}
-                    <a href="{{ $project.Params.project_url }}" class="project-link" target="_blank" rel="noopener">Try it →</a>
+                    <a href="{{ $project.Params.project_url }}" class="garden-link" target="_blank" rel="noopener">Try it →</a>
                     {{ end }}
                     {{ if $project.Params.github }}
-                    <a href="{{ $project.Params.github }}" class="project-link" target="_blank" rel="noopener">GitHub</a>
+                    <a href="{{ $project.Params.github }}" class="garden-link" target="_blank" rel="noopener">GitHub</a>
                     {{ end }}
                 </div>
                 {{ end }}
             </article>
 
-            {{/* Seed projects get minimal treatment */}}
+            {{/* Seed garden items get minimal treatment */}}
             {{ else if eq $tier "seed" }}
-            <article class="project-entry project-seed">
-                <div class="project-header">
+            <article class="garden-entry project-seed">
+                <div class="garden-header">
                     <h4>{{ $project.Title }}</h4>
                     <span class="tier-badge tier-seed">🌰 Seed</span>
                 </div>
 
                 {{ if $project.Params.tech_stack }}
-                <div class="project-meta">
+                <div class="garden-meta">
                     <span class="meta-item">{{ $project.Params.tech_stack }}</span>
                 </div>
                 {{ end }}
 
-                <div class="project-summary">
+                <div class="garden-summary">
                     {{ $project.Params.summary }}
                 </div>
             </article>
@@ -112,7 +112,7 @@
         {{ end }}
     </div>
 
-    <div class="projects-footer">
+    <div class="garden-footer">
         <p>More experiments on <a href="https://github.com/jonnyspicer" target="_blank" rel="noopener">GitHub</a>. Questions or ideas? <a href="/contact">Say hi</a>.</p>
     </div>
 </div>
