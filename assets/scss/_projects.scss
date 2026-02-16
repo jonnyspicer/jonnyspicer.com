@@ -1,183 +1,271 @@
-// Projects List
-.project-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2em;
-  margin-top: 2.5em;
+// Projects Page - Digital Garden Style
+.projects-page {
+  width: 100%;
+  margin: 0 auto;
+}
 
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
+// Page Intro
+.projects-intro {
+  margin-bottom: 2em;
 
-  @media (min-width: 1024px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  li {
-    padding: 0;
-    list-style: none;
+  p {
+    margin: 1em 0;
+    font-size: 1.05em;
+    line-height: 1.7;
   }
 }
 
-.project-card {
+.growth-legend {
   display: flex;
-  flex-direction: column;
-  position: relative;
-  background-color: transparent;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  border: 1px solid transparent;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 1em 1.5em;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  font-size: 0.9em;
+  margin-top: 1.5em;
 
   @media (prefers-color-scheme: dark) {
     background-color: rgba(255, 255, 255, 0.03);
-
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.06);
-      transform: translateY(-4px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    }
   }
 
-  // Light mode has simpler hover
-  @media (prefers-color-scheme: light) {
-    border-color: rgba(0, 0, 0, 0.1);
-
-    &:hover {
-      border-color: rgba(0, 0, 0, 0.2);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      transform: translateY(-2px);
-    }
-  }
-}
-
-.project-screenshot {
-  width: 100%;
-  height: 220px;
-  overflow: hidden;
-  background: $color_grey_very_light;
-  position: relative;
-
-  a {
-    display: block;
-    height: 100%;
-    position: relative;
-    z-index: 0; // Below the h2 overlay
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.4s ease-in-out;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    background: rgba(0, 0, 0, 0.3);
-  }
-
-  @media (min-width: 768px) {
-    height: 250px;
-  }
-}
-
-.project-info {
-  padding: 1.5em;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-
-  h2 {
-    margin: 0 0 0.75em 0;
+  .legend-item {
     display: flex;
     align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;
-    font-size: 1.5em;
-    line-height: 1.3;
-
-    a {
-      text-decoration: none;
-      color: inherit;
-      transition: color 0.2s ease-in-out;
-
-      // Clickable overlay - entire card is clickable
-      &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-      }
-
-      &:hover {
-        color: $color_pink;
-      }
-    }
-  }
-
-  .summary-block {
-    flex: 1;
-    margin-bottom: 1em;
-    line-height: 1.6;
-    opacity: 0.9;
-    position: relative;
-    z-index: 0;
+    gap: 0.5em;
+    line-height: 1.4;
   }
 }
 
-// Status badges
-.project-status {
+// Tier Badges
+.tier-badge {
   font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 5px 12px;
-  border-radius: 4px;
-  letter-spacing: 0.5px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 3px;
   white-space: nowrap;
-  position: relative;
-  z-index: 2; // Above the clickable overlay
+  display: inline-block;
 
-  &.status-active {
+  &.tier-bloomed {
     background: $color_green;
     color: $color_white;
   }
 
-  &.status-archived {
-    background: $color_grey_light;
-    color: $color_white;
-  }
-
-  &.status-experimental {
+  &.tier-growing {
     background: $color_yellow;
     color: $color_grey_very_dark;
   }
+
+  &.tier-seed {
+    background: $color_grey_medium;
+    color: $color_white;
+  }
 }
 
-.project-link {
-  color: $color_light_blue;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  align-self: flex-start;
-  position: relative;
-  z-index: 2; // Above the clickable overlay
-  transition: all 0.2s ease-in-out;
+// Project Stream - Single column, organic flow
+.project-stream {
+  margin: 2em 0;
+}
 
-  &:hover {
-    color: $color_dark_blue;
-    text-decoration: underline;
-  }
+.project-entry {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 
   @media (prefers-color-scheme: dark) {
-    color: $color_darkmode_blue;
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .project-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75em;
+    margin-bottom: 0.6em;
+    flex-wrap: wrap;
+
+    h2, h3, h4 {
+      margin: 0;
+      font-family: $font-stack-subheader;
+      flex: 1;
+      min-width: 200px;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+          color: $color_pink;
+        }
+      }
+    }
+
+    h2 { font-size: 1.8em; }
+    h3 { font-size: 1.4em; }
+    h4 { font-size: 1.2em; }
+  }
+
+  .project-meta {
+    display: flex;
+    gap: 0.8em;
+    flex-wrap: wrap;
+    margin-bottom: 0.8em;
+    font-size: 0.85em;
+    opacity: 0.7;
+
+    .meta-item {
+      &::after {
+        content: "·";
+        margin-left: 0.8em;
+        opacity: 0.5;
+      }
+
+      &:last-child::after {
+        content: "";
+      }
+    }
+  }
+
+  .project-content,
+  .project-summary {
+    margin-bottom: 1em;
+    line-height: 1.7;
+    font-family: $font-stack-copy;
+    color: $color_black;
+
+    @media (prefers-color-scheme: dark) {
+      color: $color_darkmode_text;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      margin: 1.5em 0 0.8em;
+      font-family: $font-stack-subheader;
+    }
+
+    p {
+      margin: 0.8em 0;
+    }
+  }
+
+  .project-actions {
+    display: flex;
+    gap: 0.8em;
+    flex-wrap: wrap;
+    margin-top: 1.2em;
+  }
+
+  .project-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: transparent;
+    color: $color_light_blue;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid $color_light_blue;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
-      color: $color_light_blue;
+      background: $color_light_blue;
+      color: $color_white;
+      transform: translateY(-1px);
     }
+
+    &.primary {
+      background: $color_pink;
+      color: $color_white;
+      border-color: $color_pink;
+
+      &:hover {
+        background: darken($color_pink, 8%);
+        border-color: darken($color_pink, 8%);
+      }
+    }
+
+    &.secondary {
+      background: transparent;
+      color: $color_grey_dark;
+      border-color: rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.05);
+        color: $color_black;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        color: $color_grey_light;
+        border-color: rgba(255, 255, 255, 0.2);
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.05);
+          color: $color_white;
+        }
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      color: $color_darkmode_blue;
+      border-color: $color_darkmode_blue;
+
+      &:hover {
+        background: $color_darkmode_blue;
+        color: $color_black;
+      }
+    }
+  }
+}
+
+// Bloomed projects - Full narrative treatment
+.project-bloomed {
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+
+  .project-content {
+    max-width: 65ch;
+  }
+}
+
+// Growing projects - Medium treatment
+.project-growing {
+  margin-bottom: 2.5em;
+  padding-bottom: 2.5em;
+
+  .project-summary {
+    // Keep readable in both light and dark modes
+  }
+}
+
+// Seed projects - Minimal treatment
+.project-seed {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+
+  .project-summary {
+    font-size: 0.95em;
+  }
+}
+
+// Projects Footer
+.projects-footer {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  @media (prefers-color-scheme: dark) {
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+
+  p {
+    font-size: 0.95em;
+    margin: 0;
   }
 }
 
@@ -197,28 +285,18 @@
 
   .project-cta-button {
     display: inline-block;
-    padding: 14px 28px;
+    padding: 12px 24px;
     background: $color_pink;
     color: $color_white;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 5px;
     font-weight: 600;
-    font-size: 16px;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
-      background: darken($color_pink, 10%);
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
-
-    @media (prefers-color-scheme: dark) {
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-
-      &:hover {
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-      }
+      background: darken($color_pink, 8%);
+      transform: translateY(-1px);
     }
   }
 
@@ -235,8 +313,8 @@
     }
 
     svg {
-      width: 16px;
-      height: 16px;
+      width: 14px;
+      height: 14px;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -249,7 +327,7 @@
   }
 
   .project-footer {
-    margin-top: 4em;
+    margin-top: 3em;
     padding-top: 2em;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 
@@ -261,7 +339,7 @@
   .back-link {
     color: $color_grey_medium;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     transition: all 0.2s ease-in-out;
 
     &:hover {

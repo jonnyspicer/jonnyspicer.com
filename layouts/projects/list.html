@@ -1,37 +1,119 @@
 {{ define "main" }}
-<div>
-    <h1 class="big-title">{{ .Page.Title }}</h1>
-    {{ .Content }}
+<div class="projects-page">
+    <h1 class="big-title">Garden</h1>
 
-    <ul class="post-list project-list">
-        {{ range .Pages }}
-        <li class="project-card">
-            {{ if .Params.screenshot }}
-            <div class="project-screenshot">
-                <a href="{{.RelPermalink}}">
-                    <img src="{{ .Params.screenshot }}" alt="{{ .Title }} screenshot" />
-                </a>
-            </div>
-            {{ end }}
+    <div class="projects-intro">
+        <p>This is my <a href="https://maggieappleton.com/garden-history" target="_blank" rel="noopener">digital garden</a> of projects — continuously evolving ideas in various states of growth. Some are stable and bloomed, some are still taking shape, and some are just seeds I'm nurturing.</p>
 
-            <div class="project-info">
-                <h2 class="big-title">
-                    <a href="{{.RelPermalink}}">{{ .Title }}</a>
-                    {{ if .Params.status }}
-                    <span class="project-status status-{{ .Params.status }}">{{ .Params.status }}</span>
-                    {{ end }}
-                </h2>
+        <div class="growth-legend">
+            <span class="legend-item"><span class="tier-badge tier-bloomed">🌳 Bloomed</span> Stable and ready</span>
+            <span class="legend-item"><span class="tier-badge tier-growing">🌱 Growing</span> Experimental</span>
+            <span class="legend-item"><span class="tier-badge tier-seed">🌰 Seed</span> Early stages</span>
+        </div>
+    </div>
 
-                <div class="summary-block">
-                    {{ .Page.Params.summary }}
+    {{/* Sort all projects by last_tended date, most recent first */}}
+    {{ $allProjects := .Pages }}
+    {{ $sortedProjects := sort $allProjects ".Params.last_tended" "desc" }}
+
+    <div class="project-stream">
+        {{ range $index, $project := $sortedProjects }}
+            {{ $tier := $project.Params.tier }}
+
+            {{/* Bloomed projects get full treatment */}}
+            {{ if eq $tier "shipped" }}
+            <article class="project-entry project-bloomed">
+                <div class="project-header">
+                    <h2><a href="{{$project.RelPermalink}}">{{ $project.Title }}</a></h2>
+                    <span class="tier-badge tier-bloomed">🌳 Bloomed</span>
                 </div>
 
-                {{ if .Params.project_url }}
-                <a href="{{ .Params.project_url }}" class="project-link" target="_blank" rel="noopener">Visit Project →</a>
+                {{ if or $project.Params.tech_stack $project.Params.last_tended }}
+                <div class="project-meta">
+                    {{ if $project.Params.tech_stack }}
+                    <span class="meta-item">{{ $project.Params.tech_stack }}</span>
+                    {{ end }}
+                    {{ if $project.Params.last_tended }}
+                    <span class="meta-item">Tended {{ $project.Params.last_tended }}</span>
+                    {{ end }}
+                </div>
                 {{ end }}
-            </div>
-        </li>
+
+                <div class="project-content">
+                    {{ $project.Content }}
+                </div>
+
+                {{ if or $project.Params.project_url $project.Params.github }}
+                <div class="project-actions">
+                    {{ if $project.Params.project_url }}
+                    <a href="{{ $project.Params.project_url }}" class="project-link primary" target="_blank" rel="noopener">Try it →</a>
+                    {{ end }}
+                    {{ if $project.Params.github }}
+                    <a href="{{ $project.Params.github }}" class="project-link secondary" target="_blank" rel="noopener">GitHub</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </article>
+
+            {{/* Growing projects get medium treatment */}}
+            {{ else if eq $tier "growing" }}
+            <article class="project-entry project-growing">
+                <div class="project-header">
+                    <h3><a href="{{$project.RelPermalink}}">{{ $project.Title }}</a></h3>
+                    <span class="tier-badge tier-growing">🌱 Growing</span>
+                </div>
+
+                {{ if or $project.Params.tech_stack $project.Params.last_tended }}
+                <div class="project-meta">
+                    {{ if $project.Params.tech_stack }}
+                    <span class="meta-item">{{ $project.Params.tech_stack }}</span>
+                    {{ end }}
+                    {{ if $project.Params.last_tended }}
+                    <span class="meta-item">Tended {{ $project.Params.last_tended }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                <div class="project-summary">
+                    {{ $project.Params.summary }}
+                </div>
+
+                {{ if or $project.Params.project_url $project.Params.github }}
+                <div class="project-actions">
+                    {{ if $project.Params.project_url }}
+                    <a href="{{ $project.Params.project_url }}" class="project-link" target="_blank" rel="noopener">Try it →</a>
+                    {{ end }}
+                    {{ if $project.Params.github }}
+                    <a href="{{ $project.Params.github }}" class="project-link" target="_blank" rel="noopener">GitHub</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </article>
+
+            {{/* Seed projects get minimal treatment */}}
+            {{ else if eq $tier "seed" }}
+            <article class="project-entry project-seed">
+                <div class="project-header">
+                    <h4>{{ $project.Title }}</h4>
+                    <span class="tier-badge tier-seed">🌰 Seed</span>
+                </div>
+
+                {{ if $project.Params.tech_stack }}
+                <div class="project-meta">
+                    <span class="meta-item">{{ $project.Params.tech_stack }}</span>
+                </div>
+                {{ end }}
+
+                <div class="project-summary">
+                    {{ $project.Params.summary }}
+                </div>
+            </article>
+            {{ end }}
         {{ end }}
-    </ul>
+    </div>
+
+    <div class="projects-footer">
+        <p>More experiments on <a href="https://github.com/jonnyspicer" target="_blank" rel="noopener">GitHub</a>. Questions or ideas? <a href="/contact">Say hi</a>.</p>
+    </div>
 </div>
 {{ end }}
