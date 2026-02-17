@@ -37,10 +37,11 @@ and honestly about. To that end, they're also the most prevalent themes in my [b
 
   <div class="timeline-year"><span>2012</span></div>
   <div class="timeline-event timeline-event--good"><p>Got my first girlfriend</p></div>
+  <div class="timeline-event timeline-event--good"><p>Received an offer to read law at Emmanuel College, Cambridge</p></div>
 
   <div class="timeline-year"><span>2013</span></div>
   <div class="timeline-event timeline-event--bad"><p>Declined Cambridge offer, missed grades to Durham and Exeter</p></div>
-  <div class="timeline-event timeline-event--good"><p>Got to Lancaster in clearing, began law degree</p></div>
+  <div class="timeline-event timeline-event--good"><p>Got a place at Lancaster University in clearing</p></div>
 
   <div class="timeline-year"><span>2014</span></div>
   <div class="timeline-event timeline-event--good"><p>Fenced in the Commonwealth Championships</p></div>
@@ -94,6 +95,7 @@ and honestly about. To that end, they're also the most prevalent themes in my [b
 </div>
 
 ![Me rock climbing, being spotted by Anja](/img/climbing.jpg "Bouldering on the west coast of Guernsey")
+
 
 
 
