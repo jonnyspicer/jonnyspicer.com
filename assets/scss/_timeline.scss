@@ -3,7 +3,7 @@
   position: relative;
   max-width: 680px;
   margin: 2em auto 0;
-  padding: 1.5em 0 2em;
+  padding: 1em 0 2em;
 
   // Central vertical line
   &::before {
@@ -27,7 +27,7 @@
 .timeline-year {
   position: relative;
   text-align: center;
-  margin: 1.5em 0 0.6em;
+  margin: 1.2em 0 0.4em;
   z-index: 1;
 
   &:first-child {
@@ -36,9 +36,12 @@
 
   span {
     font-family: $font-stack-header;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    display: inline-block;
+    line-height: 1;
     background: $color_white;
-    padding: 0.15em 0.7em;
+    // Extra top padding to compensate for serif ascender metrics
+    padding: 0.35em 0.7em 0.25em;
     color: $color_dark_blue;
     border: 1px solid $color_grey_very_light;
     border-radius: 2em;
@@ -48,37 +51,31 @@
 // Individual event
 .timeline-event {
   position: relative;
+  box-sizing: border-box;
   width: 45%;
-  padding: 0.3em 0;
-  margin-bottom: 0.4em;
+  padding: 0.2em 0;
+  margin-bottom: 0.2em;
 
   p {
     font-family: $font-stack-copy;
     font-size: 0.9em;
-    line-height: 1.5;
+    line-height: 1.4;
     margin: 0;
     color: $color_grey_dark;
-    transition: color 0.2s ease;
   }
 
-  &:hover p {
-    color: $color_black;
-  }
-
-  // Dot on the line
+  // Dot centered on the line
+  // Events are 45% wide; the line is at 50% of parent.
+  // The 5% gap in parent coords = 100%/9 of the event width.
+  // Offset by half the dot width (4px) to center the 8px dot.
   &::before {
     content: "";
     position: absolute;
-    top: 0.55em;
+    top: 0.45em;
     width: 8px;
     height: 8px;
     border-radius: 50%;
     z-index: 1;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  &:hover::before {
-    transform: scale(1.4);
   }
 
   // Left side (good)
@@ -89,13 +86,8 @@
     padding-right: 1.5em;
 
     &::before {
-      right: -5px;
+      right: calc(-100% / 9 - 4px);
       background: $color_green;
-      box-shadow: 0 0 0 3px rgba($color_green, 0.15);
-    }
-
-    &:hover::before {
-      box-shadow: 0 0 0 5px rgba($color_green, 0.2);
     }
   }
 
@@ -107,13 +99,8 @@
     padding-left: 1.5em;
 
     &::before {
-      left: -5px;
+      left: calc(-100% / 9 - 4px);
       background: $color_pink;
-      box-shadow: 0 0 0 3px rgba($color_pink, 0.15);
-    }
-
-    &:hover::before {
-      box-shadow: 0 0 0 5px rgba($color_pink, 0.2);
     }
   }
 }
@@ -151,7 +138,7 @@
       border-left: 2px solid $color_green;
 
       &::before {
-        left: -6px;
+        left: -5px;
         right: auto;
       }
     }
@@ -163,7 +150,7 @@
       border-left: 2px solid $color_pink;
 
       &::before {
-        left: -6px;
+        left: -5px;
       }
     }
   }
@@ -188,9 +175,5 @@
 
   .timeline-event p {
     color: $color_grey_light;
-  }
-
-  .timeline-event:hover p {
-    color: $color_darkmode_text;
   }
 }
