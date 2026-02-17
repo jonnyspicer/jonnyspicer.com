@@ -106,6 +106,10 @@
 
     p a {
       text-decoration-color: $color_green;
+
+      &:hover {
+        color: $color_green;
+      }
     }
   }
 
@@ -123,6 +127,10 @@
 
     p a {
       text-decoration-color: $color_pink;
+
+      &:hover {
+        color: $color_pink;
+      }
     }
   }
 }
