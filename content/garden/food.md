@@ -8,6 +8,7 @@ tier: "seed"
 tech_stack: "Next.js · FastAPI · Claude AI"
 planted: "January 2026"
 last_tended: "February 2026"
+topics: ["web", "ai", "tools", "wellbeing"]
 ---
 
 ## The Why

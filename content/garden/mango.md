@@ -9,6 +9,7 @@ tier: "shipped"
 tech_stack: "Go"
 planted: "March 2024"
 last_tended: "February 2026"
+topics: ["trading", "go"]
 ---
 
 ## The Hook

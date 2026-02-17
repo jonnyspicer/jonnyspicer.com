@@ -9,6 +9,7 @@ tier: "growing"
 tech_stack: "Go · SQLite"
 planted: "December 2024"
 last_tended: "February 2026"
+topics: ["trading", "go"]
 ---
 
 ## The Hook
