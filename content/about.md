@@ -67,7 +67,7 @@ and honestly about. To that end, they're also the most prevalent themes in my [b
 
   <div class="timeline-year"><span>2021</span></div>
   <div class="timeline-event timeline-event--good"><p><a href="/blog/london-first-impressions/">Moved to London</a></p></div>
-  <div class="timeline-event timeline-event--good"><p>Ran my first ultramarathon</p></div>
+  <div class="timeline-event timeline-event--good"><p><a href="/blog/eden-valley-ultra-trail/">Ran my first ultramarathon</a></p></div>
 
   <div class="timeline-year"><span>2022</span></div>
   <div class="timeline-event timeline-event--good"><p><a href="/blog/eiger-ultra-trail/">Ran my first 24 hour+ mountain ultramarathon</a></p></div>
@@ -94,6 +94,7 @@ and honestly about. To that end, they're also the most prevalent themes in my [b
 </div>
 
 ![Me rock climbing, being spotted by Anja](/img/climbing.jpg "Bouldering on the west coast of Guernsey")
+
 
 
 
