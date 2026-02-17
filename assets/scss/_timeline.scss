@@ -24,11 +24,9 @@
 }
 
 // Year markers on the line
-// Uses the same left:50% + translateX(-50%) centering as the line itself
-// to guarantee sub-pixel alignment on all displays.
 .timeline-year {
   position: relative;
-  margin: 1.2em 0 0.4em;
+  margin: 1em 0 0.6em;
   z-index: 1;
 
   &:first-child {
@@ -39,15 +37,17 @@
     font-family: $font-stack-header;
     font-size: 1.1em;
     font-variant-numeric: tabular-nums;
-    display: block;
+    // Fixed height pill with flexbox centering — avoids font-metric
+    // guesswork that padding-based approaches require.
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: fit-content;
-    // Match centering mechanism of the vertical line
+    height: 2em;
     margin-left: 50%;
     transform: translateX(-50%);
-    line-height: 1;
+    padding: 0 0.7em;
     background: $color_white;
-    // Extra top padding to compensate for serif ascender metrics
-    padding: 0.35em 0.7em 0.25em;
     color: $color_dark_blue;
     border: 1px solid $color_grey_very_light;
     border-radius: 2em;
@@ -59,15 +59,23 @@
   position: relative;
   box-sizing: border-box;
   width: 45%;
-  padding: 0.2em 0;
-  margin-bottom: 0.2em;
+  // Consistent vertical spacing: same margin as between events,
+  // so dots are evenly spaced regardless of 1 or 2 events per year.
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 
   p {
     font-family: $font-stack-copy;
     font-size: 0.9em;
     line-height: 1.4;
     margin: 0;
-    color: $color_grey_dark;
+    color: $color_black;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
   }
 
   // Dot centered on the line
@@ -77,7 +85,7 @@
   &::before {
     content: "";
     position: absolute;
-    top: 0.45em;
+    top: 0.6em;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -95,6 +103,10 @@
       right: calc(-100% / 9 - 4px);
       background: $color_green;
     }
+
+    p a {
+      text-decoration-color: $color_green;
+    }
   }
 
   // Right side (bad)
@@ -107,6 +119,10 @@
     &::before {
       left: calc(-100% / 9 - 4px);
       background: $color_pink;
+    }
+
+    p a {
+      text-decoration-color: $color_pink;
     }
   }
 }
@@ -178,6 +194,6 @@
   }
 
   .timeline-event p {
-    color: $color_grey_light;
+    color: $color_darkmode_text;
   }
 }
