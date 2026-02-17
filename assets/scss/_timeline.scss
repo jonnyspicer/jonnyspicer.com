@@ -1,0 +1,199 @@
+// Timeline component for About page
+.timeline {
+  position: relative;
+  max-width: 680px;
+  margin: 2em auto 0;
+  padding: 1em 0 2em;
+
+  // Central vertical line
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      $color_grey_very_light,
+      $color_grey_very_light 90%,
+      transparent
+    );
+    transform: translateX(-50%);
+  }
+}
+
+// Year markers on the line
+.timeline-year {
+  position: relative;
+  margin: 1em 0 0.6em;
+  z-index: 1;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  span {
+    font-family: $font-stack-header;
+    font-size: 1.1em;
+    font-variant-numeric: tabular-nums;
+    // Fixed height pill with flexbox centering — avoids font-metric
+    // guesswork that padding-based approaches require.
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 2em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 0 0.7em;
+    background: $color_white;
+    color: $color_dark_blue;
+    border: 1px solid $color_grey_very_light;
+    border-radius: 2em;
+  }
+}
+
+// Individual event
+.timeline-event {
+  position: relative;
+  box-sizing: border-box;
+  width: 45%;
+  // Consistent vertical spacing: same margin as between events,
+  // so dots are evenly spaced regardless of 1 or 2 events per year.
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+
+  p {
+    font-family: $font-stack-copy;
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin: 0;
+    color: $color_black;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+  }
+
+  // Dot centered on the line
+  // Events are 45% wide; the line is at 50% of parent.
+  // The 5% gap in parent coords = 100%/9 of the event width.
+  // Offset by half the dot width (4px) to center the 8px dot.
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  // Left side (good)
+  &--good {
+    margin-left: 0;
+    margin-right: auto;
+    text-align: right;
+    padding-right: 1.5em;
+
+    &::before {
+      right: calc(-100% / 9 - 4px);
+      background: $color_green;
+    }
+
+    p a {
+      text-decoration-color: $color_green;
+    }
+  }
+
+  // Right side (bad)
+  &--bad {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: left;
+    padding-left: 1.5em;
+
+    &::before {
+      left: calc(-100% / 9 - 4px);
+      background: $color_pink;
+    }
+
+    p a {
+      text-decoration-color: $color_pink;
+    }
+  }
+}
+
+// Mobile: single column, line on left
+@media (max-width: 540px) {
+  .timeline {
+    padding-left: 1.5em;
+
+    &::before {
+      left: 0;
+      transform: none;
+    }
+  }
+
+  .timeline-year span {
+    margin-left: 0;
+    transform: none;
+    padding-left: 0.5em;
+  }
+
+  .timeline-event {
+    width: 100%;
+    text-align: left;
+    padding-left: 1.2em;
+    padding-right: 0;
+
+    &--good {
+      margin-left: 0;
+      text-align: left;
+      padding-right: 0;
+      padding-left: 1.2em;
+      border-left: 2px solid $color_green;
+
+      &::before {
+        left: -5px;
+        right: auto;
+      }
+    }
+
+    &--bad {
+      margin-left: 0;
+      text-align: left;
+      padding-left: 1.2em;
+      border-left: 2px solid $color_pink;
+
+      &::before {
+        left: -5px;
+      }
+    }
+  }
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+  .timeline::before {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.12),
+      rgba(255, 255, 255, 0.12) 90%,
+      transparent
+    );
+  }
+
+  .timeline-year span {
+    background: $color_darkmode_background;
+    color: $color_darkmode_text;
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+
+  .timeline-event p {
+    color: $color_darkmode_text;
+  }
+}
