@@ -7,14 +7,12 @@ description: "Ways to get in contact with Jonny Spicer"
 menu: "main"
 weight: "5"
 ---
-I spend a lot of time on the internet, and so there are plenty of ways you can keep up with me on it.
+If you want more from me, you can:
 
-You can simply [email me](mailto:spicerjonny@gmail.com)
+- [Email me](mailto:spicerjonny@gmail.com)
 
-You can [connect with me on LinkedIn](https://www.linkedin.com/in/jonnyspicer/)
+- [Connect with me on LinkedIn](https://www.linkedin.com/in/jonnyspicer/)
 
-You can [check out my code on Github](https://github.com/jonnyspicer)
+- [Check out my code on Github](https://github.com/jonnyspicer)
 
-You can [read my newsletter on Substack](https://heresjonny.substack.com)
-
-The choice is yours.
+- [Subscribe to my newsletter on Substack](https://heresjonny.substack.com)
