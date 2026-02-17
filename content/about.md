@@ -50,7 +50,7 @@ and honestly about. To that end, they're also the most prevalent themes in my [b
   <div class="timeline-event timeline-event--good"><p>Got my first job</p></div>
 
   <div class="timeline-year"><span>2016</span></div>
-  <div class="timeline-event timeline-event--good"><p>Placed 2/1075 in SCOOP-12M $215 NLHE 6-Max Shootout for $26k</p></div>
+  <div class="timeline-event timeline-event--good"><p>Placed 2/1075 in <a href="https://www.pokerstars.uk/poker/tournaments/scoop/">SCOOP</a>-12M $215 NLHE 6-Max Shootout for $26k</p></div>
   <div class="timeline-event timeline-event--good"><p>Won a bet to lose 12.5% of my bodyweight in 10 weeks</p></div>
 
   <div class="timeline-year"><span>2017</span></div>
@@ -94,6 +94,7 @@ and honestly about. To that end, they're also the most prevalent themes in my [b
 </div>
 
 ![Me rock climbing, being spotted by Anja](/img/climbing.jpg "Bouldering on the west coast of Guernsey")
+
 
 
 
