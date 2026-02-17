@@ -20,3 +20,48 @@ I've struggled over the years with issues to do with weight, body image, self-es
 and honestly about. To that end, they're also the most prevalent themes in my [blog](/blog), which I write in regularly.
 
 ![Me rock climbing, being spotted by Anja](/img/climbing.jpg "Bouldering on the west coast of Guernsey")
+
+---
+
+## Timeline
+
+<div class="timeline">
+  <div class="timeline-year"><span>1994</span></div>
+  <div class="timeline-event timeline-event--good"><p>Born in Guernsey</p></div>
+
+  <div class="timeline-year"><span>1998</span></div>
+  <div class="timeline-event timeline-event--bad"><p>Broke my arm falling off a wall</p></div>
+
+  <div class="timeline-year"><span>2002</span></div>
+  <div class="timeline-event timeline-event--good"><p>Got my first computer</p></div>
+
+  <div class="timeline-year"><span>2011</span></div>
+  <div class="timeline-event timeline-event--bad"><p>A-level exam stress</p></div>
+
+  <div class="timeline-year"><span>2012</span></div>
+  <div class="timeline-event timeline-event--good"><p>Started university</p></div>
+
+  <div class="timeline-year"><span>2016</span></div>
+  <div class="timeline-event timeline-event--bad"><p>First bout of serious depression</p></div>
+
+  <div class="timeline-year"><span>2017</span></div>
+  <div class="timeline-event timeline-event--good"><p>Played poker full time</p></div>
+
+  <div class="timeline-year"><span>2019</span></div>
+  <div class="timeline-event timeline-event--bad"><p>Burnout</p></div>
+
+  <div class="timeline-year"><span>2020</span></div>
+  <div class="timeline-event timeline-event--bad"><p>Pandemic isolation</p></div>
+
+  <div class="timeline-year"><span>2021</span></div>
+  <div class="timeline-event timeline-event--good"><p>Moved to London</p></div>
+
+  <div class="timeline-year"><span>2023</span></div>
+  <div class="timeline-event timeline-event--good"><p>Founded All In Labs</p></div>
+
+  <div class="timeline-year"><span>2024</span></div>
+  <div class="timeline-event timeline-event--bad"><p>Injury setback</p></div>
+
+  <div class="timeline-year"><span>2025</span></div>
+  <div class="timeline-event timeline-event--good"><p>Ran first 100-mile ultra</p></div>
+</div>
