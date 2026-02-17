@@ -34,6 +34,7 @@ and honestly about. To that end, they're also the most prevalent themes in my [b
 
   <div class="timeline-year"><span>2002</span></div>
   <div class="timeline-event timeline-event--good"><p>Got my first computer</p></div>
+  <div class="timeline-event timeline-event--good"><p>Started playing chess competitively</p></div>
 
   <div class="timeline-year"><span>2011</span></div>
   <div class="timeline-event timeline-event--bad"><p>A-level exam stress</p></div>
@@ -46,15 +47,18 @@ and honestly about. To that end, they're also the most prevalent themes in my [b
 
   <div class="timeline-year"><span>2017</span></div>
   <div class="timeline-event timeline-event--good"><p>Played poker full time</p></div>
+  <div class="timeline-event timeline-event--bad"><p>Dropped out of university</p></div>
 
   <div class="timeline-year"><span>2019</span></div>
   <div class="timeline-event timeline-event--bad"><p>Burnout</p></div>
 
   <div class="timeline-year"><span>2020</span></div>
   <div class="timeline-event timeline-event--bad"><p>Pandemic isolation</p></div>
+  <div class="timeline-event timeline-event--good"><p>Started writing daily blog</p></div>
 
   <div class="timeline-year"><span>2021</span></div>
   <div class="timeline-event timeline-event--good"><p>Moved to London</p></div>
+  <div class="timeline-event timeline-event--good"><p>Ran first ultramarathon</p></div>
 
   <div class="timeline-year"><span>2023</span></div>
   <div class="timeline-event timeline-event--good"><p>Founded All In Labs</p></div>

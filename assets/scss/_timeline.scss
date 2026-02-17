@@ -24,9 +24,10 @@
 }
 
 // Year markers on the line
+// Uses the same left:50% + translateX(-50%) centering as the line itself
+// to guarantee sub-pixel alignment on all displays.
 .timeline-year {
   position: relative;
-  text-align: center;
   margin: 1.2em 0 0.4em;
   z-index: 1;
 
@@ -37,7 +38,12 @@
   span {
     font-family: $font-stack-header;
     font-size: 1.1em;
-    display: inline-block;
+    font-variant-numeric: tabular-nums;
+    display: block;
+    width: fit-content;
+    // Match centering mechanism of the vertical line
+    margin-left: 50%;
+    transform: translateX(-50%);
     line-height: 1;
     background: $color_white;
     // Extra top padding to compensate for serif ascender metrics
@@ -116,12 +122,10 @@
     }
   }
 
-  .timeline-year {
-    text-align: left;
-
-    span {
-      padding-left: 0.5em;
-    }
+  .timeline-year span {
+    margin-left: 0;
+    transform: none;
+    padding-left: 0.5em;
   }
 
   .timeline-event {
