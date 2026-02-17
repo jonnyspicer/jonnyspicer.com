@@ -9,10 +9,10 @@ weight: "5"
 ---
 If you want more from me, you can:
 
-- [Email me](mailto:spicerjonny@gmail.com)
+[Email me](mailto:spicerjonny@gmail.com)
 
-- [Connect with me on LinkedIn](https://www.linkedin.com/in/jonnyspicer/)
+[Connect with me on LinkedIn](https://www.linkedin.com/in/jonnyspicer/)
 
-- [Check out my code on Github](https://github.com/jonnyspicer)
+[Check out my code on Github](https://github.com/jonnyspicer)
 
-- [Subscribe to my newsletter on Substack](https://heresjonny.substack.com)
+[Subscribe to my newsletter on Substack](https://heresjonny.substack.com)
