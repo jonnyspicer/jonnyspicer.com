@@ -9,6 +9,7 @@ tier: "shipped"
 tech_stack: "Next.js · Vercel"
 planted: "January 2025"
 last_tended: "February 2025"
+topics: ["web", "tools", "wellbeing"]
 ---
 
 ## The Hook

@@ -4,6 +4,11 @@
 {{ $footnotesjs := resources.Get "js/footnotes.js" }}
 <script type="text/javascript" src="{{ $footnotesjs.Permalink }}"></script>
 
+{{ if eq .Section "garden" }}
+{{ $gardenjs := resources.Get "js/garden.js" }}
+<script type="text/javascript" src="{{ $gardenjs.Permalink }}"></script>
+{{ end }}
+
 {{ if in .Page.Params.extras "prismjs"}}
 {{ $prismjs := resources.Get "js/prism.js" }}
 <script type="text/javascript" src="{{ $prismjs.Permalink }}"></script>

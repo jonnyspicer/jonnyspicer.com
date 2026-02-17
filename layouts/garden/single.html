@@ -1,17 +1,28 @@
 {{ define "main" }}
 <div class="post post-garden">
     <div class="garden-header">
+        <div class="garden-header-top">
+            {{ $tier := .Params.tier }}
+            {{ if eq $tier "shipped" }}<span class="tier-badge tier-bloomed">🌳 Bloomed</span>
+            {{ else if eq $tier "growing" }}<span class="tier-badge tier-growing">🌱 Growing</span>
+            {{ else if eq $tier "seed" }}<span class="tier-badge tier-seed">🌰 Seed</span>{{ end }}
+        </div>
+
         <h1 class="big-title">{{ .Title }}</h1>
 
+        {{ if .Params.summary }}<p class="garden-single-summary">{{ .Params.summary }}</p>{{ end }}
+
         <div class="garden-meta">
-            {{ if .Params.status }}
-            <span class="garden-status status-{{ .Params.status }}">{{ .Params.status }}</span>
-            {{ end }}
+            {{ if .Params.tech_stack }}<span class="meta-item">{{ .Params.tech_stack }}</span>{{ end }}
+            {{ if .Params.planted }}<span class="meta-item">Planted {{ .Params.planted }}</span>{{ end }}
+            {{ if .Params.last_tended }}<span class="meta-item">Tended {{ .Params.last_tended }}</span>{{ end }}
+        </div>
 
+        {{ if or .Params.project_url .Params.github }}
+        <div class="garden-actions">
             {{ if .Params.project_url }}
-            <a href="{{ .Params.project_url }}" class="garden-cta-button" target="_blank" rel="noopener">Visit Project</a>
+            <a href="{{ .Params.project_url }}" class="garden-cta-button" target="_blank" rel="noopener">Visit Project →</a>
             {{ end }}
-
             {{ if .Params.github }}
             <a href="{{ .Params.github }}" class="garden-github-link" target="_blank" rel="noopener">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
@@ -21,6 +32,7 @@
             </a>
             {{ end }}
         </div>
+        {{ end }}
     </div>
 
     {{ .Content }}

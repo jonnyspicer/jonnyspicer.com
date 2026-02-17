@@ -1,14 +1,24 @@
 {{ define "main" }}
 <div class="garden-page">
-    <h1 class="big-title">Garden</h1>
+    <div class="garden-narrow">
+        <h1 class="big-title">Garden</h1>
 
-    <div class="garden-intro">
-        <p>This is my <a href="https://maggieappleton.com/garden-history" target="_blank" rel="noopener">digital garden</a> of projects — continuously evolving ideas in various states of growth. Some are stable and bloomed, some are still taking shape, and some are just seeds I'm nurturing.</p>
+        <div class="garden-intro">
+            <p>This is my <a href="https://maggieappleton.com/garden-history" target="_blank" rel="noopener">digital garden</a> — continuously evolving ideas in various states of growth.</p>
+        </div>
 
-        <div class="growth-legend">
-            <span class="legend-item"><span class="tier-badge tier-bloomed">🌳 Bloomed</span> Stable and ready</span>
-            <span class="legend-item"><span class="tier-badge tier-growing">🌱 Growing</span> Experimental</span>
-            <span class="legend-item"><span class="tier-badge tier-seed">🌰 Seed</span> Early stages</span>
+        {{/* Topic Filters */}}
+        <div class="garden-filters">
+            <button class="filter-btn active" data-topic="all">All</button>
+            <button class="filter-btn" data-topic="web">Web</button>
+            <button class="filter-btn" data-topic="ai">AI</button>
+            <button class="filter-btn" data-topic="writing">Writing</button>
+            <button class="filter-btn" data-topic="tools">Tools</button>
+            <button class="filter-btn" data-topic="trading">Trading</button>
+            <button class="filter-btn" data-topic="wellbeing">Wellbeing</button>
+            <button class="filter-btn" data-topic="go">Go</button>
+            <button class="filter-btn" data-topic="chess">Chess</button>
+            <button class="filter-btn" data-topic="consulting">Consulting</button>
         </div>
     </div>
 
@@ -17,103 +27,33 @@
     {{ $sortedProjects := sort $allProjects ".Params.last_tended" "desc" }}
 
     <div class="garden-stream">
-        {{ range $index, $project := $sortedProjects }}
-            {{ $tier := $project.Params.tier }}
+        {{ range $sortedProjects }}
+        {{ $tier := .Params.tier }}
+        {{ $tierClass := "project-seed" }}
+        {{ if eq $tier "shipped" }}{{ $tierClass = "project-bloomed" }}{{ else if eq $tier "growing" }}{{ $tierClass = "project-growing" }}{{ end }}
 
-            {{/* Bloomed garden items get full treatment */}}
-            {{ if eq $tier "shipped" }}
-            <article class="garden-entry project-bloomed">
-                <div class="garden-header">
-                    <h2><a href="{{$project.RelPermalink}}">{{ $project.Title }}</a></h2>
-                    <span class="tier-badge tier-bloomed">🌳 Bloomed</span>
+        <article class="garden-entry {{ $tierClass }}" data-topics="{{ delimit .Params.topics " " }}">
+            <a href="{{ .RelPermalink }}" class="garden-card-link">
+                {{ if .Params.image }}<img class="garden-card-image" src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">{{ end }}
+                <div class="garden-card-body">
+                    <div class="garden-card-top">
+                        {{ if eq $tier "shipped" }}<span class="tier-badge tier-bloomed">🌳 Bloomed</span>
+                        {{ else if eq $tier "growing" }}<span class="tier-badge tier-growing">🌱 Growing</span>
+                        {{ else }}<span class="tier-badge tier-seed">🌰 Seed</span>{{ end }}
+                        {{ if .Params.last_tended }}<span class="garden-date">{{ .Params.last_tended }}</span>{{ end }}
+                    </div>
+                    <h3 class="garden-card-title">{{ .Title }}</h3>
+                    {{ if .Params.summary }}<p class="garden-card-summary">{{ .Params.summary }}</p>{{ end }}
                 </div>
-
-                {{ if or $project.Params.tech_stack $project.Params.last_tended }}
-                <div class="garden-meta">
-                    {{ if $project.Params.tech_stack }}
-                    <span class="meta-item">{{ $project.Params.tech_stack }}</span>
-                    {{ end }}
-                    {{ if $project.Params.last_tended }}
-                    <span class="meta-item">Tended {{ $project.Params.last_tended }}</span>
-                    {{ end }}
-                </div>
-                {{ end }}
-
-                <div class="garden-content">
-                    {{ $project.Content }}
-                </div>
-
-                {{ if or $project.Params.project_url $project.Params.github }}
-                <div class="garden-actions">
-                    {{ if $project.Params.project_url }}
-                    <a href="{{ $project.Params.project_url }}" class="garden-link primary" target="_blank" rel="noopener">Try it →</a>
-                    {{ end }}
-                    {{ if $project.Params.github }}
-                    <a href="{{ $project.Params.github }}" class="garden-link secondary" target="_blank" rel="noopener">GitHub</a>
-                    {{ end }}
-                </div>
-                {{ end }}
-            </article>
-
-            {{/* Growing garden items get medium treatment */}}
-            {{ else if eq $tier "growing" }}
-            <article class="garden-entry project-growing">
-                <div class="garden-header">
-                    <h3><a href="{{$project.RelPermalink}}">{{ $project.Title }}</a></h3>
-                    <span class="tier-badge tier-growing">🌱 Growing</span>
-                </div>
-
-                {{ if or $project.Params.tech_stack $project.Params.last_tended }}
-                <div class="garden-meta">
-                    {{ if $project.Params.tech_stack }}
-                    <span class="meta-item">{{ $project.Params.tech_stack }}</span>
-                    {{ end }}
-                    {{ if $project.Params.last_tended }}
-                    <span class="meta-item">Tended {{ $project.Params.last_tended }}</span>
-                    {{ end }}
-                </div>
-                {{ end }}
-
-                <div class="garden-summary">
-                    {{ $project.Params.summary }}
-                </div>
-
-                {{ if or $project.Params.project_url $project.Params.github }}
-                <div class="garden-actions">
-                    {{ if $project.Params.project_url }}
-                    <a href="{{ $project.Params.project_url }}" class="garden-link" target="_blank" rel="noopener">Try it →</a>
-                    {{ end }}
-                    {{ if $project.Params.github }}
-                    <a href="{{ $project.Params.github }}" class="garden-link" target="_blank" rel="noopener">GitHub</a>
-                    {{ end }}
-                </div>
-                {{ end }}
-            </article>
-
-            {{/* Seed garden items get minimal treatment */}}
-            {{ else if eq $tier "seed" }}
-            <article class="garden-entry project-seed">
-                <div class="garden-header">
-                    <h4>{{ $project.Title }}</h4>
-                    <span class="tier-badge tier-seed">🌰 Seed</span>
-                </div>
-
-                {{ if $project.Params.tech_stack }}
-                <div class="garden-meta">
-                    <span class="meta-item">{{ $project.Params.tech_stack }}</span>
-                </div>
-                {{ end }}
-
-                <div class="garden-summary">
-                    {{ $project.Params.summary }}
-                </div>
-            </article>
-            {{ end }}
+            </a>
+        </article>
         {{ end }}
     </div>
 
-    <div class="garden-footer">
-        <p>More experiments on <a href="https://github.com/jonnyspicer" target="_blank" rel="noopener">GitHub</a>. Questions or ideas? <a href="/contact">Say hi</a>.</p>
+    <div class="garden-narrow">
+        <div class="garden-footer">
+            <p>More experiments on <a href="https://github.com/jonnyspicer" target="_blank" rel="noopener">GitHub</a>. Questions or ideas? <a href="/contact">Say hi</a>.</p>
+        </div>
     </div>
 </div>
 {{ end }}

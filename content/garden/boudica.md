@@ -10,6 +10,7 @@ tier: "growing"
 tech_stack: "Python · Flask"
 planted: "November 2024"
 last_tended: "January 2025"
+topics: ["chess", "python"]
 ---
 
 ## The Hook
