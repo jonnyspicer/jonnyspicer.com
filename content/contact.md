@@ -1,5 +1,5 @@
 ---
-type: "static"
+type: "contact"
 date: "2021-03-13T00:00:00Z"
 page: "static/single.html"
 title: "Contact"
