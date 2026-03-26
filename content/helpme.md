@@ -3,15 +3,15 @@ type: "static"
 noindex: true
 title: "Help Me"
 ---
-I am currently very uncertain about various aspects of my life, which all have some overlap with one another. I'm interested in talking to a wide range of people, particularly ones who I'm not already close with, who feel like they've had similar experiences or might otherwise have a perspective that I'd find useful.
+I am very uncertain about various aspects of my life, which all have some overlap with one another. I'm interested in talking to a wide range of people, particularly ones who I'm not already close with, who feel like they've had similar experiences or might otherwise have a perspective that I'd find useful.
 
-I'm Jonny, currently working as a freelance software engineer in London. I mostly work on AI projects, but I also have a particularly fun gig that's trying to use radars to find [UAPs](/blog/unfortunately-aliens/). Before that I had various regular full-time software jobs for ~7 years, before that I was in the gambling industry for ~3 years, and before that I'd dropped out of university due to severe depression.
+I'm currently a freelance software engineer in London. I mostly work on AI projects, but I also have a particularly fun gig that's trying to use radars to find [UAPs](/blog/unfortunately-aliens/). Before that I had various regular full-time software jobs for ~7 years, before that I was in the gambling industry for ~3 years, and before that I'd dropped out of university due to severe depression.
 
 Specific areas of uncertainty include:
 
-*Career.* Should I keep freelancing, pursue a startup, or return to regular full-time employment? I am primarily trying to optimise for fulfilment, but freedom is also very important to me. I also want to choose an option that fares well in scenarios where AI coding models continue improving at their current rate. Saliently, I am self-taught, previously worked at AWS which I found extremely stressful, and then failed probation at the EA-flavoured not-for-profit I went to afterwards, which also led me to [largely sever my involvement with the EA community](/blog/auf-wiedersehen-effective-altruism/).
+*Career.* Should I keep freelancing, pursue a startup, or return to regular full-time employment? I am primarily trying to optimise for fulfilment, but freedom is also very important to me. I also want to choose an option that fares well in scenarios where AI coding models continue improving at their current rate. Saliently, I am self-taught, previously worked at AWS which I found extremely stressful, and then failed probation at the EA-flavoured not-for-profit I went to afterwards, which also led me to [largely sever my involvement with the EA community](/blog/auf-wiedersehen-effective-altruism/). I am potentially interested in founding a mental health startup (for hopefully obvious reasons), and in some ways I think I'm a good fit for a founder, but in other ways not-so-much. 
 
-*Mental health*. Necessarily entwined with the above. I have treatment-resistant depression co-occuring with some kind of [OSFED](https://www.beateatingdisorders.org.uk/get-information-and-support/about-eating-disorders/types/osfed/). I have tried various kinds of medication, talking therapies in different modalities, various lifestyle interventions (meditation, journaling, exercise, talking to friends about my feelings etc). I am now at the stage of considering things like trying to get referred for TMS or participating in research trials for new interventions, but I don't feel optimistic about either.
+*Mental health*. Necessarily entwined with the above. I have treatment-resistant depression co-occuring with some kind of [OSFED](https://www.beateatingdisorders.org.uk/get-information-and-support/about-eating-disorders/types/osfed/) that is sadly pretty psychically load-bearing at this point. I have tried various kinds of medication, talking therapies in different modalities, various lifestyle interventions (meditation, journaling, exercise, talking to friends about my feelings etc). I am now at the stage of considering things like trying to get referred for TMS or participating in research trials for new interventions, but I don't feel optimistic about either.
 
 *Relationships.* I'd like to have a serious, long term monogamous relationship with children. I have struggled with various aspects of long-term relationships previously, largely linked to the above - avoidant attachment, very harsh inner critic, difficulty being vulnerable etc. I'd love to figure out how to make progress on these things so that hopefully the next relationship I am in ends up being "the one".
 
@@ -34,7 +34,7 @@ There are two ways to chat — pick whichever suits you:
 
 ### Coffee in London
 
-For an in-person chat. I'm flexible on location, we can figure out somewhere that works for both of us.
+For an in-person chat. I'm flexible on location, there are some suggested options but generally I'm happy to travel.
 
 *If the widget below doesn't work correctly, [book using this link instead.](https://calendly.com/jonnyspicer/coffee-in-london)*
 
