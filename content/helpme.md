@@ -19,7 +19,7 @@ Specific areas of uncertainty include:
 
 I'm happy to share more details on any of the above if it would be useful. You can also reach me via the [contact page](/contact/) if you'd prefer to get in touch asynchronously.
 
-In return, I'll donate £10-£100 to a charity of your choosing (counterfactually), depending on how useful I found your advice. If we meet in person, coffee is on me. If you care about such things, there's probably some chance to earn yourself some counterfactual impact points here too.
+In return, I'll donate £10-£100 to a charity of your choosing (counterfactually), depending on how useful I found your advice. If we meet in person, coffee is on me. If you care about such things, there's probably a chance to earn yourself some counterfactual impact points here too.
 
 ---
 
