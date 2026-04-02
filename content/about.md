@@ -6,7 +6,7 @@ description: "About Jonny Spicer, ultrarunner, software engineer, mental health 
 menu: "main"
 weight: "2"
 ---
-*Last updated: 17th February 2026*
+*Last updated: 2nd April 2026*
 
 I was born and raised on the beautiful island of Guernsey (part of which is pictured below), and lived there the majority of my life before moving to London in 2021. My career path thus far has had some thrills
 and spills, the most exciting of which was playing poker full time in 2017. These days I work as a [software and AI consultant](https://allinlabs.io) and I am actively exploring founding a [precision psychiatry](https://www.cambridge.org/core/journals/psychological-medicine/article/precision-psychiatry-predicting-predictability/7A51DBDF832F47502DE677D0FE0A9BE6) project. I have [pledged to donate at least 10% of my salary to effective charities for the rest of my career](/blog/giving-what-i-can/).
