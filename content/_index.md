@@ -9,7 +9,7 @@ weight: "1"
 wordcount: 0
 postcount: 0
 ---
-I like [running really far,](/blog/eiger-ultra-trail/) [figuring out how to be happier](/blog/the-happiness-project/) and [setting ambitious goals.](/blog/2023-goals/) I'm interested in mental health, AI, going on adventures, meditation, music, tattoos, and plenty more.
+I like [running really far,](/blog/eiger-ultra-trail/) [figuring out how to be happier](/blog/the-happiness-project/) and [setting ambitious goals.](/blog/2023-goals/) I'm interested in [mental health](/categories/mental-health/), [AI](/blog/concrete-ways-i-use-ai/), [going on adventures](/blog/the-arc/), [meditation](/blog/is-meditation-magic/), [music](/categories/music/), [tattoos](/blog/five-things-i-love-about-tattoos/), and plenty more.
 
 This site is primarily a home for my [blog.](/blog) You can read the [latest post,](/blog/latest) and if you're a regular reader, that link will always be my most recent offering, so you can bookmark it. You can also find a list of my [favorite posts](/bestof).
 
