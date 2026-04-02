@@ -16,14 +16,7 @@ I spend a lot of my free time running and have [completed many ultramarathons](h
 I've struggled over the years with issues to do with weight, body image, self-esteem, anxiety and depression, all of which are now things I try to be an advocate for speaking openly
 and honestly about. To that end, they're also the most prevalent themes in my [blog](/blog), which I write in regularly. I'm interested in integrative psychotherapy, the promise of psychopharmacotherapy, precision psychiatry, and generally any intervention that is ~80% science and  ~20% woo.
 
-Here are some things I believe are systematically underrated:
-- [Antifragility](https://en.wikipedia.org/wiki/Antifragility)
-- Doing fewer things with greater focus
-- Only playing positive-sum games
-- Intentionally cultivating equanimity/personal responsibility
-- Resisting tribalism
-- [Chesterton's Fence](https://fs.blog/chestertons-fence/)
-- [Goodhart's Law](https://xkcd.com/2899/)
+Here are some things I believe are systematically underrated: [antifragility](https://en.wikipedia.org/wiki/Antifragility), doing fewer things with greater focus, only playing positive-sum games, intentionally cultivating equanimity/personal responsibility, resisting tribalism, [Chesterton's Fence](https://fs.blog/chestertons-fence/), [Goodhart's Law](https://xkcd.com/2899/).
 
 <div class="timeline">
   <div class="timeline-year"><span>1994</span></div>
