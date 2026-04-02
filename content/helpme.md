@@ -19,7 +19,7 @@ Specific areas of uncertainty include:
 
 *Location.* My default location is London, but there are two huge drawbacks; lack of access to nature and cost. I have a large network here, but I suspect I could reproduce it to some extent in places like Edinburgh, which would do much better on price/mountains/sea. If I chose to found a startup, I'd likely pursue getting an O1 visa and moving to the US. 
 
-I'm happy to share more details on any of the above if it would be useful. You can also reach me via the [contact page](/contact/) if you'd prefer to get in touch asynchronously.
+I'm happy to share more details on any of the above if it would be useful. You can also reach me via the [contact page](/contact/) if you'd prefer to get in touch asynchronously, or leave [anonymous feedback via Admonymous](https://www.admonymous.co/jspicer).
 
 If we meet in person, coffee is on me. If you care about such things, there's probably a chance to earn yourself some counterfactual impact points here too.
 
