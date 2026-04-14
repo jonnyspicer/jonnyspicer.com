@@ -280,7 +280,8 @@ p img {
   }
 }
 
-.post-blog p img {
+.post-blog p img,
+.post-blog figure img {
   @media only screen and (min-width: 600px) {
     width: 100%;
     max-width: 100%;

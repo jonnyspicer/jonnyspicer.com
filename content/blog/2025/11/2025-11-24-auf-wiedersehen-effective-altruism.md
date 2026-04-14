@@ -5,6 +5,7 @@ author: Jonny Spicer
 title: "Auf Wiedersehen, Effective Altruism"
 categories:
 - Effective Altruism
+series: ["Auf Wiedersehen, Effective Altruism"]
 ---
 I love cults. Not studying them from the outside; actually being in them. If we generously exclude being in a university sports team, then the first time [I succumbed to one was in 2016](https://jonnyspicer.com/blog/joe-ingrams-gto-club-review/); fortunately I managed to extricate myself after only a few months. This turned out to be a kind of gateway experience, as in 2022 I, ever the willing Alice, tumbled down the rabbit hole of Effective Altruism, a dream I have only recently awoken from.
 
