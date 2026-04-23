@@ -1,0 +1,32 @@
+{{/*
+  Epistemic status row — writing status, author's confidence, importance.
+
+  Renders directly below .post-meta when any of the three frontmatter
+  fields are set. Vocabulary (inspired by gwern.net):
+    status:     notes | draft | in progress | finished | abandoned
+    confidence: log | unlikely | possible | likely | highly likely | certain
+    importance: integer 0-10
+
+  None of the fields are required; posts without any of them render no
+  epistemics row at all.
+*/}}
+{{ $hasAny := or (isset .Params "status") (isset .Params "confidence") (isset .Params "importance") }}
+{{ if $hasAny }}
+<div class="post-epistemics">
+  {{ with .Params.status }}
+  <span class="post-epistemics-item">
+    status: <span class="post-epistemics-value">{{ . }}</span>
+  </span>
+  {{ end }}
+  {{ with .Params.confidence }}
+  <span class="post-epistemics-item">
+    confidence: <span class="post-epistemics-value">{{ . }}</span>
+  </span>
+  {{ end }}
+  {{ if isset .Params "importance" }}
+  <span class="post-epistemics-item">
+    importance: <span class="post-epistemics-value">{{ .Params.importance }}/10</span>
+  </span>
+  {{ end }}
+</div>
+{{ end }}

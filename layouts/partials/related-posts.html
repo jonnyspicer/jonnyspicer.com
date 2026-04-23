@@ -1,0 +1,35 @@
+{{/*
+  Renders a manually curated list of related posts.
+
+  Opt in by adding a `related:` list to a post's frontmatter. Each entry is
+  a content path or ref string that Hugo can resolve via site.GetPage.
+
+  Example frontmatter:
+    related:
+      - /blog/map-and-territory-fake-beliefs
+      - /essay/ai
+
+  Missing pages are skipped silently so renames don't break the build.
+*/}}
+{{ with .Params.related }}
+{{ $resolved := slice }}
+{{ range . }}
+  {{ with site.GetPage . }}
+    {{ $resolved = $resolved | append . }}
+  {{ end }}
+{{ end }}
+
+{{ with $resolved }}
+<aside class="post-section post-section-similar">
+  <h2>Similar</h2>
+  <ul>
+    {{ range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="post-section-date">{{ .Date.Format "Jan 2006" }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</aside>
+{{ end }}
+{{ end }}

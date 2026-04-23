@@ -6,6 +6,9 @@ title: "Brother, Teach Me"
 categories:
 - Personal Development
 - Bestof
+# status: 
+# confidence: 
+# importance: 
 ---
 *A hero's journey to find the meaning of heroism.*
 

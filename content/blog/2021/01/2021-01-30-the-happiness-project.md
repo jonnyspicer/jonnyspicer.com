@@ -9,6 +9,9 @@ categories:
 - Wellbeing
 - Bestof
 title: The Happiness Project
+# status: 
+# confidence: 
+# importance: 
 ---
 A lot of people have written about [their version of a happiness project,](https://addhana.com/tags/happiness-project/) and in a way, shouldn't our whole lives be
 a personal happiness project? If we, like Kid Cudi, are on the pursuit of happiness, I think a lot of us tend to overcomplicate it, get distracted, or simply lose sight and focus

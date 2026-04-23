@@ -18,10 +18,8 @@
     }
   }
 
-  &.post-blog {
-    ul {
-      list-style-type: katakana;
-    }
+  &.post-blog > ul {
+    list-style-type: katakana;
   }
 }
 
@@ -42,11 +40,199 @@
   margin-top: 40px;
 }
 
-/* Footnote styling */
+/* Post metadata row — compact typographic line under the title */
+.post-meta {
+  margin: 8px 0 36px;
+  padding: 0;
+  font-family: $font-stack-copy;
+  font-size: 14px;
+  color: $color_grey_medium;
+  line-height: 1.6;
+
+  .post-meta-item {
+    &:not(:last-child)::after {
+      content: "·";
+      margin: 0 8px;
+      color: $color_grey_light;
+    }
+  }
+
+  .post-meta-modified {
+    font-style: italic;
+  }
+
+  time {
+    color: inherit;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-meta {
+    color: $color_grey_light;
+  }
+}
+
+/* Epistemic status row — sits directly below .post-meta when author has
+   declared status / confidence / importance in frontmatter */
+.post-epistemics {
+  margin: 6px 0 36px;
+  padding: 0;
+  font-family: $font-stack-copy;
+  font-size: 13px;
+  color: $color_grey_medium;
+  line-height: 1.6;
+
+  .post-epistemics-item {
+    &:not(:last-child)::after {
+      content: "·";
+      margin: 0 8px;
+      color: $color_grey_light;
+    }
+  }
+
+  .post-epistemics-value {
+    font-style: italic;
+    color: $color_grey_dark;
+  }
+}
+
+.post-meta:has(+ .post-epistemics) {
+  margin-bottom: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-epistemics {
+    color: $color_grey_light;
+
+    .post-epistemics-value {
+      color: $color_darkmode_text;
+    }
+  }
+}
+
+/* Post-end sections (similar, backlinks) — gwern/gleech-style */
+.post-section {
+  margin: 64px 0 0;
+  padding: 0;
+  font-family: $font-stack-copy;
+
+  h2 {
+    font-family: $font-stack-header;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: normal;
+    color: $color_grey_dark;
+    margin: 0 0 8px;
+    padding: 0;
+    border: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.7;
+
+    li {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+  }
+
+  .post-section-date {
+    color: $color_grey_light;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-section {
+    h2 {
+      color: $color_darkmode_text;
+    }
+
+    .post-section-date {
+      color: $color_grey_medium;
+    }
+  }
+}
+
+/* Collapsible table of contents for long posts */
+.post-toc {
+  margin: 24px 0 48px;
+  font-family: $font-stack-copy;
+
+  details {
+    summary {
+      cursor: pointer;
+      font-family: $font-stack-header;
+      font-style: italic;
+      font-size: 20px;
+      color: $color_grey_dark;
+      list-style: none;
+      padding: 4px 0;
+
+      &::marker,
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::before {
+        content: "▸ ";
+        font-size: 0.8em;
+      }
+    }
+
+    &[open] summary::before {
+      content: "▾ ";
+    }
+  }
+
+  nav {
+    margin-top: 12px;
+    padding-left: 16px;
+    border-left: 1px solid $color_grey_very_light;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0 0 0 16px;
+    margin: 4px 0;
+    font-size: 15px;
+    line-height: 1.7;
+
+    &:first-of-type {
+      padding-left: 0;
+    }
+
+    li {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-toc {
+    details summary {
+      color: $color_darkmode_text;
+    }
+
+    nav {
+      border-left-color: $color_grey_medium;
+    }
+  }
+}
+
+/* Footnote styling — Goldmark already renders an <hr> inside .footnotes */
 .footnotes {
   margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #e0e0e0;
 
   ol {
     padding-inline-start: 20px;
@@ -60,13 +246,6 @@
         padding: 0;
       }
     }
-  }
-}
-
-/* Dark mode support for footnotes */
-@media (prefers-color-scheme: dark) {
-  .footnotes {
-    border-top-color: #444;
   }
 }
 

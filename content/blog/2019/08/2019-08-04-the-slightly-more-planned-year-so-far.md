@@ -10,6 +10,9 @@ categories:
 - Bestof
 title: The Slightly More Planned Year (So Far)
 series: ["The Unplanned Years"]
+# status: 
+# confidence: 
+# importance: 
 ---
 Well, it’s been a very long time since I wrote anything in this blog, and I think an update long overdue at this point. In December [things were bleak](/blog/the-unplanned-year), I was in a very dark place and had struggled for months with feeling like I couldn’t really talk to anyone about it. I was frustrated at the lack of progress with therapy, putting a huge amount of pressure on myself at work, and felt undateable and unloveable in my social life. I was scared, lonely, and desperately trying to find a way out that didn’t involve hurting everyone around me.
 

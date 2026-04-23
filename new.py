@@ -59,4 +59,11 @@ if os.path.exists(path):
         f.write('tags:\n')
         for cat in tags.split(", "):
             f.write('- ' + cat + '\n')
+    # Epistemic metadata scaffold — uncomment and fill in as desired.
+    #   status:     notes | draft | in progress | finished | abandoned
+    #   confidence: log | unlikely | possible | likely | highly likely | certain
+    #   importance: integer 0-10
+    f.write('# status: \n')
+    f.write('# confidence: \n')
+    f.write('# importance: \n')
     f.write('---\n')

@@ -9,6 +9,9 @@ categories:
 - Bestof
 title: Pretending II
 series: ["Pretending"]
+# status: 
+# confidence: 
+# importance: 
 ---
 I have put off writing this post for several months now, probably since November. I’ve done so for a number of reasons, which we’ll get into in a little bit, but given that the current global pandemic has us all sitting inside, feeling alone and sorry for ourselves, I guess now seems like a good time to actually do it.
 

@@ -9,6 +9,9 @@ categories:
 - Blogging
 - Mental Health
 - Programming
+# status: 
+# confidence: 
+# importance: 
 ---
 *Artificial intelligence, extraterrestrial intelligence and emotional intelligence*
 

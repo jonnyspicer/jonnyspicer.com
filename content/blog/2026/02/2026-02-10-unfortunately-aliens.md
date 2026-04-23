@@ -5,6 +5,9 @@ author: Jonny Spicer
 title: "Unfortunately, Aliens"
 categories:
 - Aliens
+# status: 
+# confidence: 
+# importance: 
 ---
 Aliens are hard to take seriously. Until recently, the most I'd thought about aliens had been in connection with former FIDE president [Kirsan Ilyumzhinov's claims about having been abducted by them](https://www.chesshistory.com/winter/extra/ilyumzhinov.html) and when [a local Aurigny pilot saw a UFO near Alderney](https://en.wikipedia.org/wiki/2007_Alderney_UFO_sighting) - neither of which seemed desperately believable at first glance. But back in 2022, US Congress held its first hearing on UAP (Unidentified Aerial Phenomena, the new term of art for the now-passé UFO), which piqued the interest of one of my friends. After he spent some time going down the alien rabbit-hole, he pitched me on doing the same, and seeing as I respect him, I did my best to engage in good faith. This post is the first of several that will explain what I've found.
 

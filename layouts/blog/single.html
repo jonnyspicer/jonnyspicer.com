@@ -1,8 +1,13 @@
 {{ define "main" }}
     <div class="post post-blog">
         <h1>{{ .Title }}</h1>
-        {{ partial "categories.html" .}}
+        {{ partial "post-meta.html" . }}
+        {{ partial "post-epistemics.html" . }}
+        {{ partial "toc.html" . }}
         {{ .Content }}
+
+        {{ partial "related-posts.html" . }}
+        {{ partial "backlinks.html" . }}
 
         {{ with .Page.Params.Series }}
         <div class="series-navigation">

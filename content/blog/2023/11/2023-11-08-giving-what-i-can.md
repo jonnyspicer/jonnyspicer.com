@@ -6,6 +6,9 @@ title: "Giving What I Can"
 categories:
 - Effective Altruism
 - Bestof
+# status: 
+# confidence: 
+# importance: 
 ---
 I’ve read several LinkedIn posts on why people chose to take the [Giving What We Can Pledge](https://www.givingwhatwecan.org/). Many of them include something along the lines of “I’m not posting this to seem smug and morally superior - I’m posting this to help normalise talking about giving significant sums of money to charity”. They then proceed to seem smug and morally superior.
 

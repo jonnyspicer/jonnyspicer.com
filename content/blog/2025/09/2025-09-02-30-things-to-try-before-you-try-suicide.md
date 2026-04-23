@@ -5,6 +5,9 @@ author: Jonny Spicer
 title: "30 things to try before you try suicide"
 categories:
 - Mental Health
+# status: 
+# confidence: 
+# importance: 
 ---
 I recently read a piece on Substack called "30 things to try before you try suicide" (clearly the algorithm already has me pegged).[^1] I... did not think it was very good. It was aggressively inoffensive and uncontroversial, and seriously misjudged the seriousness of suicidality.
 

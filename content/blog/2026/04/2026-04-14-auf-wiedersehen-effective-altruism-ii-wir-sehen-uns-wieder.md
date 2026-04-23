@@ -6,6 +6,9 @@ title: "Auf Wiedersehen, Effective Altruism II: Wir Sehen Uns Wieder"
 categories:
 - Effective Altruism
 series: ["Auf Wiedersehen, Effective Altruism"]
+# status: 
+# confidence: 
+# importance: 
 ---
 *Because doing enough good won’t make me good enough*
 

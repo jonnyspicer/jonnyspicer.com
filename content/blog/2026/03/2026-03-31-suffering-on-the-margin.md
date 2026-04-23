@@ -6,6 +6,9 @@ title: "Suffering on the Margin"
 categories:
 - Mental Health
 - Personal
+# status: 
+# confidence: 
+# importance: 
 ---
 *Epistemic status: stream-of-consciousness neurotic blathering masquerading as a quick take.*
 

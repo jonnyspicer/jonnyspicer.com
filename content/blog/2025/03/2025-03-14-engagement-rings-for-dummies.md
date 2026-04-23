@@ -5,6 +5,9 @@ author: Jonny Spicer
 title: "Engagement Rings For Dummies"
 categories:
   - Dating and Relationships
+# status: 
+# confidence: 
+# importance: 
 ---
 
 _This post is to help scared & unprepared first-time proposers. I was one of your number not so long ago._

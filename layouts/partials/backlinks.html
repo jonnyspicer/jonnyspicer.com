@@ -1,0 +1,35 @@
+{{/*
+  Renders any posts that link to the current page.
+
+  Detection is string-based: checks each page's RawContent for the current
+  page's RelPermalink. This catches markdown links like [text](/blog/slug/)
+  as well as raw URL mentions. False positives are rare in practice.
+
+  Hugo caches .RawContent per page so this scales to ~1000 posts without
+  significant build-time cost.
+*/}}
+{{ $current := . }}
+{{ $link := .RelPermalink }}
+{{ $backlinks := slice }}
+
+{{ range .Site.RegularPages }}
+  {{ if ne .Permalink $current.Permalink }}
+    {{ if in .RawContent $link }}
+      {{ $backlinks = $backlinks | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ with $backlinks }}
+<aside class="post-section post-section-backlinks">
+  <h2>Backlinks</h2>
+  <ul>
+    {{ range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="post-section-date">{{ .Date.Format "Jan 2006" }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</aside>
+{{ end }}

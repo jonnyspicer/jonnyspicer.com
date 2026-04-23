@@ -7,6 +7,9 @@ categories:
 - Personal
 series: 
 - Goals
+# status: 
+# confidence: 
+# importance: 
 ---
 *Or at least be assassinated by the aristocracy of Macedonia while trying.*
 

@@ -6,6 +6,9 @@ title: "Mount Teide Left Unconquered"
 categories:
 - Running
 series: ["Marathons"]
+# status: 
+# confidence: 
+# importance: 
 ---
 Last week I suffered my first[^1] DNF at the Tenerife Bluetrail 110k. There isn't a whole lot to say about it, as I had been expecting not to finish for weeks leading up to the race, on the start line etc. Life got in the way of training, which is inevitable for some races - in a way, it was nice to start a race with no expectations.
 

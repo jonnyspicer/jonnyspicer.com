@@ -1,0 +1,39 @@
+{{/*
+  Unified post metadata row for single pages.
+
+  Consolidates publish date, categories, modified date (when different from
+  publish date), word count and reading time into one line. Designed to
+  replace the categories.html partial on single-page templates; list/archive
+  pages continue to use categories.html.
+*/}}
+<div class="post-meta">
+  <span class="post-meta-item post-meta-date">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+  </span>
+
+  {{ with (.GetTerms "categories") }}
+  <span class="post-meta-item post-meta-categories">
+    {{ range $i, $t := . }}
+    {{ if gt $i 0 }} / {{ end }}<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+  </span>
+  {{ end }}
+
+  {{ with (.GetTerms "tags") }}
+  <span class="post-meta-item post-meta-tags">
+    {{ range $i, $t := . }}
+    {{ if gt $i 0 }}, {{ end }}<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+  </span>
+  {{ end }}
+
+  {{ if and (not .Lastmod.IsZero) (ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
+  <span class="post-meta-item post-meta-modified">
+    updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 January 2006" }}</time>
+  </span>
+  {{ end }}
+
+  {{ if gt .WordCount 0 }}
+  <span class="post-meta-item post-meta-reading">{{ .ReadingTime }} min read</span>
+  {{ end }}
+</div>

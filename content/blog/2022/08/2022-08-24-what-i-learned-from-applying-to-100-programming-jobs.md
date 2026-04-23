@@ -7,6 +7,9 @@ categories:
 - Bestof
 - Career
 - Programming
+# status: 
+# confidence: 
+# importance: 
 ---
 ## TL;DR
 

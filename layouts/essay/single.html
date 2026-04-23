@@ -1,6 +1,12 @@
 {{ define "main" }}
 <div class="post post-essay">
     <h1 class="big-title">{{ .Title }}</h1>
+    {{ partial "post-meta.html" . }}
+    {{ partial "post-epistemics.html" . }}
+    {{ partial "toc.html" . }}
     {{ .Content }}
+
+    {{ partial "related-posts.html" . }}
+    {{ partial "backlinks.html" . }}
 </div>
 {{ end }}
