@@ -1,181 +1,200 @@
-.archives > h1{
+.archives > h1 {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.transition{
+.transition {
   transition: all 0.3s ease-in-out;
 }
 
-.tags{
-  span{
+.tags {
+  span {
     font-size: 16px;
     font-style: italic;
     margin-inline-start: -0.1em;
   }
 }
 
-.archive-list, .post-list{
+/* ============================================================
+   Shared reset for .archive-list and .post-list
+   ============================================================ */
+.archive-list, .post-list {
   padding: 0;
   margin: 0;
-  li{
-    position: relative;
-    padding: 0 !important;
-    margin-bottom: 1.5em;
-    background-color: transparent;
-    border-radius: 8px;
-    transition: all 0.3s ease-in-out;
-    border-left: 3px solid transparent;
+  list-style: none;
 
-    @media (prefers-color-scheme: dark) {
-      background-color: rgba(255, 255, 255, 0.03);
+  h2, h3 { margin: 10px 0; }
 
-      &:hover {
-        background-color: rgba(255, 255, 255, 0.06);
-      }
-    }
-    .accordion-title{
-      cursor: pointer;
-      display: block;
-      padding: 1.5em;
-      margin: 0;
-      position: relative;
-      transition: color 0.2s ease-in-out;
-
-      &:hover {
-        color: $color_yellow;
-
-        &:before, &:after {
-          background-color: $color_yellow;
-        }
-      }
-
-      &:before, &:after{
-        content:'';
-        position: absolute;
-        background-color: $color_darkmode_text;
-        width: 3px;
-        height: 9px;
-        right: 1.5em;
-        top: 1.5em;
-        margin-top: 0.4em;
-        transition: all 0.3s ease-in-out;
-      }
-      &:before{
-        transform: translate(-2px, 0) rotate(-45deg);
-      }
-      &:after{
-        transform: translate(2px, 0) rotate(45deg);
-      }
-    }
-    .accordion-title-display{
-      color: $color_yellow;
-
-      &:before, &:after {
-        background-color: $color_yellow;
-      }
-
-      &:before{
-        transform: translate(2px, 0) rotate(-45deg);
-      }
-      &:after{
-        transform: translate(-2px, 0) rotate(45deg);
-      }
-    }
-    .accordion-leaf{
-      display: none;
-    }
-    .accordion-leaf-display{
-      display:block;
-      
-      li{
-        padding: 0;
-      }
-
-      &.post-list{
-        li{
-          padding-bottom: 10px;
-        }
-      }
-    }
-    ul{
-      padding-left: 10px;
-    }
-  }
-  h2, h3{
-    margin: 10px 0;
-  }
-  h4{
-    margin: 0 0 0.5em 0;
+  h4 {
+    margin: 0 0 4px;
     font-size: 1.3em;
     line-height: 1.4;
+    font-family: $font-stack-header;
+    font-weight: normal;
 
     a {
       text-decoration: none;
       color: inherit;
       transition: color 0.2s ease-in-out;
 
-      &:hover {
-        color: $color_pink;
-      }
+      &:hover { color: $color_pink; }
 
       &::after {
         content: '';
         position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        inset: 0;
         z-index: 1;
       }
     }
   }
-  span{
-    font-size: 14px;
-    font-style: italic;
-    margin-inline-start: -0.1em;
-    opacity: 0.75;
-    position: relative;
-    z-index: 2;
 
-    a {
-      position: relative;
-      z-index: 2;
-    }
-  }
-  p{
+  p {
     font-size: 16px;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
   }
 }
 
-.post-list li {
-  padding: 1.5em !important;
+/* ============================================================
+   Accordion — shared chevron + heading styles
+   ============================================================ */
+.accordion-title {
   cursor: pointer;
+  display: block;
+  padding: 10px 0;
+  margin: 0;
+  position: relative;
+  transition: color 0.2s ease-in-out;
 
-  @media (prefers-color-scheme: dark) {
-    &:hover {
-      border-left-color: $color_pink;
-      transform: translateX(4px);
+  &:hover {
+    color: $color_pink;
 
-      h4 a {
-        color: $color_pink;
+    &:before, &:after { background-color: $color_pink; }
+  }
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    background-color: $color_grey_light;
+    width: 2px;
+    height: 10px;
+    right: 0.5em;
+    top: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  &:before { transform: translate(-3px, -50%) rotate(-45deg); }
+  &:after  { transform: translate(3px,  -50%) rotate(45deg); }
+}
+
+.accordion-title-display {
+  color: $color_yellow;
+
+  &:before, &:after { background-color: $color_yellow; }
+  &:before { transform: translate(3px,  -50%) rotate(-45deg); }
+  &:after  { transform: translate(-3px, -50%) rotate(45deg); }
+}
+
+.accordion-leaf { display: none; }
+.accordion-leaf-display { display: block; }
+
+/* ============================================================
+   Archive — tight accordion rows with hairline separators
+   ============================================================ */
+.archive-list {
+  margin-top: 20px;
+
+  > li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid $color_grey_very_light;
+
+    @media (prefers-color-scheme: dark) {
+      border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+  }
+
+  /* Month-level (nested accordion): indent, no separator between months */
+  .accordion-leaf,
+  .accordion-leaf-display {
+    padding-left: 20px;
+    margin: 0 0 10px;
+
+    > li {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+
+    .accordion-title {
+      font-size: 1em;
+      font-weight: normal;
+      padding: 6px 0;
+    }
+  }
+
+  /* Post-level (inside an expanded month): tight ribbon */
+  .post-list {
+    padding-left: 20px;
+    margin: 6px 0 12px;
+
+    > li {
+      padding: 6px 0 6px 14px;
+      margin: 0 0 6px;
+      border-left: 2px solid $color_grey_very_light;
+      transition: border-color 0.2s ease;
+      cursor: pointer;
+
+      &:hover {
+        border-left-color: $color_pink;
+        h4 a { color: $color_pink; }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        border-left-color: rgba(255, 255, 255, 0.1);
       }
     }
   }
 }
 
-.archive-list{
-  margin-top: 20px;
+/* ============================================================
+   Post list (flat, e.g. homepage / taxonomy / bestof) — ribbon
+   ============================================================ */
+.post-list > li {
+  position: relative;
+  padding: 14px 0 14px 20px;
+  margin: 0 0 20px;
+  border-left: 2px solid $color_grey_very_light;
+  transition: border-color 0.2s ease;
+  cursor: pointer;
 
-  > li {
-    padding-bottom: 1.5em;
+  &:hover {
+    border-left-color: $color_pink;
+    h4 a { color: $color_pink; }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    border-left-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.post-list > li > span,
+.post-list > li > .tags {
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.8;
+  position: relative;
+  z-index: 2;
+
+  a {
+    position: relative;
+    z-index: 2;
   }
 }
 
 .summary-block {
-  margin-top: 0.75em;
+  margin-top: 0.5em;
   opacity: 0.85;
   line-height: 1.6;
   position: relative;
