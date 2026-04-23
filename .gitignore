@@ -6,3 +6,10 @@ __pycache__
 public/
 .hugo_build.lock
 resources/_gen/
+
+# macOS
+.DS_Store
+
+# MCP tool artifacts
+.playwright-mcp/
+.serena/
