@@ -67,7 +67,7 @@ He killed my entire family. My cousins, my nieces and nephews, my aunts and uncl
 
 As day breaks, His rank odour fills my nostrils. He is near, as is His end. 
 
-I spot him in the clearing. 
+I spot Him in the clearing. 
 
 Lightning sparks in my hands as I warp the energy around me, bending it to my will. My bloodlust is total. I am a font of pure, unbridled rage. Autumn descends on the forest as the greens metamorphose into reds. The world turns rubescent. Not that there is a world, any longer. I am distinct from it, set apart. I have stepped out of time, into some alternate plane, one which I have specially created for the purpose of wreaking my vengeance.
 
