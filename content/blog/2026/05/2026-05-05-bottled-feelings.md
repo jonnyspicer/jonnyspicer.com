@@ -79,7 +79,7 @@ He staggers and I pin Him. Our eyes lock. He sees my fury, and for an impercepti
 
 In that moment I plunge my hand deep inside his chest, and rip out his heart. His body lies broken beneath mine, His limbs shattered, His ribcage mere splinters.
 
-But the look in his eyes remains.
+But the look in His eyes remains.
 
 ## The Extinguishing
 
