@@ -63,7 +63,7 @@ I ought to be tired, but remarkably, I don’t feel an iota of fatigue. It’s b
 
 It gets cold at night, but my hatred warms me. He must know that I am on His tail, but He seems to be slowing regardless. Perhaps He is wounded, perhaps He is simply drained. I hope He is able to rally - it would be unsatisfying, after all this, if He were to go down without a fight. I have a fantasy of how His final moments will play out. I want to see the fire in His eyes, to see their spark, to feel like He retains some lust for life. In that moment, I want Him to witness me. I want to communicate to Him my boundless anger, my overwhelming grief. I want Him to feel my pain deep inside his heart, before I mercifully snuff Him out.
 
-He killed my entire family. My cousins, my nieces and nephews, my aunts and uncles. Every single one he slew. They lay in a bloody mess at His feet, His only mercy in His swiftness. He didn’t even spare my parents. Our parents. He killed our entire family. And now I will kill Him.
+He killed my entire family. My cousins, my nieces and nephews, my aunts and uncles. Every single one He slew. They lay in a bloody mess at His feet, His only mercy in His swiftness. He didn’t even spare my parents. Our parents. He killed our entire family. And now I will kill Him.
 
 As day breaks, His rank odour fills my nostrils. He is near, as is His end. 
 
@@ -77,7 +77,7 @@ And fight He does. We are a tangled blur of limbs, teeth, claws, knives, energy.
 
 He staggers and I pin Him. Our eyes lock. He sees my fury, and for an imperceptible moment, I feel like his eyes are gentle, filled with... acceptance? Serenity? ...Kinship?
 
-In that moment I plunge my hand deep inside his chest, and rip out his heart. His body lies broken beneath mine, His limbs shattered, His ribcage mere splinters.
+In that moment I plunge my hand deep inside His chest, and rip out His heart. His body lies broken beneath mine, His limbs shattered, His ribcage mere splinters.
 
 But the look in His eyes remains.
 
