@@ -1,12 +1,13 @@
 ---
 aliases:
-- /mendokusai/2020/08/15/happiness
+- /mendokusai/2020/08/15/happiness-ii
 author: Jonny Spicer
 type: blog
 date: "2020-08-15T00:00:00Z"
 categories:
 - Mental Health
-title: Happiness
+title: Happiness II
+series: ["Happiness"]
 ---
 As usual, I've been thinking a lot about happiness lately, what it is, how to get it. The thing that really strikes me is how complicated it seems to me, and how frustrating that is given some people seem to be
 able to intuit it so well. Perhaps it is only if you are unhappy that it feels like this, but there are so many moving parts to happiness, so many factors to consider when trying to plot your course towards inner

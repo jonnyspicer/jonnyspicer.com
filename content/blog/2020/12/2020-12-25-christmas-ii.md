@@ -1,12 +1,13 @@
 ---
 aliases:
-- /mendokusai/2020/12/25/christmas
+- /mendokusai/2020/12/25/christmas-ii
 author: Jonny Spicer
 type: blog
 date: "2020-12-25T00:00:00Z"
 categories:
 - Misc
-title: Christmas
+title: Christmas II
+series: ["Christmas"]
 ---
 Apparently I've not written a blog about Christmas, on Christmas before, so here it is. My feelings towards the holiday in general are mixed, I think it gets both justified and
 unjustified stick, and I do think that the coming together of families everywhere is ultimately a great thing. Personally I'm not a huge fan, but a lot of people love Christmas, and
