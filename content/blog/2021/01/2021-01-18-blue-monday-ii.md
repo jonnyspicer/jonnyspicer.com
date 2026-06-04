@@ -1,12 +1,13 @@
 ---
 aliases:
-- /mendokusai/2021/01/18/blue-monday
+- /mendokusai/2021/01/18/blue-monday-ii
 author: Jonny Spicer
 type: blog
 date: "2021-01-18T00:00:00Z"
 categories:
 - Wellbeing
-title: Blue Monday
+title: Blue Monday II
+series: ["Blue Monday"]
 ---
 Today is supposed to be the worst day of the year - cold, wet, dark, back at work with the holidays already long forgotten. As a habitually blue person in general, today was actually
 a pleasant surprise - I didn't mind any of the bad things about today, and had the excitement of starting a new job to buoy my spirits. After a couple of months of not working, it
