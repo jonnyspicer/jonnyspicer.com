@@ -2,7 +2,8 @@
 type: blog
 date: "2021-07-03T10:52:33Z"
 author: Jonny Spicer
-title: "Doing Nothing"
+title: "Doing Nothing II"
+series: ["Doing Nothing"]
 categories:
 - Personal
 ---

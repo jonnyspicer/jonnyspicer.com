@@ -2,7 +2,8 @@
 type: blog
 date: "2021-07-25T15:31:56Z"
 author: Jonny Spicer
-title: "Video Games"
+title: "Video Games II"
+series: ["Video Games"]
 categories:
 - Video Games
 ---

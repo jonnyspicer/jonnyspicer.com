@@ -2,7 +2,8 @@
 type: blog
 date: "2021-11-14T04:49:04Z"
 author: Jonny Spicer
-title: "Moving Day"
+title: "Moving Day II"
+series: ["Moving Day"]
 categories:
 - Personal
 ---

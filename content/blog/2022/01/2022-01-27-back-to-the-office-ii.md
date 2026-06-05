@@ -2,7 +2,8 @@
 type: blog
 date: "2022-01-27T20:24:14Z"
 author: Jonny Spicer
-title: "Back To The Office"
+title: "Back to the Office II"
+series: ["Back to the Office"]
 categories:
 - Misc
 ---

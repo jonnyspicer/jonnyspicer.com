@@ -2,7 +2,7 @@
 type: blog
 date: "2022-02-09T14:42:08Z"
 author: Jonny Spicer
-title: "Priorities II"
+title: "Priorities III"
 categories:
 - Personal
 - Wellbeing

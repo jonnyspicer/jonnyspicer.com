@@ -7,6 +7,7 @@ date: "2019-09-15T00:00:00Z"
 categories:
 - Wellbeing
 title: Fragility
+series: ["Fragility"]
 ---
 One of the aspects of the toxic masculine stereotype I don't think I've really touched upon previously is this idea of solidity and robustness, that men must be wholly unwavering in their dedication
 to not showing weakness. Obviously that is not a reality, and recently my own emotional state has been especially fragile, today I am doing better than I have been in a while, but it still feels

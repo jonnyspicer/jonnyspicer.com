@@ -7,6 +7,7 @@ date: "2020-12-20T00:00:00Z"
 categories:
 - Video Games
 title: Video Games
+series: ["Video Games"]
 ---
 I've always played a lot of video games. They're the best tools for escapism I've ever found, and I've spent most of my life wanting to escape from things. Having just finished
 Cyberpunk 2077 in less than 10 days, I've realised that that sense of escapism is pretty addictive, and I think I'm hooked. When there is something I want to play, it's all that I

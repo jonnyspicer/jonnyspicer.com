@@ -7,6 +7,7 @@ date: "2020-10-18T00:00:00Z"
 categories:
 - Misc
 title: Doing Nothing
+series: ["Doing Nothing"]
 ---
 Today is a day during which I forced myself to do nothing - or at least nothing productive. Nothing which I felt I "should" do, with the exception of leaving the house for a bit to go
 for a walk, which is one of the healthier possible self-imposed obligations in my eyes. It was a lot more difficult than I'd hoped it was going to be, but I think that difficulty is

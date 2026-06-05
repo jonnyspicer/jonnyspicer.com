@@ -1,12 +1,13 @@
 ---
 aliases:
-- /mendokusai/2020/07/05/new-site
+- /mendokusai/2020/07/05/new-site-ii
 author: Jonny Spicer
 type: blog
 date: "2020-07-05T00:00:00Z"
 categories:
 - Programming
-title: New Site
+title: "New Site II"
+series: ["New Site"]
 ---
 A new creation of mine has been let loose in the web, and you can view it [here.](https://gad.gg/) It's for a cause that has grown to be very important to me in
 recent months, and its nice to be able to do something to help in a (hopefully) meaningful way. The site is static, and very simple, largely in order to get it up and running as

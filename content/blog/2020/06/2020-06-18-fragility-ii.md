@@ -1,12 +1,13 @@
 ---
 aliases:
-- /mendokusai/2020/06/18/fragility
+- /mendokusai/2020/06/18/fragility-ii
 author: Jonny Spicer
 type: blog
 date: "2020-06-18T00:00:00Z"
 categories:
 - Wellbeing
-title: Fragility
+title: "Fragility II"
+series: ["Fragility"]
 ---
 I think a lot of us put a huge amount of time and effort into painting ourselves as being as un-fragile as possible. We lash out and hurt others as a way to somehow solidify our
 own notions of durability. I'm confident we'd all be better off if we admitted our own fragility, and so I guess this post is me going first, for I am probably one of the most
