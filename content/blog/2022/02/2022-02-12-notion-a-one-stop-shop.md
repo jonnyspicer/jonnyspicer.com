@@ -13,7 +13,7 @@ After having put some effort into tidying mine up, it now has the following feat
 - Categorised, easily re-organisable rich-text notes with tags and embedded media;
 - Kanban boards for work, this website and my other personal projects;
 - My new bullet journal that comes with a calendar, habit tracker, and pages for every day, week, month and year which have space for various fields, including goals for each period of time which are all linked together - each yearly goal must have a parent overarching life goal, each month goal must have a parent yearly goal, etc etc;
-- A database to track my progress towards my [100 hour goals](/100-hours) which will replace the Google Sheet I'm currently using;
+- A database to track my progress towards my [100 hour goals](/blog/100-hours) which will replace the Google Sheet I'm currently using;
 - Some personal miscellanea including a reading list and collection of recipes, the latter in mood-board format.
 
 There are a lot of other features I'm excited about too. Firstly some kind of exercise tracker/training log that would capture more than

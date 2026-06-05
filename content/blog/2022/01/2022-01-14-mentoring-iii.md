@@ -8,7 +8,7 @@ categories:
 - Programming
 series: ["Mentoring"]
 ---
-With mentoring being one of my [goals for the year](/100-hours) I have already started to invest some time into thinking about how to be
+With mentoring being one of my [goals for the year](/blog/100-hours) I have already started to invest some time into thinking about how to be
 a better mentor. There are a lot of articles about mentoring software engineers out there, most of which are pretty uninspired, but
 fortunately I did find [one that I thought was useful,](https://blog.pragmaticengineer.com/developers-mentoring-other-developers/) and I
 plan to implement many of the recommendations into my own work.

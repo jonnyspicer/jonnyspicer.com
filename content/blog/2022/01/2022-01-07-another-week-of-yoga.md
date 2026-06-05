@@ -6,7 +6,7 @@ title: "Another Week of Yoga"
 categories:
 - Wellbeing
 ---
-Today is the 7th of January which means that, as part of my [100 hour goals](/100-hours) for the year, I've done 20-30 minutes of yoga
+Today is the 7th of January which means that, as part of my [100 hour goals](/blog/100-hours) for the year, I've done 20-30 minutes of yoga
 every day for the past week. After doing it daily for a couple of months during lockdown, my practice quickly slipped to weekly, and then
 simply rarely after I moved to London, and I began the week conscious of my tight hips and weak core. The nice thing about starting from
 the beginning is that you get to experience beginner gains again, and that's precisely what I've enjoyed this week - the difference to the

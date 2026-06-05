@@ -9,7 +9,7 @@ categories:
 title: Infinite Jest for the Wrong Reasons
 series: ["Infinite Jest"]
 ---
-Today I began [my new year's reading resolution](/blog/can-jonny-actually-read-challenge-20) and cracked open Infinite Jest on my kindle. The edition I'm reading, rather hilariously, begins with a foreword which attempts to allay any fears the reader might have about
+Today I began [my new year's reading resolution](/blog/can-jonny-actually-read-challenge-2.0) and cracked open Infinite Jest on my kindle. The edition I'm reading, rather hilariously, begins with a foreword which attempts to allay any fears the reader might have about
 the levels of complexity and subsequent inpenetrability of the novel - which ironically only served to heighten my own. Nonetheless, it added to the sense that I am setting off on a spiritual
 and emotionally journey, one from which I will return a changed man, hopefully for the better.
 

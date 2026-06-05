@@ -11,7 +11,7 @@ series: ["I Love You"]
 ---
 Two years after [Mica posted this](https://addhana.com/blog/4-metoo/), and while the title certainly hasn't stood the test of time, I think
 I recently came to feel differently about what she wrote. While she longed for her boyfriend to reciprocate her verbal affection, she gave it anyway, knowing
-that he was unlikely to give her what she so desired in return. While I previously [mused about how weird the phrase itself is](/blog/yesterday-my-roommate-posted-this-and),
+that he was unlikely to give her what she so desired in return. While I previously [mused about how weird the phrase itself is](/blog/i-love-you),
 I wanted to add a little to that, and update my stance on saying 'I love you'.
 
 I am better at saying it now then I was back in October 2017 (which was not exactly a time in my life that was full of love). If you give me a beer, I'll probably tell you
