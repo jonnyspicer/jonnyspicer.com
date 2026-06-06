@@ -107,6 +107,6 @@ Hypotheses: aliens have visited earth and the powers that be are covering it up 
 
 [^5]: I have no idea if their product specifically is actually any good; this is not an endorsement of it. I also have no idea why they opted not to capitalise their name.
 
-[^6]: Arguably it already has - see for example [Illinois banning AI therapy](https://idfpr.illinois.gov/news/2025/gov-pritzker-signs-state-leg-prohibiting-ai-therapy-in-il.html).
+[^6]: Arguably it already has - see for example [Illinois banning AI therapy](https://web.archive.org/web/20260526085514/https://idfpr.illinois.gov/news/2025/gov-pritzker-signs-state-leg-prohibiting-ai-therapy-in-il.html).
 
 [^7]: This is really the best link that I can find. I had CBT-E in London, not in Oxford. They promised me that the E stood for Eating (Disorders?) not “Enhanced” which seems much more common now I search for the term. In hindsight I regret not spending more time researching the legitimacy of the modality ahead of time, although I am not surprised to find little about it given how ineffective I found it as a treatment.
