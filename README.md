@@ -1,7 +1,7 @@
 # cdn branch
 
 This is an orphan branch, deliberately disconnected from `main`. It exists only
-to back the `img.jonnyspicer.com` subdomain in AWS Amplify, which is mapped to
+to back the `vidhi.jonnyspicer.com` subdomain in AWS Amplify, which is mapped to
 this branch rather than to `main`.
 
 It is named `cdn` rather than `assets` because the repo already has an `assets/`
@@ -10,10 +10,19 @@ between the ref and the path.
 
 Everything at the root of this branch is published verbatim at the subdomain:
 
-    photo-2026-08-12.jpg  ->  https://img.jonnyspicer.com/photo-2026-08-12.jpg
+    index.html            ->  https://vidhi.jonnyspicer.com/
+    photo-2026-08-12.jpg  ->  https://vidhi.jonnyspicer.com/photo-2026-08-12.jpg
+
+`index.html` exists so that the bare subdomain renders the photo. Without it,
+`/` returns 404, since Amplify has no index document to serve.
 
 `amplify.yml` runs no build. It publishes the branch root as-is, so there is no
 Hugo step and no Python step here.
+
+Do NOT solve routing problems here with Amplify custom rewrite rules. Those are
+app-level, not branch-level, and cannot be conditioned on hostname, so a rule
+added for this subdomain also applies to `main` and will affect jonnyspicer.com.
+Solve routing on this branch with files.
 
 To add an asset: check out this branch (ideally in a separate worktree, since it
 shares no history with `main`), drop the file at the root, commit, push. Amplify
