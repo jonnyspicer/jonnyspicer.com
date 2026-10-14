@@ -1,0 +1,19 @@
+{{- /*
+  Meta description for any page, as plain text.
+  Order: front-matter description → summary → cleaned ~155-char excerpt
+  (posts/pages) → generated text (taxonomy pages) → site description.
+*/ -}}
+{{- $desc := .Description | default .Params.summary -}}
+{{- if not $desc -}}
+  {{- if or .IsPage .IsSection -}}
+    {{- /* .Plain keeps entities (&rsquo;) and truncate escapes text, so decode first */ -}}
+    {{- $desc = trim (.Plain | htmlUnescape | replaceRE `\s+` " ") " " | truncate 155 "…" -}}
+  {{- else if eq .Kind "term" -}}
+    {{- $fmt := index (dict "tags" "Posts by %s tagged %q." "series" "Posts by %s in the %q series.") .Data.Plural | default "Posts by %s in the %q category." -}}
+    {{- $desc = printf $fmt site.Params.author .LinkTitle -}}
+  {{- else if eq .Kind "taxonomy" -}}
+    {{- $desc = printf "All %s used on %s's blog." (lower .Title) site.Params.author -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $desc -}}{{- $desc = site.Params.description -}}{{- end -}}
+{{- return trim ($desc | plainify | htmlUnescape) " \n\t" -}}

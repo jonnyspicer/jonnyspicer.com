@@ -1,0 +1,11 @@
+{{- /*
+  Absolute, self-referencing canonical URL. /blog/latest/ duplicates the newest
+  post, so it points at that post instead.
+*/ -}}
+{{- $url := .Permalink -}}
+{{- if eq .Layout "latest" -}}
+  {{- with first 1 (where (where site.RegularPages "Section" "blog") "Layout" "ne" "latest") -}}
+    {{- $url = (index . 0).Permalink -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}

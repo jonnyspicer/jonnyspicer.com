@@ -1,0 +1,4 @@
+{{- /* "Page Title | Site Name"; the homepage is just the site name. */ -}}
+{{- $title := site.Title -}}
+{{- if not .IsHome -}}{{- $title = printf "%s | %s" .Title site.Title -}}{{- end -}}
+{{- return $title -}}
