@@ -1,12 +1,12 @@
 {{- /*
   Only indexable HTML pages: no taxonomy/term pages (categories, tags,
-  series), no drafts, nothing marked noindex or sitemap.disable, and nothing
+  series), no drafts, nothing noindexed (front matter or data/seo/noindex.yaml) or sitemap.disable, and nothing
   without an HTML output (e.g. the navbar JS).
 */ -}}
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{- range where site.Pages "Kind" "in" (slice "home" "section" "page") }}
-  {{- if and (.OutputFormats.Get "html") (not .Draft) (not .Params.noindex) (not .Sitemap.Disable) }}
+  {{- if and (.OutputFormats.Get "html") (not .Draft) (not (partial "seo/noindex.html" .)) (not .Sitemap.Disable) }}
   <url>
     <loc>{{ .Permalink }}</loc>
     {{- $lastmod := .Lastmod }}

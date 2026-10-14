@@ -207,7 +207,7 @@ The highest-value fixes are linking these from the hubs above, from `/bestof/`, 
 1003 of 1379 posts/essays are under 300 words. Suggested: **keep 702**, **merge 29**, **noindex 272**.
 
 How the suggestions were assigned:
-- **noindex**: under 100 words, no inbound links and not in Bestof. Most are one-line daily-journal entries, and about 30 are 2017 Spanish-practice posts from Mexico, which also won't rank on an `en-GB` site. *Fuzzy Heuristics and Blurry Lenses* (2025-04-06) is live with **no body at all**; finish it or unpublish it.
+- **noindex**: under 100 words, no inbound links and not in Bestof. Most are one-line daily-journal entries, and about 30 are 2017 Spanish-practice posts from Mexico, which also won't rank on an `en-GB` site. *Fuzzy Heuristics and Blurry Lenses* (2025-04-06) has **no body at all**. The file is untracked in git and the URL returns 404, so it isn't live; finish it before committing it.
 - **merge**: themed mini-series whose parts are individually thin but would make one substantial evergreen post together. Merge into the earliest post and add the later URLs as `aliases:` so nothing 404s:
 - **Choosing What To Think** ← 4 follow-ups, 1,114 words combined (2020–2020)
 - **Some More Thoughts About Weight Loss** ← 6 follow-ups, 1,946 words combined (2020–2021)
@@ -218,6 +218,12 @@ How the suggestions were assigned:
 - **keep**: everything else. Short isn't automatically bad, and these are a real journal. But with about 70% of the site under 300 words, Google's site-wide quality signals will weigh on your best posts.
 
 **Low-maintenance way to act on this.** `noindex: true` in front matter already works: it adds `<meta name="robots" content="noindex">` and removes the page from the sitemap. For 272 posts, one rule in `head.html` is less work than editing each file. For example: noindex when `.WordCount < 100`, the post isn't in Bestof, and front matter doesn't say `index: true`. I haven't added this rule, as you asked.
+
+**Update (2026-10-14): applied, using Search Console data instead of word count alone.** At your request, posts under 300 words with **fewer than 10 Google impressions** between 2025-06-15 and 2026-10-13 are now noindexed. That's **765 posts**, listed in `data/seo/noindex.yaml`. `layouts/partials/seo/noindex.html` decides for both `head.html` and the sitemap, which drops from ~1,399 to ~634 URLs. None of the 765 is in Bestof. Two unpublished essays (`/software/`, `/a-good-life/`) were left off the list. Short posts that do get found stay indexed, e.g. *How Many Sheep Crossed the Bridge*, *Taikyoku Shogi* and *Lynx Titan*. Short posts drove 313 of the site's 1,483 clicks in that window, and 188 of them came from those three.
+
+To re-index a post, delete its line from the YAML or set `index: true` in its front matter. New posts aren't on the list, so they're indexed as usual. Refresh the list from Search Console once a year or so.
+
+**Expand candidates** (high impressions, page 2, almost no clicks; a few hundred more words could get these onto page 1): *Alexi Laiho* (5,806 impressions, 0 clicks, position 15.5), *An Ode to the Love Shack* (1,802 / 4, "love shack guernsey"), *In the Aeroplane Over the Sea* (1,933 / 1), *Chess Commentators* (571 / 1), *After Life review* (638 / 1), *The Master and Margarita review* (448 / 0).
 
 <details>
 <summary><strong>Full table: 1,003 posts under 300 words</strong> (chronological)</summary>

@@ -1,0 +1,7 @@
+{{- /*
+  True when a page should carry robots noindex and stay out of the sitemap:
+  front matter `noindex: true`, or listed in data/seo/noindex.yaml (unless
+  front matter sets `index: true`).
+*/ -}}
+{{- $listed := in (site.Data.seo.noindex | default slice) .RelPermalink }}
+{{- return (or .Params.noindex (and $listed (not .Params.index))) -}}

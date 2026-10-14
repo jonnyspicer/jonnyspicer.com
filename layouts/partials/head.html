@@ -10,7 +10,7 @@
     <meta name="description" content="{{ $description }}" />
     <meta name="author" content="{{ .Params.author | default site.Params.author }}" />
     <link rel="canonical" href="{{ $canonical }}" />
-    {{- if .Params.noindex }}
+    {{- if partial "seo/noindex.html" . }}
     <meta name="robots" content="noindex" />
     {{- end }}
     {{- with .Params.tags }}
