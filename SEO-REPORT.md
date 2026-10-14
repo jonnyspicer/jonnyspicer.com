@@ -127,7 +127,7 @@ Each hub could be a new essay (`content/essay/…`) or, for software, the existi
 7. [What I've Got Wrong and Right In My Career](https://jonnyspicer.com/blog/what-ive-got-wrong-and-right-in-my-career/) (Jul 2024): the EA-job chapter
 8. [Auf Wiedersehen, Effective Altruism](https://jonnyspicer.com/blog/auf-wiedersehen-effective-altruism/) (Nov 2025)
 9. [Auf Wiedersehen, Effective Altruism II: Wir Sehen Uns Wieder](https://jonnyspicer.com/blog/auf-wiedersehen-effective-altruism-ii-wir-sehen-uns-wieder/) (Apr 2026)
-10. Related: [the AI essay](https://jonnyspicer.com/ai/)
+10. Related: [the AI essay](https://jonnyspicer.com/blog/ai/)
 
 #### Hub 3: "Mental Health: What Has Actually Helped"
 > I've written publicly about depression, disordered eating and borderline personality disorder since 2017, partly to keep myself honest and partly because reading other people's accounts helped me. This is the shortlist of what I'd want someone in a bad place to read first, followed by the longer reflections.
@@ -145,7 +145,7 @@ Each hub could be a new essay (`content/essay/…`) or, for software, the existi
 11. [Chesterton's Fence as a core concept in psychology](https://jonnyspicer.com/blog/chestertons-fence-as-a-core-concept-in-psychology/) (2026)
 12. Series: [Things That Are More Therapeutic Than Therapy](https://jonnyspicer.com/blog/things-that-are-more-therapeutic-than-therapy-running/) (14 parts, 2020–21; see the merge suggestion in section 5)
 
-**AI, cheaply:** you don't need a new hub. Add a short "Related writing" list to the end of `/ai/` that links the four AI posts above, and link `/ai/` back from each of them.
+**AI, cheaply:** you don't need a new hub. Add a short "Related writing" list to the end of the AI post (`/blog/ai/`, formerly the `/ai/` essay) that links the four AI posts above, and link it back from each of them.
 
 ### Orphans
 1209 of 1379 posts have no contextual inbound link from another post or page (they're reachable only via /archive/, category pages, prev/next and the sitemap). 114 of those are 500+ words; the 47 that are 800+ words are listed below, longest first.
@@ -155,7 +155,7 @@ The highest-value fixes are linking these from the hubs above, from `/bestof/`, 
 | Post | Date | Words | Category |
 |---|---|--:|---|
 | [2023 in Review](https://jonnyspicer.com/blog/2023-in-review/) | 2023-12-29 | 4,772 | Personal |
-| [AI](https://jonnyspicer.com/ai/) | 2024-05-07 | 3,483 |  |
+| [AI](https://jonnyspicer.com/blog/ai/) | 2024-05-07 | 3,483 |  |
 | [10 Things I Don't Know But Want To](https://jonnyspicer.com/blog/10-things-i-dont-know-but-want-to/) | 2026-01-20 | 2,713 | AI, Aliens, Blogging, Mental Health, Programming |
 | [Becoming a Better Programmer: Adventures in C](https://jonnyspicer.com/blog/becoming-a-better-programmer-adventures-in-c/) | 2023-12-27 | 2,593 | Programming |
 | [What I Learned In My First Year of Community Building](https://jonnyspicer.com/blog/what-i-learned-in-my-first-year-of-community-building/) | 2023-12-28 | 2,203 | Effective Altruism |
@@ -222,6 +222,8 @@ How the suggestions were assigned:
 **Update (2026-10-14): applied, using Search Console data instead of word count alone.** At your request, posts under 300 words with **fewer than 10 Google impressions** between 2025-06-15 and 2026-10-13 are now noindexed. That's **765 posts**, listed in `data/seo/noindex.yaml`. `layouts/partials/seo/noindex.html` decides for both `head.html` and the sitemap, which drops from ~1,399 to ~634 URLs. None of the 765 is in Bestof. Two unpublished essays (`/software/`, `/a-good-life/`) were left off the list. Short posts that do get found stay indexed, e.g. *How Many Sheep Crossed the Bridge*, *Taikyoku Shogi* and *Lynx Titan*. Short posts drove 313 of the site's 1,483 clicks in that window, and 188 of them came from those three.
 
 To re-index a post, delete its line from the YAML or set `index: true` in its front matter. New posts aren't on the list, so they're indexed as usual. Refresh the list from Search Console once a year or so.
+
+**Update (2026-10-14): `/ai/` is now a dated blog post at `/blog/ai/`.** It was dated 2024-05-07, with lastmod 2025-01-13, and `/ai/` redirects to it. The Search Console queries showed it wasn't ranking for AI topics: about half its 1,786 impressions came from spam `*.aioblogs.com` lookups and most of the rest from name searches. Keeping it unchanged as a dated snapshot preserves the 2024 predictions as a record. `/essay/` is noindexed until another essay is published. Suggested follow-up: a "Revisiting my 2024 AI predictions" post that links back to it, which would also start the missing forecasting cluster.
 
 **Expand candidates** (high impressions, page 2, almost no clicks; a few hundred more words could get these onto page 1): *Alexi Laiho* (5,806 impressions, 0 clicks, position 15.5), *An Ode to the Love Shack* (1,802 / 4, "love shack guernsey"), *In the Aeroplane Over the Sea* (1,933 / 1), *Chess Commentators* (571 / 1), *After Life review* (638 / 1), *The Master and Margarita review* (448 / 0).
 
