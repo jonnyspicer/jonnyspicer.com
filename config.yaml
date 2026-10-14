@@ -50,7 +50,7 @@ params:
   # JSON-LD (sameAs). Empty entries are skipped. Fill in / correct these.
   sameAs:
     - https://heresjonny.substack.com          # Substack (found on /about)
-    - ""                                       # LessWrong: https://www.lesswrong.com/users/<you>
+    - https://www.lesswrong.com/users/jonny-spicer  # LessWrong
     - https://twitter.com/jjspicer             # Twitter/X (from params.twitter; verify, or use https://x.com/<handle>)
     - https://github.com/jonnyspicer            # GitHub
     - https://www.linkedin.com/in/jonnyspicer   # LinkedIn (found on /about)

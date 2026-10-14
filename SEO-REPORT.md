@@ -72,7 +72,7 @@ All of these are in `config.yaml` → `params.sameAs`. Empty strings are skipped
 | Profile | Current value | Status |
 |---|---|---|
 | Substack | `https://heresjonny.substack.com` | Found on /about; check it |
-| LessWrong | `""` | **To fill in:** `https://www.lesswrong.com/users/<you>` |
+| LessWrong | `https://www.lesswrong.com/users/jonny-spicer` | Done |
 | Twitter/X | `https://twitter.com/jjspicer` | From the old `params.twitter`; **check it's still your handle** (an `x.com` URL is fine too) |
 | GitHub | `https://github.com/jonnyspicer` | Linked on /about |
 | LinkedIn | `https://www.linkedin.com/in/jonnyspicer` | Linked on /about |
