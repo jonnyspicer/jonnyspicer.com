@@ -1,0 +1,22 @@
+{{- /*
+  Post-process rendered content so every <img> lazy-loads, decodes async and,
+  for local images, carries intrinsic width/height (prevents layout shift).
+  Existing loading/width attributes are left alone.
+  Usage: {{ partial "content-images.html" .Content }}
+*/ -}}
+{{- $c := string . -}}
+{{- range findRE `<img\s[^>]*>` $c | uniq -}}
+  {{- $tag := . -}}
+  {{- $attrs := "" -}}
+  {{- if not (findRE `\sloading=` $tag) }}{{ $attrs = `loading="lazy" decoding="async" ` }}{{ end -}}
+  {{- if not (findRE `\swidth=` $tag) -}}
+    {{- with findRESubmatch `\ssrc="(/[^"?#]+)"` $tag 1 -}}
+      {{- $file := path.Join "static" (index (index . 0) 1) -}}
+      {{- if fileExists $file -}}
+        {{- with imageConfig $file }}{{ $attrs = printf `%swidth="%d" height="%d" ` $attrs .Width .Height }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $attrs }}{{ $c = replace $c $tag (replaceRE `^<img\s` (printf "<img %s" .) $tag) }}{{ end -}}
+{{- end -}}
+{{- $c | safeHTML -}}
