@@ -18,7 +18,8 @@
     }
   }
 
-  &.post-blog > ul {
+  &.post-blog > ul,
+  &.post-blog > [data-read-depth] > ul {
     list-style-type: katakana;
   }
 }

@@ -13,3 +13,8 @@
 {{ $prismjs := resources.Get "js/prism.js" }}
 <script type="text/javascript" src="{{ $prismjs.Permalink }}"></script>
 {{ end }}
+
+{{ if and hugo.IsProduction (in (slice "blog" "essay") .Section) .IsPage }}
+{{ $readdepthjs := resources.Get "js/read-depth.js" | minify | fingerprint }}
+<script type="text/javascript" src="{{ $readdepthjs.Permalink }}"></script>
+{{ end }}

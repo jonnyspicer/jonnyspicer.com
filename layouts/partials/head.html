@@ -85,4 +85,7 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Playfair+Display&display=swap" rel="stylesheet">
+    {{- if hugo.IsProduction }}
+    <script defer src="https://stats.allinlabs.io/js/ui.js" data-website-id="bcadf127-c8a6-4ba6-b86a-7a6404868679" data-domains="jonnyspicer.com,www.jonnyspicer.com"></script>
+    {{- end }}
 </head>

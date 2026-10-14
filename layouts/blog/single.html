@@ -4,7 +4,9 @@
         {{ partial "post-meta.html" . }}
         {{ partial "post-epistemics.html" . }}
         {{ partial "toc.html" . }}
+        <div data-read-depth>
         {{ .Content }}
+        </div>
 
         {{ partial "related-posts.html" . }}
         {{ partial "backlinks.html" . }}
