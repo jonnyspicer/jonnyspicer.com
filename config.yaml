@@ -6,8 +6,19 @@ disableHugoGeneratorInject: true
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
-cannonifyURLs: true
 summaryLength: 10
+# Lastmod comes from explicit front matter only, falling back to the publish
+# date. Git dates were misleading: bulk edits (e.g. the 2021 migration) made
+# ~900 old posts claim the same "updated" date, which search engines treat as
+# an unreliable sitemap signal. Add `lastmod:` to a post when you substantively
+# revise it.
+frontmatter:
+  lastmod:
+    - lastmod
+    - date
+services:
+  rss:
+    limit: 50
 markup:
   goldmark:
     renderer:

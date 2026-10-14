@@ -80,10 +80,15 @@
     {{ $sass := resources.Get "scss/style.scss" }}
     {{ $style := $sass | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
-    <link href="{{ .Site.Params.baseURL }}" rel="alternate" type="application/atom+xml">
-    {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
+    {{- /* Site-wide feed on every page, plus the section/term feed where one exists */}}
+    {{- with site.Home.OutputFormats.Get "rss" }}
+    {{ printf `<link rel="alternate" type="%s" href="%s" title="%s" />` .MediaType.Type .Permalink site.Title | safeHTML }}
+    {{- end }}
+    {{- if not .IsHome }}
+    {{- range .AlternativeOutputFormats }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s – %s" />` .Rel .MediaType.Type .Permalink site.Title $.Title | safeHTML }}
+    {{- end }}
+    {{- end }}
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Playfair+Display&display=swap" rel="stylesheet">
     {{- if hugo.IsProduction }}
     <script defer src="https://stats.allinlabs.io/js/ui.js" data-website-id="bcadf127-c8a6-4ba6-b86a-7a6404868679" data-domains="jonnyspicer.com,www.jonnyspicer.com"></script>
