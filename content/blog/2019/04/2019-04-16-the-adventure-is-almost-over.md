@@ -6,7 +6,6 @@ type: blog
 date: "2019-04-16T00:00:00Z"
 categories:
 - Personal
-- Travel
 title: The Adventure is Almost Over
 ---
 Today is our last full day in New York, as we'll be boarding the plane back to

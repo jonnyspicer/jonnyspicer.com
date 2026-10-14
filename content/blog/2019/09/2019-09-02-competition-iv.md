@@ -6,7 +6,7 @@ type: blog
 date: "2019-09-02T00:00:00Z"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 title: Competition IV
 series: ["Competition"]
 ---

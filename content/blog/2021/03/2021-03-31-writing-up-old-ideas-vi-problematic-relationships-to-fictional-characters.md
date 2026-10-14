@@ -4,8 +4,7 @@ date: "2021-03-31T17:43:39Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas VI: Problematic Relationships to Fictional Characters"
 categories:
-- Film and TV
-- Books
+- Hobbies
 series: ["Writing Up Old Ideas"]
 ---
 Have you ever seen *Mad Men*? If you haven't, it's about a bunch of advertising execs on Madison Avenue in the 60s, and the protagonist is a guy called Don Draper, played by Jon Hamm.

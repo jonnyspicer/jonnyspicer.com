@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-31T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Vale Earth Fair
 ---
 Yesterday was the first time I'd been to the Vale Earth Fair since I was about 14, and it was a lot of fun. As various acts pointed out, it was probably one of the only summer

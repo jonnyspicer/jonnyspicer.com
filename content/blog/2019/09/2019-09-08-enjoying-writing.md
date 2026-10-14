@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-08T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Enjoying Writing
 ---
 Having been writing here for quite a while now, the way I feel about the process is slowly levelling it. The motivation comes and goes in waves, both that I go through weeks or months of

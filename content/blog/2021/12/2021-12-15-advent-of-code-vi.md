@@ -4,7 +4,7 @@ date: "2021-12-15T19:02:35Z"
 author: Jonny Spicer
 title: "Advent of Code VI"
 categories:
-- Programming
+- Career and Technology
 series: ["Advent of Code"]
 ---
 Another three days, another three challenges. I must admit, I am definitely starting to reach my limit with these; day 13 felt very

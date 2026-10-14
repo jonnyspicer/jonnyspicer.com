@@ -4,7 +4,7 @@ date: "2023-03-19T14:11:10Z"
 author: Jonny Spicer
 title: "Enacting Equilibrium With Your Extremely Efficient Employer"
 categories:
-- Career
+- Career and Technology
 ---
 ## Sorry, what?
 

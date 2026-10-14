@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Beeminding My Own Business"
 categories:
 - Personal Development
-- Wellbeing
+- Mental Health
 ---
 What if the currency of procrastination and ill-discipline was not regret, but the American dollar? What if your present self could bet on your future self? What if all you needed to solve your problems were colourful graphs, a community of esoteric nerds, and to hand over your credit card information to a company who make an overwhelming number of bee puns? These are all questions that Beeminder has helped me answer.
 

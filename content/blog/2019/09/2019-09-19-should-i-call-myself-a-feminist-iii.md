@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-19T00:00:00Z"
 categories:
-- Feminism
+- Personal
 title: Should I Call Myself a Feminist III
 series: ["Should I Call Myself a Feminist"]
 ---

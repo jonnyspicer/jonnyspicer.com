@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-21T00:00:00Z"
 categories:
-- Poker and Gambling
+- Hobbies
 title: It's Only Fun When It Hurts
 ---
 I think I am a favourite to one day get the words "no gamble, no future" tattooed somewhere on my body. While I don't

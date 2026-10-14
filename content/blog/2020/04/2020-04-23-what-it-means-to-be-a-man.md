@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-23T00:00:00Z"
 categories:
-- Feminism
+- Personal
 title: What it Means to be a Man
 series: ["What it Means to be a Man"]
 ---

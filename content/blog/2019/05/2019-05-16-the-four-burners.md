@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-16T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: The Four Burners
 ---
 [The four burners theory](https://jamesclear.com/four-burners-theory) is a neat summarisation of something I have been feeling a lot recently. When I ramp up the intensity at work,

@@ -4,7 +4,7 @@ date: "2021-06-29T06:45:26Z"
 author: Jonny Spicer
 title: "A New Ultra"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 I know I said the [other day](/blog/ultra-cancelled/) that maybe I wasn't going to sign up for any more races for a while, maybe I'd take a break from

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-08T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: There's Snow Hope
 ---
 Upon waking this morning, I was struck by the thought that *it's fucking cold*. I'm wearing two pairs of socks, and two jumpers, indoors. Outside, temperatures are in the low single

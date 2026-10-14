@@ -4,7 +4,7 @@ date: "2021-09-11T19:30:33Z"
 author: Jonny Spicer
 title: "Eden Valley Ultra Trail"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 Today was the [Eden Valley Ultra Trail](https://edenvalleyrace.com/) and I actually almost didn't do it. After having tried to think of everything variable I could control, making sure everything was in its place last night, there were of course variables that I couldn't

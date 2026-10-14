@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-14T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Album Of The Year 2020
 ---
 I don't really think anybody should care about my opinion on music, but still, there's been a lot of it I've enjoyed this year. The pandemic has changed how people make and consume

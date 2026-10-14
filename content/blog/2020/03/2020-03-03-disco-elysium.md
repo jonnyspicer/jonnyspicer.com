@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-03T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: Disco Elysium
 ---
 The game that I choose to accompany me on my journey through the barren [internetless wasteland](/blog/life-without-wifi) was ZA/UM's isometric RPG, [Disco Elysium.](https://zaumstudio.com/) Had I realised earlier that it was heavily inspired by the

@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-17T00:00:00Z"
 categories:
-- Books
-- Feminism
+- Hobbies
+- Personal
 title: Women Don't Owe You Pretty Review
 series: ["Book Reviews"]
 ---

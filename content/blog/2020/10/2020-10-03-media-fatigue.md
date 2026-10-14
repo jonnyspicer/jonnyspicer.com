@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-03T00:00:00Z"
 categories:
-- Social Media
-- Wellbeing
+- Personal
+- Mental Health
 title: Media Fatigue
 ---
 I can feel media fatigue starting to set in - with local news being entirely dominated by our election, Reddit/Twitter/national news being dominated by the US election (I can't

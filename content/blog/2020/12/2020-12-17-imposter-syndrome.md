@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-17T00:00:00Z"
 categories:
-- Career
+- Career and Technology
 title: Imposter Syndrome
 ---
 When I start my new job next month, I know that I am going to struggle greatly with imposter syndrome. We had a meet-the-team event last night, and beforehand I was already anxious

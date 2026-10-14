@@ -4,7 +4,7 @@ date: "2021-11-21T16:58:45Z"
 author: Jonny Spicer
 title: "A Week Of Running"
 categories:
-- Running
+- Hobbies
 ---
 After my [week off running](/blog/a-week-off-running) this week I did the opposite and had a week of running, ie lacing up my shoes and hitting the pavements every single day. I'm pretty sure this is the first time I've managed this, and it resulted in the highest weekly
 mileage I've achieved too, all thanks to the magic of [MAF](/blog/a-new-way-to-run) and my heartrate monitor.

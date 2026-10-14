@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-07T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Being English When It's Convenient
 ---
 One of the neat things about being from Guernsey is that I can essentially be English when, and only when, it is convenient. For example, in the 2003 Rugby World Cup final, I distinctly remember

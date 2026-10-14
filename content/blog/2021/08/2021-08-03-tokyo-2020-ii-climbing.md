@@ -4,7 +4,7 @@ date: "2021-08-03T17:01:27Z"
 author: Jonny Spicer
 title: "Tokyo 2020 II: Climbing"
 categories:
-- Climbing
+- Hobbies
 series: ["Tokyo 2020"]
 ---
 Today was the first time sport climbing has appeared at the Olympics, with the men's qualification events taking place. I was lucky enough to watch pretty much the whole thing, and it was a lot of fun - I think climbing makes a great Olympic sport. The route setting was

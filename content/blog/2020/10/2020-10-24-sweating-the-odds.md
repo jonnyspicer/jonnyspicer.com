@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-24T00:00:00Z"
 categories:
-- Poker and Gambling
-- Politics
+- Hobbies
+- Personal
 title: Sweating The Odds
 ---
 Over the past couple of weeks, I've got into the habit of checking the odds on the US Presidential Election multiple times a day. It is 100% Ted's fault.

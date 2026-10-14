@@ -4,7 +4,7 @@ date: "2021-12-04T19:03:57Z"
 author: Jonny Spicer
 title: "Parkrun II"
 categories:
-- Running
+- Hobbies
 series: ["Parkrun"]
 ---
 Today I achieved another of my [goals for this year,](/blog/2021-goals-ii) and ran my 50th [parkrun](https://www.parkrun.org.uk/) event

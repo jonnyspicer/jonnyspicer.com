@@ -4,7 +4,7 @@ date: "2022-02-14T12:40:12Z"
 author: Jonny Spicer
 title: "Valentine's Day III"
 categories:
-- Dating and Relationships
+- Personal
 series: ["Valentine's Day"]
 ---
 I don't know if I've ever mentioned, but I hate Valentine's Day. Despite having a partner this year, I still think it's awful; it's a way of commercialising romance and relationships for profit (and those things are expensive enough as it is), and rampant smugness

@@ -5,9 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-09T00:00:00Z"
 categories:
-- Running
+- Hobbies
 - Mental Health
-- Wellbeing
 title: "Things That Are More Therapeutic Than Therapy: Running"
 series: ["Things That Are More Therapeutic Than Therapy"]
 ---

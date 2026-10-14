@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-12T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Last Night of the Proms
 ---
 I've watched the Last Night of the Proms as part of a large, flag-waving crowd quite a few times before, but this evening was markedly different from all the rest. Aside from the

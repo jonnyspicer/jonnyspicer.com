@@ -4,7 +4,7 @@ date: "2021-06-09T21:28:32Z"
 author: Jonny Spicer
 title: "Track Debut"
 categories:
-- Running
+- Hobbies
 ---
 I haven't run on a track since secondary school, and back then, it was a grim affair. At that point running was purely punitive, and I can't really remember
 how I ended up being in a position to be on the track anyway. Ten years later and tonight I was back on a track by choice, for one of the sessions that

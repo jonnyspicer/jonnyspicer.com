@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-12T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: No Internet
 ---
 Our ISP is down, island-wide. This is only making it's way to Github's servers because my

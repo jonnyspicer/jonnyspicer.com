@@ -4,7 +4,7 @@ date: "2022-01-04T16:05:40Z"
 author: Jonny Spicer
 title: "Feedback II"
 categories:
-- Career
+- Career and Technology
 ---
 January means end of year performance reviews at work, which means both giving and receiving more feedback. Fortunately this time round
 I appear to have found a much better strategy for the former, that involves at least a little less anxiety - block out an entire day for

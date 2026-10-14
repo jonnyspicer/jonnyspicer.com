@@ -4,7 +4,7 @@ date: "2021-08-30T15:40:10Z"
 author: Jonny Spicer
 title: "Fear of Falling II"
 categories:
-- Climbing
+- Hobbies
 series: ["Fear of Falling"]
 ---
 The first step in trying to overcome my fear of falling was a pretty simple one - to get back doing some roped climbing in a gym. Given that I haven't got round to joining a climbing club yet and I don't have anybody I know who'd belay me, the only other option is to find

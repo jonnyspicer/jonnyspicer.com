@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-14T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: The Fall Of Hobo Johnson Review
 series: ["Music Reviews"]
 ---

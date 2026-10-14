@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-03T00:00:00Z"
 categories:
-- Dating and Relationships
+- Personal
 title: I love you II
 series: ["I Love You"]
 ---

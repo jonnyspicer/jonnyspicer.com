@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-21T00:00:00Z"
 categories:
-- Politics
-- Hacking and Security
+- Personal
+- Career and Technology
 title: Will Hurd the Black Hat
 ---
 Today, Black Hat Conference announced that they'd [canned Congressman Will Hurd as keynote](https://techcrunch.com/2019/06/14/black-hat-will-hurd-keynote/) after backlash

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-06T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: Half marathon in the books IV
 series: ["Marathons"]
 ---

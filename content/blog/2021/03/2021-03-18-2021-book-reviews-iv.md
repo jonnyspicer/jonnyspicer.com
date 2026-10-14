@@ -4,7 +4,7 @@ date: "2021-03-18T07:52:51Z"
 author: Jonny Spicer
 title: 2021 Book Reviews IV
 categories:
-- Books
+- Hobbies
 series: ["Book Reviews"]
 tags:
 - Faust

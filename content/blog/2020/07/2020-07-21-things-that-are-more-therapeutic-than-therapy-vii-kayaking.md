@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-21T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 - Mental Health
 title: "Things That Are More Therapeutic Than Therapy VII: Kayaking"
 series: ["Things That Are More Therapeutic Than Therapy"]

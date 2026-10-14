@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-07T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: The Digital Greenhouse
 ---
 Today was my first day in the Digital Greenhouse, Guernsey's premier coworking space, and the first time I've had the opportunity to use one since 2017 in Playa Del Carmen. The Mexico

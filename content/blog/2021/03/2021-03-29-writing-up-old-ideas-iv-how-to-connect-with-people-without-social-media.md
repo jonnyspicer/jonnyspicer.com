@@ -4,7 +4,6 @@ date: "2021-03-29T16:29:14Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas IV: How To Connect With People Without Social Media"
 categories:
-- Social Media
 - Personal
 series: ["Writing Up Old Ideas"]
 ---

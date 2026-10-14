@@ -4,7 +4,7 @@ date: "2021-04-22T17:29:15Z"
 author: Jonny Spicer
 title: "Lots of Ideas, a Lot Less Motivation"
 categories:
-- Blogging
+- Hobbies
 ---
 I feel like I'm in another blogging slump again recently, beginning pretty much as soon as I stopped doing the randomly selected idea posts. It's not that I don't have ideas about
 what to write about, I still have plenty of those, the issue is finding the motivation to write about them. The good ideas deserve the appropriate amount of time and effort, and

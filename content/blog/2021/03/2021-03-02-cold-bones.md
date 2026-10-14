@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-03-02T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Cold Bones
 ---
 Now we are approaching spring, I am incredibly grateful for the longer days.

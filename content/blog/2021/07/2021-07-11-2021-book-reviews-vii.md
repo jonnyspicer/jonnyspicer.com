@@ -4,7 +4,7 @@ date: "2021-07-11T15:14:59Z"
 author: Jonny Spicer
 title: "2021 Book Reviews VII"
 categories:
-- Books
+- Hobbies
 series: ["Book Reviews"]
 ---
 My time in London has been hectic, but I finally found time to finish three more books! In between *Klara and the Sun* and *Breakfast of Champions* I briefly

@@ -4,7 +4,7 @@ date: "2021-06-11T17:16:53Z"
 author: Jonny Spicer
 title: "Vegas Envy"
 categories:
-- Poker and Gambling
+- Hobbies
 ---
 [Somebody I know is in Vegas,](https://tedslocum.com/daily/2021/06/10/At-The-Tables) and I am more jealous than I thought I'd be. The sun is shining gloriously in London, there's plenty
 of new places to explore and I'm still making the most of the smorgasbord of new food opportunities available to me. I don't particularly like casinos, I definitely don't like rooms with

@@ -4,7 +4,7 @@ date: "2021-04-30T19:56:36Z"
 author: Jonny Spicer
 title: "The Dogbreaker"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 The Dogbreaker is a trail running race in Guernsey, which starts in town before traversing the entirety of the cliff paths from the south east to the south west of the island, finishing at Portelet. It's just over

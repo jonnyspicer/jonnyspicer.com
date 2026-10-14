@@ -4,7 +4,7 @@ date: "2021-03-21T17:53:51Z"
 author: Jonny Spicer
 title: "Normality Take Two"
 categories:
-- COVID19
+- Personal
 series: ["Lockdown"]
 ---
 The return to normality tomorrow feels a lot different to the first time round. [Back then](/blog/normality) I was excited and apprehensive in equal measure; excited that I could go

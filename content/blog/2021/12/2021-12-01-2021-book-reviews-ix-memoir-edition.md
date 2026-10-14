@@ -4,7 +4,7 @@ date: "2021-12-01T08:56:36Z"
 author: Jonny Spicer
 title: "2021 Book Reviews IX: Memoir Edition"
 categories:
-- Books
+- Hobbies
 series: ["Book Reviews"]
 ---
 This time I decided to read something a bit different to what I usually would and try some memoirs.

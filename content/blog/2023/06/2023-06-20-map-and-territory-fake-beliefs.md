@@ -4,7 +4,7 @@ date: "2023-06-20T10:53:40Z"
 author: Jonny Spicer
 title: "Map and Territory: Fake Beliefs"
 categories:
-- Rationality
+- Personal Development
 series: ["Notes On The Sequences"]
 ---
 *This post is part of my notes on Eliezer Yudkowsky's Rationality: A-Z, known as [The Sequences.](https://www.lesswrong.com/rationality#5g5TkQTe9rmPS5vvM)*

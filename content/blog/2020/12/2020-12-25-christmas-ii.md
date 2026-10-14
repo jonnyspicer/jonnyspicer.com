@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-25T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Christmas II
 series: ["Christmas"]
 ---

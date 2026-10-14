@@ -4,7 +4,7 @@ date: "2026-05-05T22:25:46Z"
 author: Jonny Spicer
 title: "Bottled Feelings"
 categories:
-- Fiction
+- Personal
 status: Fiction
 confidence: Irrelevant
 importance: Load-bearing

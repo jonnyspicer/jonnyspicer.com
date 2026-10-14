@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-15T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: "Things That Are More Therapeutic Than Therapy V: ASMR"
 series: ["Things That Are More Therapeutic Than Therapy"]
 ---

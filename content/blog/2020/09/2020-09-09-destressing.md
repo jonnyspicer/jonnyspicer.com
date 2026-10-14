@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-09T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Destressing
 ---
 Today I am very stressed, and with a couple of hours left before bedtime I am trying to work out how best to ease this mental tension. Being able to destress effectively and efficiently

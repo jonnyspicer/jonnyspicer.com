@@ -4,7 +4,7 @@ date: "2022-01-09T15:12:34Z"
 author: Jonny Spicer
 title: "Back To The North Downs Way"
 categories:
-- Running
+- Hobbies
 ---
 As my first "serious" training run for the EUT, as well as in order to make a start on my trail running goal for the year, today I headed out to the North Downs Way for a medium-effort 18 miles with a friend. It's only an hour from leaving my flat to get to Redhill, so we ran from there to Box hill,
 largely following the route for the North Downs Way Marathon that I did last summer. It rained all day yesterday and so the trail was *exceptionally* muddy, but that made it infinitely more fun, as well as giving my joints a well-needed break from being pounded against tarmac. It was an absolutely

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-10T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: Super Meat Boy
 ---
 Edmund McMillen's 2010 indie platformer gem "Super Meat Boy" is almost certainly my favourite

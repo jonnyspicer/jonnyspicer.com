@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-13T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: "Strangers' Validation II: Niche Memes"
 series: ["Strangers' Validation"]
 ---

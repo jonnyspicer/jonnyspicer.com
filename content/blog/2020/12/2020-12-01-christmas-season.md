@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-01T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Christmas Season
 ---
 I promised myself I'd get all my Christmas shopping done before December, given that I had the time off work. I didn't want to leave it to the last minute and get stressed, like I

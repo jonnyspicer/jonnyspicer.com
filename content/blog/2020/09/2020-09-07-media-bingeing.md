@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-07T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Media Bingeing
 ---
 I always used to feel a lot of guilt when I spent a lot of time bingeing a show on Netflix or sunk hours into a new video game. Having watched three whole seasons of Killing Eve

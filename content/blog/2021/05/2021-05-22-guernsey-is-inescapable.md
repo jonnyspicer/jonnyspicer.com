@@ -4,7 +4,7 @@ date: "2021-05-22T18:41:30Z"
 author: Jonny Spicer
 title: "Guernsey is Inescapable"
 categories:
-- Misc
+- Personal
 series: ["Moving to London"]
 ---
 One of the things I was particularly looking forward to about London was the sense of anonymity. In Guernsey, you see someone you know around every corner, and that leads to a sense of

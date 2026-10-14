@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-19T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: The Barkley Marathons
 series: ["The Barkley Marathons"]
 ---

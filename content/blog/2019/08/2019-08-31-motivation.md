@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-31T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Motivation
 ---
 Motivation and discipline are a funny pair. I've never cracked the latter, and the former comes and goes like the tides. Right now I feel huge amounts of motivation to work on side projects and try to

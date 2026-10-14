@@ -4,7 +4,7 @@ date: "2024-07-18T12:53:37Z"
 author: Jonny Spicer
 title: "What I've Got Wrong and Right In My Career"
 categories:
-- Career
+- Career and Technology
 - Bestof
 # status: 
 # confidence: 

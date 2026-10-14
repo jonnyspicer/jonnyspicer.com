@@ -6,7 +6,6 @@ title: "New Routines III"
 categories:
 - Personal
 - Mental Health
-- Wellbeing
 series: ["Moving To London"]
 ---
 A week on from [lamenting my lack of routine](/blog/new-routines-ii/) and progress has been made, but there's still a long way to go. My mornings are quite

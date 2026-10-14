@@ -4,7 +4,7 @@ date: "2021-06-08T20:10:08Z"
 author: Jonny Spicer
 title: "Cheap Sleep Upgrades"
 categories:
-- Wellbeing
+- Mental Health
 ---
 Everyone knows that sleep is the single best part of the human experience, and that getting enough high quality sleep is a silver bullet to pretty much all
 your mental and physical problems. In London mine has definitely taken a bit of a dip, which was perhaps inevitable, but I'd like to get it back to where it

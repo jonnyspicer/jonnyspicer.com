@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-25T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Miss Anthropocene Review
 series: ["Music Reviews"]
 ---

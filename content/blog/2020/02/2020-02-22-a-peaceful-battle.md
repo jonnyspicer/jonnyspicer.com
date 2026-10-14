@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-22T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: A Peaceful Battle
 ---
 A lot of people are surprsied when I tell them how long our

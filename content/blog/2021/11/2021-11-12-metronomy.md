@@ -4,7 +4,7 @@ date: "2021-11-12T17:21:19Z"
 author: Jonny Spicer
 title: "Metronomy"
 categories:
-- Music
+- Hobbies
 ---
 Last night I saw English indie pop/new wave legends Metronomy play live in the Colour Factory (a converted warehouse) in Hackney Wick, East London. It was absolutely incredible.
 

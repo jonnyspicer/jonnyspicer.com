@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-01T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Three Things to be Grateful For
 ---
 Inspired (as always) by Polly, today I wanted to follow her lead and share three things which I am

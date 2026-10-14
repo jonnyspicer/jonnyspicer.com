@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-16T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: I Disagree Review
 series: ["Music Reviews"]
 ---

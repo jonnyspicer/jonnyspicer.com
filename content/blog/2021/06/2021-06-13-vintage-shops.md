@@ -4,7 +4,7 @@ date: "2021-06-13T09:49:59Z"
 author: Jonny Spicer
 title: "Vintage Shops"
 categories:
-- Misc
+- Personal
 ---
 Aside from visiting Rough Trade yesterday, while I was in Brick Lane I thought I ought to check out some of its fabled vintage clothing stores. I've never
 been especially fashionable, but perhaps living in London is my opportunity to change that, as I am surrounded by inspiration and a lot less worried about

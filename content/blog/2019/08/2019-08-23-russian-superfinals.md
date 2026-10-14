@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-23T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Russian Superfinals
 ---
 Back in November I wrote about the [World Chess Championships](/blog/world-chess-championships) and mused that

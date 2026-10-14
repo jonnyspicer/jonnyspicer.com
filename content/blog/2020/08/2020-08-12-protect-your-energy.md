@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-12T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Protect Your Energy
 ---
 One of my favourite sections in Florence Given's book, *Women Don't Owe You Pretty* (review coming shortly), was the part where she describes the idea and importance of protecting

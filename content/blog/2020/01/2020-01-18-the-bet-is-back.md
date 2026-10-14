@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-18T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: The Bet is Back
 ---
 Today is the 18th of January, meaning the blog-a-day last longer bet is back, and I am very excited! I will get to read the thoughts of a good friend and practice articulating my own every single day. And

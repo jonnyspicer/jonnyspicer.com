@@ -6,7 +6,6 @@ type: blog
 date: "2019-06-28T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 title: The Hedonic Treadmill
 series: ["The Hedonic Treadmill"]
 ---

@@ -4,7 +4,7 @@ date: "2021-10-16T06:35:28Z"
 author: Jonny Spicer
 title: "Happy Blogoversary"
 categories:
-- Blogging
+- Hobbies
 ---
 Another excerpt from my journal, written four years ago today:
 

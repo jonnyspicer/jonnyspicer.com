@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-22T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Singalongs
 ---
 One of my least favourite things about my own taste in music is that it's hard to find songs to sing along to with other people - and I really love being able to sing with someone besides my steering wheel. A lot of the really popular songs of the day that

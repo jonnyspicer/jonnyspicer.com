@@ -5,9 +5,9 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-30T00:00:00Z"
 categories:
-- Video Games
-- Social Media
-- Computer Science
+- Hobbies
+- Personal
+- Career and Technology
 title: Endless Disco
 ---
 [Disco Elysium](/blog/disco-elysium) is one of my favourite games ever, and in fact might be one of my favourites pieces of art ever. A big part

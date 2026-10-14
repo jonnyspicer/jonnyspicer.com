@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-23T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Schlagenheim
 ---
 The UK underground's worst kept secret, and my personal favourite post/noise/math/experimental rock band [Black Midi](/blog/black-midi) have

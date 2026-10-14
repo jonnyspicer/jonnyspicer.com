@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-10T00:00:00Z"
 categories:
-- Career
+- Career and Technology
 - Personal
 title: The End of a Short Era
 ---

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-02T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Go Karting
 ---
 Today I went go karting for the first time, another new opportunity I am incredibly grateful to have when few others do. I was pretty nervous beforehand but it was super, super fun

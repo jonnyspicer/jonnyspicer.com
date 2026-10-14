@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-15T00:00:00Z"
 categories:
-- Poker and Gambling
+- Hobbies
 title: Trying to Teach an Idiot Poker
 ---
 For starters, "idiot" was his choice of word and not mine, I think he is plainly very intelligent.

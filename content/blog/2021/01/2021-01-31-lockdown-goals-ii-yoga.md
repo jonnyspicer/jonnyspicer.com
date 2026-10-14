@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-31T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 title: "Lockdown Goals II: Yoga"
 series: ["Lockdown", "Goals"]
 ---

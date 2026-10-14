@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-07T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Radical Listening
 ---
 After having spoken about [radical honesty](/blog/radical-honesty-ii) in the past, it's something I still think about a lot, in the context of

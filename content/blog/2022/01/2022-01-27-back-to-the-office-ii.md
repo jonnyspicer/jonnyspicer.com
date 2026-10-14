@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Back to the Office II"
 series: ["Back to the Office"]
 categories:
-- Misc
+- Personal
 ---
 Today was my first day heading back to the office in about two months, and it did feel very enjoyable to have a change of scenery. The
 building is, for some reason, freezing cold, so it was a good job that I ran in in order to warm up - although this turned out to be quite

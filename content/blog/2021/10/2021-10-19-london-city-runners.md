@@ -4,7 +4,7 @@ date: "2021-10-19T19:59:32Z"
 author: Jonny Spicer
 title: "London City Runners"
 categories:
-- Running
+- Hobbies
 ---
 This evening I went out for a run with the [London City Runners](http://londoncityrunners.com/) for the first time since August 10th. After being away for so long I'd even been quite anxious about going again, particularly as there wasn't anybody who I knew on the list of
 signups for the run I'd chosen to do, but I figured I need to get back in the swing of things with running and also get out of my comfort zone and try and speak to some new people. Despite joining the allegedly "social" group, which advertises itself as running at

@@ -6,7 +6,6 @@ type: blog
 date: "2019-07-31T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 title: The Hedonic Treadmill III
 ---
 Yet more thoughts on the HedTread, as I've decided I'm going to start calling it...

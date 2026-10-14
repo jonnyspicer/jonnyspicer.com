@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-12T00:00:00Z"
 categories:
-- Diet and Fitness
-- Wellbeing
+- Personal Development
+- Mental Health
 title: Running in the Dark
 series: ["Running"]
 ---

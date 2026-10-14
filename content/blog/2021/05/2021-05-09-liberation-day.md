@@ -4,7 +4,7 @@ date: "2021-05-09T20:46:24Z"
 author: Jonny Spicer
 title: "Liberation Day"
 categories:
-- Misc
+- Personal
 ---
 Today is Liberation Day back home in Guernsey, and in a way I'm sad to be missing it. Even though it is chronically overrated and often little more than a thinly-veiled excuse to get leathered
 on a third day of the week, it had its charm too. Now that I've left, being from Guernsey is something vaguely different and interesting, and as such I'm more willing to adopt it as part of my

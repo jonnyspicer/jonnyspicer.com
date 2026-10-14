@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-29T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 title: The Feeling After Food
 ---
 I've been trying another little gimmick recently in order to improve my relationship with food, but I quite like this one. Whenever I make decisions about whether or not

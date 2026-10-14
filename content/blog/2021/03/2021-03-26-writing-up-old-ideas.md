@@ -4,7 +4,7 @@ date: "2021-03-26T18:30:18Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas"
 categories:
-- Blogging
+- Hobbies
 series: ["Writing Up Old Ideas"]
 ---
 I have a Trello list of ideas for blog posts that I've had since 2018, and even after much pruning of the list and posting of blogs, there are still some cards in it that're almost

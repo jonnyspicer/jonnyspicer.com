@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-07T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: No Regrets
 ---
 Firstly, I kinda hate the phrase "no regrets", not necessarily for its sentiment, but more for how it has been co-opted

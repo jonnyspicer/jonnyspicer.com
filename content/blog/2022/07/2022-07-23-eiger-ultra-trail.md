@@ -4,7 +4,7 @@ date: "2022-07-23T20:29:02Z"
 author: Jonny Spicer
 title: "Eiger Ultra Trail"
 categories:
-- Running
+- Hobbies
 - Bestof
 series: ["Marathons"]
 # status: 

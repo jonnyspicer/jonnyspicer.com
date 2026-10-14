@@ -4,7 +4,7 @@ date: "2021-09-13T17:45:45Z"
 author: Jonny Spicer
 title: "OFC Poker: The Gateway Drug"
 categories:
-- Poker and Gambling
+- Hobbies
 series: ["OFC"]
 ---
 I have recently been playing some Open Face Chinese Poker again, having got a certain non-gambling card game aficionado hooked on it. We've only been playing for pride and not money, but I working on changing that. OFC is a pretty perfect gateway drug for gambling; it's

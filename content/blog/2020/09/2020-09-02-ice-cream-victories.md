@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-02T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 title: Ice Cream Victories
 ---
 Ever since I've bought my own food, ice cream has been my go-to binging staple. I can't remember a time in my adult life when I have bought a tub of Ben & Jerry's and not consumed it

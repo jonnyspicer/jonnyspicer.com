@@ -4,7 +4,7 @@ date: "2021-06-01T06:30:53Z"
 author: Jonny Spicer
 title: "Things That Are More Therapeutic Than Therapy XIV: Sunbathing"
 categories:
-- Wellbeing
+- Mental Health
 series: ["Things That Are More Therapeutic Than Therapy"]
 ---
 I have spent a *lot* of time in the past few months complaining about it being cold, and it's been similarly overcast and dreary, as one might expect given

@@ -4,7 +4,7 @@ date: "2021-12-11T20:01:55Z"
 author: Jonny Spicer
 title: "Fish Tacos"
 categories:
-- Food and Drink
+- Hobbies
 ---
 Before this evening, I'd had fish tacos exactly once in my life, correct me if my exact location is wrong but if I recall correctly, it was at a small place by the side of Highway 307 in Playa del Carmen, Mexico. We were sat on plastic chairs, the kind that had presumably
 been bought in a pack of 8 from Walmart. Dirt and fumes filled the air from the road, which was all of five metres away.

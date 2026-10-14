@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-08T00:00:00Z"
 categories:
-- Hacking and Security
+- Career and Technology
 title: Hack The Box
 ---
 Yesterday I managed to [hack the first box](https://www.hackthebox.eu), that being the invite code for Hack The Box. I say 'hack' in the loosest sense of

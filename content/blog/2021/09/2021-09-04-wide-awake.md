@@ -4,7 +4,7 @@ date: "2021-09-04T16:23:42Z"
 author: Jonny Spicer
 title: "Wide Awake"
 categories:
-- Music
+- Hobbies
 ---
 Yesterday was the first edition of [Wide Awake Festival,](https://wideawakelondon.co.uk/) one of the first festivals to go ahead since the pandemic struck, and the first festival I've been to since 2014.
 

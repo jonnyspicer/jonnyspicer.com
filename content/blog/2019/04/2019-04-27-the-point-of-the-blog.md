@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-04-27T00:00:00Z"
 categories:
-- Blogging
+- Hobbies
 title: The Point of the Blog
 ---
 I've always stated that this blog is a purely selfish endeavour, that it is intended to provide *me* catharsis and clarity of thought, and serves no

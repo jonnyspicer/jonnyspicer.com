@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-12T00:00:00Z"
 categories:
-- Politics
+- Personal
 title: Political Enemies
 ---
 While following the Tory leadership contest in the news in the past few days, I can't help but notice how almost without exception, each candidate

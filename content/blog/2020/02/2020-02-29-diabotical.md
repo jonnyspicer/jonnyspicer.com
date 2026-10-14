@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-29T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: Diabotical
 ---
 This weekend is the first closed beta testing for Diabotical, the long-awaited (i.e. since 2013) arena FPS from former-Quake-pro-turned-esports-ass-turned-game-studio-owner,

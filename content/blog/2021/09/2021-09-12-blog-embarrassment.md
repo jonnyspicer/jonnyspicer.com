@@ -4,7 +4,7 @@ date: "2021-09-12T18:04:01Z"
 author: Jonny Spicer
 title: "Blog Embarrassment"
 categories:
-- Blogging
+- Hobbies
 ---
 Recently I've felt a bit sheepish about writing on the blog. More people are finding and reading it, including people I've either just met or don't know super well. I know that these people are almost certainly not going to be rifling through my back catalogue, but it is
 still a little bit terrifying to know that they might read something especially personal that I'd written, and I might be being unintentionally quite vulnerable with them from the get-go. Given the vast quantity of these posts that I phone-in, half-arse and don't even

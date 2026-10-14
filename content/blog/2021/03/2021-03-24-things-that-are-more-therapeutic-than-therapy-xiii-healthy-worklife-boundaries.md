@@ -4,8 +4,8 @@ date: "2021-03-24T18:07:42Z"
 author: Jonny Spicer
 title: "Things That Are More Therapeutic Than Therapy XIII: Healthy Work-Life Boundaries"
 categories:
-- Career
-- Wellbeing
+- Career and Technology
+- Mental Health
 series: ["Things That Are More Therapeutic Than Therapy"]
 tags:
 - Work-Life Balance

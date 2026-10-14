@@ -4,7 +4,7 @@ date: "2021-09-21T07:34:11Z"
 author: Jonny Spicer
 title: "OFC Poker II: The Game Is On"
 categories:
-- Poker and Gambling
+- Hobbies
 series: ["OFC"]
 ---
 After getting absolutely crushed by them in a game at the weekend, I've persuaded my OFC protégé to play

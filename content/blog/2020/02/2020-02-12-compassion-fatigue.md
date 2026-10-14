@@ -6,7 +6,6 @@ type: blog
 date: "2020-02-12T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 title: Compassion Fatigue
 ---
 I've been worried a lot about inflicting compassion fatigue upon those around me lately, and [this article in The Correspondent](https://thecorrespondent.com/287/who-helps-the-person-who-answers-the-suicide-hotline/5845662207-ad84dea9), while insightful, didn't do all that much to help. Whenever I express this

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-27T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Aeroplane Mode
 ---
 Not a particularly revelatory one today, but I've been using aeroplane mode a lot on my phone recently, and I really like it. There's a sense of calmness I feel as soon as I switch it

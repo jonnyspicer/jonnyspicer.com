@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-02T00:00:00Z"
 categories:
-- Diet And Fitness
+- Personal Development
 title: Some More Thoughts About Weight Loss
 series: ["Some More Thoughts About Weight Loss"]
 ---

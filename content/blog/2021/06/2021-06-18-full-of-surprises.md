@@ -5,7 +5,6 @@ author: Jonny Spicer
 title: "Full of Surprises"
 categories:
 - Personal
-- Misc
 ---
 Yesterday one of my coworkers commented that I was full of surprises. I think she meant it as a compliment, or at least I chose to take it as one. Perhaps
 when you get to know anybody first in a professional context, they are liable to be similarly surprising, and maybe the surprise is that I am less boring than

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-18T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Guns Akimbo Review
 series: ["Film and TV Reviews"]
 ---

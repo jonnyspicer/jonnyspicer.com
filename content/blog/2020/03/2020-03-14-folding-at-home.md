@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-14T00:00:00Z"
 categories:
-- Technology
+- Career and Technology
 title: Folding at Home
 ---
 I've deliberately refrained from writing about *la grippe du jour* because it feels

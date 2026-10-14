@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-07T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: Baldur's Gate III
 ---
 Yesterday, Larian Studios [announced Baldur's Gate III](https://www.youtube.com/watch?v=OcP0WdH7rTs), 19 years after BGII was originally released.

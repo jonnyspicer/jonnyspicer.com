@@ -4,7 +4,7 @@ date: "2021-09-29T16:03:59Z"
 author: Jonny Spicer
 title: "How To Take A Holiday From Blogging"
 categories:
-- Blogging
+- Hobbies
 ---
 I'm going to Scotland for a few days tomorrow, and I'd like to spend as little as possible of my time there interacting with technology. To that end, I don't want to take my laptop, but I also don't want to lose this dumb bet. Fortunately, with the tech stack this site
 is built on, it was actually incredibly trivial to find a way to solve this problem.

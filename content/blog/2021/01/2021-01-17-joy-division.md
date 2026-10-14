@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-17T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Joy Division
 ---
 It's been a Joy Divison kinda day. I think Unknown Pleasures is one of the greatest albums ever created, and I've binged it all the way through a couple of times already since

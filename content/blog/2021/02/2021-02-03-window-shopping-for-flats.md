@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-03T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Window Shopping for Flats
 ---
 Alarmingly, I will be moving to the UK in just 3 months time, and I'm sure it's going to fly by. I've been telling myself that I'm not going to start getting stressed about it or

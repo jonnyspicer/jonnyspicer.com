@@ -4,7 +4,7 @@ date: "2021-06-16T16:28:53Z"
 author: Jonny Spicer
 title: "Free Solo II"
 categories:
-- Climbing
+- Hobbies
 series: ["Free Solo"]
 ---
 For the last day of my days off, I headed to Vauxwall East this morning, to cross another London climbing gym off my to-visit list. I'd seen videos of the

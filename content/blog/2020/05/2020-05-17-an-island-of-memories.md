@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-17T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: An Island of Memories
 ---
 Having been walking for walking's sake a lot more during lockdown, I've visited a lot of nooks and crannies in Guernsey

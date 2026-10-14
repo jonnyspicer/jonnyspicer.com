@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-23T00:00:00Z"
 categories:
-- COVID19
+- Personal
 title: Lockdown Take Two
 series: ["Lockdown"]
 ---

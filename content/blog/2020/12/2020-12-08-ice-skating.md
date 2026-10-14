@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-08T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Ice Skating
 ---
 In my ongoing quest to be one of these outdoors-y people who says yes to things, I went ice-skating for the first time in probably a decade today. I don't think I've concentrated so

@@ -4,7 +4,7 @@ date: "2021-04-04T14:18:52Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas X: Adjusting For My Biases"
 categories:
-- Allyship
+- Personal
 series: ["Writing Up Old Ideas"]
 ---
 One of the first steps towards allyship is to recognise that I am a significant part of the problem, and it's a step I hope I've taken. I have significant biases against anyone who isn't straight, white, thin and male,

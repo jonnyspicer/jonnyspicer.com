@@ -4,7 +4,7 @@ date: "2021-07-27T15:10:39Z"
 author: Jonny Spicer
 title: "A New Morning Routine"
 categories:
-- Wellbeing
+- Mental Health
 ---
 My morning routine currently consists of approximately the following:
 

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-17T00:00:00Z"
 categories:
-- Climbing
+- Hobbies
 title: Outdoor Bouldering
 ---
 Today was my first time getting to try bouldering outdoors rather than in the gym, and I had naively expected the two would be pretty similar. It turns out that outdoor bouldering

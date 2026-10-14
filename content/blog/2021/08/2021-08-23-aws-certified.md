@@ -4,7 +4,7 @@ date: "2021-08-23T11:25:04Z"
 author: Jonny Spicer
 title: "AWS Certified"
 categories:
-- Career
+- Career and Technology
 ---
 First thing this morning I took my [AWS Certified Cloud Practicioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) exam and, fortunately, I passed. I suspect I really nearly didn't though, as it was quite a bad harder than I'd anticipated,
 particularly as I'd been quite blasé about [revision.](/blog/revision) Even though I'd finished the preparatory course all the way back in February and was only now getting round to taking the exam, the certification is only the foundational one, and all the questions

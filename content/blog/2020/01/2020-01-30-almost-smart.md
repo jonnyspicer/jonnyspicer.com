@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-30T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Almost Smart
 ---
 I've had the opportunity to get to know a couple of new people fairly well recently, as well as learning and understanding my old

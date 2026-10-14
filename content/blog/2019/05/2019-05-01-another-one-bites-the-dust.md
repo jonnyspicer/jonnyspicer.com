@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-01T00:00:00Z"
 categories:
-- Social Media
+- Personal
 title: Another One Bites The Dust
 ---
 So long, auf Wiedersehen, and goodnight to Snapchat, by some definitions the

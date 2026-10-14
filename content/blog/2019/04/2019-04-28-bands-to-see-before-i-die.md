@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-04-28T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Bands To See Before I Die
 ---
 Having decided that I have nothing better to spend my money on than travelling to see gigs, I've finally got around to compiling a list of

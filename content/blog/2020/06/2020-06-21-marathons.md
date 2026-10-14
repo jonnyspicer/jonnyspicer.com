@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-21T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: Marathons
 ---
 In lieu of anything more interesting to write about - this week the marathon I had originally signed up for in October last year got postponed for the second time. It's now been

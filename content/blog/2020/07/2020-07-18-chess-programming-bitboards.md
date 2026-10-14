@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-18T00:00:00Z"
 categories:
-- Chess
-- Programming
+- Hobbies
+- Career and Technology
 title: "Chess Programming: Bitboards"
 extras: prismjs
 ---

@@ -4,7 +4,7 @@ date: "2022-01-26T11:55:58Z"
 author: Jonny Spicer
 title: "OCC Lottery II: Not This Year"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 Unfortunately I didn't get into the OCC, but in reality I am quite glad - attempting to run another race only slightly more than a month after the EUT would've been pretty stupid, and even if I had got a place, I might not have accepted it anyway. It does make me very tempted to sign up for the

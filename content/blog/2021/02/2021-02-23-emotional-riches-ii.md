@@ -6,7 +6,7 @@ type: blog
 date: "2021-02-23T00:00:00Z"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 title: Emotional Riches II
 series: ["Emotional Riches"]
 ---

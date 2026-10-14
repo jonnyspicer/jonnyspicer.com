@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-09T00:00:00Z"
 categories:
-- COVID19
+- Personal
 title: Virtual Pub Quizzes
 ---
 Last night I took part in my first virtual pub quiz, and soon realised that I know far less than I thought I did. At least

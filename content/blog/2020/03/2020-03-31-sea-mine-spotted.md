@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-31T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: Sea Mine Spotted
 ---
 While out running today I set myself the challenge of getting lost, which I duly succeeded in. As I was meandering

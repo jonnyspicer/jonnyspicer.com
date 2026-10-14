@@ -4,7 +4,7 @@ date: "2021-08-20T15:38:53Z"
 author: Jonny Spicer
 title: "Ross From Friends"
 categories:
-- Film and TV
+- Hobbies
 ---
 I'm a little over halfway through season three of the iconic show *Friends*, and so far all I can really think about is how much I hate Ross Geller. His neediness, insecurity, jealousy and neuroticism are *so* obnoxious, and it all culminates in controlling, emotionally abusive behaviour towards Rachel
 who could do far, far, faaar better. I can't entirely workout whether the show frames what he does as acceptable or despicable, it doesn't really seem to take an opinion, even though I feel like it should.

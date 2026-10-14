@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-04-11T00:00:00Z"
 categories:
-- Travel
+- Personal
 title: The New York Knicks
 ---
 Last night we saw the Knicks get battered by the Pistons at Madison Square Garden,

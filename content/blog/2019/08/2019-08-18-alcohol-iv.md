@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-18T00:00:00Z"
 categories:
-- Wellbeing
-- Diet and Fitness
+- Mental Health
+- Personal Development
 title: Alcohol IV
 series: ["Alcohol"]
 ---

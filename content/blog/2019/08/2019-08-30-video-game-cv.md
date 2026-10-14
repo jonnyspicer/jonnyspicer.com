@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-30T00:00:00Z"
 categories:
-- Video Games
-- Career
+- Hobbies
+- Career and Technology
 title: Video Game CV
 ---
 Video games have been a big part of my life for a long time now, and a big part of my identity also. Despite this, only in the most

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-09T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: The Night Before Christmas
 ---
 The second item on my "reasons not to kill yourself" list that I mentioned [the other day](/blog/shingeki-no-kyojin-season-4) is "so you can play

@@ -4,7 +4,7 @@ date: "2021-12-06T08:01:44Z"
 author: Jonny Spicer
 title: "Advent of Code III"
 categories:
-- Programming
+- Career and Technology
 series: ["Advent of Code"]
 extras: prismjs
 ---

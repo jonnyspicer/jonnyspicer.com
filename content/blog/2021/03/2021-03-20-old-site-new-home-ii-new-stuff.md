@@ -4,8 +4,8 @@ date: "2021-03-20T14:17:14Z"
 author: Jonny Spicer
 title: "Old Site, New Home II: New Stuff"
 categories:
-- Blogging
-- Programming
+- Hobbies
+- Career and Technology
 series: ["Hugo Migration"]
 tags:
 - AWS

@@ -4,7 +4,7 @@ date: "2021-11-22T15:14:02Z"
 author: Jonny Spicer
 title: "International Films"
 categories:
-- Film and TV
+- Hobbies
 ---
 Once again, I have no more than 5 minutes to write a blog today (I really need to look at having GPT write these again), so all I have to offer is the thought that international films are great and I should watch more of them. This weekend I got through Korea's *The Handmaiden*, Denmark's
 *Another Round* and France's *Stuck Inside*, and all were well worth watching, particularly *The Handmaiden* (although NB there are some pretty graphic sex scenes in it). It's all to easy to scroll through Netflix recommendations and feel thoroughly uninspired, and watching a film from another culture

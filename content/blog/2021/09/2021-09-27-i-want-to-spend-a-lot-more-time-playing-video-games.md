@@ -4,7 +4,7 @@ date: "2021-09-27T10:23:22Z"
 author: Jonny Spicer
 title: "I Want To Spend A Lot More Time Playing Video Games"
 categories:
-- Video Games
+- Hobbies
 ---
 I'm sure there have been large swathes of my life where my parents really wished I spent less of my time playing video games. In retrospect, I do wish I had spent less of my life on a computer and more of it outside, but still, I have a lot of fond memories of grinding
 away at Dota or TF2, exploring the fascinating worlds of Baldur's Gate or Disco Elysium, or trying to solve the mind-bending puzzles offered up by Portal or The Talos Principle. But now I spend none of my time whatsoever playing them, and actually that really makes me

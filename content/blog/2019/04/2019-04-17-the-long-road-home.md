@@ -6,7 +6,6 @@ type: blog
 date: "2019-04-17T00:00:00Z"
 categories:
 - Personal
-- Travel
 title: The Long Road Home
 ---
 I'm about to begin the 6000km journey home, and I won't get there for 30 or so hours.

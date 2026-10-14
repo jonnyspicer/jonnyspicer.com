@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Forget The Pain"
 categories:
 - Personal
-- Running
+- Hobbies
 ---
 In May I got a tattoo on my calf. It was painful - significantly more so than my arm had been - but fortunately it only took around 20 minutes. I remember thinking to myself at the time that I was incredibly grateful that it didn't go on any longer, and
 that I wouldn't have been able to bear the pain much longer.

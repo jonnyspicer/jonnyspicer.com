@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-15T00:00:00Z"
 categories:
-- Climbing
+- Hobbies
 title: I Miss Climbing
 ---
 Just a short one today because I had a million things to do today and it's super late, the next edition of Leetcode solutions

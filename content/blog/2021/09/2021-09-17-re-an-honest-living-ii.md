@@ -4,7 +4,7 @@ date: "2021-09-17T13:38:56Z"
 author: Jonny Spicer
 title: "RE: An Honest Living II"
 categories:
-- Career
+- Career and Technology
 - Personal
 series: ["RE: An Honest Living"]
 ---

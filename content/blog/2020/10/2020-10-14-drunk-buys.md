@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-14T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Drunk Buys
 ---
 On Friday night, I bought something online while fairly intoxicated, at about 4 in the morning. It's something I quite wanted and all in all I can afford it, so I am happy with

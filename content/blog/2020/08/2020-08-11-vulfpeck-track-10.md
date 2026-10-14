@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-11T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Vulfpeck Track 10
 ---
 Vulfpeck have already done some fairly unconventional (or perhaps trollish) things when it comes to their albums - for example [Sleepify,](https://en.wikipedia.org/wiki/Sleepify) their ten song record which consistly solely of silence, designed to be played while their fans slept. It allegedly racked up $20,000 in royalties, as well as exposing the flaws in Spotify's model for exposing artists.

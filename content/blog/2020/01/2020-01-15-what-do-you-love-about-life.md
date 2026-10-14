@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-15T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: What do you love about life?
 ---
 After another break, we're once again back. Another last-longer is on the table, and my precious crypto is where my mouth is to prove that I can write a blog post every day until either Ted or myself expire. The bet doesn't start until Saturday, but right now I think the biggest threat to my otherwise-inevitable victory would be simply forgetting what date it is, and not being in the habit of writing every day, failing to rack up even a single post before having to forfeit my ethereum. I think writing again will be good for me, and I (somewhat expectedly) have a mixture of excitement and apprehension about it. A lot has changed since I last wrote regularly, despite it being only a relatively short time ago. There's a lot to catch up on, a lot of difficult, messy thoughts to try and articulate concisely and honestly; a lot of fresh beans to spill.

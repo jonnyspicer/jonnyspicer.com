@@ -4,7 +4,7 @@ date: "2021-12-05T16:13:01Z"
 author: Jonny Spicer
 title: "World Chess Championship 2021 II"
 categories:
-- Chess
+- Hobbies
 ---
 After 8 games of the 14 game match, the world championship is already all but decided. Going into the second rest day after game 5, the whole
 chess world could collectively be heard to say "is this going to be like 2018 all over again?" and people were already decrying the death of

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-14T00:00:00Z"
 categories:
-- Film And TV
+- Hobbies
 title: I'm Thinking of Ending Things Review
 series: ["Film and TV Reviews"]
 ---

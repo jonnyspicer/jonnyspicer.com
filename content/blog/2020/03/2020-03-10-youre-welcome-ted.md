@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-10T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: You're Welcome, Ted
 ---
 Imagine trying to write a blog post needling one of your friends, but then misspelling misstepped and

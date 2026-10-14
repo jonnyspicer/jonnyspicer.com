@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-05T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: For the first time Review
 series: ["Music Reviews"]
 ---

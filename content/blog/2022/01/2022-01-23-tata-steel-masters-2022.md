@@ -4,7 +4,7 @@ date: "2022-01-23T14:58:13Z"
 author: Jonny Spicer
 title: "Tata Steel Masters 2022"
 categories:
-- Chess
+- Hobbies
 ---
 Round eight of this year's edition of the Tata Steel Masters in Wijk an Zee, Netherlands is just about wrapping up, and so far this
 tournament has already had its fair share of thrills and spills. Last year's surprise winner, Jorden Van Foreest has played six decisive

@@ -6,7 +6,7 @@ type: blog
 date: "2021-01-16T00:00:00Z"
 categories:
 - Personal
-- Career
+- Career and Technology
 title: New Job Nerves
 ---
 It's just two more sleeps until I finally start my new job, working as a backend engineer for [Zoopla.](https://www.zoopla.co.uk/) There are quite a few things I am

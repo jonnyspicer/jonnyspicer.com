@@ -4,9 +4,8 @@ date: "2021-04-02T16:40:17Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas VIII: Jealousy"
 categories:
-- Wellbeing
-- Personal
 - Mental Health
+- Personal
 series: ["Writing Up Old Ideas"]
 ---
 I am an exceptionally jealous person; in fact it's one of my least favourite qualities about myself. I've been this way for as long as I can remember, and despite having tried hard

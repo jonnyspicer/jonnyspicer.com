@@ -4,7 +4,7 @@ date: "2021-12-29T20:15:06Z"
 author: Jonny Spicer
 title: "Enhanced Passive Followup"
 categories:
-- COVID19
+- Personal
 ---
 After two days of negative lateral flow tests, I am now in what the local authorities are calling "enhanced passive followup", which,
 blissfully, means I am finally allowed to leave the house again, albeit with an extensive list of caveats. I'm not allowed indoors

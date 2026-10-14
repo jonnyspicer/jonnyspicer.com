@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-04T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Altibox Norway Chess
 ---
 Today is the first day of the classical portion of the Altibox Norway Chess tournament in Stavanger, and could be the beginning of a historical ten days.

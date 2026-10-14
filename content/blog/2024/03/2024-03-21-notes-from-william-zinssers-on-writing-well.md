@@ -4,7 +4,7 @@ date: "2024-03-21T18:50:18Z"
 author: Jonny Spicer
 title: "Notes From William Zinsser's On Writing Well"
 categories:
-- Books
+- Hobbies
 series: ["Book Reviews"]
 ---
 I thought I was a passable writer, but Zinsser changed that - although he also showed me the path to proficiency. I'd expected [his book](https://www.goodreads.com/book/show/53343.On_Writing_Well) to be dry and instructional, but I was wrong. Zinsser begins by stating his belief that writing is a craft which can be honed with diligence and care, and then spends the rest of the pages demonstrating - not merely expounding - on his point. I came away from the book inspired to not only write more, but to strive to write like Zinsser. Here is, briefly, what I learned from *On Writing Well*.

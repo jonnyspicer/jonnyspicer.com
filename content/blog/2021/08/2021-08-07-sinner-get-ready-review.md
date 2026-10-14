@@ -4,7 +4,7 @@ date: "2021-08-07T09:49:46Z"
 author: Jonny Spicer
 title: "SINNER GET READY Review"
 categories:
-- Music
+- Hobbies
 series: ["Music Reviews"]
 ---
 I still can't shake the feeling that labelling a post as a music review is unbearably pretentious, which is why I haven't done any recently, but yesterday Lingua Ignota's new album, *SINNER GET READY*, was released and I couldn't not write about it. Lingua Ignota

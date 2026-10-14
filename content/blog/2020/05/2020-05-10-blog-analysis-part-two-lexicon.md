@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-10T00:00:00Z"
 categories:
-- Blogging
+- Hobbies
 title: "Blog Analysis Part Two: Lexicon"
 ---
 Having looked at the feelings behind the words in this blog yesterday, today I want to look at the words themselves. As of the time of writing (but not including this post) there are

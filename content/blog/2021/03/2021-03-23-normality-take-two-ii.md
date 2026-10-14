@@ -4,7 +4,7 @@ date: "2021-03-23T19:32:08Z"
 author: Jonny Spicer
 title: "Normality Take Two II"
 categories:
-- Wellbeing
+- Mental Health
 - Personal
 series: ["Lockdown"]
 tags:

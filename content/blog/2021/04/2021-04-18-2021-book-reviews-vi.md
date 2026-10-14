@@ -4,7 +4,7 @@ date: "2021-04-18T15:38:23Z"
 author: Jonny Spicer
 title: "2021 Book Reviews VI"
 categories:
-- Books
+- Hobbies
 series: ["Book Reviews"]
 ---
 ## Day of the Oprichnik by Vladimir Sorokin

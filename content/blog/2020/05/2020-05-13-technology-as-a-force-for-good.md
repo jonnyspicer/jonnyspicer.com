@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-13T00:00:00Z"
 categories:
-- Technology
+- Career and Technology
 title: Technology as a Force for Good
 ---
 I think a lot of the mainstream discourse surrounding technology is fairly negative, often veering into the dystopian. If there are stories about tech in the news, it is

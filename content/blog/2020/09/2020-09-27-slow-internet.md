@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-27T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Slow Internet
 ---
 The worst thing about living at my parents' place so far; the internet here sucks. I did not realise how accustomed I had become to pages loading in under 10 seconds. Perhaps I'm going

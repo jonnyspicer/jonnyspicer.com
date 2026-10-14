@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-16T00:00:00Z"
 categories:
-- Wellbeing
-- Diet and Fitness
+- Mental Health
+- Personal Development
 title: Intermittent Fasting
 series: ["Intermittent Fasting"]
 ---

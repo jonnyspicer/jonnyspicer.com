@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-23T00:00:00Z"
 categories:
-- Poker and Gambling
+- Hobbies
 title: The Great Game
 ---
 Today I received a welcome reminder as to why PLO is lovingly dubbed "The Great Game", and all

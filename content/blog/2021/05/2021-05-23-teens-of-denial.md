@@ -4,7 +4,7 @@ date: "2021-05-23T15:16:28Z"
 author: Jonny Spicer
 title: "Teens of Denial"
 categories:
-- Music
+- Hobbies
 ---
 Thursday marked 5 years since the release of Car Seat Headrest's tenth album, *Teens of Denial*. It was their first after getting signed, and also the first
 where the band was marketed as an ensemble rather than simply Will Toledo under another name. When I think about my favourite albums of all time, the

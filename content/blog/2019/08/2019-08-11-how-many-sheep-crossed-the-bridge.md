@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-11T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: How Many Sheep Crossed The Bridge?
 ---
 After dinner this evening, we played a game involving two fields, a bridge, several sheep and a lot of clapping. On every turn, one player tells a short story about why

@@ -4,7 +4,7 @@ date: "2022-01-24T07:25:06Z"
 author: Jonny Spicer
 title: "Better Than Medication"
 categories:
-- Running
+- Hobbies
 - Mental Health
 ---
 Another very short one today in light of a lack of both inspiration and time. In the past couple of weeks I've thought a bit about what would happen to my mental health if I stopped taking my medication, and what would happen if I stopped running. In the former case, I feel like there's a decent chance

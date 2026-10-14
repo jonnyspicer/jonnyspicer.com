@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Emotional Investment II"
 categories:
 - Personal
-- Career
+- Career and Technology
 ---
 The good news is that I am not writing today's blog while absolutely smashed, unlike yesterday's. Personally I'm quite impressed at how well I can still type even while that inebriated.
 

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-08T00:00:00Z"
 categories:
-- Feminism
+- Personal
 title: Knights In Shining Armour
 ---
 This is my second attempt at writing a blog post today. The first was quite feminist-y and seeing as I [wouldn't call myself one](/blog/should-i-call-myself-a-feminist-ii), about halfway through I wondered to myself if I am just

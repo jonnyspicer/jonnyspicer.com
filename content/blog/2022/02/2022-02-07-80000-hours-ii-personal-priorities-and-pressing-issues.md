@@ -4,7 +4,7 @@ date: "2022-02-07T19:22:09Z"
 author: Jonny Spicer
 title: "80000 Hours II: Personal Priorities and Pressing Issues"
 categories:
-- Career
+- Career and Technology
 series: ["Effective Altruism"]
 tags:
 - 80000 Hours

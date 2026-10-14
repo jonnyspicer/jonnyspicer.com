@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-14T00:00:00Z"
 categories:
-- Feminism
-- Film and TV
+- Personal
+- Hobbies
 title: "Things I Hate: James Bond"
 ---
 In this exciting new series (exciting for me anyway) I plan to just complain a lot about things and

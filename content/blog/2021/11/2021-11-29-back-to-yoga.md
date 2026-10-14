@@ -4,7 +4,7 @@ date: "2021-11-29T19:47:23Z"
 author: Jonny Spicer
 title: "Back To Yoga"
 categories:
-- Wellbeing
+- Mental Health
 ---
 This weekend I attempted to do yoga for the first time in months. After having done so much of it over the start of the year, I'd hoped I wouldn't have lost all progress and might retain some of my strength and mobility progress in the past few months of unabashedly
 shirking my practice. I am feeling the effects of spending so long at my desk, and while my back does not hurt per se, I feel like it's on course to do so. Plus, if I am serious about doing a serious ultra next year, I need some serious core strength, so I'd better start

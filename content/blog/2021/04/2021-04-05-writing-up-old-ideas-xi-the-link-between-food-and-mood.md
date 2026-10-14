@@ -4,7 +4,7 @@ date: "2021-04-05T12:03:01Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas XI: The Link Between Food And Mood"
 categories:
-- Diet and Fitness
+- Personal Development
 series: ["Writing Up Old Ideas"]
 ---
 It's been a while since I've written anything more about weight loss, and there's several reasons for that. One is that it's a seemingly endless topic and I feel like I spend a lot

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-24T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Pomegranates
 ---
 What on earth is the deal with pomegranates? They're like

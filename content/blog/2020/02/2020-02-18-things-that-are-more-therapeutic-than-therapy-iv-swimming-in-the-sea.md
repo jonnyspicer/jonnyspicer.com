@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-18T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: "Things That Are More Therapeutic Than Therapy IV: Swimming in the Sea"
 series: ["Things That Are More Therapeutic Than Therapy"]
 ---

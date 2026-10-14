@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-06T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Shingeki no Kyojin Season 4
 ---
 I have a note on my iPhone titled "reasons not to kill yourself". The third bullet is "so you can watch Shingeki no Kyojin Season 4" (which will be the final season), and today, the

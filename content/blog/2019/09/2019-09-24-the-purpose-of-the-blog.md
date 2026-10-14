@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-24T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: The Purpose Of The Blog
 ---
 After reflecting [yesterday](/blog/listening) that I wanted to be better at listening,

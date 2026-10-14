@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-07T00:00:00Z"
 categories:
-- Poker and Gambling
-- Wellbeing
+- Hobbies
+- Mental Health
 title: The Prisoner's Dilemma
 ---
 It's a cynical take, but the more I think about it, the more I think life is essentially the [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma), but on a grand, recurring scale. In the purest prisoner's dilemma, the optimal strategy is to

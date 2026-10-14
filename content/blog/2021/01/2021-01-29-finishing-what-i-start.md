@@ -6,7 +6,7 @@ type: blog
 date: "2021-01-29T00:00:00Z"
 categories:
 - Personal
-- Career
+- Career and Technology
 title: Finishing What I Start
 ---
 I am not particularly good at finishing what I start, whether that be courses, side projects, or "weight loss journeys" (I am however, *exceptionally* good at finishing off pints of

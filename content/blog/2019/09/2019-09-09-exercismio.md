@@ -5,8 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-09T00:00:00Z"
 categories:
-- Programming
-- Career
+- Career and Technology
 title: exercism.io
 ---
 In the past week I've been trying out [exercism.io](https://exercism.io), and so far I've been really impressed. It sits in between

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-27T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Prisencolinensinainciusol
 ---
 I feel like we're all often in need of distractions from the world at the moment, and today I found a pretty good, albeit short one. Please enjoy [Prisencolinensinainciusol,](https://www.youtube.com/watch?v=_g6YxkSqL20) a song that according to Wikipedia was meant to sound to its Italian audience like it was discernable English with an American

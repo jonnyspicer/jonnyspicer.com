@@ -4,7 +4,7 @@ date: "2021-10-18T15:46:00Z"
 author: Jonny Spicer
 title: "The French Dispatch"
 categories:
-- Film and TV
+- Hobbies
 ---
 Yesterday I got to go to a real cinema, with a screen that must be 10x Guernsey's meagre offering. I was racking my brain to remember the last time I even
 went to see something in the cinema, and the most recent I could come up with was seeing *Promotheus* on the school Oxbridge trip almost 10 years ago, so it's

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-20T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: NO DREAM Review
 series: ["Music Reviews"]
 ---

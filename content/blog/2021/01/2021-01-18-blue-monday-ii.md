@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-18T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Blue Monday II
 series: ["Blue Monday"]
 ---

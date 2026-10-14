@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-22T00:00:00Z"
 categories:
-- Dating and Relationships
+- Personal
 title: Adventures in Online Dating II
 series: ["Adventures in Online Dating"]
 ---

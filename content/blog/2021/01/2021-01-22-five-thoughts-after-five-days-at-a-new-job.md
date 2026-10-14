@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-22T00:00:00Z"
 categories:
-- Career
+- Career and Technology
 - Personal
 title: Five Thoughts After Five Days at a New Job
 ---

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-10T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Another Three Things To Be Grateful For II
 series: ["Another Three Things To Be Grateful For"]
 ---

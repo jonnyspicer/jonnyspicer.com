@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-20T00:00:00Z"
 categories:
-- Blogging
+- Hobbies
 title: How Should You Write?
 ---
 Recently, one of my old school friends has also started a blog. They write far more articulately and elegantly than I do, and I'm very jealous of their well-honed grasp on the English

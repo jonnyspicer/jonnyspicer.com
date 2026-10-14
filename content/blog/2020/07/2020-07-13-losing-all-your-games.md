@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-13T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Losing All Your Games
 ---
 While updating the results on the Guernsey Chess Club website today, I noticed that one particular individual has accomplished a

@@ -6,7 +6,6 @@ type: blog
 date: "2019-08-16T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 title: Seeing Yourself II
 series: ["Seeing Yourself"]
 ---

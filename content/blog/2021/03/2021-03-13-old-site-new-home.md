@@ -4,8 +4,8 @@ date: "2021-03-13T00:00:00Z"
 author: Jonny Spicer
 title: Old Site, New Home
 categories:
-- Blogging
-- Programming
+- Hobbies
+- Career and Technology
 series: ["Hugo Migration"]
 tags:
 - Hugo

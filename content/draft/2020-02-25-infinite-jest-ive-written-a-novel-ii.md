@@ -4,7 +4,7 @@ type: blog
 date: "2020-02-25T00:00:00Z"
 draft: true
 categories:
-- Books
+- Hobbies
 title: "Infinite Jest: I've Written a Novel II"
 ---
 Not only have I written over 150,000 words on this blog, I have apparently used 20,161 unique ones -

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-16T00:00:00Z"
 categories:
-- Travel
+- Personal
 title: A Year Without Flying
 ---
 The last time I took a flight was February 2020, from Birmingham back to Guernsey, a year ago today. Trying to think back, I can't remember the last time I went a year without flying -

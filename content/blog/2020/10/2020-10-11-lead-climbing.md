@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-11T00:00:00Z"
 categories:
-- Climbing
+- Hobbies
 title: Lead Climbing
 ---
 After an incredibly unsuccessful climbing trip yesterday, I decided the best way to get back on the horse today was to push my own personal limits a little, and try to lead a climb

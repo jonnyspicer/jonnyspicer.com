@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-07T00:00:00Z"
 categories:
-- COVID19
+- Personal
 title: Fight Club
 ---
 Back in the day, I used to quite like UFC, and a few years ago I'd even stay up to ungodly Greenwich Meridian hours in

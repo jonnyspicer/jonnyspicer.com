@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-12T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Walking The Cow
 ---
 It feels fitting that I learned of Daniel Johnston's passing while wearing my Car Seat Headrest t-shirt, given Will Toledo's

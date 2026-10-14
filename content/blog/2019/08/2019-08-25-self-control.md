@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-25T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Self Control
 ---
 It's now been a week of trying to go without both meat and alcohol. I want to talk about it without being preachy about it, however sadly I'm not sure the two are compatible, so, sorry in advance.

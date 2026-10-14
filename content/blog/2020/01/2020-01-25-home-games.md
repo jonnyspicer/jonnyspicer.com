@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-25T00:00:00Z"
 categories:
-- Poker and Gambling
+- Hobbies
 title: Home Games
 ---
 This evening I am delighted to report that I have the opportunity to play in a home game, which may in fact be the second most +EV spot I've ever been in - the first is naturally this bet. I can't remember the

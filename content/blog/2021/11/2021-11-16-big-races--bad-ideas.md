@@ -4,7 +4,7 @@ date: "2021-11-16T12:36:35Z"
 author: Jonny Spicer
 title: "Big Races & Bad Ideas"
 categories:
-- Running
+- Hobbies
 ---
 Another classic "quick one because I have no time" today.
 

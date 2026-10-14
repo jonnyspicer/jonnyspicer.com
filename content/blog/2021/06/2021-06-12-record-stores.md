@@ -4,7 +4,7 @@ date: "2021-06-12T20:14:37Z"
 author: Jonny Spicer
 title: "Record Stores"
 categories:
-- Music
+- Hobbies
 ---
 Today is [Record Store Day](https://recordstoreday.co.uk/about-rsd/about/) here in the UK, so I decided to head to fashionable Brick Lane and check out the
 legendary Rough Trade record store. I've been to record stores a handful of times, and it's always a funny experience - I know I am never going to buy any

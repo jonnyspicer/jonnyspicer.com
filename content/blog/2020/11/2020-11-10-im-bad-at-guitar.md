@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-10T00:00:00Z"
 categories:
-- Music
+- Hobbies
 - Personal
 title: I'm Bad at Guitar
 ---

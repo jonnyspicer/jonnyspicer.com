@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-11T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Chess Inter Insular
 ---
 Today was the 82nd installation of the Channel Islands Inter-Insular; the annual chess match between Guernsey and Jersey, in recent years played

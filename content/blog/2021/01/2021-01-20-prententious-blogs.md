@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-20T00:00:00Z"
 categories:
-- Blogging
+- Hobbies
 title: Prententious Blogs
 ---
 I have been struggling with the feeling that all my blog posts are painfully pretentious recently, the Joy Division one the other day springs to mind. Given that I'm not particularly

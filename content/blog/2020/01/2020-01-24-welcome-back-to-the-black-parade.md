@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-24T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Welcome Back to the Black Parade
 ---
 Tickets for My Chemical Romance's first show in the UK since 2011 went on sale today at 9:30am. On the 20th June, the band will be

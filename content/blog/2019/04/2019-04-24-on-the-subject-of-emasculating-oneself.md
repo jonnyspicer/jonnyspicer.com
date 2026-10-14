@@ -6,8 +6,7 @@ type: blog
 date: "2019-04-24T00:00:00Z"
 categories:
 - Personal
-- Wellbeing
-- Dating and Relationships
+- Mental Health
 title: On The Subject of Emasculating Oneself
 ---
 Yesterday I talked about a fragile and likely naive spark of hope with regards

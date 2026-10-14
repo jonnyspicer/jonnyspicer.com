@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-03T00:00:00Z"
 categories:
-- Feminism
+- Personal
 title: "What it Means to be a Man XI: Empathy"
 series: ["What it Means to be a Man"]
 ---

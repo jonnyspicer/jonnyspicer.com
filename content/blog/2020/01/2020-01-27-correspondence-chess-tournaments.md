@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-27T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Correspondence Chess Tournaments
 ---
 This year is my third year playing in the Chess.com annual correspondence tournament, and I believe everywhere year has surpassed

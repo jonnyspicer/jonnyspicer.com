@@ -4,7 +4,7 @@ date: "2022-01-15T08:04:56Z"
 author: Jonny Spicer
 title: "A New Way To Run II"
 categories:
-- Running
+- Hobbies
 ---
 It's been about two months of low heart rate training and I feel like it's going incredibly well. I've finally adjusted to running as slow as I need to in order to keep my HR below 145 bpm, and I've
 stopped checking my watch every 30 seconds in order to check if I'm not breaking the threshold. Running at those speeds means I don't get tired, which means I can think more clearly, motivate myself

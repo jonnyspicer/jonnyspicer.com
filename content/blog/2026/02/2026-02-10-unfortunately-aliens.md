@@ -4,7 +4,7 @@ date: "2026-02-10T00:14:49Z"
 author: Jonny Spicer
 title: "Unfortunately, Aliens"
 categories:
-- Aliens
+- Personal
 # status: 
 # confidence: 
 # importance: 

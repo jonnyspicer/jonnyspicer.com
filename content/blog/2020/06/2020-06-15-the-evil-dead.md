@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-15T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: The Evil Dead
 ---
 This weekend I finally got round to watching Sam Raimi's 1981 cult horror classic *The Evil

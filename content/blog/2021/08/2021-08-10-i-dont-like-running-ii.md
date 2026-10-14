@@ -4,7 +4,7 @@ date: "2021-08-10T15:55:30Z"
 author: Jonny Spicer
 title: "I Don't Like Running II"
 categories:
-- Running
+- Hobbies
 series: ["I Don't Like Running"]
 ---
 On Sunday night I managed to get out for a pain-free run for the first time in two and a half weeks. One of the silver linings of being injured is that on the first run back, my legs feel totally fresh, and I felt like I was floating through the sleep streets of London.

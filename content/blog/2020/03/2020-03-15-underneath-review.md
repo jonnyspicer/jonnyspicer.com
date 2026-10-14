@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-15T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Underneath Review
 series: ["Music Reviews"]
 ---

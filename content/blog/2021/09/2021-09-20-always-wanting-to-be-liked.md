@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Always Wanting to be Liked"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 ---
 I've been thinking a bit about how strongly I feel the need to be liked by everyone I meet, and how tedious it is. I guess it's a mixture of low self-esteem,
 fear of confrontation and perhaps its own conditioning, but... it sucks. It means I don't stick up for myself, I don't do things I want to do, I set poor

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-03T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Music vs Podcasts
 ---
 Given that I now spend most of my waking life with earphones in, I've been thinking a lot about which is better to

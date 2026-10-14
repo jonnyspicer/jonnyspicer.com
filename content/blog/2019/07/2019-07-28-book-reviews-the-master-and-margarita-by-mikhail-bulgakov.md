@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-07-28T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: "Book Reviews The Master and Margarita by Mikhail Bulgakov"
 series: ["Book Reviews"]
 ---

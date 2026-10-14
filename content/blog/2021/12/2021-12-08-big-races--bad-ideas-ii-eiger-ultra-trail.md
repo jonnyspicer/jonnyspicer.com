@@ -4,7 +4,7 @@ date: "2021-12-08T19:39:10Z"
 author: Jonny Spicer
 title: "Big Races & Bad Ideas II: Eiger Ultra Trail"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 In bad news, I did not get a place in the lottery for the big ultra next summer. In good news of infinitely greater magnitude, I got a place anyway, through a package with a local hotel. The race in question is the [Eiger Ultra Trail](https://www.eigerultratrail.ch/en/),

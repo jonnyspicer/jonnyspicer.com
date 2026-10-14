@@ -5,7 +5,6 @@ author: Jonny Spicer
 title: "New Routines II"
 categories:
 - Personal
-- Wellbeing
 - Mental Health
 series: ["Moving To London"]
 ---

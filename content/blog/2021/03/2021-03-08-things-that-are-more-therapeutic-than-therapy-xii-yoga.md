@@ -6,7 +6,7 @@ date: "2021-03-08T00:00:00Z"
 author: Jonny Spicer
 title: "Things That Are More Therapeutic Than Therapy XII: Yoga"
 categories:
-- Wellbeing
+- Mental Health
 series: ["Things That Are More Therapeutic Than Therapy"]
 ---
 At the expense of being preachy about yoga now (sorry - I know the list gets ever longer), since taking it up during lockdown, I've found it definitely has some amount of therapeutic

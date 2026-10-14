@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-14T00:00:00Z"
 categories:
-- COVID19
+- Personal
 title: Flight Refunds
 ---
 This Friday I was due to Argentina, and naturally, it has been cancelled. The carrier was British Airways and as far

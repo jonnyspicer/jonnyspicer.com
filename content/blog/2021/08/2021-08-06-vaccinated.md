@@ -5,8 +5,7 @@ author: Jonny Spicer
 title: "Vaccinated"
 categories:
 - Personal
-- Wellbeing
-- COVID19
+- Mental Health
 ---
 This morning I got my second jab, something I, and many others, have been wanting and waiting for for a long time. It feels like a huge relief, and hopefully marks the start of a change for the better. I'm excited to be able to leave my house without worrying (or at least
 worrying less) about human contact, and to be able to go to gigs and on planes, eventually.

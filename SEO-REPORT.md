@@ -225,6 +225,15 @@ To re-index a post, delete its line from the YAML or set `index: true` in its fr
 
 **Update (2026-10-14): `/ai/` is now a dated blog post at `/blog/ai/`.** It was dated 2024-05-07, with lastmod 2025-01-13, and `/ai/` redirects to it. The Search Console queries showed it wasn't ranking for AI topics: about half its 1,786 impressions came from spam `*.aioblogs.com` lookups and most of the rest from name searches. Keeping it unchanged as a dated snapshot preserves the 2024 predictions as a record. `/essay/` is noindexed until another essay is published. Suggested follow-up: a "Revisiting my 2024 AI predictions" post that links back to it, which would also start the missing forecasting cluster.
 
+**Update (2026-10-14): categories consolidated from 41 to 8.** The new set is Mental Health, AI, Effective Altruism, Career and Technology, Personal Development, Hobbies, Personal and Bestof. The mapping:
+- **Mental Health** ← Wellbeing, Meditation and Spirituality
+- **Career and Technology** ← Career, Programming, Technology, Computer Science, Hacking and Security, The Web
+- **Personal Development** ← Rationality, Diet and Fitness
+- **Hobbies** ← Running, Climbing, Chess, Poker and Gambling, Esports, Video Games, Gaming, Music, Film and TV, Books, Art, Food and Drink, Blogging
+- **Personal** ← Misc, COVID19, Travel, Social Media, Dating and Relationships, Politics, Feminism, Allyship, Guest Blogs, Fiction, Aliens
+
+Old `/categories/<old>/` URLs redirect to their new category via `aliases` in `content/categories/<new>/_index.md`.
+
 **Expand candidates** (high impressions, page 2, almost no clicks; a few hundred more words could get these onto page 1): *Alexi Laiho* (5,806 impressions, 0 clicks, position 15.5), *An Ode to the Love Shack* (1,802 / 4, "love shack guernsey"), *In the Aeroplane Over the Sea* (1,933 / 1), *Chess Commentators* (571 / 1), *After Life review* (638 / 1), *The Master and Margarita review* (448 / 0).
 
 <details>

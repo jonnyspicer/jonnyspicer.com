@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-11T00:00:00Z"
 categories:
-- Esports
+- Hobbies
 title: Another Love Letter to the GSL
 ---
 My alarm went off at 5am this morning, heralding the return of the still-not-especially-accurately-titled Global

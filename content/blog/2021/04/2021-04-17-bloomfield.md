@@ -4,7 +4,7 @@ date: "2021-04-17T12:25:18Z"
 author: Jonny Spicer
 title: "Bloomfield"
 categories:
-- Music
+- Hobbies
 ---
 Yesterday the MCR reunion gig that I had ticket to originally in June 2020 got postponed *again* until May 2022, which will understandable, was pretty disappointing nonetheless. The
 other side of the coin is that it made me doubly grateful to be able to go see live music here in Guernsey, which is exactly what I did last night, as my friends and I headed to the

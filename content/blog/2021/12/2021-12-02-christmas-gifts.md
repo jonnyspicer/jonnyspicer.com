@@ -4,7 +4,7 @@ date: "2021-12-02T19:47:04Z"
 author: Jonny Spicer
 title: "Christmas Gifts"
 categories:
-- Misc
+- Personal
 ---
 This year I am making a concerted effort to get into the Christmas spirit and be less of a Scrooge than I usually am. Part of my plan to enjoy the whole affair was to have all of my Christmas shopping down *before* December, thus forgoing all of the usual stress that
 usually accompanies the last minute dash to buy presents for everyone.

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-15T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Ambiguous Jokes
 ---
 One of my favourite qualities in other people is when they can leave me completely 50/50 as to whether or not they are joking. There are a couple of my friends who can do it uncannily

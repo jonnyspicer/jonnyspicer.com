@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-22T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 title: Weight Loss Communities
 ---
 Everyone knows weight loss and the internet is a total minefield, a plethora of multi level marketing schemes,

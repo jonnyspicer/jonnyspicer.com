@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-17T00:00:00Z"
 categories:
-- Music
-- Wellbeing
+- Hobbies
+- Mental Health
 title: Everything Else Has Gone Wrong
 ---
 Today English indie pop-rockers Bombay Bicycle club released their first full length studio project in 6 years, "Everything Else Has Gone Wrong". I was going to write a review

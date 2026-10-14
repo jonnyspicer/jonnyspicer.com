@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-07-27T00:00:00Z"
 categories:
-- Esports
+- Hobbies
 title: iNcontroL
 ---
 Geoff Robinson, better known by his screenname, 'iNcontroL' passed away on July 20th.

@@ -4,7 +4,7 @@ date: "2021-09-09T18:33:07Z"
 author: Jonny Spicer
 title: "The Matrix Resurrections"
 categories:
-- Film and TV
+- Hobbies
 ---
 Today the first [trailer for The Matrix Resurrections](https://www.youtube.com/watch?v=9ix7TUGVYIo) was released, and it's actually got me pretty excited. There are a few things I don't love about it; Keanu Reeves looks more like John Wick than Neo, Laurence Fishburne not
 being Morpheus and it being unclear if Agent Smith is going to appear at all, let alone be repised by Hugo Weaving, all make it not quite have that familiar, Matrix-y feeling. They have also ditched the green colour grading, although I'm quite glad of that. With that being

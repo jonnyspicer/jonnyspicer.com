@@ -6,7 +6,7 @@ type: blog
 date: "2020-04-06T00:00:00Z"
 categories:
 - Mental Health
-- Books
+- Hobbies
 title: "Infinite Jest: A Painful Hero"
 series: ["Infinite Jest"]
 ---

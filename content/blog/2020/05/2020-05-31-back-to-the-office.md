@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-31T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Back to the Office
 series: ["Back to the Office"]
 ---

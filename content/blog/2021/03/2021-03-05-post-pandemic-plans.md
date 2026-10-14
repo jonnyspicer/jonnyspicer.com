@@ -6,7 +6,7 @@ type: blog
 date: "2021-03-05T00:00:00Z"
 categories:
 - Personal
-- Music
+- Hobbies
 title: Post Pandemic Plans
 ---
 I've been reluctant to make any concrete post pandemic plans for months, for fear

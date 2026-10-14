@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-24T00:00:00Z"
 categories:
-- Blogging
+- Hobbies
 title: Things To Write About
 ---
 I've been really struggling to find things to write about recently, hence this piece of meta-commentary. I feel like I've been phoning it in quite a lot over the past couple of

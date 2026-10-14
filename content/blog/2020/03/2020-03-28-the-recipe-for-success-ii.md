@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-28T00:00:00Z"
 categories:
-- Career
+- Career and Technology
 title: The recipe for success II
 series: ["The Recipe For Success"]
 ---

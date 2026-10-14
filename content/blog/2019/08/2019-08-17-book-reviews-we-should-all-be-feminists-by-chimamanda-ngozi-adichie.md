@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-17T00:00:00Z"
 categories:
-- Feminism
-- Books
+- Personal
+- Hobbies
 title: "Book Reviews We Should All Be Feminists by Chimamanda Ngozi Adichie"
 series: ["Book Reviews"]
 ---

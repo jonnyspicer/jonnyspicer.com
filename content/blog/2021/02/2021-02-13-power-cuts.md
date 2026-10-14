@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-13T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Power Cuts
 ---
 We suffered a power cut this afternoon, and fortunately our electricity is back now, but it was an unpleasant couple of hours. With the heating off and the temperature hovering around

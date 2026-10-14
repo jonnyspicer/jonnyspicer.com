@@ -5,8 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-26T00:00:00Z"
 categories:
-- Career
-- Programming
+- Career and Technology
 title: Being a Mid Level Dev
 series: ["Being a Mid Level Dev"]
 ---

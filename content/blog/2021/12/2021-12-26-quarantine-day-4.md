@@ -4,7 +4,7 @@ date: "2021-12-26T18:11:03Z"
 author: Jonny Spicer
 title: "Quarantine Day 4"
 categories:
-- COVID19
+- Personal
 ---
 It's my fourth day of having covid, and as much as I would like to write about something else, my brain isn't working well enough for
 that. Fortunately I now have potentially only two days of having to be inside 24/7, before I might be able to at least go outside and,

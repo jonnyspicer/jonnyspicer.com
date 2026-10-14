@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-30T00:00:00Z"
 categories:
-- Blogging
+- Hobbies
 title: Blogs Actually Worth Writing
 ---
 I spend quite a lot of time trying to work out what topics are actually "worth" writing about, and often find myself rejecting using

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-19T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: A Calm Soul
 ---
 The other day one of my friends described me as "a calm soul", and it was an odd moment for me, because it didn't ring true at all, especially coming from someone who is usually

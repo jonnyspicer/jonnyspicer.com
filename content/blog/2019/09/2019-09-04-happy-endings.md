@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-04T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Happy Endings
 ---
 I always talk about how I don't like happy endings in films, books, or TV shows, perhaps because it fits in with the cold, cynical character I enjoy playing, but quite naturally I still want a happy ending in any story in which I am the protagonist.

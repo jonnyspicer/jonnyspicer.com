@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-05T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Making a Door Less Open Review
 series: ["Music Reviews"]
 ---

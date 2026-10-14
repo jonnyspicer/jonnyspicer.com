@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-06T00:00:00Z"
 categories:
-- Technology
-- Dating and Relationships
+- Career and Technology
+- Personal
 title: Facebook Dating
 ---
 It's official - [Facebook Dating is finally here.](https://newsroom.fb.com/news/2019/09/facebook-dating/) Well, not here per se, because it's not available outside of the countries selected for the initial

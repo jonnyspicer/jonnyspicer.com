@@ -4,7 +4,7 @@ date: "2021-08-13T12:06:21Z"
 author: Jonny Spicer
 title: "Overpacking"
 categories:
-- Misc
+- Personal
 ---
 Apologies in advance for this low effort post; I have about 10 minutes in which to write it.
 

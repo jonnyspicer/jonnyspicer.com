@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-17T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: "Things I Hate: Yachts"
 ---
 I really hate yachts. They are the embodiment of the evils of

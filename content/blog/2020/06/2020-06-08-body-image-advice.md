@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-08T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 - Mental Health
 title: Body Image Advice
 ---

@@ -4,8 +4,7 @@ date: "2022-01-14T08:04:56Z"
 author: Jonny Spicer
 title: "Mentoring III"
 categories:
-- Career
-- Programming
+- Career and Technology
 series: ["Mentoring"]
 ---
 With mentoring being one of my [goals for the year](/blog/100-hours) I have already started to invest some time into thinking about how to be

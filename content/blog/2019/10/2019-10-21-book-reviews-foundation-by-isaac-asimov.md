@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-10-21T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: "Book Reviews: Foundation by Isaac Asimov"
 series: ["Book Reviews"]
 ---

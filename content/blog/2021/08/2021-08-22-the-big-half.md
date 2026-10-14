@@ -4,7 +4,7 @@ date: "2021-08-22T12:41:36Z"
 author: Jonny Spicer
 title: "The Big Half"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 Today I ran the [Vitality Big Half,](https://www.thebighalf.co.uk/) in what has seemingly become my annual race at the half marathon distance. It was my first time running in such a big event though, with over 10000 people competing, which seemed unthinkable only a

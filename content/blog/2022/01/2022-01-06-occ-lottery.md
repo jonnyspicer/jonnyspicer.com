@@ -4,7 +4,7 @@ date: "2022-01-06T08:40:05Z"
 author: Jonny Spicer
 title: "OCC Lottery"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 Today the lottery opens for the legendary [UTMB,](https://utmbmontblanc.com/) perhaps the most famous ultramarathon in the world. I'm

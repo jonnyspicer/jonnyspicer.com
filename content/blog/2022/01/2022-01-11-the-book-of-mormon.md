@@ -4,8 +4,8 @@ date: "2022-01-11T08:05:28Z"
 author: Jonny Spicer
 title: "The Book of Mormon"
 categories:
-- Music
-- Misc
+- Hobbies
+- Personal
 ---
 Last night I went to a West End theatre for the first time and saw *The Book of Mormon*, a musical which I probably wouldn't have had much interest in if it weren't for having had so many glowing recommendations from my friends over the years. I went in knowing really very little about the show, except
 for a vague awareness that the only real life Mormons I'd spoken to weren't fans of it, and I think having very little expectations was definitely the best way to do it. It's a work of unrelenting satire, which I suppose is what you'd expect from the creators of South Park, which takes shots at not

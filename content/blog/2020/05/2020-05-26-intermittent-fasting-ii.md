@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-26T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 title: Intermittent Fasting II
 series: ["Intermittent Fasting"]
 ---

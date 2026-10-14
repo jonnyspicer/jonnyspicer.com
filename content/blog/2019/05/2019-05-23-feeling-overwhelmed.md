@@ -5,7 +5,6 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-23T00:00:00Z"
 categories:
-- Wellbeing
 - Mental Health
 title: Feeling Overwhelmed
 series: ["Feeling Overwhelmed"]

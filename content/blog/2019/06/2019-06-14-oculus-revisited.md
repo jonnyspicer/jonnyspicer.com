@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-14T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: Oculus Revisited
 ---
 After 3 months of arduous back and forth with Oculus support (the result of which means I am never going to recommend their products to anyone, ever), my replacement controller has

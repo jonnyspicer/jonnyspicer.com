@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-30T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Sarkese Digital Nomads
 ---
 While I think from an outside Guernsey can seem like a strange place, Sark can only be infinitely stranger. I was surprised to see [an article in the Guernsey Press today](https://guernseypress.com/news/2020/11/30/sark-seeks-digital-nomads-to-relocate-to-the-island/) on the possiblity of Sark attracting digital nomads to try to bolster its

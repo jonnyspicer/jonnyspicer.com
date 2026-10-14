@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-13T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Perspective, Despair, Responsibility and Feeling Overwhelmed
 ---
 Sadness feels easy these days, and in many ways I am surprised we aren't all more miserable than we are. While reading the news, be

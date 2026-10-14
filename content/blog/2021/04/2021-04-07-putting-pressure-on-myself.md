@@ -5,8 +5,8 @@ author: Jonny Spicer
 title: "Putting Pressure on Myself"
 categories:
 - Personal
-- Wellbeing
-- Diet and Fitness
+- Mental Health
+- Personal Development
 tags:
 - Running
 - Climbing

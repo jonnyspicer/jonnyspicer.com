@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-29T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: 100 Favourite Albums of All Time
 ---
 I've been thinking a lot in the past few days about how music makes me really, really happy in a way that few other things do.

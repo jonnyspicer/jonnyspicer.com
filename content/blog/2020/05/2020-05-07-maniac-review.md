@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-07T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Maniac Review
 series: ["Film and TV Reviews"]
 ---

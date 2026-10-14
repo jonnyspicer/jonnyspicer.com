@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-02T00:00:00Z"
 categories:
-- Wellbeing
-- Dating and Relationships
+- Mental Health
+- Personal
 title: 50 Ways To Show Someone You Love Them Without Having Sex
 ---
 I've never spoken especially highly of the sex education I received at school, as frankly I feel like it left me wholly unprepared for the complex, emotional realities of sex itself. At the fairly young age of 13 or so, I distinctly remember the inhabitants of our

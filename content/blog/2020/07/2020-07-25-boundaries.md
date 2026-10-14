@@ -6,7 +6,6 @@ type: blog
 date: "2020-07-25T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 title: Boundaries
 ---
 Historically, one of my biggest problems in my relationships, whether platonic, romantic or professional, is that I set very poor boundaries. I'm terrified of rejection and

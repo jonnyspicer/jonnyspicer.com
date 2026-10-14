@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-08T00:00:00Z"
 categories:
-- Diet and Fitness
-- Running
+- Personal Development
+- Hobbies
 title: Running IV
 series: ["Running"]
 ---

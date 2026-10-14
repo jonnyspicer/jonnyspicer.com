@@ -4,7 +4,7 @@ date: "2021-07-04T17:22:38Z"
 author: Jonny Spicer
 title: "North Downs Way Marathon"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 Today I ran my first [with-other-people marathon](https://www.strava.com/activities/5574231054), along the North Downs Way. Actually I ran a bit more than a marathon due to taking an unplanned detour, so

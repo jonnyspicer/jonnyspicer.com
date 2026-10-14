@@ -4,7 +4,6 @@ date: "2021-06-10T19:50:57Z"
 author: Jonny Spicer
 title: "Vaccinations Booked"
 categories:
-- COVID19
 - Personal
 ---
 This evening I booked my vaccination appointments - one for bright and early tomorrow morning in Fleet Street, and the other in late August which is going to require me to schlep all the

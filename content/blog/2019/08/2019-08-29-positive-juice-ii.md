@@ -5,7 +5,6 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-29T00:00:00Z"
 categories:
-- Wellbeing
 - Mental Health
 title: Positive Juice II
 series: ["Positive Juice"]

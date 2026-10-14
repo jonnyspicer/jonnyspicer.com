@@ -6,8 +6,7 @@ type: blog
 date: "2019-04-13T00:00:00Z"
 categories:
 - Personal
-- Music
-- Books
+- Hobbies
 title: Desert Island Discs
 ---
 *Desert Island Discs* was recently voted the greatest radio show of all time, and

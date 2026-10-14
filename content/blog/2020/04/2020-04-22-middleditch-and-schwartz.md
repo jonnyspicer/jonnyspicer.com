@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-22T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Middleditch and Schwartz
 ---
 Yesterday Thomas Middleditch and Ben Schwartz's eponymous long-form 3-part improv comedy show came

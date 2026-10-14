@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-19T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: Violent Video Games
 ---
 Once upon a time violent video games got a bad rap, and I think by and large people are pretty over it, but I actually think they can (potentially) be a powerful *positive*

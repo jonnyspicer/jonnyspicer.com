@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-10T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: Mean Reviews
 ---
 Yesterday I discovered a new guilty pleasure, and one which I strongly suspect will stick; reading mean reviews. It all started [here,](https://www.goodreads.com/book/show/6398634-the-happiness-project) more specifically with this wonderful

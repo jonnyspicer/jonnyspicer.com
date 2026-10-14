@@ -4,8 +4,8 @@ date: "2021-07-05T15:08:28Z"
 author: Jonny Spicer
 title: "Pork and Beans"
 categories:
-- The Web
-- Music
+- Career and Technology
+- Hobbies
 ---
 I recently rewatched Weezer's [video](https://www.youtube.com/watch?v=PQHPYelqr0E) for their single Pork and Beans, now nearly 12 years old - a dinosaur in
 internet terms. The song is great, but the video is a masterpiece, a moment of Internet culture frozen in time, and one that seems almost unrecognisable

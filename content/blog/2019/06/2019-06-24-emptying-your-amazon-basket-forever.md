@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-24T00:00:00Z"
 categories:
-- Technology
+- Career and Technology
 title: Emptying Your Amazon Basket, Forever
 ---
 Yesterday, I went to amazon.co.uk to buy a hat - more specifically, one to go running with. So naturally, I searched for 'running cap',

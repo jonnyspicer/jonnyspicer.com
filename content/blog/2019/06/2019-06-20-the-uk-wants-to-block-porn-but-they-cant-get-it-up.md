@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-20T00:00:00Z"
 categories:
-- Politics
+- Personal
 title: The UK wants to block porn, but they can't get it up
 ---
 The UK government's controversial attempt to impose an age block on pornographic content drags on, with the news coming today that they had not adequately

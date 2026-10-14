@@ -4,7 +4,7 @@ date: "2021-04-26T17:11:49Z"
 author: Jonny Spicer
 title: "Return of the Candidates III"
 categories:
-- Chess
+- Hobbies
 series: ["Candidates 2020"]
 ---
 Today saw the practical conclusion of the Candidates tournament, albeit not the actual

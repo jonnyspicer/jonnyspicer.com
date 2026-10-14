@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-24T00:00:00Z"
 categories:
-- Poker and Gambling
+- Hobbies
 title: An Ode to r/poker
 ---
 Sometimes I hate the internet. I think a lot of people feel the same. Sometimes I hate Reddit, especially. Sometimes I hate poker - if you have spent any meaningful amount of time playing the game and have never hated it at any point, then I gravely concerned about

@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-01T00:00:00Z"
 categories:
-- Computer Science
-- Blogging
+- Career and Technology
+- Hobbies
 title: A Monster Is Born
 ---
 After yesterday's talk of endless disco, today I am happy to be able to share some of my first artifically generated blog posts - I am not yet ready to label them as "art", but I think

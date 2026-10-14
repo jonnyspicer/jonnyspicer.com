@@ -5,8 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-23T00:00:00Z"
 categories:
-- Film and TV
-- Chess
+- Hobbies
 title: The Queen's Gambit
 ---
 The Queen's Gambit is the current big-thing on Netflix now, and given my non-chess friends (which is actually all my friends, but still) are telling me to watch it, I could hardly say

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-22T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Thoughts Before Working From Home
 ---
 Tomorrow is not the first day I have ever worked from home, however it marks the start of the first extended stretch

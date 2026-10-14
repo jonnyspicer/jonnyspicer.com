@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Christmas III"
 series: ["Christmas"]
 categories:
-- Misc
+- Personal
 ---
 Well, this Christmas did not go entirely to plan. I had hoped to go for a swim and a run, or at the very least to venture outside
 the house for a walk, but instead I'm housebound. At least we could all exchange presents, albeit while sporting facemasks, and the

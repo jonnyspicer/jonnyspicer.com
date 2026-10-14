@@ -4,7 +4,7 @@ date: "2021-06-24T17:12:47Z"
 author: Jonny Spicer
 title: "Ultra Cancelled"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 The ultramarathon I had entered at the end of next month got cancelled yesterday, and I must confess I'm not actually that upset. Obviously I really wanted

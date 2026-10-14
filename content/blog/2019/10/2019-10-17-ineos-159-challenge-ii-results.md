@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-10-17T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: "Ineos 1:59 Challenge II: Results"
 series: ["Ineos 1:59 Challenge"]
 ---

@@ -4,7 +4,7 @@ date: "2021-09-10T18:55:37Z"
 author: Jonny Spicer
 title: "Preparation to Suffer II"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 Tomorrow is race day - the start of my first ultramarathon is less than 12 hours away. Given I plan to spend 8 of them sleeping and 1.5 of them travelling, there isn't time to do much more preparation. Fortunately, I think what I have done is pretty good; my bag is packed,

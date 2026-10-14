@@ -4,7 +4,7 @@ date: "2021-07-09T07:18:06Z"
 author: Jonny Spicer
 title: "Football Chat"
 categories:
-- Misc
+- Personal
 ---
 Wednesday's semifinal was the first match of the Euros this year that I've actually watched any of, and in so doing I ended up being introduced to a couple
 of strangers. One of them was a man who was clearly very into the football, which meant I had to wheel out the Stock Phrases To Talk To Men About Football.

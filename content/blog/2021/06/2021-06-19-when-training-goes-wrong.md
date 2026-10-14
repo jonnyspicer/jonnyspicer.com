@@ -4,7 +4,7 @@ date: "2021-06-19T18:12:48Z"
 author: Jonny Spicer
 title: "When Training Goes Wrong"
 categories:
-- Running
+- Hobbies
 ---
 Today was meant to be my last long-long run before the North Down's Way marathon in two weeks time, and I was slightly apprehensive about it. I'd taken a few
 days of running, training in general hasn't been going phenomenally since being in London largely seeing as my recovery has been very lacklustre, and any

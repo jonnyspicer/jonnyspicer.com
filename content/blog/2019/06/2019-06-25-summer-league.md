@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-25T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Summer League
 ---
 The Guernsey Chess Club's summer league has officially started, and has made me realise quite how much fun the game can be. In the absence

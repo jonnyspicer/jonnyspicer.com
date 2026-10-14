@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-23T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: The First Honk
 ---
 I avoid confrontation like the plague. I'm the kind of person who apologises if someone steps on my foot.

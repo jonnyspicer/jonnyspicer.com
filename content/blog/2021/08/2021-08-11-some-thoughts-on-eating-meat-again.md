@@ -4,7 +4,7 @@ date: "2021-08-11T16:41:19Z"
 author: Jonny Spicer
 title: "Some Thoughts On Eating Meat Again"
 categories:
-- Diet and Fitness
+- Personal Development
 ---
 I've been eating meat again for about a month now, after a couple of years of being a "bad" vegetarian. I've also been eating a lot more red meat than probably at any time in the last 5+ years, if not ever. Now I feel fully back in the world of the omnivorous, I have a few thoughts;
 - I don't feel any guilt about eating meat. Any beneficial effects on the planet my attempts at vegetarianism may have had felt so far out of sight that they meant nothing, and patting myself on the back for them was feeling more and more like thinly-veiled narcissism than anything meaningful.

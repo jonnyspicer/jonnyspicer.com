@@ -4,7 +4,7 @@ date: "2024-03-12T17:24:55Z"
 author: Jonny Spicer
 title: "An Introduction to Internal Family Systems: A Brief Review"
 categories:
-- Books
+- Hobbies
 series: ["Book Reviews"]
 ---
 I think there is something of a problem with reading books about therapy, or perhaps psychology more generally. There are many different modalities, innumerable competing theories, and just as many psychology experiments that haven't replicated. As a layperson, it's become natural to me to regard any kind of claim of replicable therapeutic benefit with a certain level of skepticism. Unfortunately, as the author of a book, you are not incentivised to pepper your writing with caveats, and instead to essentially treat your proclamations as gospel. This leaves you in conflict with me, the reader; I have the strong sense that I ought not to take what you say strictly at face value, but because you offer no commentary on your level of confidence in your own claims, I find it difficult to know how much I ought to update my own beliefs in light of what you are saying. This is the exact trap I found myself ensnared in while reading Richard Schwartz's *An Introduction to Internal Family Systems*. 

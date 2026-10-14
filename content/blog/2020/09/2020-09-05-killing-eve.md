@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-05T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Killing Eve
 ---
 I have completely run out of time to write a blog today as I have been unexpectedly busy so all I have to say is that

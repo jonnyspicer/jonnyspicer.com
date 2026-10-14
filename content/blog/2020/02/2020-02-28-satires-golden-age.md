@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-28T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Satire's Golden Age
 ---
 We are living in a bizarro timeline where satire and authenticity are homogenous and indistinguishable, such that the former is wholly effortless, and I worry that satire-as-an

@@ -4,9 +4,8 @@ date: "2021-06-21T18:35:00Z"
 author: Jonny Spicer
 title: "Overgamification"
 categories:
-- Misc
 - Personal
-- Diet and Fitness
+- Personal Development
 ---
 I would really like a stronger core - not only would it be helpful for both climbing and running, it'd also be great for my posture and spinal health, and I'd
 generally feel a lot better for it. The problem is, I really don't like doing core exercises, they're uncomfortable and unsatisfying and all-round unfun. So

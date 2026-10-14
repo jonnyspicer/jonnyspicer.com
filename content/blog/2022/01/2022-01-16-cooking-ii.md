@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Cooking II"
 categories:
 - Personal
-- Food and Drink
+- Hobbies
 ---
 After almost 10 years of trying, I feel like I'm finally getting the hang of cooking. It turns out that actually what I needed was having a romantic partner and a desire to impress them, as well
 as to live in a place where dining out is savagely expensive that if I want delicious Mexican food, I'm going to have to learn how to cook it myself. I've tried all kinds of new recipes, my favourite

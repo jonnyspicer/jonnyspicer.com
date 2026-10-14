@@ -6,7 +6,7 @@ type: blog
 date: "2020-08-24T00:00:00Z"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 title: I Love You IV
 series: ["I Love You"]
 ---

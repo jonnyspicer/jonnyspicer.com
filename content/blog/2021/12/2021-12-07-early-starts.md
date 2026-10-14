@@ -4,7 +4,7 @@ date: "2021-12-07T06:13:34Z"
 author: Jonny Spicer
 title: "Early Starts"
 categories:
-- Misc
+- Personal
 ---
 Whenever I get up at 6am and begin my day, I feel like I have my life on track. It feels like a hack to get more time, to squeeze an
 extra couple of hours into my day that nobody else has because they're asleep. When it's dark outside, there's something romantic about

@@ -4,7 +4,7 @@ date: "2022-01-05T14:13:36Z"
 author: Jonny Spicer
 title: "The Big Short"
 categories:
-- Film and TV
+- Hobbies
 ---
 Last night I watched [The Big Short](https://www.imdb.com/title/tt1596363/) and I have to say, it made me feel profoundly sad in a way
 that I can't remember another film making me feel. It has a star studded cast and recounts the story of Michael Burry, Steve Eisman,

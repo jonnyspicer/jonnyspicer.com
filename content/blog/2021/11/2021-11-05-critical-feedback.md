@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Critical Feedback"
 categories:
 - Personal
-- Career
+- Career and Technology
 ---
 Today I got some critical feedback from my boss. Even though I would arrogantly consider myself mature, emotionally intelligent, yada yada yada, it's funny that my knee jerk reaction is still to take it personally, when obviously it isn't. This is made even more ironic
 by me regularly esposuing my hatred for positive feedback, finding it disingenuous and unpalateable... fortunately my team seems to be quite accepting of my low self esteem and narcissism occasionally bleeding over into my professional life.

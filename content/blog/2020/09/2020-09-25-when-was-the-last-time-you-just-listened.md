@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-25T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: When Was The Last Time You Just Listened?
 ---
 Today at work someone asked "when was the last time you just sat and listened to music, without doing anything else?". Most people didn't really have an answer despite loving music

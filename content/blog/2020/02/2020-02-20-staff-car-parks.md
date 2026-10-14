@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-20T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Staff Car Parks
 ---
 The parking situation at the local hospital is, frankly, a fucking nightmare. It's always so full that not only are there no spaces, but cars are scattered all over the shop, protruding onto the

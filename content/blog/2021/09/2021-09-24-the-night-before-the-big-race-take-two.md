@@ -4,7 +4,7 @@ date: "2021-09-24T18:35:13Z"
 author: Jonny Spicer
 title: "The Night Before The Big Race, Take Two"
 categories:
-- Running
+- Hobbies
 ---
 It is the night before my second 50km of the month, which is a ridiculous thing to write. I am a lot more relaxed than I was before the first one, largely because I not only have the confidence of having done of these events, but also because I now know that preparing
 everything the night before, down to the smallest details, can still be completely derailed by things out of my control in the morning. So I'm relaxed. To be honest, it will be a big relief to get it done; it's still not entirely clear to me whether or not signing up for

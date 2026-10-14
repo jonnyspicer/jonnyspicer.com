@@ -4,8 +4,8 @@ date: "2022-01-20T13:05:05Z"
 author: Jonny Spicer
 title: "Overdoing It"
 categories:
-- Wellbeing
-- Running
+- Mental Health
+- Hobbies
 ---
 I can feel myself getting dangerously close to overdoing it, and my body and mind are telling me I need to slow down. After a couple of double run days this week with one session being in the gym
 in the morning and one on the roads in the evening, this morning I felt the urge to go before work once more and get another morning hill workout in, but my legs are trashed - I knew it on my run

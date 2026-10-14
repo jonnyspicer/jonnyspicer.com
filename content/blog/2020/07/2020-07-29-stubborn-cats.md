@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-29T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Stubborn Cats
 ---
 Today, as I attempted to leave the garage in my car, a bold tabby cat blocked my path. I edged towards it, assuming

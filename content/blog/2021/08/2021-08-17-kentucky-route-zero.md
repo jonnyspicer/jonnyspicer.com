@@ -4,7 +4,7 @@ date: "2021-08-17T17:19:10Z"
 author: Jonny Spicer
 title: "Kentucky Route Zero"
 categories:
-- Video Games
+- Hobbies
 ---
 Last night I got round to finishing *Kentucky Route Zero*, and the whole experience was quite unlike any other I'd played. I originally brought the game back in 2018 after going to an [exhbition at the V&A](https://www.vam.ac.uk/exhibitions/videogames) about video games
 that featured it, but I didn't start playing it until I got to London, largely because I knew it had heavily inspired [Disco Elysium.](/blog/disco-elysium/) KR0 is a point-and-click adventure with relatively simple graphics and a lot of reading, and perhaps it's a sign

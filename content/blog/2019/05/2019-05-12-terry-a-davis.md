@@ -6,7 +6,7 @@ type: blog
 date: "2019-05-12T00:00:00Z"
 categories:
 - Mental Health
-- Computer Science
+- Career and Technology
 title: Terry A Davis
 ---
 This afternoon I watched [this intriguing documentary](https://www.youtube.com/watch?v=UCgoxQCf5Jg) on TempleOS and its creator,

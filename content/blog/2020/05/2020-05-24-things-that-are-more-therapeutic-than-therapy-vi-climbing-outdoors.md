@@ -6,7 +6,7 @@ type: blog
 date: "2020-05-24T00:00:00Z"
 categories:
 - Mental Health
-- Diet and Fitness
+- Personal Development
 title: "Things That Are More Therapeutic Than Therapy VI: Climbing Outdoors"
 series: ["Things That Are More Therapeutic Than Therapy"]
 ---

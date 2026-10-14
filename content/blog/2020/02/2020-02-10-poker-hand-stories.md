@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-10T00:00:00Z"
 categories:
-- Poker and Gambling
+- Hobbies
 title: Poker Hand Stories
 ---
 After talking to Ongun and Marisa this week, and describing an emotion wholly unrelated to poker through the analogy of a poker hand

@@ -4,7 +4,7 @@ date: "2021-05-30T16:42:15Z"
 author: Jonny Spicer
 title: "Resources"
 categories:
-- Wellbeing
+- Mental Health
 ---
 Much like [Ted,](https://tedslocum.com/daily/2021/05/29/Resources) I have also been struggling to work out how to best manage my resources. At the moment I
 feel incredibly time-poor, but reasonably money-not-poor (I feel like everyone finds the idea of describing themselves as rich as physically disgusting, right?), and so presumably there

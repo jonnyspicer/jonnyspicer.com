@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-13T00:00:00Z"
 categories:
-- Poker and Gambling
+- Hobbies
 title: Hand Anger
 ---
 Last night I was enjoying the recent uptick in player liquidity on Run It Once and was happily clicking buttons when a particular hand made me really *angry*. The nice thing about

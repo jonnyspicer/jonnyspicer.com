@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-11T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Perspective
 ---
 A balanced perspective has always seemed like a noble goal to me, something worth striving for. Sometimes one seeks out this new

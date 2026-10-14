@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-04-18T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Aeroplane Film Reviews
 series: ["Film and TV Reviews"]
 ---

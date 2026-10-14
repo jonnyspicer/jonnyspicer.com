@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-09T00:00:00Z"
 categories:
-- Politics
+- Personal
 title: Manifestos III
 series: ["Manifestos"]
 ---

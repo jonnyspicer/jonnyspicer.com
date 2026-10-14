@@ -5,8 +5,7 @@ author: Jonny Spicer
 title: "What I Learned From Applying To 100 Programming Jobs"
 categories:
 - Bestof
-- Career
-- Programming
+- Career and Technology
 # status: 
 # confidence: 
 # importance: 

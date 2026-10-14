@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-11T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Natural, Everyday Degradation
 ---
 Today I finally got round to listening to the new Remo Drive record, 'Natural, Everyday Degradation'. After their debut album, 'Greatest Hits' became

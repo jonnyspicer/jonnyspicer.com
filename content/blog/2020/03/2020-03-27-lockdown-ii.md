@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-27T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Lockdown II
 series: ["Lockdown"]
 ---

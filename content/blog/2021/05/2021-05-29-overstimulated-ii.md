@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Overstimulated II"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 series: ["Overstimulated"]
 ---
 Today was my second float since being in London. It felt much more needed than the first; after having been here for three whole weeks, I've been overwhelmed

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-04T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: "Guernsey Literary Festival: Lionel Shriver"
 ---
 In my second visit to a Guernsey Literary Festival event this week, I had the pleasure of watching Lionel Shriver in conversation with Libby Purves.

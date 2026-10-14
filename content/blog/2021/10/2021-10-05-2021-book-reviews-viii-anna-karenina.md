@@ -4,7 +4,7 @@ date: "2021-10-05T16:13:10Z"
 author: Jonny Spicer
 title: "2021 Book Reviews VIII: Anna Karenina"
 categories:
-- Books
+- Hobbies
 series: ["Book Reviews"]
 ---
 On the train back from Glasgow yesterday I finally managed to finish Tolstoy's *Anna Karenina*, widely regarded as one of the best novels of all time. The translation I had is particularly chunky at 978 pages long and as such is pretty comfortably the longest book I've

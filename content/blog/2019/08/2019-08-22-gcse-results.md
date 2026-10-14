@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-22T00:00:00Z"
 categories:
-- Career
-- Wellbeing
+- Career and Technology
+- Mental Health
 title: GCSE Results
 ---
 Today is GCSE results day, and last night I was lucky enough to be able to help out with a [MyStudentEvents](https://mystudentevents.com/) livestream for students who would be opening the dreaded envelope today. It gave me the opportunity

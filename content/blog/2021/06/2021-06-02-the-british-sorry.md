@@ -4,7 +4,7 @@ date: "2021-06-02T07:21:30Z"
 author: Jonny Spicer
 title: "The British 'Sorry'"
 categories:
-- Misc
+- Personal
 ---
 Yesterday I had the opportunity to talk to a lovely lady called Sook. We were part of the same group run and, having not met prior, struck up a conversation
 while sat in the clubhouse enjoying a soft drink afterwards. She's Korean, and when I told her that after the pandemic was over I wanted to go to Seoul to

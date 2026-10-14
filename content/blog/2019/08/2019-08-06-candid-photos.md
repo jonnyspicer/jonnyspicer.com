@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-06T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Candid Photos
 ---
 This is probably gonna sound super pretentious, but w/e... contrived, posed photos annoy me far more than I know they should. In pursuit of doing it for the 'gram,

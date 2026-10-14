@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-08T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Psychosomaticity
 ---
 When I get stressed, the skin on my face gets really dry, and it gets red and blotchy and kinda gross. Previously I have

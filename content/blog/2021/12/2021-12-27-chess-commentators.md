@@ -4,7 +4,7 @@ date: "2021-12-27T18:00:07Z"
 author: Jonny Spicer
 title: "Chess Commentators"
 categories:
-- Chess
+- Hobbies
 ---
 Seeing as I'm stuck inside, I've been pretty glued to the Rapid Chess World Championships that've been on, and the biggest thing that sticks out to me are how bad most of the commentators are. I
 appreciate that commentating over chess games is a fairly thankless task - you have to provide insight to viewers who might be part of a very broad spectrum of abilities, and you have to make

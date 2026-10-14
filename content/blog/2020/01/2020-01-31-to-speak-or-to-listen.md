@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-31T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: To speak or to listen
 ---
 I have been wondering a lot recently whether it is better to speak or to listen. I think in theory they should not be mutually

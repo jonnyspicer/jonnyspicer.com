@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-04T00:00:00Z"
 categories:
-- Politics
+- Personal
 title: Election Day
 series: ["Election Day"]
 ---

@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Emotional Investment"
 categories:
 - Personal
-- Career
+- Career and Technology
 ---
 Full disclosure; I have had quite a few drinks before writing this one, and I have only 30 or so minutes before my time runs out and I would be losing the bet. That being said, today has been an interesting day emotionally; following on from yesterday's tumultuousness,
 today I am waiting to hear about somebody else's good news, or lack thereof. I have realised that I am in fact far more emotionally involved in there outcome than I would be my own, and that is overall a good think I think; it is nice to care about others more than onself.

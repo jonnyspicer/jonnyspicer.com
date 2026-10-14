@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-24T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: "Infinite Jest: I've Written a Novel"
 series: ["Infinite Jest"]
 ---

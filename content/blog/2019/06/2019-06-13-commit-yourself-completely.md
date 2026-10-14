@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-13T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Commit Yourself Completely
 ---
 In exciting news, Car Seat Headrest announced a new live album is coming on Monday. In even more exciting news, two of the songs were recorded at their show in London that I was at,

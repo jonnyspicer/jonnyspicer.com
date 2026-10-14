@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-21T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Last Day of Summer
 series: ["Last Day Of Summer"]
 ---

@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Priorities III"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 series: ["Priorities"]
 ---
 I am once again struggling to prioritise what feels like a very limited amount of time. I am trying to overhaul my use of productivity apps and amalgamate everything into [Notion](https://www.notion.so/) (which I've discovered is a lot more powerful than I previously realised), complete the 80000 Hours

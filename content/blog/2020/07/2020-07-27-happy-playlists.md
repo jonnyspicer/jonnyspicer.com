@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-27T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Happy Playlists
 ---
 The idea of "go to songs when you want to be happy" got brought up today, and I realised I don't have any - although I do have them for various other emotions. A lot of the way

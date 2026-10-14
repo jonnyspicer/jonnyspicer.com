@@ -5,7 +5,6 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-29T00:00:00Z"
 categories:
-- Wellbeing
 - Mental Health
 title: When it's easy, it's easy II
 series: ["When It's Easy, It's Easy"]

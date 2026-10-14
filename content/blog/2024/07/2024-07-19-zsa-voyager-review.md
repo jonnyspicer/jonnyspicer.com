@@ -4,8 +4,7 @@ date: "2024-07-19T15:10:37Z"
 author: Jonny Spicer
 title: "ZSA Voyager Review"
 categories:
-- Programming
-- Technology
+- Career and Technology
 ---
 For the last 6 months I’ve been using a ZSA Voyager, a built-to-order split mechanical keyboard that cost me £300, including shipping costs from Taiwan. Was this a savvy investment or pure frivolity?
 

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-31T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Exploring
 ---
 I'm not working for (at least) the next three weeks, and I don't have anything else I particularly need to do, past the usual minimum requirements to stay alive. I can't even play

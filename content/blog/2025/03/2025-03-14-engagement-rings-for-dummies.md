@@ -4,7 +4,7 @@ date: "2025-03-14T17:05:32Z"
 author: Jonny Spicer
 title: "Engagement Rings For Dummies"
 categories:
-  - Dating and Relationships
+- Personal
 # status: 
 # confidence: 
 # importance: 

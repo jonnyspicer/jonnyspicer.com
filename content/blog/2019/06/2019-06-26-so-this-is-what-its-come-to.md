@@ -5,8 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-26T00:00:00Z"
 categories:
-- Hacking and Security
-- Technology
+- Career and Technology
 title: So This is What It's Come To
 ---
 Apparently, [this](https://blog.mozilla.org/firefox/hey-advertisers-track-this/) is now the way that we're fighting aggressive ad

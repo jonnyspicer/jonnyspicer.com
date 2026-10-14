@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-05T00:00:00Z"
 categories:
-- Programming
+- Career and Technology
 title: "New Site II"
 series: ["New Site"]
 ---

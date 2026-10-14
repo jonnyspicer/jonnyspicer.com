@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Overpositivity"
 categories:
 - Personal
-- Blogging
+- Hobbies
 ---
 I have been a bit worried recently that the things I write here are only ever reasonably positive, and paint an unrealistic picture of my life. On the whole, I am doing well right now, but that
 doesn't mean there aren't things I'm struggling with, and only sharing the good and not the bad is a criticism I often levy against social media sites like Instagram. In the spirit of at least trying

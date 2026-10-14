@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-15T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: The Vanishing at the Cecil Hotel
 ---
 I am a sucker for a good true crime/mystery docuseries. Netflix's *The Vanishing at the Cecil Hotel* reeled me in immediately as it had something most shows its ilk don't for me - I

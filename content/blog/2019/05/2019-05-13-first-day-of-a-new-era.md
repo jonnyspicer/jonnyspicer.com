@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-13T00:00:00Z"
 categories:
-- Career
+- Career and Technology
 title: First Day of a New Era
 ---
 As one epoch comes to an end, so must a new one begin, which is precisely the case for my career as I began a new job today.

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-05T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Sober Socialising
 ---
 As I think is probably very common for young British men, I will only ever invite my male friends for one kind of social engagement; a drink. And obviously the use of the indefinite

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-22T00:00:00Z"
 categories:
-- Esports
+- Hobbies
 title: Dark, The Swarm
 ---
 In the midst of some of the most aggressive protoss balance whine I've ever witnessed, four long years since a zerg player has been crowned the king of GSL - and

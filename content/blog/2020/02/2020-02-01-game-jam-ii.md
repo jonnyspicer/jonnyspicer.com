@@ -5,9 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-01T00:00:00Z"
 categories:
-- Video Games
-- Programming
-- Technology
+- Hobbies
+- Career and Technology
 title: Game Jam II
 series: ["Game Jam"]
 ---

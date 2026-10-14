@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-27T00:00:00Z"
 categories:
-- Meditation and Spirituality
+- Mental Health
 title: Ten Days of Meditation
 ---
 I actually think talking about one's own experience's with meditation, particularly without being asked, is incredibly pretentious and narcissistic, and as discussed previously ad

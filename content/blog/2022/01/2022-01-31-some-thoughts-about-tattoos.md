@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Some Thoughts About Tattoos"
 categories:
 - Personal
-- Art
+- Hobbies
 ---
 Yesterday I got tattoo number 9, my biggest so far. It covers my left leg from knee to ankle, 360 degrees (sorry Mum) and I am absolutely in love with it. I am in particular excited about this piece as I think it puts me in the next category of tattooed person - first you get the people that just
 have one, and it is something very meaningful to them, and then you get the people that have several, having clearly enjoyed the first one, but nothing especially big or on any overly painful spots, and then you have the next category, which I would now put myself in; people who have "ambitious"

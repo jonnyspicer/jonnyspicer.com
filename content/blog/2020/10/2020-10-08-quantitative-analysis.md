@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-08T00:00:00Z"
 categories:
-- Career
+- Career and Technology
 title: Quantitative Analysis
 ---
 I really love the idea of quantitative analysis. It's results seem to be as close to predicting the future as mere mortals can possibly come - obviously machine learning is set to

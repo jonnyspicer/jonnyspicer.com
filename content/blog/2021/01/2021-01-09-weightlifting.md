@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-09T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 title: Weightlifting
 ---
 After not having tried any olympic lifting for several years, I went to a class today, in true Guernsey fashion being taken by the same guy who had already taught me to squat, snatch

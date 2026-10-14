@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-24T00:00:00Z"
 categories:
-- Politics
+- Personal
 title: What Makes a Good Politician
 ---
 Now faced with the somewhat overwhelming nature of having 38 possible votes to give 119 possible candidates, and in a time when voting seems more important then ever, I've spent quite

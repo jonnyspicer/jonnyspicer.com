@@ -4,7 +4,7 @@ date: "2022-01-22T20:28:06Z"
 author: Jonny Spicer
 title: "RunThrough Olympic Park"
 categories:
-- Running
+- Hobbies
 ---
 Today I ran the RunThrough 10k at the Olympic Park, my first race since September of last year and my first race of that distance since September 2019, when I just about squeaked under an hour to come home in 59:53. This morning was a slightly different affair as I was on pacing duty rather than chasing
 a PB, trying to help my partner set her own benchmark time seeing as I've apparently managed to successfully cajole her into this whole running thing. The course isn't desperately flat and the vibes are a little strange - RunThrough obviously try to give the events a wholesome community feel, but given

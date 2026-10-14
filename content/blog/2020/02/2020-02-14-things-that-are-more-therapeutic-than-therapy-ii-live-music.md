@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-14T00:00:00Z"
 categories:
-- Music
+- Hobbies
 - Mental Health
 title: "Things That Are More Therapeutic Than Therapy II: Live Music"
 series: ["Things That Are More Therapeutic Than Therapy"]

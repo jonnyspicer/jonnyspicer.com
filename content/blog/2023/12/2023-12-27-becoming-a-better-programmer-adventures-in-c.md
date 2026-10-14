@@ -4,7 +4,7 @@ date: "2023-12-27T19:34:36Z"
 author: Jonny Spicer
 title: "Becoming a Better Programmer: Adventures in C"
 categories:
-- Programming
+- Career and Technology
 series: ["Becoming a Better Programmer"]
 extras: prismjs
 ---

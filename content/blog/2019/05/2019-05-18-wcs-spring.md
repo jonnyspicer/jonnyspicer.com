@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-18T00:00:00Z"
 categories:
-- Esports
+- Hobbies
 title: WCS Spring
 ---
 I had a lot of productive things on my todo list this week, including a lot of work on this website and the Guernsey chess site as well, but then today I woke up,

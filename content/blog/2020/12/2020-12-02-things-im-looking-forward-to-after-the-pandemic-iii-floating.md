@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-02T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: "Things I'm Looking Forward To After The Pandemic III: Floating"
 series: ["Things I'm Looking Forward To After The Pandemic"]
 ---

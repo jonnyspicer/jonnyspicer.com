@@ -4,7 +4,7 @@ date: "2021-08-08T19:17:56Z"
 author: Jonny Spicer
 title: "Anger Management"
 categories:
-- Film and TV
+- Hobbies
 ---
 Last night I rewatched the 2003 film *Anger Management* starring Jack Nicholson and Adam Sandler. I've not seen it in many years, despite
 frequently referencing it, both for the "goosfraba" and [I Feel Pretty](https://www.youtube.com/watch?v=9LZ35Ar3r2k) scenes. There were

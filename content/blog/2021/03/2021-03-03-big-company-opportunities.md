@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-03-03T00:00:00Z"
 categories:
-- Career
+- Career and Technology
 title: Big Company Opportunities
 ---
 One of the things I am loving about working at a large company is that there's

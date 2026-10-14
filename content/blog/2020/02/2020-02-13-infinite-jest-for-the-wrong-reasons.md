@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-13T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: Infinite Jest for the Wrong Reasons
 series: ["Infinite Jest"]
 ---

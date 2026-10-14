@@ -4,9 +4,8 @@ date: "2021-06-15T19:57:54Z"
 author: Jonny Spicer
 title: "A Necessary Holiday"
 categories:
-- Career
+- Career and Technology
 - Personal
-- Wellbeing
 - Mental Health
 ---
 This week I took Monday through Wednesday off work, not because I had anything in particular to do, but because I hadn't taken any holiday since starting my new job on January 18th.

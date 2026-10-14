@@ -4,7 +4,7 @@ date: "2021-12-09T17:48:53Z"
 author: Jonny Spicer
 title: "Advent of Code IV"
 categories:
-- Programming
+- Career and Technology
 series: ["Advent of Code"]
 ---
 After three more days of AoC, I am starting to feel the difficulty a bit. Whilst I did manage to find solutions to all three of the problems

@@ -4,7 +4,7 @@ date: "2021-08-09T19:36:24Z"
 author: Jonny Spicer
 title: "Caffeine Detox II"
 categories:
-- Wellbeing
+- Mental Health
 series: ["Caffeine Detox"]
 ---
 A week later and the results are in, and they are deeply underwhelming. As far as I can tell, nothing really changed, except for the fact I

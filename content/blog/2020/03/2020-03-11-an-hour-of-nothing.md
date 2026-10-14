@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-11T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: An Hour of Nothing
 ---
 First off, I am attempting to write this post in nano, and if that doesn't make me a real developer then I don't know what does.

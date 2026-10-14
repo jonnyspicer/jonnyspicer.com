@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-22T00:00:00Z"
 categories:
-- Travel
+- Personal
 title: Staycations
 ---
 In the past, I never would've entertained the idea of a staycation, and am slightly ashamed to say that I would've harshly judged anyone who professed to enjoy them. In my mind,

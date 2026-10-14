@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-23T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Goryachkina v Ju
 ---
 Today saw the 12th game of the FIDE Women's World Championship match between Aleksandra Goryachkina and Wenjun Ju, and much

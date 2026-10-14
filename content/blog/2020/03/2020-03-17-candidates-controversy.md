@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-17T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Candidates Controversy
 series: ["Candidates 2020"]
 ---

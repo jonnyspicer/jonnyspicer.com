@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-16T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Getting Your Hopes Up
 ---
 I try really, really hard not to get my hopes up, about pretty much anything that I want. Obviously the more I want it, the more I try to emotionally hedge against future

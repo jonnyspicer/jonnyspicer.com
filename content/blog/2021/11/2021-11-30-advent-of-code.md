@@ -4,7 +4,7 @@ date: "2021-11-30T15:32:21Z"
 author: Jonny Spicer
 title: "Advent of Code"
 categories:
-- Programming
+- Career and Technology
 series: ["Advent of Code"]
 ---
 Tomorrow is the first day I get to eat a chocolate out of my fancy advent calendar, but more excitingly, it's also the first day of this year's edition of the [advent of code.](https://adventofcode.com/) I'm going to give it my best shot to complete the problems every day

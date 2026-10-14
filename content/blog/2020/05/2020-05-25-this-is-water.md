@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-25T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: This is Water
 ---
 This is Water is the title of an essay by David Foster Wallace (naturally), derived from a commencement speech he gave at Kenyon College, the recording of which can be heard

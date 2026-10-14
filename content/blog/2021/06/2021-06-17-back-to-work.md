@@ -4,7 +4,6 @@ date: "2021-06-17T06:45:21Z"
 author: Jonny Spicer
 title: "Back To Work"
 categories:
-- Misc
 - Personal
 ---
 As I write this an hour before heading back into the office, I am far more excited about returning to work then I feel like most people are at the end of

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-30T00:00:00Z"
 categories:
-- COVID19
+- Personal
 title: Know the Risk
 ---
 One of the best pieces of advice that I have heard with regard to dealing with the current pandemic

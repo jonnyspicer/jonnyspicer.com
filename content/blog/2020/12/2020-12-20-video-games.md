@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-20T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: Video Games
 series: ["Video Games"]
 ---

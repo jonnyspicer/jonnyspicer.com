@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-26T00:00:00Z"
 categories:
-- Career
-- Wellbeing
+- Career and Technology
+- Mental Health
 title: Don't Take Work Personally
 ---
 I often find myself getting emotionally sucked into my work, and I think a lot of us do. It's natural; we spent most of

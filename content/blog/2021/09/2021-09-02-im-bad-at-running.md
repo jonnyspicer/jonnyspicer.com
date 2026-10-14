@@ -4,7 +4,7 @@ date: "2021-09-02T08:16:10Z"
 author: Jonny Spicer
 title: "I'm Bad At Running"
 categories:
-- Running
+- Hobbies
 ---
 After seeing some photos of myself from [The Big Half](/blog/the-big-half) last weekend, I thought that my running form didn't look great, and maybe I ought to do something about it. It's hard analyse your own technique when you're in the act of running, so I took my
 tripod to the local park and self-consciously took some videos of myself running back and forth over a twenty metre stretch of path at a few different speeds, so I could see if there was anything obvious to work on.

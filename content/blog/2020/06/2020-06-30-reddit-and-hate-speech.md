@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-30T00:00:00Z"
 categories:
-- Social Media
+- Personal
 title: Reddit and Hate Speech
 ---
 Today Reddit announced the closure of numerous subreddits as part of a

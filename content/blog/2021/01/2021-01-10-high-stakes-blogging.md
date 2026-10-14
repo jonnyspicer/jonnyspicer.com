@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-10T00:00:00Z"
 categories:
-- Blogging
+- Hobbies
 title: High Stakes Blogging
 ---
 As my favourite blogging fun-player [points out,](https://tedslocum.com/daily/2021/01/09/Bizarre-Blogging) the rising price of ethereum is making this bet spicier

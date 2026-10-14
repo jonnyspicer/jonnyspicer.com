@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-30T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: The Three Catchers In The Rye
 ---
 In my life so far, I have gone through three distinct interpretations of JD Salinger's classic,

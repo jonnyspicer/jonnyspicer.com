@@ -5,10 +5,10 @@ author: Jonny Spicer
 title: "10 Things I Don't Know But Want To"
 categories:
 - AI
-- Aliens
-- Blogging
+- Personal
+- Hobbies
 - Mental Health
-- Programming
+- Career and Technology
 # status: 
 # confidence: 
 # importance: 

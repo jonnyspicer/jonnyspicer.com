@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-20T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Moving Out
 series: ["Moving Out"]
 ---

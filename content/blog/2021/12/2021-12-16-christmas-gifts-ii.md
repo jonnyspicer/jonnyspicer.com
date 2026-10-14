@@ -4,7 +4,7 @@ date: "2021-12-16T19:32:08Z"
 author: Jonny Spicer
 title: "Christmas Gifts II"
 categories:
-- Misc
+- Personal
 ---
 It feels like I have an infinite list of things to do before flying back to Guernsey first thing on Monday morning. Every time I tick off
 one mildly-anxiety-inducing chore, two more spring up to take its place, and I'm starting to realise why Hercules was so worthy of his

@@ -4,7 +4,6 @@ date: "2021-05-14T17:27:38Z"
 author: Jonny Spicer
 title: "A Week In London"
 categories:
-- Misc
 - Personal
 series: ["Moving To London"]
 ---

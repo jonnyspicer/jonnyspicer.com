@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-19T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Online Chess Tournaments
 series: ["Online Chess"]
 ---

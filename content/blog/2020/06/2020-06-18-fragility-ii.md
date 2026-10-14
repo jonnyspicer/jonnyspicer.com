@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-06-18T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: "Fragility II"
 series: ["Fragility"]
 ---

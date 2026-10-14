@@ -4,7 +4,7 @@ date: "2021-03-30T17:15:21Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas V: TV Ads"
 categories:
-- Misc
+- Personal
 series: ["Writing Up Old Ideas"]
 ---
 Much like yesterday everyone knows Facebook is bad, everyone knows ads are bad. They're invasive, annoying, and perhaps worst of all, they always feel like they're subtly brainwashing

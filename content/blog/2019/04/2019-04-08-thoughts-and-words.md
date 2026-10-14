@@ -6,7 +6,7 @@ type: blog
 date: "2019-04-08T00:00:00Z"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 title: Thoughts and Words
 ---
 Unless you're [that weird Radical Honesty dude](https://www.youtube.com/watch?v=TM427B7qerE),

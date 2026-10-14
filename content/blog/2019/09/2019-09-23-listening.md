@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-23T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Listening
 ---
 I had, until recently, considered myself to be quite a good listener, however I have had the rather

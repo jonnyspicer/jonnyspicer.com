@@ -5,8 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-22T00:00:00Z"
 categories:
-- Technology
-- Programming
+- Career and Technology
 title: Lunch && Code
 ---
 Today saw the reincarnation of Guernsey techie meetup Lunch && Code, sponsored by the wonderful

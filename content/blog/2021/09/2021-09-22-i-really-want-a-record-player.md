@@ -4,7 +4,7 @@ date: "2021-09-22T12:46:40Z"
 author: Jonny Spicer
 title: "I Really Want a Record Player"
 categories:
-- Music
+- Hobbies
 ---
 I spent a chunk of my Sunday afternoon once again wandering around [Rough Trade East,](https://www.roughtrade.com/) thinking about how much I wanted to be able to buy something and take it home and have something to play it on. After going to
 a friend's last night, whose flat sports an impressive and beautiful collection of books, I felt quite jealous, as my beloved kindle robs me of being able to show off my pretentious taste in literature. I have always told myself that getting

@@ -5,8 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-27T00:00:00Z"
 categories:
-- Politics
-- Allyship
+- Personal
 title: Everything is Political
 ---
 Until recently, I would never have considered myself interested in politics, or indeed a "political" person. I would say that I don't have opinions on any topic that I deemed to be

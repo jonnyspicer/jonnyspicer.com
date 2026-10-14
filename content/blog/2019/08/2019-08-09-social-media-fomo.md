@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-09T00:00:00Z"
 categories:
-- Social Media
+- Personal
 title: Social Media FOMO
 ---
 This week, a certain amount of social media FOMO has crept back in to my life. Getting to spend face to face time with two of my best friends, knowing that they will imminently be leaving for far-flung lands, makes me wish not only that they'd say, but also that

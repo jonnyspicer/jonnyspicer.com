@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-01T00:00:00Z"
 categories:
-- Wellbeing
-- Technology
+- Mental Health
+- Career and Technology
 title: Life Without Wifi
 ---
 Our ISP shit the bed today (again) and so we're left without WiFi, at this point as much of a dietary staple as bread or coffee. In its absence, I found myself listing atop the ocean of distractions, teetering precariously on the brink of having to be alone

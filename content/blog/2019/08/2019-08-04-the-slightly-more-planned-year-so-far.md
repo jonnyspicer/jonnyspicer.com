@@ -6,7 +6,6 @@ type: blog
 date: "2019-08-04T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 - Bestof
 title: The Slightly More Planned Year (So Far)
 series: ["The Unplanned Years"]

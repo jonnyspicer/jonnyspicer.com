@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-28T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Taikyoku Shogi
 ---
 Until today I'd only heard of the most popular variant of *shogi*, often called Japanese chess, featuring a 9x9 board but with a broadly similar rule-set. I was dimly aware that other versions existed, and that they had larger boards (chess also has plenty of variants

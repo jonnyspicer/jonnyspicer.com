@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-17T00:00:00Z"
 categories:
-- Climbing
+- Hobbies
 title: Adam Ondra
 ---
 After a brief hiatus from watching Adam Ondra videos, the YouTube algorithm has finally put me back in my place and reminded me that I

@@ -6,7 +6,7 @@ author: Jonny Spicer
 title: 2021 Book Reviews III
 date: "2021-03-11T00:00:00Z"
 categories:
-- Books
+- Hobbies
 series: ["Book Reviews"]
 ---
 ## On the Road by Jack Kerouac

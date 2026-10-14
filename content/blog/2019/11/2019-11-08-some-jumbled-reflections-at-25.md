@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-11-08T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Some Jumbled Reflections at 25
 ---
 Twenty five is a pretty cosy number for all us base 10 users. It only has prime factors. It can be part of a Pythagorean triplet.

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-05T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Customer Support
 ---
 I have been embroiled in a particular arduous customer support debacle with a certain company since March. I am tempted to name and

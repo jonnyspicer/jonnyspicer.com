@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-20T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Self Care and Self Pity
 ---
 The line between self care and self pity seems worryingly thin. One seems important, and one

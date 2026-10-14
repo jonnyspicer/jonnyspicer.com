@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-19T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Belated Best Albums of 2019
 ---
 I'm a little late to the party, but seeing as I have to write a blog every day again now, doing a handful of late "best ofs" seems like an easy way to churn a few out. In my opinion 2019 was a fairly middling

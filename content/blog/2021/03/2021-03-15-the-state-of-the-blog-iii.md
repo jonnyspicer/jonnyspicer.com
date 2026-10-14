@@ -4,7 +4,7 @@ date: "2021-03-15T07:45:25Z"
 author: Jonny Spicer
 title: The State of the Blog III
 categories:
-- Blogging
+- Hobbies
 series: ["The State of the Blog"]
 ---
 I've written a few times now, primarily as a reminder to myself, that this blog is meant to be a wholly self-serving endeavour. The idea is that it lets me dump my thoughts out on the

@@ -4,7 +4,7 @@ date: "2021-08-15T06:53:13Z"
 author: Jonny Spicer
 title: "Locked Out III"
 categories:
-- Misc
+- Personal
 series: ["Locked Out"]
 ---
 Yesterday I once again found myself standing outside of the flat I was meant to be sleeping in that night, with no keys and unable to get in, except this time

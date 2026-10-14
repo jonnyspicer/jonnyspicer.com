@@ -4,7 +4,7 @@ date: "2021-03-17T16:39:31Z"
 author: Jonny Spicer
 title: Breaking Prod
 categories:
-- Programming
+- Career and Technology
 tags:
 - Perl
 - Bugs

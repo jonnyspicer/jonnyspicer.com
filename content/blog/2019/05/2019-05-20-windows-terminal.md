@@ -5,8 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-20T00:00:00Z"
 categories:
-- Technology
-- Programming
+- Career and Technology
 title: Windows Terminal
 ---
 [Windows Terminal](https://github.com/microsoft/terminal) is on the way and I am very excited for it, because that means

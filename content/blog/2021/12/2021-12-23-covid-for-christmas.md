@@ -4,7 +4,7 @@ date: "2021-12-23T19:03:27Z"
 author: Jonny Spicer
 title: "Covid for Christmas"
 categories:
-- COVID19
+- Personal
 ---
 Well, it finally happened, and today I tested positive for everyone's favourite novel coronavirus. I have to self isolate for at least 7 days, and remain on Guernsey for at least 10, so
 it has thrown a spanner in the works to my plans for the immediate future.

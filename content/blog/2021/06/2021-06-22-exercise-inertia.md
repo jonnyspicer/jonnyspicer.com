@@ -4,7 +4,7 @@ date: "2021-06-22T20:04:41Z"
 author: Jonny Spicer
 title: "Exercise Inertia"
 categories:
-- Diet and Fitness
+- Personal Development
 ---
 I've been really struggling to find the motivation to exercise recently. I don't know what it is, but there's been so much inertia to break in order to
 lace up my shoes and head out the door. I thought I might be tired, but I took over a week off running last week so I don't think it's that. I feel like

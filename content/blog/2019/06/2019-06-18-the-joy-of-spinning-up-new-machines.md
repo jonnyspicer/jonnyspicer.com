@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-18T00:00:00Z"
 categories:
-- Technology
+- Career and Technology
 title: The Joy Of Spinning Up New Machines
 ---
 Today I had the pleasure of taking a fresh Win10 install and transforming it into a usable development environment - furthermore, my own development environment.

@@ -4,7 +4,7 @@ date: "2021-07-15T18:39:53Z"
 author: Jonny Spicer
 title: "Ryoji Ikeda at 180 The Strand"
 categories:
-- Art
+- Hobbies
 ---
 Yesterday I went to see the Ryoji Ikeda exhibition at [180 The Strand,](https://www.180thestrand.com/) following a recommendation. I didn't really know what
 to expect other that it would be on the weird side, but I ended up loving it. The whole thing was very much an experience - when you enter you are asked to

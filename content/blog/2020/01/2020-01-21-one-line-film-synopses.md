@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-21T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: One Line Film Synopses
 ---
 In my recent absence from blogging, I managed to make my way through a respectable number of films, and I thought it'd be fun to

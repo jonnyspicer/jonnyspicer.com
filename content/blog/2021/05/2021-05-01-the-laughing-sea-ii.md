@@ -4,7 +4,7 @@ date: "2021-05-01T15:17:13Z"
 author: Jonny Spicer
 title: "The Laughing Sea II"
 categories:
-- Misc
+- Personal
 series: ["The Laughing Sea"]
 ---
 I was determined to have one final dip in the sea before I left for London. Taking a dip in the Thames doesn't *quite* have the same appeal. I love being near the sea, and looking

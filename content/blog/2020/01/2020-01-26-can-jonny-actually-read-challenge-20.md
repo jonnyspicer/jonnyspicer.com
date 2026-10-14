@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-01-26T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: Can Jonny Actually Read Challenge 2.0
 ---
 In 2018 I read no books whatsoever, and so last year I set myself the lofty goal of reading 52 in 52 weeks. Obviously, I failed, managing a measly 6, but at least that was

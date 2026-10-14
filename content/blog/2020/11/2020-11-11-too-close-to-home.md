@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-11T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Too Close To Home
 ---
 The whole point of entertainment is to make you feel things, but sometimes somethings make me feel a whole lot more than I wanted. I've always found myself getting emotionally invested

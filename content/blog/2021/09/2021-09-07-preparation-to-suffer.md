@@ -4,7 +4,7 @@ date: "2021-09-07T16:15:44Z"
 author: Jonny Spicer
 title: "Preparation to Suffer"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 I have now done my final training run before attempting the [Eden Valley Ultra Trail](https://edenvalleyrace.com/ultra) on Saturday, so all that is left to do physically is rest my legs, sleep as much as possible, and make sure I've eaten enough carbohydrates to have maxed

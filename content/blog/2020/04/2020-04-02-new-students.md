@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-02T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: New Students
 ---
 The whole world is looking for new indoor activities with which to amuse themselves, and it seems a lot of people are

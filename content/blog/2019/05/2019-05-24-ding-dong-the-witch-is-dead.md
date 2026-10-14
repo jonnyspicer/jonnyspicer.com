@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-24T00:00:00Z"
 categories:
-- Politics
+- Personal
 title: Ding Dong The Witch is Dead
 ---
 This is, I believe, my first blog on the subject of politics, a subject that I have by and large deliberately avoided writing about. In part because I don't think anyone

@@ -6,7 +6,7 @@ type: blog
 date: "2019-05-31T00:00:00Z"
 categories:
 - Personal
-- Running
+- Hobbies
 title: Yet More Expectations
 ---
 Tomorrow is Saturday, which means I'll be having another stab at the Park Run. Last week was a lot of fun, the

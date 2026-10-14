@@ -4,7 +4,7 @@ date: "2022-02-15T11:15:51Z"
 author: Jonny Spicer
 title: "An End to Daily Posts"
 categories:
-- Blogging
+- Hobbies
 ---
 I said at the start of the year that I wanted to get out of the habit of publishing a blog here every day, and since then I have struggled a little to find the will to stop. I think the biggest part of the reason I have not wanted to stop is that I'm worried if I don't write here every day then I'll
 never write here, and I think it'd be a shame to only post 3 or 4 of these a year, as tends to be the case with the longer posts that I am more proud of. With that being said, this isn't really serving the purpose it once was, and I don't think holds much benefit for me any more, especially as I am so

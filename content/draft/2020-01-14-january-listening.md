@@ -4,7 +4,7 @@ type: blog
 date: "2020-01-14T00:00:00Z"
 draft: true
 categories:
-- Music
+- Hobbies
 title: January Listening
 ---
 To ease back into things, and because I missed any "look back on 2019"

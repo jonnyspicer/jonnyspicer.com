@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-09T00:00:00Z"
 categories:
-- Career
-- Wellbeing
+- Career and Technology
+- Mental Health
 title: Frustration
 ---
 It has been a frustrating day at work, and obviously by at work I mean in the 4 metre square "office" adjacent to my bedroom where my desk touches three of the four walls. It has been

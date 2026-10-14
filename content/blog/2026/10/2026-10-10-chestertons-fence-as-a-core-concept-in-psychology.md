@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Chesterton's Fence as a core concept in psychology"
 categories:
 - Personal Development
-- Wellbeing
+- Mental Health
 # status: 
 # confidence: 
 # importance: 

@@ -4,7 +4,7 @@ date: "2021-12-10T19:07:05Z"
 author: Jonny Spicer
 title: "World Chess Championship 2021 III"
 categories:
-- Chess
+- Hobbies
 ---
 And just like that, the match is all over; Magnus Carlsen retains his crown as world chess champion with three whole games to spare. I've been a fan of Carlsen's for near enough 15 years now so of course I wanted him to win, but I must confess, I had hoped it wouldn't be
 under these circumstances.

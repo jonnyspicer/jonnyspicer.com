@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-04T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: The 106th British Chess Championships
 ---
 This week the 106th edition of the British Chess Championships took place in Torquay, incidentally in the same venue in which I competed in the U14 section many years ago.

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-25T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: Sea and Cliffs
 ---
 This might be a bit of a preachy one, so if you don't like that kind of thing, kindly avert your gaze now. Arguably I shouldn't

@@ -4,7 +4,7 @@ date: "2022-01-25T13:42:13Z"
 author: Jonny Spicer
 title: "Performance Review"
 categories:
-- Career
+- Career and Technology
 ---
 Today was my end of year performance review, an experience I have been somewhat dreading. Not because I was particularly worried about
 the outcome, but more because I find getting any kind of positive feedback, particularly in a professional setting, deeply uncomfortable, and find a lot of the aspects of the review largely box-ticking, hoop-jumping-through exercises. With that being said, it wasn't anywhere near as painful as I'd

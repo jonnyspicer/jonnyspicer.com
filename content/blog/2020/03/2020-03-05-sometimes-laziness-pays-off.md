@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-05T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Sometimes Laziness Pays Off
 ---
 This morning it seems like Flybe are poised to immediately cease being

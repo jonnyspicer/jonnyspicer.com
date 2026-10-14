@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Priorities II"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 series: ["Priorities"]
 ---
 I think I'm really bad at prioritizing, and it's often my undoing. I know that I ought to prioritise my physical and mental health first, and focus on sleeping and eating well above all else, but I don't. I allow many things to compete for my attention and it always

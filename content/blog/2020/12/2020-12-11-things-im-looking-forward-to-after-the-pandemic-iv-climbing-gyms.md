@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-11T00:00:00Z"
 categories:
-- Climbing
+- Hobbies
 title: "Things I'm Looking Forward To After The Pandemic IV: Climbing Gyms"
 series: ["Things I'm Looking Forward To After The Pandemic"]
 ---

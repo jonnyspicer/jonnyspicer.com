@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-27T00:00:00Z"
 categories:
-- Wellbeing
-- Misc
+- Mental Health
+- Personal
 title: The End of Summer
 ---
 This morning I got up at 5:35am, to discover it was still dark outside. It was the first time it'd been black outside my window upon

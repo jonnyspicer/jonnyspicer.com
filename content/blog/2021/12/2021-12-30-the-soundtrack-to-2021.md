@@ -4,7 +4,7 @@ date: "2021-12-30T10:44:28Z"
 author: Jonny Spicer
 title: "The Soundtrack to 2021"
 categories:
-- Music
+- Hobbies
 ---
 While I think everyone agrees that 2021 was another bad year in general, it was at least a good year for music. A combination of album releases that had been previously postponed because of the
 pandemic and a collective sense of fear and dread fuelling artistic expression produced some great records. What I spent the most time listening to was fairly predictable - according to Spotify

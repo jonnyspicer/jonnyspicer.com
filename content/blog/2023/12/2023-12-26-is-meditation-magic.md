@@ -4,7 +4,7 @@ date: "2023-12-26T12:24:50Z"
 author: Jonny Spicer
 title: "Is Meditation Magic?"
 categories:
-- Meditation and Spirituality
+- Mental Health
 ---
 Imagine that you’re the mayor of a small town; let’s call it Samadhivale. The denizens of Samadhivale live peaceful, prosperous lives. Children frolic in the streets, galleries and theatres bustle with aficionados of the arts, men and women in suits broker business deals as titans of their respective industries. Samadhivale is a picture postcard of a place, the sort you only hear about in fairy tales or contrived analogies about meditation. You love it here. *Everyone* loves it here.
 

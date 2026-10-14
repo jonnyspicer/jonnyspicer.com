@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-08T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Return of the Candidates
 series: ["Candidates 2020"]
 ---

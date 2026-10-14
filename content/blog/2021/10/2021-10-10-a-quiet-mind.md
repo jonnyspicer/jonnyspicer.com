@@ -4,7 +4,7 @@ date: "2021-10-10T18:43:51Z"
 author: Jonny Spicer
 title: "A Quiet Mind"
 categories:
-- Wellbeing
+- Mental Health
 ---
 I took another friend floating for the first time. Beforehand they asked me whether they should have anything to think about while in the tank, and I said that what works for me is to try to go in without any plan or expectation, and simply see what comes up.
 

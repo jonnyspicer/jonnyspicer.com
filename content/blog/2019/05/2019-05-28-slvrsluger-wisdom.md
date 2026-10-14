@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-28T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: slvrsluger Wisdom
 ---
 Occasionally during my catchups with slvrsluger, in between him regailing me with stories of aquariums, free office cookies and even freer money,

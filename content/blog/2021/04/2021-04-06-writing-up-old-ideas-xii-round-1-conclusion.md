@@ -4,7 +4,7 @@ date: "2021-04-06T16:42:06Z"
 author: Jonny Spicer
 title: "Writing Up Old Ideas XII: Round 1 Conclusion"
 categories:
-- Blogging
+- Hobbies
 series: ["Writing Up Old Ideas"]
 ---
 After ten days of writing up my old ideas, chosen from a Trello list that's old enough to go to school with the help of a random number generator, I have realised that there are two

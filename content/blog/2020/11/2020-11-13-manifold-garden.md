@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-11-13T00:00:00Z"
 categories:
-- Video Games
+- Hobbies
 title: Manifold Garden
 ---
 A quick one this evening as I haven't given myself enough time to write a meaningful blog and I'm already late for my engagement for the evening. This week I played through [Manifold Garden,](https://manifold.garden/) a beautiful Escheresque indie first person puzzler, and really enjoyed it. The game has no overt storyline, but there is a vague

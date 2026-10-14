@@ -4,7 +4,7 @@ date: "2021-08-25T18:01:32Z"
 author: Jonny Spicer
 title: "Fear of Falling"
 categories:
-- Climbing
+- Hobbies
 series: ["Fear of Falling"]
 ---
 As part of thinking about some of the next set of [goals](/blog/2021-goals-iii) that I'd like to set, I've been thinking about what climbing aspirations I have and what I'm going to need to do in order to fulfill them. The kind of things I want to achieve all involve

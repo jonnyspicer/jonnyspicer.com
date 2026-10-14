@@ -4,7 +4,7 @@ date: "2021-04-14T16:42:00Z"
 author: Jonny Spicer
 title: "Return of the Candidates II"
 categories:
-- Chess
+- Hobbies
 series: ["Candidates 2020"]
 ---
 The FIDE Candidates tournament is supposedly going to resume again next week, and I'm very excited about it. I say supposedly because after it got adjourned at the midway last March

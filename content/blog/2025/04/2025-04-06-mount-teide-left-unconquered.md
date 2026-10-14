@@ -4,7 +4,7 @@ date: "2025-04-06T14:42:56Z"
 author: Jonny Spicer
 title: "Mount Teide Left Unconquered"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 # status: 
 # confidence: 

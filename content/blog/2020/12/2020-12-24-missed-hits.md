@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-12-24T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Missed Hits
 ---
 Recommendation algorithms get a lot of very justified negative attention, but when done well they can be wonderful. I've finally got round to my "Missed Hits" playlist on Spotify this

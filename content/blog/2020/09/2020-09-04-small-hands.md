@@ -6,7 +6,7 @@ type: blog
 date: "2020-09-04T00:00:00Z"
 categories:
 - Mental Health
-- Climbing
+- Hobbies
 title: Small Hands
 ---
 I have hated my hands ever since I was a teenager. They are probably my least favourite body part, and I feel unbearably self conscious whenever any attention is drawn to them. They

@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-08T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: Itachi Uchiha
 ---
 I've been thinking a lot about what kind of man I want to be lately, and looking for suitable male role models in our post-feminist age. It struck me while running today that [Itachi Uchicha](https://en.wikipedia.org/wiki/Itachi_Uchiha), while not quite being a role model per se (not least because of his fictitious nature), embodies many qualities that I aspire

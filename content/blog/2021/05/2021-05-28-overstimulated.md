@@ -5,7 +5,7 @@ author: Jonny Spicer
 title: "Overstimulated"
 categories:
 - Personal
-- Wellbeing
+- Mental Health
 series: ["Overstimulated"]
 ---
 There's a lot going on in London; sounds, sights, smells and of course an abundance of tastes. In my brief experience so far, it's an intense place to live.

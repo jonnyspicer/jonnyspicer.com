@@ -4,7 +4,7 @@ date: "2021-07-18T15:25:15Z"
 author: Jonny Spicer
 title: "The Sunday Eliminator"
 categories:
-- Running
+- Hobbies
 ---
 Today is Sunday, which means one thing - it's long run day. I signed up for the "social" Greenwich Tunnel group run with the running club I've been going to,
 a route which is roughly 18km and is a fun one. Despite being "social" and therefor, in theory the slowest of the groups, it can be pretty quick depending

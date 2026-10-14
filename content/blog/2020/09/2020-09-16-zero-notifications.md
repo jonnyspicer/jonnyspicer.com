@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-16T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Zero Notifications
 ---
 I am always on a quest to have 0 red notification bubbles on my iPhone. I think this is very easy for some people, and very difficult for others, and I suspect you could even derive

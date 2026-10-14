@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-04T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 title: Comfort Eating
 ---
 I've been a comfort eater my whole life, and there have been times I've really hated that. Sometimes it makes me feel really out of control, both of my relationship with food and of

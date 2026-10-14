@@ -4,7 +4,7 @@ date: "2021-03-22T07:32:11Z"
 author: Jonny Spicer
 title: "The Barkley Marathons III"
 categories:
-- Running
+- Hobbies
 series: ["The Barkley Marathons"]
 tags:
 - Ultrarunning

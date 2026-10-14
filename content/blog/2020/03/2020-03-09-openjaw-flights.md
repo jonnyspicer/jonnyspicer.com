@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-09T00:00:00Z"
 categories:
-- Travel
+- Personal
 title: Open-Jaw Flights
 ---
 Extracting maximum value from flights seems to be something of a dark art, and there is a whole world

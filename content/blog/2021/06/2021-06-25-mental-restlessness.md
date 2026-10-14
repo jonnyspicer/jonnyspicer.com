@@ -4,7 +4,7 @@ date: "2021-06-25T14:02:23Z"
 author: Jonny Spicer
 title: "Mental Restlessness"
 categories:
-- Wellbeing
+- Mental Health
 ---
 Today I've been feeling mentally restless. I haven't been able to focus on anything, instead flitting my attention back and forth every couple of minutes, always feeling slightly anxious and
 distinctly un-peaceful. Trying to do nothing and focus on my breathing feels hard, I feel like I am constantly in need of my next hit of dopamine but am unable to find it. I hate days like these -

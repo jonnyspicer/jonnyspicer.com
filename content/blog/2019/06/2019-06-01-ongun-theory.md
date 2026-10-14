@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-01T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Ongun Theory
 ---
 We're hosting this evening, and so this afternoon I took it upon myself to try to make our apartment look presentable (by which

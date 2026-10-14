@@ -4,7 +4,7 @@ date: "2024-07-02T15:00:14Z"
 author: Jonny Spicer
 title: "Is This Water?"
 categories:
-- Books
+- Hobbies
 ---
 *Content warning: suicide.*
 

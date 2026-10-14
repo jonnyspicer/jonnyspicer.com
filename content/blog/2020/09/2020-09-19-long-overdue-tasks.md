@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-19T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Long Overdue Tasks
 ---
 Today I finally got round to accomplishing something that's been on my to do list since March, namely getting my new graphics card working. It's not like I didn't try at all to install

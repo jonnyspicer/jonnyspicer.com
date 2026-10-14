@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-10-10T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Hangovers
 ---
 I am exceptionally lucky in that I get relatively palatable hangovers. Past some muscle soreness and dehydration, I don't really get the crippling headaches that seem to afflict

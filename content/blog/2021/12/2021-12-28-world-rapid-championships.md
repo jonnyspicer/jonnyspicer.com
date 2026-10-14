@@ -4,7 +4,7 @@ date: "2021-12-28T19:44:27Z"
 author: Jonny Spicer
 title: "World Rapid Championships"
 categories:
-- Chess
+- Hobbies
 ---
 Today concluded the Rapid Chess World Championships, pretty much the only thing that as kept me sane over the past three days. The women's section was a done deal seemingly before today
 even started, with Alexandra Kosteniuk coming into the day an incredible 1.5 points ahead at the top after pulling off some Houdiniesque escapes yesterday, but the open section looked like

@@ -4,7 +4,7 @@ date: "2021-04-08T17:23:31Z"
 author: Jonny Spicer
 title: "Self-Help Blogs"
 categories:
-- Blogging
+- Hobbies
 ---
 My [fellow blogger](https://tedslocum.com) and I have both admitted to previously being big consumers of self-help books, and at some point we finally got our respective acts together
 sufficiently enough to give up on them. It's obvious now (but it wasn't always) that you can spend an inordinate amount of time reading self-help books, and no time whatsoever actually

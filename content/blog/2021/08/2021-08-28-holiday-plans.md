@@ -4,7 +4,7 @@ date: "2021-08-28T16:17:50Z"
 author: Jonny Spicer
 title: "Holiday Plans"
 categories:
-- Misc
+- Personal
 ---
 Now I have a full week of free time ahead of me, it's been fun to make plans. I already have two one-day festivals pencilled in for Friday and Sunday, but that still leaves me plenty of time to finally start ticking things off both my to-do list and my London bucket list. Some of the things I'm most
 looking forward to are;

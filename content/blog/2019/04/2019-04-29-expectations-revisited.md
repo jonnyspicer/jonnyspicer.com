@@ -6,7 +6,6 @@ type: blog
 date: "2019-04-29T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 title: Expectations Revisited
 ---
 I am a big believe in the idea that [one's happiness is the difference between one's expectations and one's reality](https://www.solveforhappy.com).

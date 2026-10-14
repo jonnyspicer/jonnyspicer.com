@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-26T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: Oatmeal and the Blerch
 ---
 As part of my newfound enthusiasm for running, this weekend I've tried to find which corners of the internet runners tend to frequent, so I can

@@ -4,8 +4,7 @@ date: "2022-02-11T11:50:26Z"
 author: Jonny Spicer
 title: "Good Enough At Go"
 categories:
-- Programming
-- Career
+- Career and Technology
 ---
 One of my biggest takeaways from the 80000 Hours rabbit hole so far has come from reading their [advice on career capital.](https://80000hours.org/articles/career-capital/) Previously I have told myself that simply being at a company like my present employer was
 sufficient in order to accrue meaningful career capital - I was gaining years of experience at a good company on my CV, which will help me get my foot in the door at most places. I've mostly been focused on trying to improve my understanding of Golang as much as

@@ -4,7 +4,7 @@ date: "2022-02-05T15:35:42Z"
 author: Jonny Spicer
 title: "Ants From Up There"
 categories:
-- Music
+- Hobbies
 ---
 Yesterday saw the release of the new Black Country, New Road album, *Ants From Up There,* in the same week that the band announced that frontman Isaac Wood will be leaving the project due to mental health issues, and unfortunately cancelling their upcoming shows, one of which I had tickets to and was
 very excited about. Obviously these things can't be helped, and I can only assume that the pressures of being in an up-and-coming band who relatively quickly become the critics' darlings would put an immense strain on anyone's mental health. Fortunately the band have announced that the remaining six

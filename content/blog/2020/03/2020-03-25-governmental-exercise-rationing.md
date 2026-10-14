@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-03-25T00:00:00Z"
 categories:
-- Running
+- Hobbies
 title: Governmental Exercise Rationing
 ---
 My run today was quite unlike any other I have ever been on. It is the first day of Guernsey in full-blown lockdown,

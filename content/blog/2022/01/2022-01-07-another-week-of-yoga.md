@@ -4,7 +4,7 @@ date: "2022-01-07T18:53:29Z"
 author: Jonny Spicer
 title: "Another Week of Yoga"
 categories:
-- Wellbeing
+- Mental Health
 ---
 Today is the 7th of January which means that, as part of my [100 hour goals](/blog/100-hours) for the year, I've done 20-30 minutes of yoga
 every day for the past week. After doing it daily for a couple of months during lockdown, my practice quickly slipped to weekly, and then

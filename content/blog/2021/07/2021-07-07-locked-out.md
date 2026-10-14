@@ -4,7 +4,7 @@ date: "2021-07-07T15:23:47Z"
 author: Jonny Spicer
 title: "Locked Out"
 categories:
-- Misc
+- Personal
 series: ["Locked Out"]
 ---
 Today I locked myself out of my flat, which was bound to happen at some point. I didn't sleep well, was distracted in the morning and simply walked out

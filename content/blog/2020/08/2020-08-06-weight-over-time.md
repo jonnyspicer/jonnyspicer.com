@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-06T00:00:00Z"
 categories:
-- Diet and Fitness
+- Personal Development
 title: Weight Over Time
 ---
 According to my journal, four years ago today, I weighed 229lbs, and according to my scales, today I weight 189lbs.

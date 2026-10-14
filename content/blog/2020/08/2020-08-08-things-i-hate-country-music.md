@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-08-08T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: "Things I Hate: Country Music"
 ---
 On today's episode of Things I Hate is country music. I like to think of myself as relatively musically open minded. I like a lot of different kinds of music, and even for genres

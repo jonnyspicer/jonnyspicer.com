@@ -4,7 +4,7 @@ date: "2021-10-17T12:25:21Z"
 author: Jonny Spicer
 title: "The Room II"
 categories:
-- Film and TV
+- Hobbies
 series: ["The Room"]
 ---
 Last night I watched Tommy Wiseau's masterpiece [The Room](/blog/the-room) for maybe the fourth of fifth time. After having decried it as the worst film ever in my original post on the subject, I have since seen the light and now understand clearly that it is in fact the

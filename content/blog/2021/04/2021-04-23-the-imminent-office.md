@@ -4,7 +4,7 @@ date: "2021-04-23T12:01:20Z"
 author: Jonny Spicer
 title: "The Imminent Office"
 categories:
-- Misc
+- Personal
 series: ["Moving To London"]
 ---
 This month, our office has optionally re-opened to employees for the first time in over a year.

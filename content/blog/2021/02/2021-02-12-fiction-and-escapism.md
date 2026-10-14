@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-12T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: Fiction and Escapism
 ---
 So far in lockdown, I've done a pretty good job of reading regularly, a new habit I'm trying to build. I think spending my entire working day at my computer helps a lot; my desire to

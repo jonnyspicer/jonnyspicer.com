@@ -4,7 +4,7 @@ date: "2021-11-17T18:39:30Z"
 author: Jonny Spicer
 title: "The Louis Cole Big Band"
 categories:
-- Music
+- Hobbies
 ---
 Last night I went to go see Louis Cole and his big band at Evolutionary Arts Hackney, broadening my gig-going comfort zone by seeing a jazz-funk ensemble for a change. I'm glad I did as they were absolutely phenomenal.
 

@@ -4,7 +4,7 @@ date: "2021-11-18T20:03:21Z"
 author: Jonny Spicer
 title: "A New Way to Run"
 categories:
-- Running
+- Hobbies
 ---
 In anticipation of signing up for some suitably ludicrous race next summer, I'm trying to start training like a real ultra runner - by running painfully slow for as long as possible. To this end I've got a heart rate chest monitor that handily connects to my watch, and
 so now every time I go running, I am trying to keep my heart rate below 145pm, as calculated using the [MAF 180 Formula.](https://philmaffetone.com/180-formula/) Previously, my training runs have all been in the vicinty of 5:30 - 6:00 min/km, but now that I'm keeping my

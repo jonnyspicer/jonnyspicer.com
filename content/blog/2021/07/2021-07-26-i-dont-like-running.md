@@ -4,7 +4,7 @@ date: "2021-07-26T07:47:30Z"
 author: Jonny Spicer
 title: "I Don't Like Running"
 categories:
-- Running
+- Hobbies
 series: ["I Don't Like Running"]
 ---
 I have heard a lot of people justify their choice to be runners with some variation of the line "I don't like running, I just really hate *not* running", and

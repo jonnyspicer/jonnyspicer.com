@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-01-08T00:00:00Z"
 categories:
-- Music
+- Hobbies
 title: Alexi Laiho
 ---
 I know there are lots of things to be sad about, and a lot of people to mourn, but this week one of my oldest musical heroes passed away. Alexi Laiho was the guitarist and vocalist

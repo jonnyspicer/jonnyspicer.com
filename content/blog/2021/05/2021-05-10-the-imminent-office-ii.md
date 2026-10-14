@@ -4,7 +4,7 @@ date: "2021-05-10T19:14:39Z"
 author: Jonny Spicer
 title: "The Imminent Office II"
 categories:
-- Misc
+- Personal
 series: ["Moving To London"]
 ---
 Today was my first day in the office, and it certainly lived up to expectations. The building

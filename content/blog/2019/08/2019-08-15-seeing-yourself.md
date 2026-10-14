@@ -5,9 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-08-15T00:00:00Z"
 categories:
-- Guest Blogs
+- Personal
 - Mental Health
-- Wellbeing
 title: Seeing Yourself
 series: ["Seeing Yourself"]
 ---

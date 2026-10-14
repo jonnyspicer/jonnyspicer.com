@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-17T00:00:00Z"
 categories:
-- Wellbeing
-- Technology
+- Mental Health
+- Career and Technology
 title: Giving It All Up And Becoming a Farmer
 ---
 In the spirit of being more healthy in every possible way, I am back to fantasising about quitting my software job, renouncing

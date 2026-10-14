@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-08T00:00:00Z"
 categories:
-- Chess
+- Hobbies
 title: Chess and Attention
 ---
 I spent a lot of time lamenting my own attention span, having annihilated over the years by

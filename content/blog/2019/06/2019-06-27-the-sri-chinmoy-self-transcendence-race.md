@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2019-06-27T00:00:00Z"
 categories:
-- Running
-- Meditation and Spirituality
+- Hobbies
+- Mental Health
 title: The Sri Chinmoy Self Transcendence Race
 ---
 The [Sri Chinmoy Self Transcendence Race](https://3100.srichinmoyraces.org/) is probably the dumbest thing I've ever heard of,

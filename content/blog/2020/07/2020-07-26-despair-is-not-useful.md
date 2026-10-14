@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-26T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Despair Is Not Useful
 ---
 I've been thinking a lot recently about how despair isn't useful. It's something that I think I gravitate towards in a lot of situations, because it's a way of shirking

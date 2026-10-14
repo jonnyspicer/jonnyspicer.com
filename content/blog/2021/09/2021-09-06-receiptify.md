@@ -4,7 +4,7 @@ date: "2021-09-06T16:14:08Z"
 author: Jonny Spicer
 title: "Receiptify"
 categories:
-- Music
+- Hobbies
 ---
 There is a slew of simple little apps that use the Spotify API to give you data on your listening habits (much of which I am surprised Spotify don't offer themselves through their UI), and today I found another one, [Receiptify.](https://receiptify.herokuapp.com/) The
 app is relatively straightforward and built with Node, the code for which can be found [here.](https://github.com/watchinharrison/receiptify) I'm not entirely convinced of the accuracy of the data, based on my results, but I don't know whether that's the fault of

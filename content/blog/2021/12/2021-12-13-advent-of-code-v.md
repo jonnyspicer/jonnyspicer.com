@@ -4,7 +4,7 @@ date: "2021-12-13T15:51:45Z"
 author: Jonny Spicer
 title: "Advent of Code V"
 categories:
-- Programming
+- Career and Technology
 series: ["Advent of Code"]
 ---
 These next three problems started out not too badly for me, but then got progressively harder. Day 12 in particular really

@@ -5,8 +5,8 @@ author: Jonny Spicer
 type: blog
 date: "2020-07-23T00:00:00Z"
 categories:
-- Chess
-- Travel
+- Hobbies
+- Personal
 title: Dubai Chess & Culture Club
 ---
 I was reminiscing earlier today about the opportunity I had to play chess in Dubai - more specifically the building in which I got to play. The Dubai Chess & Culture Club centre

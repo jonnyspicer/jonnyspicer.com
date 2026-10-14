@@ -4,7 +4,7 @@ date: "2021-11-25T12:54:34Z"
 author: Jonny Spicer
 title: "World Chess Championship 2021"
 categories:
-- Chess
+- Hobbies
 ---
 Tomorrow the next World Championship match begins, delayed a year by the pandemic, between incumbent Magnus Carlsen and challenger Ian Nepomniatchi in Dubai. The whole chess world has been waiting for some time for this
 match to start, not least of which the players have likely been anxious to begin, and personally I'm super excited it's actually here. Nepo's aggressive style should hopefully produce some decisive results after the

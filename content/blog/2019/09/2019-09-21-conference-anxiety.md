@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-09-21T00:00:00Z"
 categories:
-- Career
+- Career and Technology
 - Mental Health
 title: Conference Anxiety
 ---

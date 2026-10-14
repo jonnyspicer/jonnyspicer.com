@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-16T00:00:00Z"
 categories:
-- Travel
+- Personal
 title: The Beauty on One's Doorstep
 ---
 Today is another day when I am feeling especially sheepish about having previously spent so much time decrying Guernsey. I have always allowed myself to think that I want

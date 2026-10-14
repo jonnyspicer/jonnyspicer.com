@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-03T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Proctrasinating Homework
 ---
 When I was in school, I would always procrastinate doing my homework - every single piece would get done the night

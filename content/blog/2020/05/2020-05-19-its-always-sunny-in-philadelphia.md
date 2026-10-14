@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-05-19T00:00:00Z"
 categories:
-- Film and TV
+- Hobbies
 title: It's Always Sunny In Philadelphia
 ---
 Lockdown has reached the stage where I am only interested in filling my time by binge watching mindless trash on Netflix,

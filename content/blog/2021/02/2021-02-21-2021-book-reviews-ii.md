@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2021-02-21T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: 2021 Book Reviews II
 series: ["Book Reviews"]
 ---

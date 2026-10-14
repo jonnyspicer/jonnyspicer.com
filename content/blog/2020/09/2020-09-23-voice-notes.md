@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-09-23T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Voice Notes
 ---
 I remember when I first moved to Mexico and discovered that people who aren't from the UK do this weird thing where they *send each other voice notes* like barbarians rather than

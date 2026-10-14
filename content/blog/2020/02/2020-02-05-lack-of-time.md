@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-02-05T00:00:00Z"
 categories:
-- Misc
+- Personal
 title: Lack of Time
 ---
 Once again I've not found enough time to be able to write properly about what has on my mind today, which I am a little frustrated with myself about. With that being said, here

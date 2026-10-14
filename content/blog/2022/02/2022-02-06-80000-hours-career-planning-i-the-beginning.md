@@ -4,7 +4,7 @@ date: "2022-02-06T17:38:08Z"
 author: Jonny Spicer
 title: "80000 Hours Career Planning I: The Beginning"
 categories:
-- Career
+- Career and Technology
 - Effective Altruism
 series: ["80000 Hours"]
 ---

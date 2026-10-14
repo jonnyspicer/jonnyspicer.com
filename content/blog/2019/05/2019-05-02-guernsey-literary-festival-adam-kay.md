@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2019-05-02T00:00:00Z"
 categories:
-- Books
+- Hobbies
 title: "Guernsey Literary Festival: Adam Kay"
 ---
 Today I had the pleasure of going to watch Adam Kay talk as part of the 7th edition of the Guernsey Literary Festival. It's the first time

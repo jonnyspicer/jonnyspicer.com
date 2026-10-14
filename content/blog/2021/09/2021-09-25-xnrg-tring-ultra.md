@@ -4,7 +4,7 @@ date: "2021-09-25T15:59:18Z"
 author: Jonny Spicer
 title: "XNRG Tring Ultra"
 categories:
-- Running
+- Hobbies
 series: ["Marathons"]
 ---
 Today was the [XNRG Tring Ultra,](https://www.xnrg.co.uk/events/humanity-direct-tring-ultra) a 50km through the picturesque Chilterns, only a short train journey away from London. It was a tough day, but I learned a lot.

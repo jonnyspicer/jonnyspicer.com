@@ -6,7 +6,6 @@ type: blog
 date: "2021-02-01T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 title: "Dry January II: Review"
 series: ["Dry January"]
 ---

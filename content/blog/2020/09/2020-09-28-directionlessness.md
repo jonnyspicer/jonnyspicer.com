@@ -6,7 +6,6 @@ type: blog
 date: "2020-09-28T00:00:00Z"
 categories:
 - Mental Health
-- Wellbeing
 title: Directionlessness
 ---
 There have been many times in my life where I have felt directionless, and now is one of them. It seems important to make progress, to grow as a person, but at the moment I'm not so

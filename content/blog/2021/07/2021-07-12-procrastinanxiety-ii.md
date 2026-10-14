@@ -4,7 +4,6 @@ date: "2021-07-12T17:36:57Z"
 author: Jonny Spicer
 title: "Procrastinanxiety II"
 categories:
-- Wellbeing
 - Mental Health
 ---
 There are two huge upsides to procrastination, which I think are the main reasons I do it. Firstly, is it allows you to complete tasks very efficiently - if

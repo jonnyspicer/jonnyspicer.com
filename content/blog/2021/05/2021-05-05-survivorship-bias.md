@@ -4,7 +4,7 @@ date: "2021-05-05T20:01:28Z"
 author: Jonny Spicer
 title: "Survivorship Bias"
 categories:
-- Career
+- Career and Technology
 ---
 I have been on a huge [James Hoffman](https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ) binge recently. Part of it is because I would like to start trying to make nicer coffee,
 but I also find his videos incredibly relaxing. His voice is soothing, his vocabulary expansive, his sense of humour delightful. He's a winner.

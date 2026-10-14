@@ -5,7 +5,7 @@ author: Jonny Spicer
 type: blog
 date: "2020-04-03T00:00:00Z"
 categories:
-- Wellbeing
+- Mental Health
 title: Three More Things To Be Grateful For
 ---
 After a rough couple of days, some more things that I'm grateful for seem like they'd be useful to segue into a more positive weekend;
