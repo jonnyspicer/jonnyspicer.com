@@ -47,6 +47,7 @@
 
     {{- /* <base> predates this template; old imported posts may rely on it for relative links. */}}
     <base href="{{ .Permalink }}">
+    {{ partial "seo/jsonld.html" . }}
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "sitemap.xml" | absURL }}" />
 
     {{ $sass := resources.Get "scss/style.scss" }}

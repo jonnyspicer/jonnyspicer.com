@@ -46,6 +46,15 @@ params:
   github: https://github.com/jonnyspicer
   twitter: https://twitter.com/jjspicer
   sitename: Jonny Spicer
+  # Profiles that are "the same person" as this site, used in the Person
+  # JSON-LD (sameAs). Empty entries are skipped. Fill in / correct these.
+  sameAs:
+    - https://heresjonny.substack.com          # Substack (found on /about)
+    - ""                                       # LessWrong: https://www.lesswrong.com/users/<you>
+    - https://twitter.com/jjspicer             # Twitter/X (from params.twitter; verify, or use https://x.com/<handle>)
+    - https://github.com/jonnyspicer            # GitHub
+    - https://www.linkedin.com/in/jonnyspicer   # LinkedIn (found on /about)
+  personImage: "/img/profile.jpg"
   description: Jonny Spicer is a founder, software engineer, blogger, runner, climber and music lover, and this is his personal site
 menu:
   main:
