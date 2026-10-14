@@ -13,4 +13,4 @@ I like [running really far,](/blog/eiger-ultra-trail/) [figuring out how to be h
 
 This site is primarily a home for my [blog.](/blog) You can read the [latest post,](/blog/latest) and if you're a regular reader, that link will always be my most recent offering, so you can bookmark it. You can also find a list of my [favorite posts](/bestof).
 
-You can also [hire me for your AI/cloud project](https://allinlabs.io) or [leave me anonymous feedback.](https://www.admonymous.co/jspicer)
+I run [All In Labs,](https://allinlabs.io) an applied AI engineering and research labs which is currently accepting new client engagements. You can also [leave me anonymous feedback.](https://www.admonymous.co/jspicer)
