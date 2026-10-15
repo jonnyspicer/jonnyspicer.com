@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="post post-essay">
+<article class="post post-essay">
     <h1 class="big-title">{{ .Title }}</h1>
     {{ partial "post-meta.html" . }}
     {{ partial "post-epistemics.html" . }}
@@ -10,5 +10,5 @@
 
     {{ partial "related-posts.html" . }}
     {{ partial "backlinks.html" . }}
-</div>
+</article>
 {{ end }}

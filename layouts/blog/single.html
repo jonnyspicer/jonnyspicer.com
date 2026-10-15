@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div class="post post-blog">
+    <article class="post post-blog">
         <h1>{{ .Title }}</h1>
         {{ partial "post-meta.html" . }}
         {{ partial "post-epistemics.html" . }}
@@ -38,5 +38,5 @@
             
             {{ end }}
         </div>
-    </div>
+    </article>
 {{ end }}

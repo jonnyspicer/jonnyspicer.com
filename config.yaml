@@ -37,6 +37,15 @@ outputFormats:
     baseName: navbar
     isPlainText: true
     notAlternative: true
+  # /posts.json: compact index of indexed posts, so agents can see the whole
+  # catalogue in one fetch (layouts/index.postsindex.json).
+  postsindex:
+    mediaType: application/json
+    baseName: posts
+    isPlainText: true
+    notAlternative: true
+outputs:
+  home: [html, rss, postsindex]
 permalinks:
   blog: /:section/:title
   essay: /:title

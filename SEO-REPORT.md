@@ -1283,3 +1283,10 @@ Production build (`hugo --environment production`, Hugo 0.128.1): no errors. The
 - [ ] Fill in the `sameAs` placeholders above.
 - [ ] Write `description:` front matter for your 20–30 most important posts, starting with the hub posts and Bestof.
 - [ ] Decide on the thin-content actions (section 5) and the hub pages (section 4).
+
+## Agent-friendliness (2026-10-15)
+
+- **`/posts.json`**: compact index of the ~611 indexed posts and essays (title, URL, date, word count, categories, plus `updated` where it differs from the date), with the category list. It's about 20k tokens, so an agent can see the whole catalogue in one fetch, whereas `/archive/` is ~580 KB. It's linked from every page's `<head>` and matches the sitemap exactly.
+- **RSS**: the site feed (`/index.xml`) now carries the latest 50 *posts* with full content. Root-relative links and images are made absolute. Previously the feed led with /about/ and /contact/ (because they have a menu weight), mixed in garden pages, and carried only ~200-character summaries.
+- **`<article>`**: wraps blog, essay and garden page bodies, for reader-mode style extraction.
+- **`/chat/`**: noindexed. It's a JavaScript-only app with nothing to read without JS.

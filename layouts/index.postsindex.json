@@ -1,0 +1,33 @@
+{{- /*
+  Compact, machine-readable index of every indexable post and essay, newest
+  first. Noindexed posts (seo/noindex partial) are left out, matching the
+  sitemap. Kept small on purpose: no summaries, paths relative to "site".
+*/ -}}
+{{- $posts := slice }}
+{{- range (where (where site.RegularPages "Section" "in" (slice "blog" "essay")) "Layout" "ne" "latest").ByDate.Reverse }}
+{{- if not (partial "seo/noindex.html" .) }}
+{{- $p := dict "title" .Title "url" .RelPermalink "date" (.Date.Format "2006-01-02") "words" .WordCount }}
+{{- with .GetTerms "categories" }}
+{{- $cats := slice }}{{ range . }}{{ $cats = $cats | append .LinkTitle }}{{ end }}
+{{- $p = merge $p (dict "categories" $cats) }}
+{{- end }}
+{{- if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+{{- $p = merge $p (dict "updated" (.Lastmod.Format "2006-01-02")) }}
+{{- end }}
+{{- $posts = $posts | append $p }}
+{{- end }}
+{{- end }}
+{{- $topics := slice }}
+{{- range site.Taxonomies.categories }}
+{{- $topics = $topics | append (dict "name" .Page.Title "url" .Page.RelPermalink "posts" .Count) }}
+{{- end }}
+{{- dict
+  "site" (strings.TrimSuffix "/" site.BaseURL)
+  "author" site.Params.author
+  "about" "/about/"
+  "description" site.Params.description
+  "feed" "/index.xml"
+  "note" "Indexed posts only; short journal entries are omitted. Every post is listed at /archive/."
+  "categories" $topics
+  "posts" $posts
+  | jsonify }}

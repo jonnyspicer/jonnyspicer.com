@@ -57,6 +57,9 @@
     {{- with site.Home.OutputFormats.Get "rss" }}
     {{ printf `<link rel="alternate" type="%s" href="%s" title="%s" />` .MediaType.Type .Permalink site.Title | safeHTML }}
     {{- end }}
+    {{- with site.Home.OutputFormats.Get "postsindex" }}
+    <link rel="alternate" type="application/json" href="{{ .Permalink }}" title="{{ site.Title }} – post index" />
+    {{- end }}
     {{- if not .IsHome }}
     {{- range .AlternativeOutputFormats }}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s – %s" />` .Rel .MediaType.Type .Permalink site.Title $.Title | safeHTML }}
