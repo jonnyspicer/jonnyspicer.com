@@ -11,7 +11,7 @@ tags:
 # confidence: 
 # importance: 
 ---
-* I’m shamelessly ripping off Inkhaven and doing my own challenge, Egghaven. This is the first post.*
+*I’m shamelessly ripping off Inkhaven and doing my own challenge, Egghaven. This is the first post.*
 
 ## What are the right questions to ask?
 
@@ -55,7 +55,7 @@ These results, combined with [Epoch’s work evaluating robot capabilities](http
 Clearly, robots can improve significantly, to the point where they are dramatically more reliable than humans in deployed environments — the prototypical example here being [Waymo](https://waymo.com/safety/impact/):
 
 <figure>
-  <img src="/img/blog/2026/10/are-the-robots-coming-for-us/waymo.jpeg" alt="Jonny in a Waymo in San Francisco">
+  <img src="/img/blog/2026/10/are-the-robots-coming-for-us/waymo.webp" alt="Jonny in a Waymo in San Francisco">
   <figcaption>Me, in a Waymo in San Francisco, enjoying a ride that is statistically ~95% safer than taking an Uber</figcaption>
 </figure>
 
