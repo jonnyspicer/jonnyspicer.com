@@ -49,6 +49,7 @@ def extract_posts(archive):
             "subtitle": (post.get("subtitle") or "").strip(),
             "description": (post.get("description") or "").strip(),
             "author": AUTHOR,
+            "wordcount": int(post.get("wordcount") or 0),
         })
     return posts
 
