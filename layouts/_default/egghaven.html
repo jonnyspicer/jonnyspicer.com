@@ -1,0 +1,20 @@
+{{ define "main" }}
+    <h1 class="big-title">{{ .Title }}</h1>
+    {{ .Content }}
+
+    <h3>The posts</h3>
+    {{ $posts := (index site.Taxonomies.tags "egghaven") }}
+    {{ if $posts }}
+    <ul class="post-list">
+        {{ range $posts.Pages.ByDate }}
+        <li>
+            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+            <span>{{ .Date.Format "Mon 2 Jan" }}</span>
+            {{ with .Summary }}<div class="summary-block">{{ . | plainify | truncate 200 }}</div>{{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    {{ else }}
+    <p><em>The first post is on its way.</em></p>
+    {{ end }}
+{{ end }}
