@@ -42,7 +42,7 @@ Labs like [Physical Intelligence](https://www.pi.website/) make bold claims and 
 That current SotA VLAs don’t seem especially concerning isn’t much of an update — I am much more interested in how they scale with intelligence, and particularly what happens when robots have an LLM as their “brain”. There are surprisingly few benchmarks for this. Andon Labs’ [Blueprint Bench](https://andonlabs.com/evals/blueprint-bench-2) is helpful for seeing the trend of spatial reasoning improvements in frontier models, but their (imo much more useful) [Butter-Bench](https://andonlabs.com/evals/butter-bench) hasn’t been updated in over a year.
 
 <figure>
-  <img src="/img/blog/2026/10/are-the-robots-coming-for-us/butter-bench.png" alt="Screenshot from Andon Labs' Butter-Bench write-up">
+  <img src="/img/blog/2026/10/are-the-robots-coming-for-us/butter_bench.png" alt="Screenshot from Andon Labs' Butter-Bench write-up">
   <figcaption>In a moment of art imitating life, Andon Labs reported that Sonnet 3.5 found itself in a doom-spiral on a robotic side experiment.</figcaption>
 </figure>
 
