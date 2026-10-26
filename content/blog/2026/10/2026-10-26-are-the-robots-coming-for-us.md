@@ -11,6 +11,8 @@ tags:
 # confidence: 
 # importance: 
 ---
+* I’m shamelessly ripping off Inkhaven and doing my own challenge, Egghaven. This is the first post.*
+
 ## What are the right questions to ask?
 
 Many common arguments that advanced AI poses an existential risk include robots in some way. I know nothing about robotics. I suspect that many people who make x-risk arguments *also* know nothing about robotics, and often have a reasoning step along the lines of "and then the superintelligent AI system uses its unfathomable cognitive powers to produce huge numbers of robots with dramatically improved capabilities in an unprecedentedly short space of time". There's some chance this is a perfectly reasonable claim to make, but it's the kind that makes me suspicious. Due to the prevalence of robotics as a vector for catastrophe, understanding the reality of the field is necessary in order to have any kind of rigorous model of the risks of developing AGI. I want to have such understanding, at least in its minimum viable form.
