@@ -1,21 +1,9 @@
 ---
-title: "EggHaven"
-description: "Ten posts in ten days, mostly about AI safety, written between 26 October and 4 November 2026"
+title: "Egghaven"
+description: "Ten posts in ten days, about AI and not eggs"
 type: "page"
 url: "egghaven"
 layout: "egghaven"
 ---
 
-EggHaven is a short daily-writing challenge: one post a day for ten days, from 26 October to 4 November 2026. Most of the posts are about AI safety. I'm in the middle of moving into the field, and writing in public is the best way I know to find out what I actually think, rather than what I've absorbed from whoever I read last.
-
-## Where the name came from
-
-<!-- TODO(Jonny): explain the name. -->
-
-## The rules
-
-- One post every day, 26 October to 4 November 2026: ten posts in total.
-- Each post is at least 500 words.
-- Some days get a big, carefully researched post; busy days get a shorter one. Either way, something gets published.
-
-Every post is tagged [EggHaven](/tags/egghaven/), and they're all listed below as they go up.
+Egghaven was inspired by [Inkhaven](https://www.inkhaven.blog/), a month-long writing residency where participants must post a 500 word piece every day, or be kicked out of the programme. Egghaven is only 10 days long, and the only participants are myself and [Marina](https://emptyswords.substack.com/). I am going to post ten posts, and Marina will post five, and they will all be at least 500 words. There will be no consequences for failing the challenge, other than the shame of failing to meet a public commitment. It's called Egghaven because we're in Valencia while [Marina is freezing her eggs](https://emptyswords.substack.com/p/egg-freezing-day-0).
