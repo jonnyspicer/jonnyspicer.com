@@ -3,14 +3,30 @@
     {{ .Content }}
 
     <h3>The posts</h3>
-    {{ $posts := (index site.Taxonomies.tags "egghaven") }}
-    {{ if $posts }}
-    <ul class="post-list">
-        {{ range $posts.Pages.ByDate }}
+    {{/* Merge my posts (tagged EggHaven) with Marina's (fetched from Substack
+         at build time by fetch_egghaven.py) into one chronological list. */}}
+    {{ $items := slice }}
+    {{ with (index site.Taxonomies.tags "egghaven") }}
+        {{ range .Pages }}
+            {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "date" .Date "author" "Jonny" "summary" (.Summary | plainify) "external" false) }}
+        {{ end }}
+    {{ end }}
+    {{ range site.Data.egghaven_marina }}
+        {{ $summary := .subtitle | default .description }}
+        {{ $items = $items | append (dict "title" .title "url" .url "date" (time.AsTime .date) "author" .author "summary" $summary "external" true) }}
+    {{ end }}
+
+    {{ if $items }}
+    <ul class="post-list egghaven-list">
+        {{ range sort $items "date" }}
         <li>
-            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-            <span>{{ .Date.Format "Mon 2 Jan" }}</span>
-            {{ with .Summary }}<div class="summary-block">{{ . | plainify | truncate 200 }}</div>{{ end }}
+            {{ if .external }}
+            <h4><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}<svg class="external-icon" aria-label="(opens external site in a new tab)" role="img" viewBox="0 0 24 24" width="0.7em" height="0.7em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></h4>
+            {{ else }}
+            <h4><a href="{{ .url }}">{{ .title }}</a></h4>
+            {{ end }}
+            <span>{{ .author }} · {{ .date.Format "Mon 2 Jan" }}</span>
+            {{ with .summary }}<div class="summary-block">{{ . | truncate 200 }}</div>{{ end }}
         </li>
         {{ end }}
     </ul>
