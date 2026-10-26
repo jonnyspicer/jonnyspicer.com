@@ -8,15 +8,26 @@
     {{ $items := slice }}
     {{ with (index site.Taxonomies.tags "egghaven") }}
         {{ range .Pages }}
-            {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "date" .Date "author" "Jonny" "summary" (.Summary | plainify) "external" false) }}
+            {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "date" .Date "author" "Jonny" "summary" (.Summary | plainify) "words" .WordCount "external" false) }}
         {{ end }}
     {{ end }}
     {{ range site.Data.egghaven_marina }}
         {{ $summary := .subtitle | default .description }}
-        {{ $items = $items | append (dict "title" .title "url" .url "date" (time.AsTime .date) "author" .author "summary" $summary "external" true) }}
+        {{ $items = $items | append (dict "title" .title "url" .url "date" (time.AsTime .date) "author" .author "summary" $summary "words" (int (.wordcount | default 0)) "external" true) }}
     {{ end }}
 
     {{ if $items }}
+    {{/* Running totals per author. */}}
+    {{ $totals := slice }}
+    {{ range $author := slice "Jonny" "Marina" }}
+        {{ $posts := where $items "author" $author }}
+        {{ if $posts }}
+            {{ $words := 0 }}
+            {{ range $posts }}{{ $words = add $words .words }}{{ end }}
+            {{ $totals = $totals | append (printf "%s: %d %s, %s words" $author (len $posts) (cond (eq (len $posts) 1) "post" "posts") (lang.FormatNumber 0 $words)) }}
+        {{ end }}
+    {{ end }}
+    <p class="egghaven-totals"><em>{{ delimit $totals " · " }}</em></p>
     <ul class="post-list egghaven-list">
         {{ range sort $items "date" }}
         <li>
@@ -25,7 +36,7 @@
             {{ else }}
             <h4><a href="{{ .url }}">{{ .title }}</a></h4>
             {{ end }}
-            <span>{{ .author }} · {{ .date.Format "Mon 2 Jan" }}</span>
+            <span>{{ .author }} · {{ .date.Format "Mon 2 Jan" }}{{ with .words }} · {{ lang.FormatNumber 0 . }} words{{ end }}</span>
             {{ with .summary }}<div class="summary-block">{{ . | truncate 200 }}</div>{{ end }}
         </li>
         {{ end }}
