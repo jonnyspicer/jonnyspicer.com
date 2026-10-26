@@ -5,8 +5,9 @@ site.Data.egghaven_marina and the /egghaven page lists the posts alongside mine.
 
 Substack's archive API returns every post with its tags, so we page through it
 and keep the ones tagged `egghaven`. If anything goes wrong (network, Substack
-changing its API), the script leaves the committed JSON file untouched and
-exits 0, so a Substack hiccup never breaks the site build.
+changing its API), the script writes nothing and exits 0: the page then just
+lists my posts, and a Substack hiccup never breaks the site build. The JSON
+file is gitignored; it only ever exists inside a build.
 """
 
 import json
@@ -63,7 +64,7 @@ def main():
             if len(archive) < PAGE_SIZE:
                 break
     except Exception as exc:  # noqa: BLE001 - never fail the build over this
-        print(f"fetch_egghaven: could not fetch Substack posts ({exc}); keeping existing data", file=sys.stderr)
+        print(f"fetch_egghaven: could not fetch Substack posts ({exc}); skipping Marina's posts", file=sys.stderr)
         return
 
     posts.sort(key=lambda p: p["date"])

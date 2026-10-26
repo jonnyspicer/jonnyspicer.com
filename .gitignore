@@ -13,3 +13,5 @@ resources/_gen/
 # MCP tool artifacts
 .playwright-mcp/
 .serena/
+# Fetched at build time by fetch_egghaven.py
+data/egghaven_marina.json
