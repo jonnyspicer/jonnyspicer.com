@@ -8,7 +8,14 @@
     {{ $items := slice }}
     {{ with (index site.Taxonomies.tags "egghaven") }}
         {{ range .Pages }}
-            {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "date" .Date "author" "Jonny" "summary" (.Summary | plainify) "words" .WordCount "external" false) }}
+            {{/* Build the preview from the body rather than .Summary, skipping the
+                 italic Egghaven intro paragraph ("I'm shamelessly ripping off
+                 Inkhaven… This is the nth post.") along with headings and
+                 footnote markers, so the preview starts with the real post. */}}
+            {{ $body := .Content | replaceRE `(?s)^\s*<p><em>.*?</em></p>` "" }}
+            {{ $body = $body | replaceRE `(?s)<h[1-6][^>]*>.*?</h[1-6]>` " " | replaceRE `(?s)<sup[^>]*>.*?</sup>` "" }}
+            {{ $body = $body | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace }}
+            {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "date" .Date "author" "Jonny" "summary" $body "words" .WordCount "external" false) }}
         {{ end }}
     {{ end }}
     {{ range site.Data.egghaven_marina }}
