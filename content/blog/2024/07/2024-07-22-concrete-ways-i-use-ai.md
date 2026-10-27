@@ -105,7 +105,7 @@ I wrote this because many people don’t realise that AI tools can already be ex
 
 **Tools:** Notion AI
 
-**Value:** The merits of journaling are often-touted, but finding the time to sit and write out my thoughts is tough, even with my [fancy keyboard and90 wpm typing speed.](/blog/zsa-voyager-review/) Using Notion AI’s speech-to-text feature, I can dictate my journal entries, and still be able to easily read them later and search through them. This is quicker, easier, and possibly has some of the additional catharsis benefits of saying something out loud, a little like in a therapy session.
+**Value:** The merits of journaling are often-touted, but finding the time to sit and write out my thoughts is tough, even with my [fancy keyboard and 90 wpm typing speed.](/blog/zsa-voyager-review/) Using Notion AI’s speech-to-text feature, I can dictate my journal entries, and still be able to easily read them later and search through them. This is quicker, easier, and possibly has some of the additional catharsis benefits of saying something out loud, a little like in a therapy session.
 
 ### Book recommendation
 
