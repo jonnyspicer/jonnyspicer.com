@@ -11,7 +11,7 @@ tags:
 # confidence: 
 # importance: 
 ---
-*I’m shamelessly ripping off Inkhaven and doing my own challenge, Egghaven. This is the first post.*
+*I’m shamelessly ripping off [Inkhaven](https://inkhaven.blog) and doing my own challenge, [Egghaven](/egghaven). This is the first post.*
 
 ## What are the right questions to ask?
 
