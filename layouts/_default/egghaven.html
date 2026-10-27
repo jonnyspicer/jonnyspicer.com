@@ -14,7 +14,8 @@
                  footnote markers, so the preview starts with the real post. */}}
             {{ $body := .Content | replaceRE `(?s)^\s*<p><em>.*?</em></p>` "" }}
             {{ $body = $body | replaceRE `(?s)<h[1-6][^>]*>.*?</h[1-6]>` " " | replaceRE `(?s)<sup[^>]*>.*?</sup>` "" }}
-            {{ $body = $body | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace }}
+            {{ $body = $body | plainify | htmlUnescape | replaceRE `\s+` " " }}
+            {{ $body = trim $body " " }}
             {{ $items = $items | append (dict "title" .Title "url" .RelPermalink "date" .Date "author" "Jonny" "summary" $body "words" .WordCount "external" false) }}
         {{ end }}
     {{ end }}
