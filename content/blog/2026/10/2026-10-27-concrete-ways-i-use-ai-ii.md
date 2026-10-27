@@ -11,7 +11,7 @@ tags:
 # confidence: 
 # importance: 
 ---
-*i’m shamelessly ripping off Inkhaven and doing my own challenge, [Egghaven](/egghaven). This is the second post.*
+*I’m shamelessly ripping off Inkhaven and doing my own challenge, [Egghaven](/egghaven). This is the second post.*
 
 In July 2024, [I wrote about the various ways I was using AI in my day-to-day life](https://jonnyspicer.com/blog/concrete-ways-i-use-ai/). A little over two years later, both my usage and the AI landscape have changed significantly. At this point, having a Claude subscription feels close to having a small team of people work for me, so I wanted to share the roles that I think AI is especially well placed to occupy.[^1] Use-cases from 2024 that aren’t explicitly mentioned here still apply — the biggest updates are that most of the “general tips” from two years ago are obsolete, now that models are much more reliable and better at tool-use.
 
