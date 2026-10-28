@@ -2,7 +2,7 @@
 type: blog
 date: "2026-10-28T16:15:00Z"
 author: Jonny Spicer
-title: "Why Doesn't the IFS Model Include Cthullu?"
+title: "Why Doesn't the IFS Model Include Cthulhu?"
 categories:
 - Mental Health
 # status: 
