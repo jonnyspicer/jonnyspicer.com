@@ -5,10 +5,14 @@ author: Jonny Spicer
 title: "Why Doesn't the IFS Model Include Cthulhu?"
 categories:
 - Mental Health
+tags:
+- egghaven
 # status: 
 # confidence: 
 # importance: 
 ---
+*I’m shamelessly ripping off [Inkhaven](https://inkhaven.blog) and doing my own challenge, [Egghaven](/egghaven). This is the third post.*
+
 *This post comes with mild spoilers for Naruto, Naruto Shippuden, House of Leaves and maybe the Odyssey (but not the film version)*
 
 I really like Naruto -- so much so that I have a tattoo of one of the panels from the manga. I love many of the characters in the series, and often find myself recalling various scenes. One is the first time in which our protagonist Naruto is somehow transported to a kind of astral plane within himself and there confronts Kurama, the nine-tailed demon fox that has been magically sealed inside of him. 
