@@ -8,6 +8,7 @@ categories:
 - Hobbies
 - Personal
 - Career and Technology
+- AI
 title: Endless Disco
 ---
 [Disco Elysium](/blog/disco-elysium) is one of my favourite games ever, and in fact might be one of my favourites pieces of art ever. A big part
