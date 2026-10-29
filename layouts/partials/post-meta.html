@@ -22,7 +22,13 @@
   {{ with (.GetTerms "tags") }}
   <span class="post-meta-item post-meta-tags">
     {{ range $i, $t := . }}
-    {{ if gt $i 0 }}, {{ end }}<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    {{/* The egghaven tag links to the /egghaven landing page rather than
+         the plain /tags/egghaven list. */}}
+    {{ $href := .Permalink }}
+    {{ if eq (lower .LinkTitle) "egghaven" }}
+      {{ with site.GetPage "/egghaven" }}{{ $href = .Permalink }}{{ end }}
+    {{ end }}
+    {{ if gt $i 0 }}, {{ end }}<a href="{{ $href }}">{{ .LinkTitle }}</a>
     {{ end }}
   </span>
   {{ end }}
