@@ -24,7 +24,8 @@ OUT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "egg
 
 
 def fetch_archive_page(offset):
-    url = f"{PUBLICATION}/api/v1/archive?sort=new&offset={offset}&limit={PAGE_SIZE}"
+    # No sort=new: that ordering can omit a just-published post. main() sorts by date.
+    url = f"{PUBLICATION}/api/v1/archive?offset={offset}&limit={PAGE_SIZE}"
     req = urllib.request.Request(url, headers={"User-Agent": "jonnyspicer.com build (EggHaven page)"})
     with urllib.request.urlopen(req, timeout=20) as resp:
         return json.load(resp)
