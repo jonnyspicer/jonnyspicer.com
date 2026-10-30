@@ -1,6 +1,6 @@
 ---
 type: blog
-date: "2026-10-30T17:45:00Z"
+date: "2026-10-30T16:45:00Z"
 author: Jonny Spicer
 title: "Are The Best Ideas Stolen?"
 categories:
